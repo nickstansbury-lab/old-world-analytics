@@ -1,0 +1,2660 @@
+{
+  "faction_name": "Wood Elf Realms",
+  "units": [
+    {
+      "name": "Shadowdancer",
+      "category": "Characters",
+      "base_points": 85.0,
+      "rules": [
+        "Evasive",
+        "Furious Charge",
+        "Immune to Psychology",
+        "Loner",
+        "Move Through Cover",
+        "Strike First",
+        "Talismanic Tattoos"
+      ],
+      "models": [
+        {
+          "name": "Shadowdancer",
+          "stats": {
+            "M": "5",
+            "WS": "8",
+            "BS": "6",
+            "S": "4",
+            "T": "3",
+            "W": "2",
+            "I": "7",
+            "A": "3",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry (Character)"
+          },
+          "cost": 85.0,
+          "rules": [
+            "Evasive",
+            "Furious Charge",
+            "Immune to Psychology",
+            "Loner",
+            "Move Through Cover",
+            "Strike First",
+            "Talismanic Tattoos"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Equipment",
+          "cost": 0.0,
+          "is_default": false
+        },
+        {
+          "name": "Spear of Loec",
+          "cost": 0.0,
+          "is_default": false
+        },
+        {
+          "name": "Trickster's Blades",
+          "cost": 0.0,
+          "is_default": false
+        },
+        {
+          "name": "Level 1 Wizard",
+          "cost": 35.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Waystalker",
+      "category": "Characters",
+      "base_points": 85.0,
+      "rules": [
+        "Elven Reflexes",
+        "Evasive",
+        "Feigned Flight",
+        "Fire & Flee",
+        "Ignores Cover",
+        "Move Through Cover",
+        "Scouts"
+      ],
+      "models": [
+        {
+          "name": "Waystalker",
+          "stats": {
+            "M": "5",
+            "WS": "6",
+            "BS": "7",
+            "S": "4",
+            "T": "3",
+            "W": "2",
+            "I": "5",
+            "A": "2",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry (Character)"
+          },
+          "cost": 85.0,
+          "rules": [
+            "Elven Reflexes",
+            "Evasive",
+            "Feigned Flight",
+            "Fire & Flee",
+            "Ignores Cover",
+            "Move Through Cover",
+            "Scouts"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Asrai Longbow"
+          ]
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Light Armour",
+          "cost": 3.0,
+          "is_default": false
+        },
+        {
+          "name": "Additional Hand Weapon",
+          "cost": 3.0,
+          "is_default": false
+        },
+        {
+          "name": "Ambushers",
+          "cost": 10.0,
+          "is_default": false
+        },
+        {
+          "name": "Arcane Bodkins",
+          "cost": 6.0,
+          "is_default": false
+        },
+        {
+          "name": "Hagbane Tips",
+          "cost": 6.0,
+          "is_default": false
+        },
+        {
+          "name": "Moonfire Shot",
+          "cost": 3.0,
+          "is_default": false
+        },
+        {
+          "name": "Swiftshiver Shards",
+          "cost": 6.0,
+          "is_default": false
+        },
+        {
+          "name": "Trueflight Arrows",
+          "cost": 3.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Treeman Ancient",
+      "category": "Characters",
+      "base_points": 265.0,
+      "rules": [
+        "Close Order",
+        "Flammable",
+        "Immune to Psychology",
+        "Large Target",
+        "Lore of Athel Loren",
+        "Magical Attacks",
+        "Move Through Cover",
+        "Regeneration (X+)",
+        "Stomp Attacks (X)",
+        "Stubborn",
+        "Terror",
+        "Timmm-berrr!",
+        "Tree Spirit",
+        "Tree Whack"
+      ],
+      "models": [
+        {
+          "name": "Treeman Ancient",
+          "stats": {
+            "M": "5",
+            "WS": "5",
+            "BS": "5",
+            "S": "5",
+            "T": "6",
+            "W": "6",
+            "I": "2",
+            "A": "6",
+            "LD": "10",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Behemoth (Character)"
+          },
+          "cost": 265.0,
+          "rules": [
+            "Close Order",
+            "Flammable",
+            "Immune to Psychology",
+            "Large Target",
+            "Lore of Athel Loren",
+            "Magical Attacks",
+            "Move Through Cover",
+            "Regeneration (X+)",
+            "Stomp Attacks (X)",
+            "Stubborn",
+            "Terror",
+            "Timmm-berrr!",
+            "Tree Spirit",
+            "Tree Whack"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Treeman Ancient on Treeman Ancient",
+          "stats": {
+            "M": "5",
+            "WS": "5",
+            "BS": "5",
+            "S": "5",
+            "T": "6",
+            "W": "6",
+            "I": "2",
+            "A": "6",
+            "LD": "10",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Behemoth (Character)"
+          },
+          "cost": 530.0,
+          "rules": [
+            "Timmm-berrr!",
+            "Close Order",
+            "Large Target",
+            "Magical Attacks",
+            "Stubborn",
+            "Terror",
+            "Stomp Attacks (X)",
+            "Regeneration (X+)",
+            "Tree Spirit",
+            "Flammable",
+            "Immune to Psychology",
+            "Move Through Cover",
+            "Lore of Athel Loren",
+            "Tree Whack"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Oaken Fists",
+            "Strangleroots"
+          ]
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Level 3 Wizard",
+          "cost": 30.0,
+          "is_default": false
+        },
+        {
+          "name": "Level 4 Wizard",
+          "cost": 60.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Branchwraith",
+      "category": "Characters",
+      "base_points": 80.0,
+      "rules": [
+        "Fear",
+        "Flammable",
+        "Immune to Psychology",
+        "Lore of Athel Loren",
+        "Magical Attacks",
+        "Move Through Cover",
+        "Regeneration (X+)",
+        "Tree Spirit"
+      ],
+      "models": [
+        {
+          "name": "Branchwraith",
+          "stats": {
+            "M": "5",
+            "WS": "6",
+            "BS": "6",
+            "S": "4",
+            "T": "4",
+            "W": "2",
+            "I": "6",
+            "A": "2",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry (Character)"
+          },
+          "cost": 80.0,
+          "rules": [
+            "Fear",
+            "Flammable",
+            "Immune to Psychology",
+            "Lore of Athel Loren",
+            "Magical Attacks",
+            "Move Through Cover",
+            "Regeneration (X+)",
+            "Tree Spirit"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Level 2 Wizard",
+          "cost": 30.0,
+          "is_default": false
+        },
+        {
+          "name": "Additional Hand Weapon",
+          "cost": 3.0,
+          "is_default": false
+        },
+        {
+          "name": "Great Weapon",
+          "cost": 4.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Glade Guard",
+      "category": "Core",
+      "base_points": 0.0,
+      "rules": [
+        "Elven Reflexes",
+        "Move Through Cover",
+        "Open Order"
+      ],
+      "models": [
+        {
+          "name": "Glade Guard",
+          "stats": {
+            "M": "5",
+            "WS": "4",
+            "BS": "4",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "4",
+            "A": "1",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 11.0,
+          "rules": [
+            "Vanguard",
+            "Elven Reflexes",
+            "Open Order",
+            "Move Through Cover",
+            "Fire & Flee"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Asrai Longbow"
+          ]
+        },
+        {
+          "name": "Champion",
+          "stats": {
+            "M": "5",
+            "WS": "4",
+            "BS": "5",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "4",
+            "A": "1",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 17.0,
+          "rules": [
+            "Elven Reflexes",
+            "Open Order",
+            "Move Through Cover"
+          ],
+          "role": "champion",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Arcane Bodkins",
+          "cost": 2.0,
+          "is_default": false
+        },
+        {
+          "name": "Hagbane Tips",
+          "cost": 2.0,
+          "is_default": false
+        },
+        {
+          "name": "Moonfire Shot",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Swiftshiver Shards",
+          "cost": 2.0,
+          "is_default": false
+        },
+        {
+          "name": "Trueflight Arrows",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Fire & Flee",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Vanguard",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Musician",
+          "cost": 6.0,
+          "is_default": false
+        },
+        {
+          "name": "Standard Bearer",
+          "cost": 6.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Deepwood Scouts",
+      "category": "Special",
+      "base_points": 0.0,
+      "rules": [
+        "Elven Reflexes",
+        "Move Through Cover",
+        "Skirmishers",
+        "Evasive",
+        "Fire & Flee",
+        "Scouts"
+      ],
+      "models": [
+        {
+          "name": "Deepwood Scouts",
+          "stats": {
+            "M": "5",
+            "WS": "4",
+            "BS": "4",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "4",
+            "A": "1",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 13.0,
+          "rules": [
+            "Vanguard",
+            "Elven Reflexes",
+            "Evasive",
+            "Skirmishers",
+            "Scouts",
+            "Move Through Cover",
+            "Fire & Flee"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Asrai Longbow"
+          ]
+        },
+        {
+          "name": "Champion",
+          "stats": {
+            "M": "5",
+            "WS": "4",
+            "BS": "5",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "4",
+            "A": "1",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 19.0,
+          "rules": [
+            "Elven Reflexes",
+            "Evasive",
+            "Skirmishers",
+            "Scouts",
+            "Move Through Cover",
+            "Fire & Flee"
+          ],
+          "role": "champion",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Vanguard",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Arcane Bodkins",
+          "cost": 2.0,
+          "is_default": false
+        },
+        {
+          "name": "Hagbane Tips",
+          "cost": 2.0,
+          "is_default": false
+        },
+        {
+          "name": "Moonfire Shot",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Swiftshiver Shards",
+          "cost": 2.0,
+          "is_default": false
+        },
+        {
+          "name": "Trueflight Arrows",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Musician",
+          "cost": 6.0,
+          "is_default": false
+        },
+        {
+          "name": "Standard Bearer",
+          "cost": 6.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Eternal Guard",
+      "category": "Core",
+      "base_points": 0.0,
+      "rules": [
+        "Elven Reflexes",
+        "Move Through Cover",
+        "Close Order",
+        "Stubborn"
+      ],
+      "models": [
+        {
+          "name": "Eternal Guard",
+          "stats": {
+            "M": "5",
+            "WS": "5",
+            "BS": "4",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "4",
+            "A": "1",
+            "LD": "9",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 13.0,
+          "rules": [
+            "Close Order",
+            "Elven Reflexes",
+            "Stubborn",
+            "Veteran",
+            "Move Through Cover",
+            "Drilled"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Asrai Spear"
+          ]
+        },
+        {
+          "name": "Champion",
+          "stats": {
+            "M": "5",
+            "WS": "5",
+            "BS": "4",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "4",
+            "A": "2",
+            "LD": "9",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 18.0,
+          "rules": [
+            "Close Order",
+            "Elven Reflexes",
+            "Stubborn",
+            "Move Through Cover"
+          ],
+          "role": "champion",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Shield",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Drilled",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Veteran",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Musician",
+          "cost": 5.0,
+          "is_default": false
+        },
+        {
+          "name": "Standard Bearer",
+          "cost": 5.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Wildwood Rangers",
+      "category": "Special",
+      "base_points": 0.0,
+      "rules": [
+        "Elven Reflexes",
+        "Move Through Cover",
+        "Close Order",
+        "Immune to Psychology"
+      ],
+      "models": [
+        {
+          "name": "Wildwood Rangers",
+          "stats": {
+            "M": "5",
+            "WS": "5",
+            "BS": "4",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "4",
+            "A": "1",
+            "LD": "9",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 14.0,
+          "rules": [
+            "Close Order",
+            "Immune to Psychology",
+            "Elven Reflexes",
+            "Move Through Cover"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Ranger's Glaive"
+          ]
+        },
+        {
+          "name": "Champion",
+          "stats": {
+            "M": "5",
+            "WS": "5",
+            "BS": "4",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "4",
+            "A": "2",
+            "LD": "9",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 20.0,
+          "rules": [
+            "Close Order",
+            "Immune to Psychology",
+            "Elven Reflexes",
+            "Move Through Cover"
+          ],
+          "role": "champion",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Shield",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Musician",
+          "cost": 6.0,
+          "is_default": false
+        },
+        {
+          "name": "Standard Bearer",
+          "cost": 6.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Wardancers",
+      "category": "Special",
+      "base_points": 0.0,
+      "rules": [
+        "Move Through Cover",
+        "Open Order",
+        "Immune to Psychology",
+        "Evasive",
+        "Furious Charge",
+        "Loner",
+        "Motley Crew",
+        "Skirmishers",
+        "Strike First",
+        "Talismanic Tattoos"
+      ],
+      "models": [
+        {
+          "name": "Wardancers",
+          "stats": {
+            "M": "5",
+            "WS": "6",
+            "BS": "4",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "6",
+            "A": "1",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 16.0,
+          "rules": [
+            "Open Order",
+            "Motley Crew",
+            "Evasive",
+            "Loner",
+            "Furious Charge",
+            "Skirmishers",
+            "Immune to Psychology",
+            "Move Through Cover",
+            "Strike First",
+            "Talismanic Tattoos"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Champion",
+          "stats": {
+            "M": "5",
+            "WS": "6",
+            "BS": "4",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "6",
+            "A": "2",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 22.0,
+          "rules": [
+            "Open Order",
+            "Motley Crew",
+            "Evasive",
+            "Loner",
+            "Furious Charge",
+            "Skirmishers",
+            "Immune to Psychology",
+            "Move Through Cover",
+            "Strike First",
+            "Talismanic Tattoos"
+          ],
+          "role": "champion",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Additional Hand Weapon",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Musician",
+          "cost": 6.0,
+          "is_default": false
+        },
+        {
+          "name": "Standard Bearer",
+          "cost": 6.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Waywatchers",
+      "category": "Rare",
+      "base_points": 0.0,
+      "rules": [
+        "Elven Reflexes",
+        "Move Through Cover",
+        "Skirmishers",
+        "Evasive",
+        "Feigned Flight",
+        "Fire & Flee",
+        "Ignores Cover"
+      ],
+      "models": [
+        {
+          "name": "Waywatchers",
+          "stats": {
+            "M": "5",
+            "WS": "4",
+            "BS": "5",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "5",
+            "A": "1",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 16.0,
+          "rules": [
+            "Feigned Flight",
+            "Vanguard",
+            "Ignores Cover",
+            "Elven Reflexes",
+            "Evasive",
+            "Ambushers",
+            "Veteran",
+            "Skirmishers",
+            "Fire & Flee",
+            "Move Through Cover"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Asrai Longbow"
+          ]
+        },
+        {
+          "name": "Champion",
+          "stats": {
+            "M": "5",
+            "WS": "4",
+            "BS": "6",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "5",
+            "A": "1",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 22.0,
+          "rules": [
+            "Feigned Flight",
+            "Ignores Cover",
+            "Elven Reflexes",
+            "Evasive",
+            "Skirmishers",
+            "Fire & Flee",
+            "Move Through Cover"
+          ],
+          "role": "champion",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Arcane Bodkins",
+          "cost": 2.0,
+          "is_default": false
+        },
+        {
+          "name": "Hagbane Tips",
+          "cost": 2.0,
+          "is_default": false
+        },
+        {
+          "name": "Moonfire Shot",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Swiftshiver Shards",
+          "cost": 2.0,
+          "is_default": false
+        },
+        {
+          "name": "Trueflight Arrows",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Ambushers",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Vanguard",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Veteran",
+          "cost": 1.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Dryads",
+      "category": "Core",
+      "base_points": 0.0,
+      "rules": [
+        "Fear",
+        "Flammable",
+        "Open Order",
+        "Stubborn",
+        "Immune to Psychology",
+        "Magical Attacks",
+        "Move Through Cover",
+        "Regeneration (X+)",
+        "Skirmishers",
+        "Tree Spirit"
+      ],
+      "models": [
+        {
+          "name": "Dryads",
+          "stats": {
+            "M": "5",
+            "WS": "4",
+            "BS": "4",
+            "S": "3",
+            "T": "4",
+            "W": "1",
+            "I": "4",
+            "A": "2",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 13.0,
+          "rules": [
+            "Open Order",
+            "Stubborn",
+            "Magical Attacks",
+            "Regeneration (X+)",
+            "Skirmishers",
+            "Tree Spirit",
+            "Flammable",
+            "Immune to Psychology",
+            "Fear",
+            "Move Through Cover"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Champion",
+          "stats": {
+            "M": "5",
+            "WS": "4",
+            "BS": "4",
+            "S": "3",
+            "T": "4",
+            "W": "1",
+            "I": "4",
+            "A": "3",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 18.0,
+          "rules": [
+            "Open Order",
+            "Stubborn",
+            "Magical Attacks",
+            "Regeneration (X+)",
+            "Skirmishers",
+            "Tree Spirit",
+            "Flammable",
+            "Immune to Psychology",
+            "Fear",
+            "Move Through Cover"
+          ],
+          "role": "champion",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": []
+    },
+    {
+      "name": "Tree Kin",
+      "category": "Special",
+      "base_points": 0.0,
+      "rules": [
+        "Fear",
+        "Flammable",
+        "Close Order",
+        "Stubborn",
+        "Immune to Psychology",
+        "Magical Attacks",
+        "Move Through Cover",
+        "Regeneration (X+)",
+        "Stomp Attacks (X)",
+        "Tree Spirit",
+        "Armor Bane (X)",
+        "Tree Whack"
+      ],
+      "models": [
+        {
+          "name": "Tree Kin",
+          "stats": {
+            "M": "5",
+            "WS": "4",
+            "BS": "4",
+            "S": "4",
+            "T": "5",
+            "W": "3",
+            "I": "3",
+            "A": "3",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Monsterous Infantry"
+          },
+          "cost": 51.0,
+          "rules": [
+            "Close Order",
+            "Stubborn",
+            "Magical Attacks",
+            "Stomp Attacks (X)",
+            "Regeneration (X+)",
+            "Tree Spirit",
+            "Armor Bane (X)",
+            "Flammable",
+            "Immune to Psychology",
+            "Fear",
+            "Move Through Cover",
+            "Tree Whack"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Champion",
+          "stats": {
+            "M": "5",
+            "WS": "4",
+            "BS": "4",
+            "S": "4",
+            "T": "5",
+            "W": "3",
+            "I": "3",
+            "A": "4",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Monsterous Infantry"
+          },
+          "cost": 58.0,
+          "rules": [
+            "Close Order",
+            "Stubborn",
+            "Magical Attacks",
+            "Stomp Attacks (X)",
+            "Regeneration (X+)",
+            "Tree Spirit",
+            "Armor Bane (X)",
+            "Flammable",
+            "Immune to Psychology",
+            "Fear",
+            "Move Through Cover",
+            "Tree Whack"
+          ],
+          "role": "champion",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": []
+    },
+    {
+      "name": "Deepwood Scouts",
+      "category": "Core",
+      "base_points": 0.0,
+      "rules": [
+        "Elven Reflexes",
+        "Move Through Cover",
+        "Skirmishers",
+        "Evasive",
+        "Fire & Flee",
+        "Scouts"
+      ],
+      "models": [
+        {
+          "name": "Deepwood Scouts",
+          "stats": {
+            "M": "5",
+            "WS": "4",
+            "BS": "4",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "4",
+            "A": "1",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 13.0,
+          "rules": [
+            "Vanguard",
+            "Elven Reflexes",
+            "Evasive",
+            "Skirmishers",
+            "Scouts",
+            "Move Through Cover",
+            "Fire & Flee"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Asrai Longbow"
+          ]
+        },
+        {
+          "name": "Champion",
+          "stats": {
+            "M": "5",
+            "WS": "4",
+            "BS": "5",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "4",
+            "A": "1",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 19.0,
+          "rules": [
+            "Elven Reflexes",
+            "Evasive",
+            "Skirmishers",
+            "Scouts",
+            "Move Through Cover",
+            "Fire & Flee"
+          ],
+          "role": "champion",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Vanguard",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Arcane Bodkins",
+          "cost": 2.0,
+          "is_default": false
+        },
+        {
+          "name": "Hagbane Tips",
+          "cost": 2.0,
+          "is_default": false
+        },
+        {
+          "name": "Moonfire Shot",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Swiftshiver Shards",
+          "cost": 2.0,
+          "is_default": false
+        },
+        {
+          "name": "Trueflight Arrows",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Musician",
+          "cost": 6.0,
+          "is_default": false
+        },
+        {
+          "name": "Standard Bearer",
+          "cost": 6.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Glade Riders",
+      "category": "Core",
+      "base_points": 0.0,
+      "rules": [
+        "Elven Reflexes",
+        "Skirmishers",
+        "Open Order",
+        "Fast Cavalry",
+        "Fire & Flee",
+        "Swiftstride"
+      ],
+      "models": [
+        {
+          "name": "Glade Riders",
+          "stats": {
+            "M": "-",
+            "WS": "4",
+            "BS": "4",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "4",
+            "A": "1",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Light Cavalry"
+          },
+          "cost": 18.0,
+          "rules": [
+            "Elven Reflexes",
+            "Fast Cavalry",
+            "Open Order",
+            "Ambushers",
+            "Reserve Move",
+            "Skirmishers",
+            "Swiftstride",
+            "Fire & Flee",
+            "Drilled"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Asrai Longbow"
+          ]
+        },
+        {
+          "name": "Champion",
+          "stats": {
+            "M": "-",
+            "WS": "4",
+            "BS": "5",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "4",
+            "A": "1",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Light Cavalry"
+          },
+          "cost": 24.0,
+          "rules": [
+            "Elven Reflexes",
+            "Fast Cavalry",
+            "Open Order",
+            "Skirmishers",
+            "Swiftstride",
+            "Fire & Flee"
+          ],
+          "role": "champion",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Arcane Bodkins",
+          "cost": 2.0,
+          "is_default": false
+        },
+        {
+          "name": "Hagbane Tips",
+          "cost": 2.0,
+          "is_default": false
+        },
+        {
+          "name": "Moonfire Shot",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Swiftshiver Shards",
+          "cost": 2.0,
+          "is_default": false
+        },
+        {
+          "name": "Trueflight Arrows",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Ambushers",
+          "cost": 2.0,
+          "is_default": false
+        },
+        {
+          "name": "Drilled",
+          "cost": 2.0,
+          "is_default": false
+        },
+        {
+          "name": "Reserve Move",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Musician",
+          "cost": 6.0,
+          "is_default": false
+        },
+        {
+          "name": "Standard Bearer",
+          "cost": 6.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Sisters of the Thorn",
+      "category": "Special",
+      "base_points": 0.0,
+      "rules": [
+        "Elven Reflexes",
+        "Move Through Cover",
+        "Open Order",
+        "Fast Cavalry",
+        "Fire & Flee",
+        "Swiftstride",
+        "Poisoned Attacks"
+      ],
+      "models": [
+        {
+          "name": "Sisters of the Thorn",
+          "stats": {
+            "M": "8",
+            "WS": "3",
+            "BS": "-",
+            "S": "4",
+            "T": "-",
+            "W": "-",
+            "I": "4",
+            "A": "1",
+            "LD": "-",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": ""
+          },
+          "cost": 24.0,
+          "rules": [
+            "Elven Reflexes",
+            "Fast Cavalry",
+            "Open Order",
+            "Poisoned Attacks",
+            "Swiftstride",
+            "Move Through Cover",
+            "Fire & Flee"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Blackbriar Javelin"
+          ]
+        },
+        {
+          "name": "Champion",
+          "stats": {
+            "M": "-",
+            "WS": "4",
+            "BS": "6",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "4",
+            "A": "1",
+            "LD": "9",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Light Cavalry"
+          },
+          "cost": 32.0,
+          "rules": [
+            "Elven Reflexes",
+            "Fast Cavalry",
+            "Open Order",
+            "Poisoned Attacks",
+            "Swiftstride",
+            "Move Through Cover",
+            "Fire & Flee"
+          ],
+          "role": "champion",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Musician",
+          "cost": 6.0,
+          "is_default": false
+        },
+        {
+          "name": "Standard Bearer",
+          "cost": 6.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Wild Riders",
+      "category": "Special",
+      "base_points": 0.0,
+      "rules": [
+        "Elven Reflexes",
+        "Move Through Cover",
+        "Open Order",
+        "Fast Cavalry",
+        "Fear",
+        "Swiftstride",
+        "Talismanic Tattoos",
+        "Counter Charge",
+        "Frenzy",
+        "Furious Charge"
+      ],
+      "models": [
+        {
+          "name": "Wild Riders",
+          "stats": {
+            "M": "9",
+            "WS": "3",
+            "BS": "-",
+            "S": "4",
+            "T": "-",
+            "W": "-",
+            "I": "4",
+            "A": "1",
+            "LD": "-",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": ""
+          },
+          "cost": 27.0,
+          "rules": [
+            "Elven Reflexes",
+            "Fast Cavalry",
+            "Open Order",
+            "Furious Charge",
+            "Counter Charge",
+            "Frenzy",
+            "Swiftstride",
+            "Fear",
+            "Move Through Cover",
+            "Talismanic Tattoos"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Hunting Spear"
+          ]
+        },
+        {
+          "name": "Champion",
+          "stats": {
+            "M": "-",
+            "WS": "5",
+            "BS": "4",
+            "S": "4",
+            "T": "3",
+            "W": "1",
+            "I": "5",
+            "A": "2",
+            "LD": "9",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Light Cavalry"
+          },
+          "cost": 34.0,
+          "rules": [
+            "Elven Reflexes",
+            "Fast Cavalry",
+            "Open Order",
+            "Furious Charge",
+            "Counter Charge",
+            "Frenzy",
+            "Swiftstride",
+            "Fear",
+            "Move Through Cover",
+            "Talismanic Tattoos"
+          ],
+          "role": "champion",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Shield",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Musician",
+          "cost": 7.0,
+          "is_default": false
+        },
+        {
+          "name": "Standard Bearer",
+          "cost": 7.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Warhawk Riders",
+      "category": "Special",
+      "base_points": 0.0,
+      "rules": [
+        "Elven Reflexes",
+        "Fly (X)",
+        "Skirmishers",
+        "Evasive",
+        "Fear",
+        "Swiftstride",
+        "Feigned Flight",
+        "Fire & Flee"
+      ],
+      "models": [
+        {
+          "name": "Warhawk Riders",
+          "stats": {
+            "M": "2",
+            "WS": "3",
+            "BS": "-",
+            "S": "4",
+            "T": "-",
+            "W": "-",
+            "I": "4",
+            "A": "2",
+            "LD": "-",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": ""
+          },
+          "cost": 44.0,
+          "rules": [
+            "Fly (X)",
+            "Feigned Flight",
+            "Elven Reflexes",
+            "Evasive",
+            "Skirmishers",
+            "Swiftstride",
+            "Fear",
+            "Fire & Flee"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Wicked Claws",
+            "Asrai Longbow"
+          ]
+        },
+        {
+          "name": "Champion",
+          "stats": {
+            "M": "-",
+            "WS": "4",
+            "BS": "5",
+            "S": "3",
+            "T": "4",
+            "W": "2",
+            "I": "4",
+            "A": "2",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Light Cavalry"
+          },
+          "cost": 52.0,
+          "rules": [
+            "Fly (X)",
+            "Feigned Flight",
+            "Elven Reflexes",
+            "Evasive",
+            "Skirmishers",
+            "Swiftstride",
+            "Fear",
+            "Fire & Flee"
+          ],
+          "role": "champion",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Arcane Bodkins",
+          "cost": 2.0,
+          "is_default": false
+        },
+        {
+          "name": "Hagbane Tips",
+          "cost": 2.0,
+          "is_default": false
+        },
+        {
+          "name": "Moonfire Shot",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Swiftshiver Shards",
+          "cost": 2.0,
+          "is_default": false
+        },
+        {
+          "name": "Trueflight Arrows",
+          "cost": 1.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Treeman",
+      "category": "Rare",
+      "base_points": 215.0,
+      "rules": [
+        "Close Order",
+        "Flammable",
+        "Immune to Psychology",
+        "Large Target",
+        "Magical Attacks",
+        "Move Through Cover",
+        "Regeneration (X+)",
+        "Stomp Attacks (X)",
+        "Stubborn",
+        "Terror",
+        "Timmm-berrr!",
+        "Tree Spirit",
+        "Tree Whack",
+        "Armor Bane (X)"
+      ],
+      "models": [
+        {
+          "name": "Treeman",
+          "stats": {
+            "M": "5",
+            "WS": "6",
+            "BS": "4",
+            "S": "5",
+            "T": "6",
+            "W": "5",
+            "I": "2",
+            "A": "5",
+            "LD": "9",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Behemoth (Character)"
+          },
+          "cost": 215.0,
+          "rules": [
+            "Timmm-berrr!",
+            "Close Order",
+            "Large Target",
+            "Magical Attacks",
+            "Stubborn",
+            "Terror",
+            "Stomp Attacks (X)",
+            "Regeneration (X+)",
+            "Tree Spirit",
+            "Armor Bane (X)",
+            "Flammable",
+            "Immune to Psychology",
+            "Move Through Cover",
+            "Tree Whack"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Oaken Fists",
+            "Strangleroots"
+          ]
+        }
+      ],
+      "upgrades": []
+    },
+    {
+      "name": "Glade Captain",
+      "category": "Characters",
+      "base_points": 70.0,
+      "rules": [
+        "Strike First",
+        "Evasive",
+        "Fire & Flee",
+        "Ignores Cover",
+        "Move Through Cover",
+        "Rallying Cry"
+      ],
+      "models": [
+        {
+          "name": "Glade Captain",
+          "stats": {
+            "M": "5",
+            "WS": "6",
+            "BS": "6",
+            "S": "4",
+            "T": "3",
+            "W": "2",
+            "I": "5",
+            "A": "3",
+            "LD": "9",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry (Character)"
+          },
+          "cost": 70.0,
+          "rules": [
+            "Strike First",
+            "Evasive",
+            "Fire & Flee",
+            "Ignores Cover",
+            "Move Through Cover",
+            "Rallying Cry"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Asrai Longbow"
+          ]
+        },
+        {
+          "name": "Glade Captain on Great Stag",
+          "stats": {
+            "M": "8",
+            "WS": "6",
+            "BS": "6",
+            "S": "4",
+            "T": "4",
+            "W": "3",
+            "I": "5",
+            "A": "3",
+            "LD": "9",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry (Character)"
+          },
+          "cost": 120.0,
+          "rules": [
+            "Armored Hide (X)",
+            "Ignores Cover",
+            "Evasive",
+            "Stomp Attacks (X)",
+            "First Charge",
+            "Swiftstride",
+            "Fire & Flee",
+            "Fear",
+            "Move Through Cover",
+            "Strike First",
+            "Impact Hits (X)",
+            "Rallying Cry"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Mighty Antlers",
+            "Asrai Longbow"
+          ]
+        },
+        {
+          "name": "Glade Captain on Great Eagle",
+          "stats": {
+            "M": "2",
+            "WS": "6",
+            "BS": "6",
+            "S": "4",
+            "T": "4",
+            "W": "3",
+            "I": "5",
+            "A": "3",
+            "LD": "9",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry (Character)"
+          },
+          "cost": 130.0,
+          "rules": [
+            "Close Order",
+            "Ignores Cover",
+            "Evasive",
+            "Stomp Attacks (X)",
+            "Swiftstride",
+            "Fire & Flee",
+            "Fear",
+            "Move Through Cover",
+            "Strike First",
+            "Rallying Cry",
+            "Fly (X)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Wicked Claws",
+            "Serrated Maw",
+            "Asrai Longbow"
+          ]
+        },
+        {
+          "name": "Glade Captain on Elven Steed",
+          "stats": {
+            "M": "9",
+            "WS": "6",
+            "BS": "6",
+            "S": "4",
+            "T": "3",
+            "W": "2",
+            "I": "5",
+            "A": "3",
+            "LD": "9",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry (Character)"
+          },
+          "cost": 84.0,
+          "rules": [
+            "Ignores Cover",
+            "Fast Cavalry",
+            "Evasive",
+            "Swiftstride",
+            "Fire & Flee",
+            "Move Through Cover",
+            "Strike First",
+            "Rallying Cry"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Asrai Longbow"
+          ]
+        },
+        {
+          "name": "Glade Captain on Warhawk",
+          "stats": {
+            "M": "2",
+            "WS": "6",
+            "BS": "6",
+            "S": "4",
+            "T": "4",
+            "W": "2",
+            "I": "5",
+            "A": "3",
+            "LD": "9",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry (Character)"
+          },
+          "cost": 100.0,
+          "rules": [
+            "Feigned Flight",
+            "Ignores Cover",
+            "Evasive",
+            "Swiftstride",
+            "Fire & Flee",
+            "Fear",
+            "Move Through Cover",
+            "Strike First",
+            "Rallying Cry",
+            "Fly (X)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Wicked Claws",
+            "Asrai Longbow"
+          ]
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Shield",
+          "cost": 2.0,
+          "is_default": false
+        },
+        {
+          "name": "Battle Standard Bearer",
+          "cost": 25.0,
+          "is_default": false
+        },
+        {
+          "name": "Arcane Bodkins",
+          "cost": 6.0,
+          "is_default": false
+        },
+        {
+          "name": "Hagbane Tips",
+          "cost": 6.0,
+          "is_default": false
+        },
+        {
+          "name": "Moonfire Shot",
+          "cost": 3.0,
+          "is_default": false
+        },
+        {
+          "name": "Swiftshiver Shards",
+          "cost": 6.0,
+          "is_default": false
+        },
+        {
+          "name": "Trueflight Arrows",
+          "cost": 3.0,
+          "is_default": false
+        },
+        {
+          "name": "Additional Hand Weapon",
+          "cost": 3.0,
+          "is_default": false
+        },
+        {
+          "name": "Great Weapon",
+          "cost": 4.0,
+          "is_default": false
+        },
+        {
+          "name": "Cavalry Spear",
+          "cost": 2.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Glade Lord",
+      "category": "Characters",
+      "base_points": 135.0,
+      "rules": [
+        "Strike First",
+        "Evasive",
+        "Fire & Flee",
+        "Ignores Cover",
+        "Move Through Cover",
+        "Rallying Cry"
+      ],
+      "models": [
+        {
+          "name": "Glade Lord",
+          "stats": {
+            "M": "5",
+            "WS": "7",
+            "BS": "7",
+            "S": "4",
+            "T": "3",
+            "W": "3",
+            "I": "6",
+            "A": "4",
+            "LD": "10",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry (Character)"
+          },
+          "cost": 135.0,
+          "rules": [
+            "Strike First",
+            "Evasive",
+            "Fire & Flee",
+            "Ignores Cover",
+            "Move Through Cover",
+            "Rallying Cry"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Asrai Longbow"
+          ]
+        },
+        {
+          "name": "Glade Lord on Elven Steed",
+          "stats": {
+            "M": "9",
+            "WS": "7",
+            "BS": "7",
+            "S": "4",
+            "T": "3",
+            "W": "3",
+            "I": "6",
+            "A": "4",
+            "LD": "10",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry (Character)"
+          },
+          "cost": 149.0,
+          "rules": [
+            "Ignores Cover",
+            "Fast Cavalry",
+            "Evasive",
+            "Swiftstride",
+            "Fire & Flee",
+            "Move Through Cover",
+            "Strike First",
+            "Rallying Cry"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Asrai Longbow"
+          ]
+        },
+        {
+          "name": "Glade Lord on Great Stag",
+          "stats": {
+            "M": "8",
+            "WS": "7",
+            "BS": "7",
+            "S": "4",
+            "T": "4",
+            "W": "4",
+            "I": "6",
+            "A": "4",
+            "LD": "10",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry (Character)"
+          },
+          "cost": 185.0,
+          "rules": [
+            "Armored Hide (X)",
+            "Ignores Cover",
+            "Evasive",
+            "Stomp Attacks (X)",
+            "First Charge",
+            "Swiftstride",
+            "Fire & Flee",
+            "Fear",
+            "Move Through Cover",
+            "Strike First",
+            "Impact Hits (X)",
+            "Rallying Cry"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Mighty Antlers",
+            "Asrai Longbow"
+          ]
+        },
+        {
+          "name": "Glade Lord on Warhawk",
+          "stats": {
+            "M": "2",
+            "WS": "7",
+            "BS": "7",
+            "S": "4",
+            "T": "4",
+            "W": "3",
+            "I": "6",
+            "A": "4",
+            "LD": "10",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry (Character)"
+          },
+          "cost": 165.0,
+          "rules": [
+            "Feigned Flight",
+            "Ignores Cover",
+            "Evasive",
+            "Swiftstride",
+            "Fire & Flee",
+            "Fear",
+            "Move Through Cover",
+            "Strike First",
+            "Rallying Cry",
+            "Fly (X)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Wicked Claws",
+            "Asrai Longbow"
+          ]
+        },
+        {
+          "name": "Glade Lord on Forest Dragon",
+          "stats": {
+            "M": "6",
+            "WS": "7",
+            "BS": "7",
+            "S": "4",
+            "T": "6",
+            "W": "9",
+            "I": "6",
+            "A": "4",
+            "LD": "10",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry (Character)"
+          },
+          "cost": 410.0,
+          "rules": [
+            "Close Order",
+            "Ignores Cover",
+            "Large Target",
+            "Terror",
+            "Evasive",
+            "Stomp Attacks (X)",
+            "Swiftstride",
+            "Fire & Flee",
+            "Move Through Cover",
+            "Strike First",
+            "Rallying Cry",
+            "Fly (10)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Wicked Claws",
+            "Serrated Maw",
+            "Soporific Breath",
+            "Asrai Longbow"
+          ]
+        },
+        {
+          "name": "Glade Lord on Great Eagle",
+          "stats": {
+            "M": "2",
+            "WS": "7",
+            "BS": "7",
+            "S": "4",
+            "T": "4",
+            "W": "4",
+            "I": "6",
+            "A": "4",
+            "LD": "10",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry (Character)"
+          },
+          "cost": 195.0,
+          "rules": [
+            "Close Order",
+            "Ignores Cover",
+            "Evasive",
+            "Stomp Attacks (X)",
+            "Swiftstride",
+            "Fire & Flee",
+            "Fear",
+            "Move Through Cover",
+            "Strike First",
+            "Rallying Cry",
+            "Fly (X)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Wicked Claws",
+            "Serrated Maw",
+            "Asrai Longbow"
+          ]
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Shield",
+          "cost": 2.0,
+          "is_default": false
+        },
+        {
+          "name": "Arcane Bodkins",
+          "cost": 6.0,
+          "is_default": false
+        },
+        {
+          "name": "Hagbane Tips",
+          "cost": 6.0,
+          "is_default": false
+        },
+        {
+          "name": "Moonfire Shot",
+          "cost": 3.0,
+          "is_default": false
+        },
+        {
+          "name": "Swiftshiver Shards",
+          "cost": 6.0,
+          "is_default": false
+        },
+        {
+          "name": "Trueflight Arrows",
+          "cost": 3.0,
+          "is_default": false
+        },
+        {
+          "name": "Additional Hand Weapon",
+          "cost": 3.0,
+          "is_default": false
+        },
+        {
+          "name": "Great Weapon",
+          "cost": 4.0,
+          "is_default": false
+        },
+        {
+          "name": "Cavalry Spear",
+          "cost": 2.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Spellsinger",
+      "category": "Characters",
+      "base_points": 80.0,
+      "rules": [
+        "Elven Reflexes",
+        "Lore of Athel Loren",
+        "Magical Attacks",
+        "Move Through Cover"
+      ],
+      "models": [
+        {
+          "name": "Spellsinger",
+          "stats": {
+            "M": "5",
+            "WS": "4",
+            "BS": "4",
+            "S": "3",
+            "T": "3",
+            "W": "2",
+            "I": "4",
+            "A": "1",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry (Character)"
+          },
+          "cost": 80.0,
+          "rules": [
+            "Elven Reflexes",
+            "Lore of Athel Loren",
+            "Magical Attacks",
+            "Move Through Cover"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Spellsinger on Elven Steed",
+          "stats": {
+            "M": "9",
+            "WS": "4",
+            "BS": "4",
+            "S": "3",
+            "T": "3",
+            "W": "2",
+            "I": "4",
+            "A": "1",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry (Character)"
+          },
+          "cost": 94.0,
+          "rules": [
+            "Elven Reflexes",
+            "Fast Cavalry",
+            "Magical Attacks",
+            "Swiftstride",
+            "Move Through Cover",
+            "Lore of Athel Loren"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Spellsinger on Warhawk",
+          "stats": {
+            "M": "2",
+            "WS": "4",
+            "BS": "4",
+            "S": "3",
+            "T": "4",
+            "W": "2",
+            "I": "4",
+            "A": "1",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry (Character)"
+          },
+          "cost": 110.0,
+          "rules": [
+            "Feigned Flight",
+            "Elven Reflexes",
+            "Magical Attacks",
+            "Evasive",
+            "Swiftstride",
+            "Fear",
+            "Move Through Cover",
+            "Lore of Athel Loren",
+            "Fly (X)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Wicked Claws"
+          ]
+        },
+        {
+          "name": "Spellsinger on Unicorn",
+          "stats": {
+            "M": "10",
+            "WS": "4",
+            "BS": "4",
+            "S": "3",
+            "T": "3",
+            "W": "3",
+            "I": "4",
+            "A": "1",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry (Character)"
+          },
+          "cost": 115.0,
+          "rules": [
+            "Armored Hide (X)",
+            "Elven Reflexes",
+            "Magical Attacks",
+            "Stomp Attacks (X)",
+            "Counter Charge",
+            "Armor Bane (X)",
+            "Swiftstride",
+            "Move Through Cover",
+            "Lore of Athel Loren"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Spellsinger on Great Eagle",
+          "stats": {
+            "M": "2",
+            "WS": "4",
+            "BS": "4",
+            "S": "3",
+            "T": "4",
+            "W": "3",
+            "I": "4",
+            "A": "1",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry (Character)"
+          },
+          "cost": 140.0,
+          "rules": [
+            "Close Order",
+            "Elven Reflexes",
+            "Magical Attacks",
+            "Stomp Attacks (X)",
+            "Swiftstride",
+            "Fear",
+            "Move Through Cover",
+            "Lore of Athel Loren",
+            "Fly (X)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Wicked Claws",
+            "Serrated Maw"
+          ]
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Talismanic Tattoos",
+          "cost": 15.0,
+          "is_default": false
+        },
+        {
+          "name": "Level 2 Wizard",
+          "cost": 30.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Spellweaver",
+      "category": "Characters",
+      "base_points": 155.0,
+      "rules": [
+        "Elven Reflexes",
+        "Lore of Athel Loren",
+        "Magical Attacks",
+        "Move Through Cover"
+      ],
+      "models": [
+        {
+          "name": "Spellweaver",
+          "stats": {
+            "M": "5",
+            "WS": "4",
+            "BS": "4",
+            "S": "3",
+            "T": "3",
+            "W": "3",
+            "I": "4",
+            "A": "2",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry (Character)"
+          },
+          "cost": 155.0,
+          "rules": [
+            "Elven Reflexes",
+            "Lore of Athel Loren",
+            "Magical Attacks",
+            "Move Through Cover"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Spellweaver on Elven Steed",
+          "stats": {
+            "M": "9",
+            "WS": "4",
+            "BS": "4",
+            "S": "3",
+            "T": "3",
+            "W": "3",
+            "I": "4",
+            "A": "2",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry (Character)"
+          },
+          "cost": 169.0,
+          "rules": [
+            "Elven Reflexes",
+            "Fast Cavalry",
+            "Magical Attacks",
+            "Swiftstride",
+            "Move Through Cover",
+            "Lore of Athel Loren"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Spellweaver on Warhawk",
+          "stats": {
+            "M": "2",
+            "WS": "4",
+            "BS": "4",
+            "S": "3",
+            "T": "4",
+            "W": "3",
+            "I": "4",
+            "A": "2",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry (Character)"
+          },
+          "cost": 185.0,
+          "rules": [
+            "Feigned Flight",
+            "Elven Reflexes",
+            "Magical Attacks",
+            "Evasive",
+            "Swiftstride",
+            "Fear",
+            "Move Through Cover",
+            "Lore of Athel Loren",
+            "Fly (X)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Wicked Claws"
+          ]
+        },
+        {
+          "name": "Spellweaver on Unicorn",
+          "stats": {
+            "M": "10",
+            "WS": "4",
+            "BS": "4",
+            "S": "3",
+            "T": "3",
+            "W": "4",
+            "I": "4",
+            "A": "2",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry (Character)"
+          },
+          "cost": 190.0,
+          "rules": [
+            "Armored Hide (X)",
+            "Elven Reflexes",
+            "Magical Attacks",
+            "Stomp Attacks (X)",
+            "Counter Charge",
+            "Armor Bane (X)",
+            "Swiftstride",
+            "Move Through Cover",
+            "Lore of Athel Loren"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Spellweaver on Great Eagle",
+          "stats": {
+            "M": "2",
+            "WS": "4",
+            "BS": "4",
+            "S": "3",
+            "T": "4",
+            "W": "4",
+            "I": "4",
+            "A": "2",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry (Character)"
+          },
+          "cost": 215.0,
+          "rules": [
+            "Close Order",
+            "Elven Reflexes",
+            "Magical Attacks",
+            "Stomp Attacks (X)",
+            "Swiftstride",
+            "Fear",
+            "Move Through Cover",
+            "Lore of Athel Loren",
+            "Fly (X)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Wicked Claws",
+            "Serrated Maw"
+          ]
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Talismanic Tattoos",
+          "cost": 15.0,
+          "is_default": false
+        },
+        {
+          "name": "Level 4 Wizard",
+          "cost": 30.0,
+          "is_default": false
+        }
+      ]
+    }
+  ]
+}

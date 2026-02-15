@@ -1,0 +1,2376 @@
+{
+  "faction_name": "Vampire Counts",
+  "units": [
+    {
+      "name": "Grave Guard",
+      "category": "Special",
+      "base_points": 0.0,
+      "rules": [
+        "Cleaving Blow",
+        "Close Order",
+        "Indomitable (1)",
+        "Necromantic Undead",
+        "Regeneration (6+)"
+      ],
+      "models": [
+        {
+          "name": "Grave Guard",
+          "stats": {
+            "M": "4",
+            "WS": "3",
+            "BS": "3",
+            "S": "4",
+            "T": "4",
+            "W": "1",
+            "I": "3",
+            "A": "1",
+            "LD": "7",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Infantry"
+          },
+          "cost": 11.0,
+          "rules": [
+            "Close Order",
+            "Necromantic Undead",
+            "Cleaving Blow",
+            "Indomitable (1)",
+            "Regeneration (6+)",
+            "Drilled"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Champion",
+          "stats": {
+            "M": "4",
+            "WS": "3",
+            "BS": "3",
+            "S": "4",
+            "T": "4",
+            "W": "1",
+            "I": "3",
+            "A": "2",
+            "LD": "7",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Infantry"
+          },
+          "cost": 17.0,
+          "rules": [
+            "Close Order",
+            "Necromantic Undead",
+            "Cleaving Blow",
+            "Indomitable (1)",
+            "Regeneration (6+)"
+          ],
+          "role": "champion",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Shield",
+          "cost": 0.0,
+          "is_default": false
+        },
+        {
+          "name": "Great Weapon",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Drilled",
+          "cost": 2.0,
+          "is_default": false
+        },
+        {
+          "name": "Implacabe Defence",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Musician",
+          "cost": 6.0,
+          "is_default": false
+        },
+        {
+          "name": "Standard Bearer",
+          "cost": 6.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Skeleton Warriors",
+      "category": "Core",
+      "base_points": 0.0,
+      "rules": [
+        "Horde",
+        "Close Order",
+        "Necromantic Undead",
+        "Regeneration (6+)"
+      ],
+      "models": [
+        {
+          "name": "Skeleton Warriors",
+          "stats": {
+            "M": "4",
+            "WS": "2",
+            "BS": "2",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "2",
+            "A": "1",
+            "LD": "5",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 5.0,
+          "rules": [
+            "Close Order",
+            "Horde",
+            "Necromantic Undead",
+            "Regeneration (6+)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Champion",
+          "stats": {
+            "M": "4",
+            "WS": "2",
+            "BS": "2",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "2",
+            "A": "2",
+            "LD": "5",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 5.0,
+          "rules": [
+            "Close Order",
+            "Horde",
+            "Necromantic Undead",
+            "Regeneration (6+)"
+          ],
+          "role": "champion",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Thrusting Spear",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Musician",
+          "cost": 5.0,
+          "is_default": false
+        },
+        {
+          "name": "Standard Bearer",
+          "cost": 5.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Zombies",
+      "category": "Core",
+      "base_points": 0.0,
+      "rules": [
+        "Horde",
+        "Close Order",
+        "Necromantic Undead",
+        "Regeneration (6+)",
+        "The Newly Dead"
+      ],
+      "models": [
+        {
+          "name": "Zombies",
+          "stats": {
+            "M": "4",
+            "WS": "2",
+            "BS": "0",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "1",
+            "A": "1",
+            "LD": "2",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 3.0,
+          "rules": [
+            "Close Order",
+            "Necromantic Undead",
+            "The Newly Dead",
+            "Horde",
+            "Regeneration (6+)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Musician",
+          "cost": 5.0,
+          "is_default": false
+        },
+        {
+          "name": "Standard Bearer",
+          "cost": 5.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Grave Guard",
+      "category": "Core",
+      "base_points": 0.0,
+      "rules": [
+        "Cleaving Blow",
+        "Close Order",
+        "Indomitable (1)",
+        "Necromantic Undead",
+        "Regeneration (6+)"
+      ],
+      "models": [
+        {
+          "name": "Grave Guard",
+          "stats": {
+            "M": "4",
+            "WS": "3",
+            "BS": "3",
+            "S": "4",
+            "T": "4",
+            "W": "1",
+            "I": "3",
+            "A": "1",
+            "LD": "7",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Infantry"
+          },
+          "cost": 11.0,
+          "rules": [
+            "Close Order",
+            "Necromantic Undead",
+            "Cleaving Blow",
+            "Indomitable (1)",
+            "Regeneration (6+)",
+            "Drilled"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Champion",
+          "stats": {
+            "M": "4",
+            "WS": "3",
+            "BS": "3",
+            "S": "4",
+            "T": "4",
+            "W": "1",
+            "I": "3",
+            "A": "2",
+            "LD": "7",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Infantry"
+          },
+          "cost": 17.0,
+          "rules": [
+            "Close Order",
+            "Necromantic Undead",
+            "Cleaving Blow",
+            "Indomitable (1)",
+            "Regeneration (6+)"
+          ],
+          "role": "champion",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Shield",
+          "cost": 0.0,
+          "is_default": false
+        },
+        {
+          "name": "Great Weapon",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Drilled",
+          "cost": 2.0,
+          "is_default": false
+        },
+        {
+          "name": "Implacabe Defence",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Musician",
+          "cost": 6.0,
+          "is_default": false
+        },
+        {
+          "name": "Standard Bearer",
+          "cost": 6.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Crypt Ghouls",
+      "category": "Core",
+      "base_points": 0.0,
+      "rules": [
+        "Open Order",
+        "Necromantic Undead",
+        "Regeneration (6+)",
+        "Reserve Move",
+        "Skirmishers",
+        "Move Through Cover",
+        "Poisoned Attacks"
+      ],
+      "models": [
+        {
+          "name": "Crypt Ghouls",
+          "stats": {
+            "M": "5",
+            "WS": "3",
+            "BS": "3",
+            "S": "3",
+            "T": "4",
+            "W": "1",
+            "I": "3",
+            "A": "2",
+            "LD": "5",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 9.0,
+          "rules": [
+            "Necromantic Undead",
+            "Open Order",
+            "Poisoned Attacks",
+            "Reserve Move",
+            "Skirmishers",
+            "Move Through Cover",
+            "Regeneration (6+)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Champion",
+          "stats": {
+            "M": "5",
+            "WS": "3",
+            "BS": "3",
+            "S": "3",
+            "T": "4",
+            "W": "1",
+            "I": "3",
+            "A": "3",
+            "LD": "5",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 15.0,
+          "rules": [
+            "Necromantic Undead",
+            "Open Order",
+            "Poisoned Attacks",
+            "Reserve Move",
+            "Skirmishers",
+            "Move Through Cover",
+            "Regeneration (6+)"
+          ],
+          "role": "champion",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": []
+    },
+    {
+      "name": "Crypt Horrors",
+      "category": "Special",
+      "base_points": 0.0,
+      "rules": [
+        "Open Order",
+        "Necromantic Undead",
+        "Regeneration (6+)",
+        "Indomitable (1)",
+        "Stomp Attacks (X)",
+        "Move Through Cover",
+        "Poisoned Attacks"
+      ],
+      "models": [
+        {
+          "name": "Crypt Horrors",
+          "stats": {
+            "M": "6",
+            "WS": "3",
+            "BS": "0",
+            "S": "4",
+            "T": "5",
+            "W": "3",
+            "I": "2",
+            "A": "3",
+            "LD": "5",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Monsterous Infantry"
+          },
+          "cost": 46.0,
+          "rules": [
+            "Necromantic Undead",
+            "Open Order",
+            "Stomp Attacks (X)",
+            "Poisoned Attacks",
+            "Indomitable (1)",
+            "Move Through Cover",
+            "Regeneration (6+)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Filth-encrusted Claws"
+          ]
+        },
+        {
+          "name": "Champion",
+          "stats": {
+            "M": "6",
+            "WS": "3",
+            "BS": "0",
+            "S": "4",
+            "T": "5",
+            "W": "3",
+            "I": "2",
+            "A": "4",
+            "LD": "5",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Monsterous Infantry"
+          },
+          "cost": 53.0,
+          "rules": [
+            "Necromantic Undead",
+            "Open Order",
+            "Stomp Attacks (X)",
+            "Poisoned Attacks",
+            "Indomitable (1)",
+            "Move Through Cover",
+            "Regeneration (6+)"
+          ],
+          "role": "champion",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": []
+    },
+    {
+      "name": "Bat Swarms",
+      "category": "Core",
+      "base_points": 0.0,
+      "rules": [
+        "Necromantic Undead",
+        "Regeneration (6+)",
+        "Skirmishers",
+        "Fly (X)"
+      ],
+      "models": [
+        {
+          "name": "Bat Swarms",
+          "stats": {
+            "M": "1",
+            "WS": "3",
+            "BS": "0",
+            "S": "2",
+            "T": "2",
+            "W": "5",
+            "I": "4",
+            "A": "5",
+            "LD": "3",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Swarms"
+          },
+          "cost": 39.0,
+          "rules": [
+            "Fly (X)",
+            "Necromantic Undead",
+            "Regeneration (6+)",
+            "Skirmishers"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": []
+    },
+    {
+      "name": "Vargheists",
+      "category": "Rare",
+      "base_points": 0.0,
+      "rules": [
+        "Dark Vitality",
+        "Necromantic Undead",
+        "Regeneration (6+)",
+        "Indomitable (1)",
+        "Skirmishers",
+        "Armor Bane (X)",
+        "Flammable",
+        "Frenzy"
+      ],
+      "models": [
+        {
+          "name": "Vargheists",
+          "stats": {
+            "M": "6",
+            "WS": "4",
+            "BS": "0",
+            "S": "5",
+            "T": "4",
+            "W": "3",
+            "I": "4",
+            "A": "3",
+            "LD": "7",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Monsterous Infantry"
+          },
+          "cost": 61.0,
+          "rules": [
+            "Necromantic Undead",
+            "Dark Vitality",
+            "Indomitable (1)",
+            "Skirmishers",
+            "Armor Bane (X)",
+            "Flammable",
+            "Frenzy",
+            "Regeneration (6+)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Wicked Claws"
+          ]
+        },
+        {
+          "name": "Champion",
+          "stats": {
+            "M": "6",
+            "WS": "4",
+            "BS": "0",
+            "S": "5",
+            "T": "4",
+            "W": "3",
+            "I": "4",
+            "A": "4",
+            "LD": "7",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Monsterous Infantry"
+          },
+          "cost": 68.0,
+          "rules": [
+            "Necromantic Undead",
+            "Dark Vitality",
+            "Indomitable (1)",
+            "Skirmishers",
+            "Armor Bane (X)",
+            "Flammable",
+            "Frenzy",
+            "Regeneration (6+)"
+          ],
+          "role": "champion",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": []
+    },
+    {
+      "name": "Fell Bats",
+      "category": "Special",
+      "base_points": 0.0,
+      "rules": [
+        "Necromantic Undead",
+        "Regeneration (6+)",
+        "Skirmishers",
+        "Fly (10)",
+        "Swiftstride"
+      ],
+      "models": [
+        {
+          "name": "Fell Bats",
+          "stats": {
+            "M": "1",
+            "WS": "3",
+            "BS": "0",
+            "S": "3",
+            "T": "3",
+            "W": "2",
+            "I": "3",
+            "A": "2",
+            "LD": "3",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Monsterous Infantry"
+          },
+          "cost": 15.0,
+          "rules": [
+            "Necromantic Undead",
+            "Fly (10)",
+            "Skirmishers",
+            "Swiftstride",
+            "Regeneration (6+)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": []
+    },
+    {
+      "name": "Spirit Hosts",
+      "category": "Special",
+      "base_points": 0.0,
+      "rules": [
+        "Necromantic Undead",
+        "Regeneration (6+)",
+        "Open Order",
+        "Ethereal",
+        "Magical Attacks",
+        "Reserve Move"
+      ],
+      "models": [
+        {
+          "name": "Spirit Hosts",
+          "stats": {
+            "M": "6",
+            "WS": "3",
+            "BS": "0",
+            "S": "3",
+            "T": "3",
+            "W": "4",
+            "I": "1",
+            "A": "4",
+            "LD": "4",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Swarms"
+          },
+          "cost": 49.0,
+          "rules": [
+            "Necromantic Undead",
+            "Open Order",
+            "Magical Attacks",
+            "Reserve Move",
+            "Ethereal",
+            "Regeneration (6+)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": []
+    },
+    {
+      "name": "Blood Knights",
+      "category": "Rare",
+      "base_points": 0.0,
+      "rules": [
+        "Counter Charge",
+        "Close Order",
+        "Indomitable (1)",
+        "Necromantic Undead",
+        "Regeneration (6+)",
+        "Dark Vitality",
+        "First Charge",
+        "Flammable"
+      ],
+      "models": [
+        {
+          "name": "Blood Knights",
+          "stats": {
+            "M": "-",
+            "WS": "5",
+            "BS": "3",
+            "S": "4",
+            "T": "4",
+            "W": "1",
+            "I": "4",
+            "A": "2",
+            "LD": "7",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Cavalry"
+          },
+          "cost": 39.0,
+          "rules": [
+            "Close Order",
+            "Necromantic Undead",
+            "Dark Vitality",
+            "Counter Charge",
+            "Indomitable (1)",
+            "Flammable",
+            "First Charge",
+            "Regeneration (6+)",
+            "Drilled"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Champion",
+          "stats": {
+            "M": "-",
+            "WS": "5",
+            "BS": "3",
+            "S": "4",
+            "T": "4",
+            "W": "1",
+            "I": "4",
+            "A": "3",
+            "LD": "7",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Cavalry"
+          },
+          "cost": 46.0,
+          "rules": [
+            "Close Order",
+            "Necromantic Undead",
+            "Dark Vitality",
+            "Counter Charge",
+            "Indomitable (1)",
+            "Flammable",
+            "First Charge",
+            "Regeneration (6+)"
+          ],
+          "role": "champion",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Drilled",
+          "cost": 2.0,
+          "is_default": false
+        },
+        {
+          "name": "Heavy Armour",
+          "cost": 0.0,
+          "is_default": false
+        },
+        {
+          "name": "Full Plate Armour",
+          "cost": 5.0,
+          "is_default": false
+        },
+        {
+          "name": "Musician",
+          "cost": 7.0,
+          "is_default": false
+        },
+        {
+          "name": "Standard Bearer",
+          "cost": 7.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Black Knights",
+      "category": "Special",
+      "base_points": 0.0,
+      "rules": [
+        "Cleaving Blow",
+        "Close Order",
+        "Necromantic Undead",
+        "Regeneration (6+)",
+        "First Charge",
+        "Swiftstride"
+      ],
+      "models": [
+        {
+          "name": "Black Knights",
+          "stats": {
+            "M": "-",
+            "WS": "3",
+            "BS": "0",
+            "S": "4",
+            "T": "4",
+            "W": "1",
+            "I": "3",
+            "A": "1",
+            "LD": "6",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Cavalry"
+          },
+          "cost": 24.0,
+          "rules": [
+            "Close Order",
+            "Necromantic Undead",
+            "Cleaving Blow",
+            "Swiftstride",
+            "First Charge",
+            "Regeneration (6+)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Champion",
+          "stats": {
+            "M": "-",
+            "WS": "3",
+            "BS": "0",
+            "S": "4",
+            "T": "4",
+            "W": "1",
+            "I": "3",
+            "A": "2",
+            "LD": "6",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Cavalry"
+          },
+          "cost": 30.0,
+          "rules": [
+            "Close Order",
+            "Necromantic Undead",
+            "Cleaving Blow",
+            "Swiftstride",
+            "First Charge",
+            "Regeneration (6+)"
+          ],
+          "role": "champion",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Barding",
+          "cost": 2.0,
+          "is_default": false
+        },
+        {
+          "name": "Lance",
+          "cost": 2.0,
+          "is_default": false
+        },
+        {
+          "name": "Musician",
+          "cost": 6.0,
+          "is_default": false
+        },
+        {
+          "name": "Standard Bearer",
+          "cost": 6.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Black Knights",
+      "category": "Core",
+      "base_points": 0.0,
+      "rules": [
+        "Cleaving Blow",
+        "Close Order",
+        "Necromantic Undead",
+        "Regeneration (6+)",
+        "First Charge",
+        "Swiftstride"
+      ],
+      "models": [
+        {
+          "name": "Black Knights",
+          "stats": {
+            "M": "-",
+            "WS": "3",
+            "BS": "0",
+            "S": "4",
+            "T": "4",
+            "W": "1",
+            "I": "3",
+            "A": "1",
+            "LD": "6",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Cavalry"
+          },
+          "cost": 24.0,
+          "rules": [
+            "Close Order",
+            "Necromantic Undead",
+            "Cleaving Blow",
+            "Swiftstride",
+            "First Charge",
+            "Regeneration (6+)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Champion",
+          "stats": {
+            "M": "-",
+            "WS": "3",
+            "BS": "0",
+            "S": "4",
+            "T": "4",
+            "W": "1",
+            "I": "3",
+            "A": "2",
+            "LD": "6",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Cavalry"
+          },
+          "cost": 30.0,
+          "rules": [
+            "Close Order",
+            "Necromantic Undead",
+            "Cleaving Blow",
+            "Swiftstride",
+            "First Charge",
+            "Regeneration (6+)"
+          ],
+          "role": "champion",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Barding",
+          "cost": 2.0,
+          "is_default": false
+        },
+        {
+          "name": "Lance",
+          "cost": 2.0,
+          "is_default": false
+        },
+        {
+          "name": "Musician",
+          "cost": 6.0,
+          "is_default": false
+        },
+        {
+          "name": "Standard Bearer",
+          "cost": 6.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Dire Wolves",
+      "category": "Core",
+      "base_points": 0.0,
+      "rules": [
+        "Necromantic Undead",
+        "Regeneration (6+)",
+        "Reserve Move",
+        "Open Order",
+        "Vanguard",
+        "Swiftstride"
+      ],
+      "models": [
+        {
+          "name": "Dire Wolves",
+          "stats": {
+            "M": "9",
+            "WS": "3",
+            "BS": "0",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "3",
+            "A": "1",
+            "LD": "3",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "War Beast"
+          },
+          "cost": 8.0,
+          "rules": [
+            "Necromantic Undead",
+            "Vanguard",
+            "Open Order",
+            "Reserve Move",
+            "Swiftstride",
+            "Regeneration (6+)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Dire Wolf",
+          "stats": {
+            "M": "9",
+            "WS": "3",
+            "BS": "0",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "3",
+            "A": "1",
+            "LD": "3",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "War Beast"
+          },
+          "cost": 8.0,
+          "rules": [
+            "Necromantic Undead",
+            "Vanguard",
+            "Open Order",
+            "Reserve Move",
+            "Swiftstride",
+            "Regeneration (6+)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Champion",
+          "stats": {
+            "M": "9",
+            "WS": "3",
+            "BS": "0",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "3",
+            "A": "2",
+            "LD": "3",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "War Beast"
+          },
+          "cost": 14.0,
+          "rules": [
+            "Necromantic Undead",
+            "Vanguard",
+            "Open Order",
+            "Reserve Move",
+            "Swiftstride",
+            "Regeneration (6+)"
+          ],
+          "role": "champion",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": []
+    },
+    {
+      "name": "Hexwraiths",
+      "category": "Rare",
+      "base_points": 0.0,
+      "rules": [
+        "Ethereal",
+        "Flaming Attacks",
+        "Necromantic Undead",
+        "Regeneration (6+)",
+        "Fly (X)",
+        "Swiftstride",
+        "Magical Attacks",
+        "Terror",
+        "Open Order"
+      ],
+      "models": [
+        {
+          "name": "Hexwraiths",
+          "stats": {
+            "M": "-",
+            "WS": "3",
+            "BS": "0",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "2",
+            "A": "1",
+            "LD": "5",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Light Cavalry"
+          },
+          "cost": 31.0,
+          "rules": [
+            "Flaming Attacks",
+            "Necromantic Undead",
+            "Fly (X)",
+            "Open Order",
+            "Magical Attacks",
+            "Terror",
+            "Swiftstride",
+            "Ethereal",
+            "Regeneration (6+)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Champion",
+          "stats": {
+            "M": "-",
+            "WS": "3",
+            "BS": "0",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "2",
+            "A": "2",
+            "LD": "5",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Light Cavalry"
+          },
+          "cost": 37.0,
+          "rules": [
+            "Flaming Attacks",
+            "Necromantic Undead",
+            "Fly (X)",
+            "Open Order",
+            "Magical Attacks",
+            "Terror",
+            "Swiftstride",
+            "Ethereal",
+            "Regeneration (6+)"
+          ],
+          "role": "champion",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": []
+    },
+    {
+      "name": "Corpse Cart",
+      "category": "Special",
+      "base_points": 115.0,
+      "rules": [
+        "Close Order",
+        "Dark Vitality",
+        "First Charge",
+        "Impact Hits (X)",
+        "Indomitable (1)",
+        "Lore Of Undeath",
+        "Necromantic Undead",
+        "Random Attacks",
+        "Regeneration (6+)"
+      ],
+      "models": [
+        {
+          "name": "Corpse Cart",
+          "stats": {
+            "M": "-",
+            "WS": "-",
+            "BS": "-",
+            "S": "4",
+            "T": "4",
+            "W": "4",
+            "I": "-",
+            "A": "-",
+            "LD": "-",
+            "ArmourSave": "4+",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Chariot"
+          },
+          "cost": 115.0,
+          "rules": [
+            "Regeneration (6+)",
+            "Close Order",
+            "Dark Vitality",
+            "Necromantic Undead",
+            "Random Attacks",
+            "Lore Of Undeath",
+            "First Charge",
+            "Indomitable (1)",
+            "Impact Hits (X)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Whip",
+          "cost": 3.0,
+          "is_default": false
+        },
+        {
+          "name": "Cavalry Spear",
+          "cost": 3.0,
+          "is_default": false
+        },
+        {
+          "name": "Balefire Brazier",
+          "cost": 10.0,
+          "is_default": false
+        },
+        {
+          "name": "Warped Tintinnabulation",
+          "cost": 15.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Black Coach",
+      "category": "Rare",
+      "base_points": 205.0,
+      "rules": [
+        "Close Order",
+        "Magical Attacks",
+        "First Charge",
+        "Impact Hits (X)",
+        "Indomitable (1)",
+        "Necromantic Undead",
+        "Terror",
+        "Regeneration (6+)"
+      ],
+      "models": [
+        {
+          "name": "Black Coach",
+          "stats": {
+            "M": "-",
+            "WS": "-",
+            "BS": "-",
+            "S": "5",
+            "T": "6",
+            "W": "4",
+            "I": "-",
+            "A": "-",
+            "LD": "-",
+            "ArmourSave": "3+",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Chariot"
+          },
+          "cost": 205.0,
+          "rules": [
+            "Regeneration (6+)",
+            "Close Order",
+            "Necromantic Undead",
+            "Magical Attacks",
+            "Terror",
+            "First Charge",
+            "Indomitable (1)",
+            "Impact Hits (X)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Spectral Scythe"
+          ]
+        },
+        {
+          "name": "Nightmare",
+          "stats": {
+            "M": "7",
+            "WS": "3",
+            "BS": "-",
+            "S": "4",
+            "T": "-",
+            "W": "-",
+            "I": "2",
+            "A": "1",
+            "LD": "-",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": ""
+          },
+          "cost": 205.0,
+          "rules": [
+            "Regeneration (6+)",
+            "Close Order",
+            "Necromantic Undead",
+            "Magical Attacks",
+            "Terror",
+            "First Charge",
+            "Indomitable (1)",
+            "Impact Hits (X)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Wraith",
+          "stats": {
+            "M": "-",
+            "WS": "3",
+            "BS": "0",
+            "S": "3",
+            "T": "-",
+            "W": "-",
+            "I": "2",
+            "A": "2",
+            "LD": "5",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": ""
+          },
+          "cost": 205.0,
+          "rules": [
+            "Regeneration (6+)",
+            "Close Order",
+            "Necromantic Undead",
+            "Magical Attacks",
+            "Terror",
+            "First Charge",
+            "Indomitable (1)",
+            "Impact Hits (X)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Spectral Scythe"
+          ]
+        }
+      ],
+      "upgrades": []
+    },
+    {
+      "name": "Tomb Banshee",
+      "category": "Characters",
+      "base_points": 90.0,
+      "rules": [
+        "Ethereal",
+        "Indomitable (1)",
+        "Magical Attacks",
+        "Necromantic Undead",
+        "Regeneration (X+)",
+        "Terror",
+        "Wailing Dirge"
+      ],
+      "models": [
+        {
+          "name": "Tomb Banshee",
+          "stats": {
+            "M": "6",
+            "WS": "3",
+            "BS": "0",
+            "S": "3",
+            "T": "3",
+            "W": "2",
+            "I": "3",
+            "A": "1",
+            "LD": "6",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry (Character)"
+          },
+          "cost": 90.0,
+          "rules": [
+            "Ethereal",
+            "Indomitable (1)",
+            "Magical Attacks",
+            "Necromantic Undead",
+            "Regeneration (X+)",
+            "Terror",
+            "Wailing Dirge"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": []
+    },
+    {
+      "name": "Wight King",
+      "category": "Characters",
+      "base_points": 85.0,
+      "rules": [
+        "Killing Blow",
+        "Indomitable (1)",
+        "Necromantic Undead",
+        "Regeneration (6+)"
+      ],
+      "models": [
+        {
+          "name": "Wight King",
+          "stats": {
+            "M": "4",
+            "WS": "5",
+            "BS": "0",
+            "S": "5",
+            "T": "5",
+            "W": "3",
+            "I": "4",
+            "A": "3",
+            "LD": "9",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry (Character)"
+          },
+          "cost": 85.0,
+          "rules": [
+            "Killing Blow",
+            "Indomitable (1)",
+            "Necromantic Undead",
+            "Regeneration (6+)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Shield",
+          "cost": 2.0,
+          "is_default": false
+        },
+        {
+          "name": "Additional Hand Weapon",
+          "cost": 3.0,
+          "is_default": false
+        },
+        {
+          "name": "Great Weapon",
+          "cost": 4.0,
+          "is_default": false
+        },
+        {
+          "name": "Lance",
+          "cost": 4.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Wight Lord",
+      "category": "Characters",
+      "base_points": 40.0,
+      "rules": [
+        "Killing Blow",
+        "Necromantic Undead",
+        "Regeneration (6+)"
+      ],
+      "models": [
+        {
+          "name": "Wight Lord",
+          "stats": {
+            "M": "4",
+            "WS": "4",
+            "BS": "0",
+            "S": "4",
+            "T": "5",
+            "W": "2",
+            "I": "4",
+            "A": "2",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry (Character)"
+          },
+          "cost": 40.0,
+          "rules": [
+            "Killing Blow",
+            "Necromantic Undead",
+            "Regeneration (6+)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Shield",
+          "cost": 2.0,
+          "is_default": false
+        },
+        {
+          "name": "Battle Standard Bearer",
+          "cost": 25.0,
+          "is_default": false
+        },
+        {
+          "name": "Additional Hand Weapon",
+          "cost": 3.0,
+          "is_default": false
+        },
+        {
+          "name": "Great Weapon",
+          "cost": 4.0,
+          "is_default": false
+        },
+        {
+          "name": "Lance",
+          "cost": 4.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Carin Wraith",
+      "category": "Characters",
+      "base_points": 50.0,
+      "rules": [
+        "Ethereal",
+        "Indomitable (1)",
+        "Necromantic Undead",
+        "Regeneration (6+)",
+        "Terror"
+      ],
+      "models": [
+        {
+          "name": "Carin Wraith",
+          "stats": {
+            "M": "6",
+            "WS": "4",
+            "BS": "0",
+            "S": "3",
+            "T": "3",
+            "W": "3",
+            "I": "2",
+            "A": "2",
+            "LD": "6",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry (Character)"
+          },
+          "cost": 50.0,
+          "rules": [
+            "Ethereal",
+            "Indomitable (1)",
+            "Necromantic Undead",
+            "Regeneration (6+)",
+            "Terror"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": []
+    },
+    {
+      "name": "Strigoi Ghoul King",
+      "category": "Characters",
+      "base_points": 145.0,
+      "rules": [
+        "Dark Vitality",
+        "Indomitable (1)",
+        "Necromantic Undead",
+        "Flammable",
+        "Regeneration (5+)",
+        "Hatred (all enemies)",
+        "Lore Of Undeath",
+        "Poisoned Attacks"
+      ],
+      "models": [
+        {
+          "name": "Strigoi Ghoul King",
+          "stats": {
+            "M": "6",
+            "WS": "6",
+            "BS": "3",
+            "S": "5",
+            "T": "5",
+            "W": "3",
+            "I": "7",
+            "A": "5",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry (Character)"
+          },
+          "cost": 145.0,
+          "rules": [
+            "Dark Vitality",
+            "Indomitable (1)",
+            "Necromantic Undead",
+            "Flammable",
+            "Regeneration (5+)",
+            "Hatred (all enemies)",
+            "Lore Of Undeath",
+            "Poisoned Attacks"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Strigoi Ghoul King on Terrorgheist",
+          "stats": {
+            "M": "6",
+            "WS": "6",
+            "BS": "3",
+            "S": "5",
+            "T": "6",
+            "W": "8",
+            "I": "7",
+            "A": "5",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry (Character)"
+          },
+          "cost": 330.0,
+          "rules": [
+            "Hatred (all enemies)",
+            "Necromantic Undead",
+            "Dark Vitality",
+            "Close Order",
+            "Large Target",
+            "Terror",
+            "Stomp Attacks (X)",
+            "Poisoned Attacks",
+            "Regeneration (X+)",
+            "Regeneration (5+)",
+            "Flammable",
+            "Swiftstride",
+            "Lore Of Undeath",
+            "Indomitable (1)",
+            "Wailing Dirge",
+            "Fly (X)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Filth-encrusted Talons",
+            "Rancid Maw"
+          ]
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "VC - The Flayed Hauberk",
+          "cost": 35.0,
+          "is_default": false
+        },
+        {
+          "name": "Level 1 Wizard",
+          "cost": 30.0,
+          "is_default": false
+        },
+        {
+          "name": "Level 2 Wizard",
+          "cost": 60.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Necromantic Acolyte",
+      "category": "Characters",
+      "base_points": 60.0,
+      "rules": [
+        "Dark Vitality",
+        "Indomitable (1)",
+        "Necromantic Undead",
+        "Regeneration (5+)",
+        "Lore Of Undeath"
+      ],
+      "models": [
+        {
+          "name": "Necromantic Acolyte",
+          "stats": {
+            "M": "4",
+            "WS": "3",
+            "BS": "3",
+            "S": "3",
+            "T": "3",
+            "W": "2",
+            "I": "3",
+            "A": "1",
+            "LD": "7",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry (Character)"
+          },
+          "cost": 60.0,
+          "rules": [
+            "Dark Vitality",
+            "Indomitable (1)",
+            "Necromantic Undead",
+            "Regeneration (5+)",
+            "Lore Of Undeath"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Necromantic Acolyte on Mortis Engine",
+          "stats": {
+            "M": "4",
+            "WS": "3",
+            "BS": "3",
+            "S": "3",
+            "T": "5",
+            "W": "5",
+            "I": "3",
+            "A": "1",
+            "LD": "7",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry (Character)"
+          },
+          "cost": 255.0,
+          "rules": [
+            "Necromantic Undead",
+            "Dark Vitality",
+            "Close Order",
+            "Large Target",
+            "Regeneration (6+)",
+            "Random Attacks",
+            "Regeneration (5+)",
+            "Lore Of Undeath",
+            "First Charge",
+            "Indomitable (1)",
+            "Impact Hits (X)",
+            "Wailing Dirge",
+            "Fly (X)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "VC - The Flayed Hauberk",
+          "cost": 35.0,
+          "is_default": false
+        },
+        {
+          "name": "Level 2 Wizard",
+          "cost": 30.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Master Necromancer",
+      "category": "Characters",
+      "base_points": 130.0,
+      "rules": [
+        "Dark Vitality",
+        "Indomitable (1)",
+        "Necromantic Undead",
+        "Regeneration (5+)",
+        "Lore Of Undeath"
+      ],
+      "models": [
+        {
+          "name": "Master Necromancer",
+          "stats": {
+            "M": "4",
+            "WS": "3",
+            "BS": "3",
+            "S": "3",
+            "T": "4",
+            "W": "3",
+            "I": "3",
+            "A": "2",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry (Character)"
+          },
+          "cost": 130.0,
+          "rules": [
+            "Dark Vitality",
+            "Indomitable (1)",
+            "Necromantic Undead",
+            "Regeneration (5+)",
+            "Lore Of Undeath"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Master Necromancer on Mortis Engine",
+          "stats": {
+            "M": "4",
+            "WS": "3",
+            "BS": "3",
+            "S": "3",
+            "T": "5",
+            "W": "5",
+            "I": "3",
+            "A": "2",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry (Character)"
+          },
+          "cost": 325.0,
+          "rules": [
+            "Necromantic Undead",
+            "Dark Vitality",
+            "Close Order",
+            "Large Target",
+            "Regeneration (6+)",
+            "Random Attacks",
+            "Regeneration (5+)",
+            "Lore Of Undeath",
+            "First Charge",
+            "Indomitable (1)",
+            "Impact Hits (X)",
+            "Wailing Dirge",
+            "Fly (X)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Master Necromancer on Abyssal Terror",
+          "stats": {
+            "M": "6",
+            "WS": "3",
+            "BS": "3",
+            "S": "3",
+            "T": "5",
+            "W": "7",
+            "I": "3",
+            "A": "2",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry (Character)"
+          },
+          "cost": 250.0,
+          "rules": [
+            "Necromantic Undead",
+            "Dark Vitality",
+            "Close Order",
+            "Large Target",
+            "Terror",
+            "Stomp Attacks (X)",
+            "Regeneration (5+)",
+            "Swiftstride",
+            "Lore Of Undeath",
+            "Indomitable (1)",
+            "Fly (X)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Wicked Claws",
+            "Poisonous Tail"
+          ]
+        },
+        {
+          "name": "Master Necromancer on Zombie Dragon",
+          "stats": {
+            "M": "6",
+            "WS": "3",
+            "BS": "3",
+            "S": "3",
+            "T": "5",
+            "W": "8",
+            "I": "3",
+            "A": "2",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry (Character)"
+          },
+          "cost": 345.0,
+          "rules": [
+            "Necromantic Undead",
+            "Dark Vitality",
+            "Close Order",
+            "Large Target",
+            "Terror",
+            "Stomp Attacks (X)",
+            "Regeneration (5+)",
+            "Swiftstride",
+            "Lore Of Undeath",
+            "Indomitable (1)",
+            "Fly (10)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Wicked Claws",
+            "Pestilential Breath"
+          ]
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "VC - The Flayed Hauberk",
+          "cost": 35.0,
+          "is_default": false
+        },
+        {
+          "name": "Level 4 Wizard",
+          "cost": 30.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Vampire Thrall",
+      "category": "Characters",
+      "base_points": 75.0,
+      "rules": [
+        "Dark Vitality",
+        "Indomitable (1)",
+        "Necromantic Undead",
+        "Flammable",
+        "Regeneration (5+)",
+        "Lore Of Undeath"
+      ],
+      "models": [
+        {
+          "name": "Vampire Thrall",
+          "stats": {
+            "M": "6",
+            "WS": "6",
+            "BS": "4",
+            "S": "5",
+            "T": "4",
+            "W": "2",
+            "I": "5",
+            "A": "3",
+            "LD": "7",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry (Character)"
+          },
+          "cost": 75.0,
+          "rules": [
+            "Dark Vitality",
+            "Indomitable (1)",
+            "Necromantic Undead",
+            "Flammable",
+            "Regeneration (5+)",
+            "Lore Of Undeath"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Vampire Thrall on Coven Throne",
+          "stats": {
+            "M": "6",
+            "WS": "6",
+            "BS": "4",
+            "S": "5",
+            "T": "5",
+            "W": "5",
+            "I": "5",
+            "A": "3",
+            "LD": "7",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry (Character)"
+          },
+          "cost": 285.0,
+          "rules": [
+            "Necromantic Undead",
+            "Dark Vitality",
+            "Close Order",
+            "Large Target",
+            "Regeneration (6+)",
+            "Random Attacks",
+            "Regeneration (5+)",
+            "Flammable",
+            "Lore Of Undeath",
+            "First Charge",
+            "Indomitable (1)",
+            "Impact Hits (X)",
+            "Fly (X)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "VC - The Flayed Hauberk",
+          "cost": 35.0,
+          "is_default": false
+        },
+        {
+          "name": "Battle Standard Bearer",
+          "cost": 25.0,
+          "is_default": false
+        },
+        {
+          "name": "Level 1 Wizard",
+          "cost": 30.0,
+          "is_default": false
+        },
+        {
+          "name": "Additional Hand Weapon",
+          "cost": 3.0,
+          "is_default": false
+        },
+        {
+          "name": "Great Weapon",
+          "cost": 4.0,
+          "is_default": false
+        },
+        {
+          "name": "Lance",
+          "cost": 4.0,
+          "is_default": false
+        },
+        {
+          "name": "Armour",
+          "cost": 0.0,
+          "is_default": false
+        },
+        {
+          "name": "Light Armour",
+          "cost": 3.0,
+          "is_default": false
+        },
+        {
+          "name": "Heavy Armour",
+          "cost": 6.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Vampire Count",
+      "category": "Characters",
+      "base_points": 160.0,
+      "rules": [
+        "Dark Vitality",
+        "Indomitable (2)",
+        "Necromantic Undead",
+        "Flammable",
+        "Regeneration (5+)",
+        "Lore Of Undeath"
+      ],
+      "models": [
+        {
+          "name": "Vampire Count",
+          "stats": {
+            "M": "6",
+            "WS": "7",
+            "BS": "5",
+            "S": "5",
+            "T": "5",
+            "W": "3",
+            "I": "6",
+            "A": "4",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry (Character)"
+          },
+          "cost": 160.0,
+          "rules": [
+            "Dark Vitality",
+            "Indomitable (2)",
+            "Necromantic Undead",
+            "Flammable",
+            "Regeneration (5+)",
+            "Lore Of Undeath"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Vampire Count on Zombie Dragon",
+          "stats": {
+            "M": "6",
+            "WS": "7",
+            "BS": "5",
+            "S": "5",
+            "T": "6",
+            "W": "8",
+            "I": "6",
+            "A": "4",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry (Character)"
+          },
+          "cost": 375.0,
+          "rules": [
+            "Necromantic Undead",
+            "Dark Vitality",
+            "Close Order",
+            "Large Target",
+            "Terror",
+            "Stomp Attacks (X)",
+            "Regeneration (5+)",
+            "Flammable",
+            "Swiftstride",
+            "Lore Of Undeath",
+            "Indomitable (2)",
+            "Fly (10)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Wicked Claws",
+            "Pestilential Breath"
+          ]
+        },
+        {
+          "name": "Vampire Count on Abyssal Terror",
+          "stats": {
+            "M": "6",
+            "WS": "7",
+            "BS": "5",
+            "S": "5",
+            "T": "6",
+            "W": "7",
+            "I": "6",
+            "A": "4",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry (Character)"
+          },
+          "cost": 280.0,
+          "rules": [
+            "Necromantic Undead",
+            "Dark Vitality",
+            "Close Order",
+            "Large Target",
+            "Terror",
+            "Stomp Attacks (X)",
+            "Regeneration (5+)",
+            "Flammable",
+            "Swiftstride",
+            "Lore Of Undeath",
+            "Indomitable (2)",
+            "Fly (X)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Wicked Claws",
+            "Poisonous Tail"
+          ]
+        },
+        {
+          "name": "Vampire Count on Coven Throne",
+          "stats": {
+            "M": "6",
+            "WS": "7",
+            "BS": "5",
+            "S": "5",
+            "T": "5",
+            "W": "5",
+            "I": "6",
+            "A": "4",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry (Character)"
+          },
+          "cost": 370.0,
+          "rules": [
+            "Necromantic Undead",
+            "Dark Vitality",
+            "Close Order",
+            "Large Target",
+            "Random Attacks",
+            "Regeneration (5+)",
+            "Flammable",
+            "Lore Of Undeath",
+            "First Charge",
+            "Regeneration (6+)",
+            "Impact Hits (X)",
+            "Indomitable (2)",
+            "Fly (X)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "VC - The Flayed Hauberk",
+          "cost": 35.0,
+          "is_default": false
+        },
+        {
+          "name": "Level 1 Wizard",
+          "cost": 30.0,
+          "is_default": false
+        },
+        {
+          "name": "Level 2 Wizard",
+          "cost": 60.0,
+          "is_default": false
+        },
+        {
+          "name": "Additional Hand Weapon",
+          "cost": 3.0,
+          "is_default": false
+        },
+        {
+          "name": "Great Weapon",
+          "cost": 4.0,
+          "is_default": false
+        },
+        {
+          "name": "Lance",
+          "cost": 4.0,
+          "is_default": false
+        },
+        {
+          "name": "Armour",
+          "cost": 0.0,
+          "is_default": false
+        },
+        {
+          "name": "Light Armour",
+          "cost": 3.0,
+          "is_default": false
+        },
+        {
+          "name": "Heavy Armour",
+          "cost": 6.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Vargheists",
+      "category": "Special",
+      "base_points": 0.0,
+      "rules": [
+        "Dark Vitality",
+        "Necromantic Undead",
+        "Regeneration (6+)",
+        "Indomitable (1)",
+        "Skirmishers",
+        "Armor Bane (X)",
+        "Flammable",
+        "Frenzy"
+      ],
+      "models": [
+        {
+          "name": "Vargheists",
+          "stats": {
+            "M": "6",
+            "WS": "4",
+            "BS": "0",
+            "S": "5",
+            "T": "4",
+            "W": "3",
+            "I": "4",
+            "A": "3",
+            "LD": "7",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Monsterous Infantry"
+          },
+          "cost": 61.0,
+          "rules": [
+            "Necromantic Undead",
+            "Dark Vitality",
+            "Indomitable (1)",
+            "Skirmishers",
+            "Armor Bane (X)",
+            "Flammable",
+            "Frenzy",
+            "Regeneration (6+)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Wicked Claws"
+          ]
+        },
+        {
+          "name": "Champion",
+          "stats": {
+            "M": "6",
+            "WS": "4",
+            "BS": "0",
+            "S": "5",
+            "T": "4",
+            "W": "3",
+            "I": "4",
+            "A": "4",
+            "LD": "7",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Monsterous Infantry"
+          },
+          "cost": 68.0,
+          "rules": [
+            "Necromantic Undead",
+            "Dark Vitality",
+            "Indomitable (1)",
+            "Skirmishers",
+            "Armor Bane (X)",
+            "Flammable",
+            "Frenzy",
+            "Regeneration (6+)"
+          ],
+          "role": "champion",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": []
+    }
+  ]
+}

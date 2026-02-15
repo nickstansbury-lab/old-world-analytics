@@ -1,0 +1,296 @@
+import xml.etree.ElementTree as ET
+import json
+import os
+import glob
+import re
+
+# =================================================================
+# 1. SET YOUR PATHS HERE
+# =================================================================
+CAT_PATH = r'PATH_TO_YOUR_CAT_FILES' 
+JSON_PATH = r'PATH_TO_SAVE_JSON_FILES'
+
+os.makedirs(JSON_PATH, exist_ok=True)
+
+SLOT_MAP = {
+    "3a6e-bd50-9282-4281": "Core",
+    "f2ef-b3e4-02b2-0e8b": "Special",
+    "41ac-8b29-caf2-1245": "Rare",
+    "a34a-cb0b-08bf-c571": "Characters"
+}
+
+def parse_stat_value(val_str):
+    if not val_str: return 0, False
+    val_str = str(val_str).strip()
+    match = re.search(r'\(\s*\+\s*(\d+)\s*\)', val_str)
+    if match: return int(match.group(1)), True
+    num_match = re.search(r'(\d+)', val_str)
+    if num_match: return int(num_match.group(1)), False
+    return 0, False
+
+def parse_warhammer_cat_production(file_path):
+    tree = ET.parse(file_path)
+    root = tree.getroot()
+    ns = {'bs': 'http://www.battlescribe.net/schema/catalogueSchema'}
+    
+    # 1. Map all Shared Entries for quick lookup
+    shared_entries = {se.get("id"): se for se in root.findall(".//bs:sharedSelectionEntries/bs:selectionEntry", ns)}
+    shared_profiles = {p.get("id"): p for p in root.findall(".//bs:sharedProfiles/bs:profile", ns)}
+    
+    faction_name = root.get("name")
+    
+    def get_stats(profile_el):
+        return {c.get("name"): (c.text if c.text else "") for c in profile_el.findall("./bs:characteristics/bs:characteristic", ns)}
+
+    def resolve_link(link_el):
+        """Resolves an entryLink to its actual selectionEntry."""
+        tid = link_el.get("targetId")
+        if tid in shared_entries:
+            return shared_entries[tid]
+        return None
+
+    def extract_profiles_from_entry(entry):
+        """Finds all profiles (Models, Weapons, Armour) directly in an entry or its links."""
+        profiles = []
+        # Direct profiles
+        for p in entry.findall(".//bs:profile", ns):
+            profiles.append({"name": p.get("name"), "type": p.get("typeName"), "stats": get_stats(p)})
+        # Linked profiles
+        for il in entry.findall(".//bs:infoLink[@type='profile']", ns):
+            tid = il.get("targetId")
+            if tid in shared_profiles:
+                p = shared_profiles[tid]
+                profiles.append({"name": p.get("name"), "type": p.get("typeName"), "stats": get_stats(p)})
+        return profiles
+
+    # =================================================================
+    # UNIT PROCESSING LOOP
+    # =================================================================
+    units_data = []
+    
+    # We iterate ONLY through top-level Units to prevent recursion madness
+    for unit_entry in root.findall("./bs:selectionEntries/bs:selectionEntry[@type='unit']", ns):
+        unit_name = unit_entry.get("name")
+        unit_data = {
+            "name": unit_name, 
+            "category": "Unknown", 
+            "base_points": 0.0,
+            "rules": [], 
+            "models": [], 
+            "upgrades": []
+        }
+
+        # 1. Determine Category
+        for link in unit_entry.findall("./bs:categoryLinks/bs:categoryLink", ns):
+            if link.get("targetId") in SLOT_MAP:
+                unit_data["category"] = SLOT_MAP[link.get("targetId")]
+        
+        # 2. Base Points
+        cost_el = unit_entry.find("./bs:costs/bs:cost[@name='pts']", ns)
+        if cost_el is not None: 
+            unit_data["base_points"] = float(cost_el.get('value', 0))
+
+        # 3. Innate Rules & Default Equipment (Direct Links)
+        # Rules
+        for link in unit_entry.findall("./bs:infoLinks/bs:infoLink[@type='rule']", ns):
+            unit_data["rules"].append(link.get("name"))
+        
+        # Default Equipment (e.g., Chaos Armour, Hand Weapon)
+        unit_default_equip = []
+        for link in unit_entry.findall("./bs:infoLinks/bs:infoLink[@type='profile']", ns):
+            # We assume profiles linked directly to the unit are standard kit
+            unit_default_equip.append(link.get("name"))
+            
+        # 4. Find the Pilot (The Character Model)
+        pilot_model = None
+        pilot_profiles = extract_profiles_from_entry(unit_entry)
+        
+        # Look for the profile that matches the unit name, or is a "Character" type
+        for p in pilot_profiles:
+            if p['type'] == 'Model':
+                pilot_model = p
+                break 
+        
+        # If no pilot found directly, check direct children (rare, but happens)
+        if not pilot_model:
+            for child in unit_entry.findall("./bs:selectionEntries/bs:selectionEntry", ns):
+                 child_profiles = extract_profiles_from_entry(child)
+                 for p in child_profiles:
+                     if p['type'] == 'Model':
+                         pilot_model = p
+                         break
+                 if pilot_model: break
+
+        # 5. MOUNT PROCESSING (Only for Characters)
+        mounts_found = []
+        if unit_data["category"] == "Characters" and pilot_model:
+            # Look for a Group called "Mount" or "Mounts"
+            mount_group = None
+            for group in unit_entry.findall("./bs:selectionEntryGroups/bs:selectionEntryGroup", ns):
+                if "mount" in group.get("name").lower():
+                    mount_group = group
+                    break
+            
+            if mount_group:
+                # Iterate through options in the mount group
+                # We look at LINKS (entryLink) and ENTRIES (selectionEntry)
+                potential_mounts = mount_group.findall("./bs:entryLinks/bs:entryLink", ns) + \
+                                   mount_group.findall("./bs:selectionEntries/bs:selectionEntry", ns)
+                
+                for pm in potential_mounts:
+                    # Resolve if it's a link
+                    mount_entry = resolve_link(pm) if pm.tag.endswith("entryLink") else pm
+                    if not mount_entry: continue
+                    
+                    # Extract Mount Stats & Rules
+                    m_profiles = extract_profiles_from_entry(mount_entry)
+                    m_model = next((p for p in m_profiles if p['type'] == 'Model'), None)
+                    
+                    if m_model:
+                        # Extract Mount Rules & Equipment
+                        m_rules = [l.get("name") for l in mount_entry.findall(".//bs:infoLink[@type='rule']", ns)]
+                        m_equip = [p['name'] for p in m_profiles if p['type'] in ['Weapon', 'Armour']]
+                        m_cost = float(mount_entry.find(".//bs:costs/bs:cost[@name='pts']", ns).get('value', 0)) if mount_entry.find(".//bs:costs/bs:cost[@name='pts']", ns) is not None else 0.0
+                        
+                        mounts_found.append({
+                            "name": mount_entry.get("name"),
+                            "stats": m_model["stats"],
+                            "rules": m_rules,
+                            "equipment": m_equip,
+                            "cost": m_cost
+                        })
+
+        # 6. UPGRADE PROCESSING (Iterate everything else)
+        # We recursively look for upgrades, but we SKIP the mount group we just processed
+        def extract_upgrades_recursive(element):
+            # If this is the Mount group, skip it
+            if element.get("name") and "mount" in element.get("name").lower(): return
+
+            # If it's a Selection Entry
+            if element.tag.endswith("selectionEntry"):
+                cost = float(element.find(".//bs:costs/bs:cost[@name='pts']", ns).get('value', 0)) if element.find(".//bs:costs/bs:cost[@name='pts']", ns) is not None else 0.0
+                name = element.get("name")
+                
+                # Is it an upgrade? (Not a model, or is a Magic Item/Option)
+                # We check constraints
+                min_val = 0
+                const = element.find("./bs:constraints/bs:constraint[@type='min']", ns)
+                if const is not None: min_val = float(const.get("value", 0))
+                
+                # Check for "Mark of" to force optional
+                is_mark = "mark of" in name.lower()
+                is_default = (min_val >= 1) and not is_mark
+
+                if cost > 0 or is_default or "weapon" in name.lower() or "banner" in name.lower() or "shield" in name.lower():
+                     unit_data["upgrades"].append({
+                        "name": name,
+                        "cost": cost,
+                        "is_default": is_default
+                     })
+
+            # Recurse
+            for child in element.findall("./bs:selectionEntries/bs:selectionEntry", ns) + \
+                         element.findall("./bs:selectionEntryGroups/bs:selectionEntryGroup", ns) + \
+                         element.findall("./bs:entryLinks/bs:entryLink", ns):
+                extract_upgrades_recursive(child)
+
+        extract_upgrades_recursive(unit_entry)
+
+        # 7. GENERATE FINAL MODEL ENTRIES
+        # Case A: Character Pilot
+        if pilot_model:
+            # 1. Pilot on Foot (Base)
+            pilot_stats = pilot_model["stats"]
+            pilot_cost = unit_data["base_points"] # Pilot cost is usually unit base
+            
+            # Add Pilot Default Equipment (found on Unit)
+            full_equip_list = unit_default_equip.copy()
+            
+            unit_data["models"].append({
+                "name": unit_name,
+                "stats": pilot_stats,
+                "cost": pilot_cost,
+                "rules": unit_data["rules"],
+                "role": "rank_and_file",
+                "default_weapons": full_equip_list
+            })
+
+            # 2. Pilot on Mounts
+            for mount in mounts_found:
+                combined_stats = pilot_stats.copy()
+                
+                # Merge Stats
+                for stat in ["M", "WS", "BS", "S", "T", "W", "I", "A", "LD"]:
+                    p_val, p_mod = parse_stat_value(pilot_stats.get(stat, ""))
+                    m_val, m_mod = parse_stat_value(mount["stats"].get(stat, ""))
+                    
+                    if stat in ["T", "W"]:
+                        if m_mod: combined_stats[stat] = str(p_val + m_val) # (+1)
+                        elif m_val > 0: combined_stats[stat] = str(max(p_val, m_val)) # Replacement
+                    elif stat == "M" and m_val > 0:
+                        combined_stats["M"] = mount["stats"]["M"]
+                
+                # Merge Rules & Fix Fly
+                final_rules = list(set(unit_data["rules"] + mount["rules"]))
+                
+                # Fix Fly (10) using Mount's Type/Stats
+                if "Fly (X)" in final_rules or any("Fly" in r for r in mount["rules"]):
+                    # Look for Fly value in mount stats
+                    type_str = mount["stats"].get("Type", "")
+                    fly_match = re.search(r'Fly\s*\((\d+)\)', type_str)
+                    if fly_match:
+                        final_rules = [r for r in final_rules if "Fly" not in r] # Remove generic
+                        final_rules.append(f"Fly ({fly_match.group(1)})")
+                    elif "Dragon" in mount["name"]: # Hardcode fallback for Dragons
+                         final_rules = [r for r in final_rules if "Fly" not in r]
+                         final_rules.append("Fly (10)")
+
+                # Merge Equipment (Pilot + Mount)
+                combined_equip = full_equip_list + mount["equipment"]
+
+                unit_data["models"].append({
+                    "name": f"{unit_name} on {mount['name']}",
+                    "stats": combined_stats,
+                    "cost": pilot_cost + mount["cost"],
+                    "rules": final_rules,
+                    "role": "rank_and_file",
+                    "default_weapons": combined_equip
+                })
+        
+        # Case B: Standard Unit (No Pilot Logic, just Models)
+        else:
+            # Just extract all models found in the unit
+            unit_models = extract_profiles_from_entry(unit_entry)
+            for m in unit_models:
+                if m['type'] == 'Model':
+                    unit_data["models"].append({
+                        "name": m["name"],
+                        "stats": m["stats"],
+                        "cost": unit_data["base_points"], # Often 0 for multi-model units
+                        "rules": unit_data["rules"],
+                        "role": "rank_and_file",
+                        "default_weapons": unit_default_equip
+                    })
+
+        # Cleanup Upgrades (Dedupe)
+        seen = set()
+        clean_up = []
+        for u in unit_data["upgrades"]:
+            if u["name"] not in seen and u["name"] != unit_name:
+                clean_up.append(u)
+                seen.add(u["name"])
+        unit_data["upgrades"] = clean_up
+        
+        units_data.append(unit_data)
+
+    return {"faction_name": faction_name, "units": units_data}
+
+# EXECUTION
+cat_files = glob.glob(os.path.join(CAT_PATH, "*.cat"))
+for cat_file in cat_files:
+    print(f"Processing {os.path.basename(cat_file)}...")
+    output = parse_warhammer_cat_production(cat_file)
+    with open(os.path.join(JSON_PATH, os.path.basename(cat_file).replace('.cat', '.json')), "w") as f:
+        json.dump(output, f, indent=2)
+
+print("✅ DONE. Check your JSON files.")

@@ -1,0 +1,2585 @@
+{
+  "faction_name": "Kingdom Of Bretonnia",
+  "units": [
+    {
+      "name": "Duke",
+      "category": "Characters",
+      "base_points": 175.0,
+      "rules": [
+        "Blessings Of The Lady",
+        "Rallying Cry",
+        "The Grail Vow"
+      ],
+      "models": [
+        {
+          "name": "Duke",
+          "stats": {
+            "M": "4",
+            "WS": "7",
+            "BS": "3",
+            "S": "5",
+            "T": "4",
+            "W": "4",
+            "I": "5",
+            "A": "5",
+            "LD": "9",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry (Character)"
+          },
+          "cost": 175.0,
+          "rules": [
+            "Blessings Of The Lady",
+            "Rallying Cry",
+            "The Grail Vow"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Duke on Bretonnian Warhorse",
+          "stats": {
+            "M": "8",
+            "WS": "7",
+            "BS": "3",
+            "S": "5",
+            "T": "4",
+            "W": "4",
+            "I": "5",
+            "A": "5",
+            "LD": "9",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry (Character)"
+          },
+          "cost": 191.0,
+          "rules": [
+            "Blessings Of The Lady",
+            "Counter Charge",
+            "Swiftstride",
+            "Finest Warhorses",
+            "First Charge",
+            "The Grail Vow",
+            "Rallying Cry"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Duke on Barded Pegasus",
+          "stats": {
+            "M": "7",
+            "WS": "7",
+            "BS": "3",
+            "S": "5",
+            "T": "4",
+            "W": "5",
+            "I": "5",
+            "A": "5",
+            "LD": "9",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry (Character)"
+          },
+          "cost": 205.0,
+          "rules": [
+            "Blessings Of The Lady",
+            "Counter Charge",
+            "Swiftstride",
+            "First Charge",
+            "The Grail Vow",
+            "Rallying Cry",
+            "Fly (X)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Duke on Royal Pegasus",
+          "stats": {
+            "M": "8",
+            "WS": "7",
+            "BS": "3",
+            "S": "5",
+            "T": "5",
+            "W": "5",
+            "I": "5",
+            "A": "5",
+            "LD": "9",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry (Character)"
+          },
+          "cost": 245.0,
+          "rules": [
+            "Blessings Of The Lady",
+            "Stomp Attacks (X)",
+            "Counter Charge",
+            "Armor Bane (X)",
+            "Swiftstride",
+            "First Charge",
+            "The Grail Vow",
+            "Rallying Cry",
+            "Fly (X)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Duke on Hippogryph",
+          "stats": {
+            "M": "7",
+            "WS": "7",
+            "BS": "3",
+            "S": "5",
+            "T": "5",
+            "W": "7",
+            "I": "5",
+            "A": "5",
+            "LD": "9",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry (Character)"
+          },
+          "cost": 295.0,
+          "rules": [
+            "Blessings Of The Lady",
+            "Close Order",
+            "Large Target",
+            "Terror",
+            "Stomp Attacks (X)",
+            "Counter Charge",
+            "Swiftstride",
+            "The Grail Vow",
+            "Rallying Cry",
+            "Fly (X)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Serrated Maw",
+            "Wicked claws"
+          ]
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Shield",
+          "cost": 2.0,
+          "is_default": false
+        },
+        {
+          "name": "Morning Star",
+          "cost": 3.0,
+          "is_default": false
+        },
+        {
+          "name": "Great Weapon",
+          "cost": 4.0,
+          "is_default": false
+        },
+        {
+          "name": "Lance",
+          "cost": 4.0,
+          "is_default": false
+        },
+        {
+          "name": "Barding",
+          "cost": 15.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Baron",
+      "category": "Characters",
+      "base_points": 100.0,
+      "rules": [
+        "Blessings Of The Lady",
+        "Rallying Cry",
+        "The Knight's Vow"
+      ],
+      "models": [
+        {
+          "name": "Baron",
+          "stats": {
+            "M": "4",
+            "WS": "6",
+            "BS": "3",
+            "S": "4",
+            "T": "4",
+            "W": "3",
+            "I": "5",
+            "A": "4",
+            "LD": "9",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry (Character)"
+          },
+          "cost": 100.0,
+          "rules": [
+            "Blessings Of The Lady",
+            "Rallying Cry",
+            "The Knight's Vow"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Baron on Bretonnian Warhorse",
+          "stats": {
+            "M": "8",
+            "WS": "6",
+            "BS": "3",
+            "S": "4",
+            "T": "4",
+            "W": "3",
+            "I": "5",
+            "A": "4",
+            "LD": "9",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry (Character)"
+          },
+          "cost": 116.0,
+          "rules": [
+            "Blessings Of The Lady",
+            "Counter Charge",
+            "Swiftstride",
+            "The Knight's Vow",
+            "Finest Warhorses",
+            "First Charge",
+            "Rallying Cry"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Baron on Barded Pegasus",
+          "stats": {
+            "M": "7",
+            "WS": "6",
+            "BS": "3",
+            "S": "4",
+            "T": "4",
+            "W": "4",
+            "I": "5",
+            "A": "4",
+            "LD": "9",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry (Character)"
+          },
+          "cost": 130.0,
+          "rules": [
+            "Blessings Of The Lady",
+            "Counter Charge",
+            "Swiftstride",
+            "The Knight's Vow",
+            "First Charge",
+            "Rallying Cry",
+            "Fly (X)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Baron on Royal Pegasus",
+          "stats": {
+            "M": "8",
+            "WS": "6",
+            "BS": "3",
+            "S": "4",
+            "T": "5",
+            "W": "4",
+            "I": "5",
+            "A": "4",
+            "LD": "9",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry (Character)"
+          },
+          "cost": 170.0,
+          "rules": [
+            "Blessings Of The Lady",
+            "Stomp Attacks (X)",
+            "Counter Charge",
+            "Armor Bane (X)",
+            "Swiftstride",
+            "The Knight's Vow",
+            "First Charge",
+            "Rallying Cry",
+            "Fly (X)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Baron on Hippogryph",
+          "stats": {
+            "M": "7",
+            "WS": "6",
+            "BS": "3",
+            "S": "4",
+            "T": "5",
+            "W": "6",
+            "I": "5",
+            "A": "4",
+            "LD": "9",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry (Character)"
+          },
+          "cost": 220.0,
+          "rules": [
+            "Blessings Of The Lady",
+            "Close Order",
+            "Large Target",
+            "Terror",
+            "Stomp Attacks (X)",
+            "Counter Charge",
+            "Swiftstride",
+            "The Knight's Vow",
+            "Rallying Cry",
+            "Fly (X)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Serrated Maw",
+            "Wicked claws"
+          ]
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Shield",
+          "cost": 2.0,
+          "is_default": false
+        },
+        {
+          "name": "Morning Star",
+          "cost": 3.0,
+          "is_default": false
+        },
+        {
+          "name": "Great Weapon",
+          "cost": 4.0,
+          "is_default": false
+        },
+        {
+          "name": "Lance",
+          "cost": 4.0,
+          "is_default": false
+        },
+        {
+          "name": "Barding",
+          "cost": 15.0,
+          "is_default": false
+        },
+        {
+          "name": "The Questing Vow",
+          "cost": 15.0,
+          "is_default": false
+        },
+        {
+          "name": "The Grail Vow",
+          "cost": 20.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Paladin",
+      "category": "Characters",
+      "base_points": 60.0,
+      "rules": [
+        "Blessings Of The Lady",
+        "Rallying Cry",
+        "The Knight's Vow"
+      ],
+      "models": [
+        {
+          "name": "Paladin",
+          "stats": {
+            "M": "4",
+            "WS": "6",
+            "BS": "3",
+            "S": "4",
+            "T": "4",
+            "W": "2",
+            "I": "4",
+            "A": "3",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry (Character)"
+          },
+          "cost": 60.0,
+          "rules": [
+            "Blessings Of The Lady",
+            "Rallying Cry",
+            "The Knight's Vow"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Paladin on Bretonnian Warhorse",
+          "stats": {
+            "M": "8",
+            "WS": "6",
+            "BS": "3",
+            "S": "4",
+            "T": "4",
+            "W": "2",
+            "I": "4",
+            "A": "3",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry (Character)"
+          },
+          "cost": 76.0,
+          "rules": [
+            "Blessings Of The Lady",
+            "Counter Charge",
+            "Swiftstride",
+            "The Knight's Vow",
+            "Finest Warhorses",
+            "First Charge",
+            "Rallying Cry"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Paladin on Barded Pegasus",
+          "stats": {
+            "M": "7",
+            "WS": "6",
+            "BS": "3",
+            "S": "4",
+            "T": "4",
+            "W": "3",
+            "I": "4",
+            "A": "3",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry (Character)"
+          },
+          "cost": 90.0,
+          "rules": [
+            "Blessings Of The Lady",
+            "Counter Charge",
+            "Swiftstride",
+            "The Knight's Vow",
+            "First Charge",
+            "Rallying Cry",
+            "Fly (X)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Paladin on Royal Pegasus",
+          "stats": {
+            "M": "8",
+            "WS": "6",
+            "BS": "3",
+            "S": "4",
+            "T": "5",
+            "W": "3",
+            "I": "4",
+            "A": "3",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry (Character)"
+          },
+          "cost": 130.0,
+          "rules": [
+            "Blessings Of The Lady",
+            "Stomp Attacks (X)",
+            "Counter Charge",
+            "Armor Bane (X)",
+            "Swiftstride",
+            "The Knight's Vow",
+            "First Charge",
+            "Rallying Cry",
+            "Fly (X)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Shield",
+          "cost": 2.0,
+          "is_default": false
+        },
+        {
+          "name": "Battle Standard Bearer",
+          "cost": 0.0,
+          "is_default": false
+        },
+        {
+          "name": "Morning Star",
+          "cost": 3.0,
+          "is_default": false
+        },
+        {
+          "name": "Great Weapon",
+          "cost": 4.0,
+          "is_default": false
+        },
+        {
+          "name": "Lance",
+          "cost": 4.0,
+          "is_default": false
+        },
+        {
+          "name": "The Questing Vow",
+          "cost": 15.0,
+          "is_default": false
+        },
+        {
+          "name": "The Grail Vow",
+          "cost": 20.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Men-At-Arms",
+      "category": "Core",
+      "base_points": 0.0,
+      "rules": [
+        "Close Order",
+        "Horde",
+        "Levies",
+        "Peasantry",
+        "Shieldwall",
+        "Warband"
+      ],
+      "models": [
+        {
+          "name": "Men-At-Arms",
+          "stats": {
+            "M": "4",
+            "WS": "2",
+            "BS": "2",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "3",
+            "A": "1",
+            "LD": "5",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 4.0,
+          "rules": [
+            "Close Order",
+            "Levies",
+            "Stubborn",
+            "Horde",
+            "Warband",
+            "Shieldwall",
+            "Peasantry"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Polearm - Single-handed",
+            "Polearm - Double-handed"
+          ]
+        },
+        {
+          "name": "Yeoman",
+          "stats": {
+            "M": "4",
+            "WS": "2",
+            "BS": "2",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "3",
+            "A": "2",
+            "LD": "6",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 7.0,
+          "rules": [
+            "Close Order",
+            "Levies",
+            "Horde",
+            "Warband",
+            "Shieldwall",
+            "Peasantry"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Grail Monk",
+          "stats": {
+            "M": "4",
+            "WS": "2",
+            "BS": "2",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "2",
+            "A": "2",
+            "LD": "6",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 7.0,
+          "rules": [
+            "Close Order",
+            "Levies",
+            "Stubborn",
+            "Horde",
+            "Warband",
+            "Shieldwall",
+            "Peasantry"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Blessed Triptych",
+          "cost": 25.0,
+          "is_default": false
+        },
+        {
+          "name": "Musician",
+          "cost": 5.0,
+          "is_default": false
+        },
+        {
+          "name": "Standard Bearer",
+          "cost": 5.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Peasant Bowmen",
+      "category": "Core",
+      "base_points": 0.0,
+      "rules": [
+        "Close Order",
+        "Levies",
+        "Peasantry"
+      ],
+      "models": [
+        {
+          "name": "Peasant Bowmen",
+          "stats": {
+            "M": "4",
+            "WS": "2",
+            "BS": "3",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "3",
+            "A": "1",
+            "LD": "7",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 5.0,
+          "rules": [
+            "Flaming Attacks",
+            "Close Order",
+            "Levies",
+            "Peasantry"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Champion",
+          "stats": {
+            "M": "4",
+            "WS": "2",
+            "BS": "4",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "3",
+            "A": "1",
+            "LD": "7",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 7.0,
+          "rules": [
+            "Close Order",
+            "Levies",
+            "Peasantry"
+          ],
+          "role": "champion",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Light Armor",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Burning Braziers",
+          "cost": 20.0,
+          "is_default": false
+        },
+        {
+          "name": "Defensive Stakes",
+          "cost": 10.0,
+          "is_default": false
+        },
+        {
+          "name": "Musician",
+          "cost": 5.0,
+          "is_default": false
+        },
+        {
+          "name": "Standard Bearer",
+          "cost": 5.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Mounted Knights Of The Realm",
+      "category": "Core",
+      "base_points": 0.0,
+      "rules": [
+        "Close Order",
+        "Blessings Of The Lady",
+        "Counter Charge",
+        "Finest Warhorses",
+        "First Charge",
+        "Lance Formation",
+        "Swiftstride",
+        "The Knight's Vow"
+      ],
+      "models": [
+        {
+          "name": "Mounted Knights Of The Realm",
+          "stats": {
+            "M": "-",
+            "WS": "4",
+            "BS": "2",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "3",
+            "A": "1",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Cavalry"
+          },
+          "cost": 24.0,
+          "rules": [
+            "Blessings Of The Lady",
+            "Close Order",
+            "The Crusader's Vow",
+            "Counter Charge",
+            "Lance Formation",
+            "Swiftstride",
+            "The Knight's Vow",
+            "Finest Warhorses",
+            "First Charge",
+            "The Exile's Vow"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Knight of the Realm",
+          "stats": {
+            "M": "-",
+            "WS": "4",
+            "BS": "2",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "3",
+            "A": "1",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Cavalry"
+          },
+          "cost": 24.0,
+          "rules": [
+            "Blessings Of The Lady",
+            "Close Order",
+            "Counter Charge",
+            "Lance Formation",
+            "Swiftstride",
+            "The Knight's Vow",
+            "Finest Warhorses",
+            "First Charge"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Champion",
+          "stats": {
+            "M": "-",
+            "WS": "4",
+            "BS": "2",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "3",
+            "A": "2",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Cavalry"
+          },
+          "cost": 31.0,
+          "rules": [
+            "Blessings Of The Lady",
+            "Close Order",
+            "Counter Charge",
+            "Lance Formation",
+            "Swiftstride",
+            "The Knight's Vow",
+            "Finest Warhorses",
+            "First Charge"
+          ],
+          "role": "champion",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Musician",
+          "cost": 7.0,
+          "is_default": false
+        },
+        {
+          "name": "Standard Bearer",
+          "cost": 7.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Pegasus Knights",
+      "category": "Special",
+      "base_points": 0.0,
+      "rules": [
+        "Blessings Of The Lady",
+        "First Charge",
+        "Swiftstride",
+        "The Knight's Vow",
+        "Skirmishers",
+        "Fly (10)",
+        "Furious Charge",
+        "Counter Charge"
+      ],
+      "models": [
+        {
+          "name": "Pegasus Knights",
+          "stats": {
+            "M": "-",
+            "WS": "4",
+            "BS": "2",
+            "S": "4",
+            "T": "4",
+            "W": "2",
+            "I": "3",
+            "A": "1",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Cavalry"
+          },
+          "cost": 59.0,
+          "rules": [
+            "Blessings Of The Lady",
+            "Fly (10)",
+            "The Crusader's Vow",
+            "Furious Charge",
+            "Counter Charge",
+            "Skirmishers",
+            "Swiftstride",
+            "The Knight's Vow",
+            "First Charge",
+            "The Exile's Vow"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Champion",
+          "stats": {
+            "M": "-",
+            "WS": "4",
+            "BS": "2",
+            "S": "4",
+            "T": "4",
+            "W": "2",
+            "I": "3",
+            "A": "2",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 66.0,
+          "rules": [
+            "Blessings Of The Lady",
+            "Fly (10)",
+            "Furious Charge",
+            "Counter Charge",
+            "Skirmishers",
+            "Swiftstride",
+            "The Knight's Vow",
+            "First Charge"
+          ],
+          "role": "champion",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Musician",
+          "cost": 7.0,
+          "is_default": false
+        },
+        {
+          "name": "Standard Bearer",
+          "cost": 7.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Knights Errant",
+      "category": "Core",
+      "base_points": 0.0,
+      "rules": [
+        "Close Order",
+        "Blessings Of The Lady",
+        "Finest Warhorses",
+        "First Charge",
+        "Lance Formation",
+        "Swiftstride",
+        "The Knight's Vow",
+        "Impetuous"
+      ],
+      "models": [
+        {
+          "name": "Knights Errant",
+          "stats": {
+            "M": "-",
+            "WS": "3",
+            "BS": "2",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "3",
+            "A": "1",
+            "LD": "7",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Cavalry"
+          },
+          "cost": 19.0,
+          "rules": [
+            "Blessings Of The Lady",
+            "Close Order",
+            "Impetuous",
+            "Lance Formation",
+            "Swiftstride",
+            "The Knight's Vow",
+            "Finest Warhorses",
+            "First Charge"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Champion",
+          "stats": {
+            "M": "-",
+            "WS": "3",
+            "BS": "2",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "3",
+            "A": "2",
+            "LD": "7",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 25.0,
+          "rules": [
+            "Blessings Of The Lady",
+            "Close Order",
+            "Impetuous",
+            "Lance Formation",
+            "Swiftstride",
+            "The Knight's Vow",
+            "Finest Warhorses",
+            "First Charge"
+          ],
+          "role": "champion",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Musician",
+          "cost": 6.0,
+          "is_default": false
+        },
+        {
+          "name": "Standard Bearer",
+          "cost": 6.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Knights Of The Realm On Foot",
+      "category": "Core",
+      "base_points": 0.0,
+      "rules": [
+        "Close Order",
+        "Blessings Of The Lady",
+        "Furious Charge",
+        "The Knight's Vow"
+      ],
+      "models": [
+        {
+          "name": "Knights Of The Realm On Foot",
+          "stats": {
+            "M": "4",
+            "WS": "4",
+            "BS": "2",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "3",
+            "A": "1",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Infantry"
+          },
+          "cost": 11.0,
+          "rules": [
+            "Blessings Of The Lady",
+            "Close Order",
+            "The Crusader's Vow",
+            "Furious Charge",
+            "The Knight's Vow",
+            "The Exile's Vow"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Knight of the Realm",
+          "stats": {
+            "M": "4",
+            "WS": "4",
+            "BS": "2",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "3",
+            "A": "1",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Infantry"
+          },
+          "cost": 11.0,
+          "rules": [
+            "Blessings Of The Lady",
+            "Close Order",
+            "Furious Charge",
+            "The Knight's Vow"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Champion",
+          "stats": {
+            "M": "4",
+            "WS": "4",
+            "BS": "2",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "3",
+            "A": "2",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Infantry"
+          },
+          "cost": 17.0,
+          "rules": [
+            "Blessings Of The Lady",
+            "Close Order",
+            "Furious Charge",
+            "The Knight's Vow"
+          ],
+          "role": "champion",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Great Weapons",
+          "cost": 2.0,
+          "is_default": false
+        },
+        {
+          "name": "Replace Shield with Great Weapon",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Musician",
+          "cost": 6.0,
+          "is_default": false
+        },
+        {
+          "name": "Standard Bearer",
+          "cost": 6.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "The Green Knight",
+      "category": "Characters",
+      "base_points": 275.0,
+      "rules": [
+        "Ethereal",
+        "Immune to Psychology",
+        "Loner",
+        "Move Through Cover",
+        "Rallying Cry",
+        "Terror",
+        "Unbreakable",
+        "Unstable"
+      ],
+      "models": [
+        {
+          "name": "The Green Knight",
+          "stats": {
+            "M": "-",
+            "WS": "7",
+            "BS": "3",
+            "S": "4",
+            "T": "4",
+            "W": "4",
+            "I": "6",
+            "A": "4",
+            "LD": "9",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Cavalry (Named Character)"
+          },
+          "cost": 275.0,
+          "rules": [
+            "Ethereal",
+            "Immune to Psychology",
+            "Loner",
+            "Move Through Cover",
+            "Rallying Cry",
+            "Terror",
+            "Unbreakable",
+            "Unstable"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "The Green Knight on The Green Knight",
+          "stats": {
+            "M": "-",
+            "WS": "7",
+            "BS": "3",
+            "S": "4",
+            "T": "4",
+            "W": "4",
+            "I": "6",
+            "A": "4",
+            "LD": "9",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Cavalry (Named Character)"
+          },
+          "cost": 550.0,
+          "rules": [
+            "Terror",
+            "Loner",
+            "Immune to Psychology",
+            "Unbreakable",
+            "Unstable",
+            "Move Through Cover",
+            "Ethereal",
+            "Rallying Cry"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "The Dolorous Blade - Deadly Blows",
+            "The Dolorous Blade - Rapid Strikes"
+          ]
+        }
+      ],
+      "upgrades": []
+    },
+    {
+      "name": "Squires",
+      "category": "Special",
+      "base_points": 0.0,
+      "rules": [
+        "Move Through Cover",
+        "Open Order",
+        "Peasantry",
+        "Skirmishers",
+        "Vanguard"
+      ],
+      "models": [
+        {
+          "name": "Squires",
+          "stats": {
+            "M": "4",
+            "WS": "3",
+            "BS": "3",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "3",
+            "A": "1",
+            "LD": "7",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 7.0,
+          "rules": [
+            "Vanguard",
+            "Open Order",
+            "Skirmishers",
+            "Scouts",
+            "Fire & Flee",
+            "Move Through Cover",
+            "Peasantry"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Champion",
+          "stats": {
+            "M": "4",
+            "WS": "3",
+            "BS": "4",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "3",
+            "A": "2",
+            "LD": "7",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 7.0,
+          "rules": [
+            "Vanguard",
+            "Open Order",
+            "Skirmishers",
+            "Move Through Cover",
+            "Peasantry"
+          ],
+          "role": "champion",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Scouts",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Fire & Flee",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Musician",
+          "cost": 5.0,
+          "is_default": false
+        },
+        {
+          "name": "Standard Bearer",
+          "cost": 5.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Battle Pilgrims",
+      "category": "Special",
+      "base_points": 0.0,
+      "rules": [
+        "Peasantry",
+        "Close Order",
+        "Hatred (all enemies)",
+        "Levies",
+        "Stubborn"
+      ],
+      "models": [
+        {
+          "name": "Battle Pilgrims",
+          "stats": {
+            "M": "4",
+            "WS": "2",
+            "BS": "2",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "3",
+            "A": "1",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Infantry"
+          },
+          "cost": 8.0,
+          "rules": [
+            "Hatred (all enemies)",
+            "Close Order",
+            "Levies",
+            "Blessings Of The Lady",
+            "Stubborn",
+            "Peasantry"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Grail Reliquae",
+          "stats": {
+            "M": "4",
+            "WS": "2",
+            "BS": "2",
+            "S": "3",
+            "T": "3",
+            "W": "6",
+            "I": "3",
+            "A": "6",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": ""
+          },
+          "cost": 65.0,
+          "rules": [
+            "Hatred (all enemies)",
+            "Close Order",
+            "Levies",
+            "Blessings Of The Lady",
+            "Stubborn",
+            "Peasantry"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": []
+    },
+    {
+      "name": "Questing Knights",
+      "category": "Special",
+      "base_points": 0.0,
+      "rules": [
+        "Close Order",
+        "Blessings Of The Lady",
+        "Finest Warhorses",
+        "First Charge",
+        "Lance Formation",
+        "Swiftstride",
+        "The Questing Vow"
+      ],
+      "models": [
+        {
+          "name": "Questing Knights",
+          "stats": {
+            "M": "-",
+            "WS": "5",
+            "BS": "2",
+            "S": "4",
+            "T": "3",
+            "W": "1",
+            "I": "4",
+            "A": "1",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Cavalry"
+          },
+          "cost": 26.0,
+          "rules": [
+            "Blessings Of The Lady",
+            "Close Order",
+            "The Questing Vow",
+            "Lance Formation",
+            "Swiftstride",
+            "Finest Warhorses",
+            "First Charge"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Champion",
+          "stats": {
+            "M": "-",
+            "WS": "5",
+            "BS": "2",
+            "S": "4",
+            "T": "3",
+            "W": "1",
+            "I": "4",
+            "A": "2",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Cavalry"
+          },
+          "cost": 33.0,
+          "rules": [
+            "Blessings Of The Lady",
+            "Close Order",
+            "The Questing Vow",
+            "Lance Formation",
+            "Swiftstride",
+            "Finest Warhorses",
+            "First Charge"
+          ],
+          "role": "champion",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Musician",
+          "cost": 7.0,
+          "is_default": false
+        },
+        {
+          "name": "Standard Bearer",
+          "cost": 7.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Grail Knights",
+      "category": "Rare",
+      "base_points": 0.0,
+      "rules": [
+        "Close Order",
+        "Blessings Of The Lady",
+        "Finest Warhorses",
+        "First Charge",
+        "Lance Formation",
+        "Swiftstride",
+        "Counter Charge",
+        "The Grail Vow"
+      ],
+      "models": [
+        {
+          "name": "Grail Knights",
+          "stats": {
+            "M": "-",
+            "WS": "6",
+            "BS": "2",
+            "S": "4",
+            "T": "4",
+            "W": "1",
+            "I": "5",
+            "A": "2",
+            "LD": "9",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Cavalry"
+          },
+          "cost": 38.0,
+          "rules": [
+            "Blessings Of The Lady",
+            "Close Order",
+            "Counter Charge",
+            "Lance Formation",
+            "Swiftstride",
+            "Finest Warhorses",
+            "First Charge",
+            "The Grail Vow"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Champion",
+          "stats": {
+            "M": "-",
+            "WS": "6",
+            "BS": "2",
+            "S": "4",
+            "T": "4",
+            "W": "1",
+            "I": "5",
+            "A": "3",
+            "LD": "9",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Cavalry"
+          },
+          "cost": 45.0,
+          "rules": [
+            "Blessings Of The Lady",
+            "Close Order",
+            "Counter Charge",
+            "Lance Formation",
+            "Swiftstride",
+            "Finest Warhorses",
+            "First Charge",
+            "The Grail Vow"
+          ],
+          "role": "champion",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Musician",
+          "cost": 7.0,
+          "is_default": false
+        },
+        {
+          "name": "Standard Bearer",
+          "cost": 7.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Mounted Yeomen",
+      "category": "Special",
+      "base_points": 0.0,
+      "rules": [
+        "Swiftstride",
+        "Fast Cavalry",
+        "Fire & Flee",
+        "Levies",
+        "Open Order",
+        "Peasantry",
+        "Reserve Move",
+        "Skirmishers"
+      ],
+      "models": [
+        {
+          "name": "Mounted Yeomen",
+          "stats": {
+            "M": "-",
+            "WS": "3",
+            "BS": "3",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "3",
+            "A": "1",
+            "LD": "6",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Light Cavalry"
+          },
+          "cost": 13.0,
+          "rules": [
+            "Feigned Flight",
+            "Levies",
+            "Open Order",
+            "Fast Cavalry",
+            "Reserve Move",
+            "Skirmishers",
+            "Swiftstride",
+            "Fire & Flee",
+            "Peasantry"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Champion",
+          "stats": {
+            "M": "-",
+            "WS": "3",
+            "BS": "3",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "3",
+            "A": "2",
+            "LD": "6",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Light Cavalry"
+          },
+          "cost": 16.0,
+          "rules": [
+            "Levies",
+            "Open Order",
+            "Fast Cavalry",
+            "Reserve Move",
+            "Skirmishers",
+            "Swiftstride",
+            "Fire & Flee",
+            "Peasantry"
+          ],
+          "role": "champion",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Light Armor",
+          "cost": 2.0,
+          "is_default": false
+        },
+        {
+          "name": "Shield",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Feigned Flight",
+          "cost": 2.0,
+          "is_default": false
+        },
+        {
+          "name": "Musician",
+          "cost": 5.0,
+          "is_default": false
+        },
+        {
+          "name": "Standard Bearer",
+          "cost": 5.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Lady \u00c9lisse Duchaard",
+      "category": "Characters",
+      "base_points": 225.0,
+      "rules": [
+        "Armor Bane (X)",
+        "Armored Hide (X)",
+        "Blessings Of The Lady",
+        "Counter Charge",
+        "Magical Attacks",
+        "Magical Attacks",
+        "Magic Resistance (-2)",
+        "Stomp Attacks (X)",
+        "Swiftstride",
+        "Lore Of The Lady"
+      ],
+      "models": [
+        {
+          "name": "Lady \u00c9lisse Duchaard",
+          "stats": {
+            "M": "-",
+            "WS": "4",
+            "BS": "3",
+            "S": "3",
+            "T": "4",
+            "W": "5",
+            "I": "3",
+            "A": "2",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Monsterous Cavalry"
+          },
+          "cost": 225.0,
+          "rules": [
+            "Armor Bane (X)",
+            "Armored Hide (X)",
+            "Blessings Of The Lady",
+            "Counter Charge",
+            "Magical Attacks",
+            "Magical Attacks",
+            "Magic Resistance (-2)",
+            "Stomp Attacks (X)",
+            "Swiftstride",
+            "Lore Of The Lady"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Lady \u00c9lisse Duchaard on Lady \u00c9lisse Duchaard",
+          "stats": {
+            "M": "-",
+            "WS": "4",
+            "BS": "3",
+            "S": "3",
+            "T": "4",
+            "W": "5",
+            "I": "3",
+            "A": "2",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Monsterous Cavalry"
+          },
+          "cost": 450.0,
+          "rules": [
+            "Armored Hide (X)",
+            "Blessings Of The Lady",
+            "Magic Resistance (-2)",
+            "Magical Attacks",
+            "Stomp Attacks (X)",
+            "Lore Of The Lady",
+            "Counter Charge",
+            "Armor Bane (X)",
+            "Swiftstride"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": []
+    },
+    {
+      "name": "Yeomen Guard",
+      "category": "Core",
+      "base_points": 0.0,
+      "rules": [
+        "Close Order",
+        "Horde",
+        "Peasantry",
+        "Shieldwall",
+        "Warband",
+        "Veteran"
+      ],
+      "models": [
+        {
+          "name": "Yeomen Guard",
+          "stats": {
+            "M": "4",
+            "WS": "3",
+            "BS": "3",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "3",
+            "A": "1",
+            "LD": "6",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 5.0,
+          "rules": [
+            "Close Order",
+            "Stubborn",
+            "Veteran",
+            "Horde",
+            "Warband",
+            "Shieldwall",
+            "Peasantry"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Polearm - Single-handed",
+            "Polearm - Double-handed"
+          ]
+        },
+        {
+          "name": "Warden",
+          "stats": {
+            "M": "4",
+            "WS": "3",
+            "BS": "3",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "3",
+            "A": "2",
+            "LD": "6",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 6.0,
+          "rules": [
+            "Close Order",
+            "Veteran",
+            "Horde",
+            "Warband",
+            "Shieldwall",
+            "Peasantry"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Grail Monk",
+          "stats": {
+            "M": "4",
+            "WS": "3",
+            "BS": "2",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "2",
+            "A": "2",
+            "LD": "6",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 7.0,
+          "rules": [
+            "Close Order",
+            "Stubborn",
+            "Veteran",
+            "Horde",
+            "Warband",
+            "Shieldwall",
+            "Peasantry"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Equipment",
+          "cost": 0.0,
+          "is_default": true
+        },
+        {
+          "name": "Polearm",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Blessed Triptych",
+          "cost": 25.0,
+          "is_default": false
+        },
+        {
+          "name": "Musician",
+          "cost": 6.0,
+          "is_default": false
+        },
+        {
+          "name": "Standard Bearer",
+          "cost": 6.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Knights Errant",
+      "category": "Core",
+      "base_points": 0.0,
+      "rules": [
+        "Close Order",
+        "Blessings Of The Lady",
+        "Finest Warhorses",
+        "First Charge",
+        "Lance Formation",
+        "Swiftstride",
+        "The Knight's Vow",
+        "Impetuous"
+      ],
+      "models": [
+        {
+          "name": "Knights Errant",
+          "stats": {
+            "M": "-",
+            "WS": "3",
+            "BS": "2",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "3",
+            "A": "1",
+            "LD": "7",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Cavalry"
+          },
+          "cost": 19.0,
+          "rules": [
+            "Blessings Of The Lady",
+            "Close Order",
+            "Impetuous",
+            "Lance Formation",
+            "Swiftstride",
+            "The Knight's Vow",
+            "Finest Warhorses",
+            "First Charge",
+            "The Exile's Vow"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Champion",
+          "stats": {
+            "M": "-",
+            "WS": "3",
+            "BS": "2",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "3",
+            "A": "2",
+            "LD": "7",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 25.0,
+          "rules": [
+            "Blessings Of The Lady",
+            "Close Order",
+            "Impetuous",
+            "Lance Formation",
+            "Swiftstride",
+            "The Knight's Vow",
+            "Finest Warhorses",
+            "First Charge"
+          ],
+          "role": "champion",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Musician",
+          "cost": 6.0,
+          "is_default": false
+        },
+        {
+          "name": "Standard Bearer",
+          "cost": 6.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Battle Pilgrims",
+      "category": "Special",
+      "base_points": 0.0,
+      "rules": [
+        "Peasantry",
+        "Close Order",
+        "Hatred (all enemies)",
+        "Levies",
+        "Stubborn"
+      ],
+      "models": [
+        {
+          "name": "Battle Pilgrims",
+          "stats": {
+            "M": "4",
+            "WS": "2",
+            "BS": "2",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "3",
+            "A": "1",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Infantry"
+          },
+          "cost": 8.0,
+          "rules": [
+            "Hatred (all enemies)",
+            "Close Order",
+            "Levies",
+            "Blessings Of The Lady",
+            "Stubborn",
+            "Peasantry"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Grail Reliquae",
+          "stats": {
+            "M": "4",
+            "WS": "2",
+            "BS": "2",
+            "S": "3",
+            "T": "3",
+            "W": "6",
+            "I": "3",
+            "A": "6",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": ""
+          },
+          "cost": 65.0,
+          "rules": [
+            "Hatred (all enemies)",
+            "Close Order",
+            "Levies",
+            "Blessings Of The Lady",
+            "Stubborn",
+            "Peasantry"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": []
+    },
+    {
+      "name": "Border Princes Brigands",
+      "category": "Rare",
+      "base_points": 0.0,
+      "rules": [
+        "Open Order",
+        "Impetuous",
+        "Levies",
+        "Horde",
+        "Warband",
+        "Motley Crew"
+      ],
+      "models": [
+        {
+          "name": "Border Princes Brigands",
+          "stats": {
+            "M": "4",
+            "WS": "3",
+            "BS": "3",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "3",
+            "A": "1",
+            "LD": "6",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 4.0,
+          "rules": [
+            "Levies",
+            "Close Order",
+            "Open Order",
+            "Motley Crew",
+            "Ambushers",
+            "Impetuous",
+            "Skirmishers",
+            "Scouts",
+            "Horde",
+            "Warband"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Blunderbuss"
+          ]
+        },
+        {
+          "name": "Brigand",
+          "stats": {
+            "M": "4",
+            "WS": "3",
+            "BS": "3",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "3",
+            "A": "1",
+            "LD": "6",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 4.0,
+          "rules": [
+            "Levies",
+            "Close Order",
+            "Open Order",
+            "Motley Crew",
+            "Ambushers",
+            "Impetuous",
+            "Skirmishers",
+            "Scouts",
+            "Horde",
+            "Warband"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Blunderbuss"
+          ]
+        },
+        {
+          "name": "Champion",
+          "stats": {
+            "M": "4",
+            "WS": "3",
+            "BS": "3",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "3",
+            "A": "2",
+            "LD": "7",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 7.0,
+          "rules": [
+            "Levies",
+            "Open Order",
+            "Motley Crew",
+            "Impetuous",
+            "Horde",
+            "Warband"
+          ],
+          "role": "champion",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Additional Hand Weapon",
+          "cost": 2.0,
+          "is_default": false
+        },
+        {
+          "name": "Shield",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Ranged Weapon",
+          "cost": 0.0,
+          "is_default": false
+        },
+        {
+          "name": "Pistol",
+          "cost": 2.0,
+          "is_default": false
+        },
+        {
+          "name": "Blunderbuss",
+          "cost": 4.0,
+          "is_default": false
+        },
+        {
+          "name": "Crossbow",
+          "cost": 3.0,
+          "is_default": false
+        },
+        {
+          "name": "Ambushers",
+          "cost": 2.0,
+          "is_default": false
+        },
+        {
+          "name": "Scouts",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Musician",
+          "cost": 5.0,
+          "is_default": false
+        },
+        {
+          "name": "Standard Bearer",
+          "cost": 5.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Border Princes Bombard",
+      "category": "Rare",
+      "base_points": 100.0,
+      "rules": [
+        "Levies",
+        "Skirmishers"
+      ],
+      "models": [
+        {
+          "name": "Border Princes Bombard",
+          "stats": {
+            "M": "-",
+            "WS": "-",
+            "BS": "-",
+            "S": "-",
+            "T": "7",
+            "W": "3",
+            "I": "-",
+            "A": "-",
+            "LD": "-",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "War Machine"
+          },
+          "cost": 100.0,
+          "rules": [
+            "Levies",
+            "Skirmishers"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Bombard"
+          ]
+        }
+      ],
+      "upgrades": []
+    },
+    {
+      "name": "Knights Errant",
+      "category": "Core",
+      "base_points": 0.0,
+      "rules": [
+        "Close Order",
+        "Blessings Of The Lady",
+        "Finest Warhorses",
+        "First Charge",
+        "Lance Formation",
+        "Swiftstride",
+        "The Knight's Vow",
+        "Impetuous",
+        "Earn Your Spurs",
+        "Crusader's Zeal"
+      ],
+      "models": [
+        {
+          "name": "Knights Errant",
+          "stats": {
+            "M": "-",
+            "WS": "3",
+            "BS": "2",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "3",
+            "A": "1",
+            "LD": "7",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Cavalry"
+          },
+          "cost": 19.0,
+          "rules": [
+            "Blessings Of The Lady",
+            "Close Order",
+            "The Crusader's Vow",
+            "Impetuous",
+            "Earn Your Spurs",
+            "Lance Formation",
+            "Swiftstride",
+            "The Knight's Vow",
+            "Finest Warhorses",
+            "First Charge",
+            "Crusader's Zeal"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Champion",
+          "stats": {
+            "M": "-",
+            "WS": "3",
+            "BS": "2",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "3",
+            "A": "2",
+            "LD": "7",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 25.0,
+          "rules": [
+            "Blessings Of The Lady",
+            "Close Order",
+            "Impetuous",
+            "Earn Your Spurs",
+            "Lance Formation",
+            "Swiftstride",
+            "The Knight's Vow",
+            "Finest Warhorses",
+            "First Charge",
+            "Crusader's Zeal"
+          ],
+          "role": "champion",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Musician",
+          "cost": 6.0,
+          "is_default": false
+        },
+        {
+          "name": "Standard Bearer",
+          "cost": 6.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Battle Pilgrims",
+      "category": "Special",
+      "base_points": 0.0,
+      "rules": [
+        "Peasantry",
+        "Close Order",
+        "Hatred (all enemies)",
+        "Levies",
+        "Stubborn",
+        "Crusader's Zeal"
+      ],
+      "models": [
+        {
+          "name": "Battle Pilgrims",
+          "stats": {
+            "M": "4",
+            "WS": "2",
+            "BS": "2",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "3",
+            "A": "1",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Infantry"
+          },
+          "cost": 8.0,
+          "rules": [
+            "Hatred (all enemies)",
+            "Close Order",
+            "Levies",
+            "Blessings Of The Lady",
+            "Stubborn",
+            "Crusader's Zeal",
+            "Peasantry"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Grail Reliquae",
+          "stats": {
+            "M": "4",
+            "WS": "2",
+            "BS": "2",
+            "S": "3",
+            "T": "3",
+            "W": "6",
+            "I": "3",
+            "A": "6",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": ""
+          },
+          "cost": 65.0,
+          "rules": [
+            "Hatred (all enemies)",
+            "Close Order",
+            "Levies",
+            "Blessings Of The Lady",
+            "Stubborn",
+            "Crusader's Zeal",
+            "Peasantry"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": []
+    },
+    {
+      "name": "Battle Pilgrims",
+      "category": "Core",
+      "base_points": 0.0,
+      "rules": [
+        "Peasantry",
+        "Close Order",
+        "Hatred (all enemies)",
+        "Levies",
+        "Stubborn",
+        "Crusader's Zeal"
+      ],
+      "models": [
+        {
+          "name": "Battle Pilgrims",
+          "stats": {
+            "M": "4",
+            "WS": "2",
+            "BS": "2",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "3",
+            "A": "1",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Infantry"
+          },
+          "cost": 8.0,
+          "rules": [
+            "Hatred (all enemies)",
+            "Close Order",
+            "Levies",
+            "Blessings Of The Lady",
+            "Stubborn",
+            "Crusader's Zeal",
+            "Peasantry"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Grail Reliquae",
+          "stats": {
+            "M": "4",
+            "WS": "2",
+            "BS": "2",
+            "S": "3",
+            "T": "3",
+            "W": "6",
+            "I": "3",
+            "A": "6",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": ""
+          },
+          "cost": 65.0,
+          "rules": [
+            "Hatred (all enemies)",
+            "Close Order",
+            "Levies",
+            "Blessings Of The Lady",
+            "Stubborn",
+            "Crusader's Zeal",
+            "Peasantry"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": []
+    }
+  ]
+}

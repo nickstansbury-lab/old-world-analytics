@@ -1,0 +1,1831 @@
+{
+  "faction_name": "Beastmen Brayherds",
+  "units": [
+    {
+      "name": "Dragon Ogres",
+      "category": "Special",
+      "base_points": 0.0,
+      "rules": [
+        "Close Order",
+        "Armor Bane (X)",
+        "Fear",
+        "Armored Hide (X)",
+        "The Quickening Storm",
+        "Immune to Psychology",
+        "Stomp Attacks (X)",
+        "Ensorcelled Weapons"
+      ],
+      "models": [
+        {
+          "name": "Dragon Ogres",
+          "stats": {
+            "M": "7",
+            "WS": "4",
+            "BS": "2",
+            "S": "5",
+            "T": "4",
+            "W": "4",
+            "I": "2",
+            "A": "3",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Monsterous Cavalry"
+          },
+          "cost": 59.0,
+          "rules": [
+            "Armored Hide (X)",
+            "Close Order",
+            "Stomp Attacks (X)",
+            "Armor Bane (X)",
+            "Immune to Psychology",
+            "Ensorcelled Weapons",
+            "Fear",
+            "The Quickening Storm"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Champion",
+          "stats": {
+            "M": "7",
+            "WS": "4",
+            "BS": "2",
+            "S": "5",
+            "T": "4",
+            "W": "4",
+            "I": "2",
+            "A": "4",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Monsterous Cavalry"
+          },
+          "cost": 66.0,
+          "rules": [
+            "Armored Hide (X)",
+            "Close Order",
+            "Stomp Attacks (X)",
+            "Armor Bane (X)",
+            "Immune to Psychology",
+            "Ensorcelled Weapons",
+            "Fear",
+            "The Quickening Storm"
+          ],
+          "role": "champion",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Additional Hand Weapon",
+          "cost": 3.0,
+          "is_default": false
+        },
+        {
+          "name": "Great Weapon",
+          "cost": 4.0,
+          "is_default": false
+        },
+        {
+          "name": "Halberd",
+          "cost": 3.0,
+          "is_default": false
+        },
+        {
+          "name": "Armour",
+          "cost": 0.0,
+          "is_default": true
+        },
+        {
+          "name": "Light Armour",
+          "cost": 0.0,
+          "is_default": false
+        },
+        {
+          "name": "Heavy Armour",
+          "cost": 3.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Dragon Ogre Shaggoth",
+      "category": "Rare",
+      "base_points": 225.0,
+      "rules": [
+        "Close Order",
+        "Armor Bane (X)",
+        "Terror",
+        "Armored Hide (X)",
+        "Ensorcelled Weapons",
+        "Immune to Psychology",
+        "Stomp Attacks (X)",
+        "Large Target",
+        "The Quickening Storm"
+      ],
+      "models": [
+        {
+          "name": "Dragon Ogre Shaggoth",
+          "stats": {
+            "M": "7",
+            "WS": "6",
+            "BS": "2",
+            "S": "6",
+            "T": "5",
+            "W": "6",
+            "I": "4",
+            "A": "5",
+            "LD": "9",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Monsterous Creature"
+          },
+          "cost": 225.0,
+          "rules": [
+            "Armored Hide (X)",
+            "Close Order",
+            "Large Target",
+            "Terror",
+            "Stomp Attacks (X)",
+            "Armor Bane (X)",
+            "Ensorcelled Weapons",
+            "Immune to Psychology",
+            "The Quickening Storm"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Armour",
+          "cost": 0.0,
+          "is_default": true
+        },
+        {
+          "name": "Light Armour",
+          "cost": 0.0,
+          "is_default": false
+        },
+        {
+          "name": "Heavy Armour",
+          "cost": 6.0,
+          "is_default": false
+        },
+        {
+          "name": "Additional Hand Weapon",
+          "cost": 3.0,
+          "is_default": false
+        },
+        {
+          "name": "Great Weapon",
+          "cost": 4.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Chaos Giant",
+      "category": "Rare",
+      "base_points": 200.0,
+      "rules": [
+        "Close Order",
+        "Immune to Psychology",
+        "Large Target",
+        "Stomp Attacks (X)",
+        "Terror",
+        "Timmm-berrr!",
+        "Unbreakable"
+      ],
+      "models": [
+        {
+          "name": "Chaos Giant",
+          "stats": {
+            "M": "6",
+            "WS": "3",
+            "BS": "1",
+            "S": "6",
+            "T": "6",
+            "W": "6",
+            "I": "2",
+            "A": "*",
+            "LD": "10",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Behemoth"
+          },
+          "cost": 200.0,
+          "rules": [
+            "Timmm-berrr!",
+            "Close Order",
+            "Large Target",
+            "Terror",
+            "Stomp Attacks (X)",
+            "Regeneration (X+)",
+            "Immune to Psychology",
+            "Unbreakable"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Regeneration (6+)",
+          "cost": 20.0,
+          "is_default": false
+        },
+        {
+          "name": "Armour",
+          "cost": 0.0,
+          "is_default": true
+        },
+        {
+          "name": "Light Armour",
+          "cost": 0.0,
+          "is_default": false
+        },
+        {
+          "name": "Heavy Armour",
+          "cost": 10.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Chaos Ogres",
+      "category": "Special",
+      "base_points": 0.0,
+      "rules": [
+        "Close Order",
+        "Armor Bane (X)",
+        "Fear",
+        "Impact Hits (X)"
+      ],
+      "models": [
+        {
+          "name": "Chaos Ogres",
+          "stats": {
+            "M": "6",
+            "WS": "3",
+            "BS": "2",
+            "S": "4",
+            "T": "4",
+            "W": "3",
+            "I": "2",
+            "A": "3",
+            "LD": "7",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Monsterous Infantry"
+          },
+          "cost": 33.0,
+          "rules": [
+            "Close Order",
+            "Mark of Chaos Undivided",
+            "Armor Bane (X)",
+            "Fear",
+            "Impact Hits (X)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Champion",
+          "stats": {
+            "M": "6",
+            "WS": "3",
+            "BS": "2",
+            "S": "4",
+            "T": "4",
+            "W": "3",
+            "I": "2",
+            "A": "4",
+            "LD": "7",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Monsterous Infantry"
+          },
+          "cost": 39.0,
+          "rules": [
+            "Close Order",
+            "Fear",
+            "Impact Hits (X)",
+            "Armor Bane (X)"
+          ],
+          "role": "champion",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Additional Hand Weapon",
+          "cost": 3.0,
+          "is_default": false
+        },
+        {
+          "name": "Great Weapon",
+          "cost": 4.0,
+          "is_default": false
+        },
+        {
+          "name": "Mark of Khorne",
+          "cost": 2.0,
+          "is_default": false
+        },
+        {
+          "name": "Mark of Tzeentch",
+          "cost": 2.0,
+          "is_default": false
+        },
+        {
+          "name": "Mark of Slaanesh",
+          "cost": 2.0,
+          "is_default": false
+        },
+        {
+          "name": "Mark of Nurgle",
+          "cost": 2.0,
+          "is_default": false
+        },
+        {
+          "name": "Musician",
+          "cost": 6.0,
+          "is_default": false
+        },
+        {
+          "name": "Standard Bearer",
+          "cost": 6.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Chaos Trolls",
+      "category": "Rare",
+      "base_points": 0.0,
+      "rules": [
+        "Close Order",
+        "Armor Bane (X)",
+        "Fear",
+        "Flammable",
+        "Regeneration (X+)",
+        "Stupidity"
+      ],
+      "models": [
+        {
+          "name": "Chaos Trolls",
+          "stats": {
+            "M": "6",
+            "WS": "3",
+            "BS": "1",
+            "S": "5",
+            "T": "4",
+            "W": "3",
+            "I": "2",
+            "A": "3",
+            "LD": "4",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Monsterous Infantry"
+          },
+          "cost": 41.0,
+          "rules": [
+            "Close Order",
+            "Regeneration (X+)",
+            "Armor Bane (X)",
+            "Flammable",
+            "Fear",
+            "Stupidity"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Troll Vomit"
+          ]
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Additional Hand Weapon",
+          "cost": 3.0,
+          "is_default": false
+        },
+        {
+          "name": "Great Weapon",
+          "cost": 4.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Chaos Spawn",
+      "category": "Rare",
+      "base_points": 0.0,
+      "rules": [
+        "Open Order",
+        "Armor Bane (X)",
+        "Fear",
+        "Immune to Psychology",
+        "Random Movement",
+        "Random Attacks",
+        "Stomp Attacks (X)",
+        "Unbreakable"
+      ],
+      "models": [
+        {
+          "name": "Chaos Spawn",
+          "stats": {
+            "M": "2D6",
+            "WS": "3",
+            "BS": "0",
+            "S": "4",
+            "T": "5",
+            "W": "3",
+            "I": "3",
+            "A": "D6",
+            "LD": "10",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Monsterous Infantry"
+          },
+          "cost": 50.0,
+          "rules": [
+            "Flaming Attacks",
+            "Random Attacks",
+            "Open Order",
+            "Random Movement",
+            "Killing Blow",
+            "Magical Attacks",
+            "Stomp Attacks (X)",
+            "Poisoned Attacks",
+            "Armor Bane (X)",
+            "Immune to Psychology",
+            "Unbreakable",
+            "Fear",
+            "Strike First"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Spawn of Khorne",
+          "cost": 3.0,
+          "is_default": false
+        },
+        {
+          "name": "Spawn of Tzeentch",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Spawn of Slaanesh",
+          "cost": 3.0,
+          "is_default": false
+        },
+        {
+          "name": "Spawn of Nurgle",
+          "cost": 2.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Bestigor Herds",
+      "category": "Special",
+      "base_points": 0.0,
+      "rules": [
+        "Blood Rage",
+        "Close Order",
+        "Mark of Chaos Undivided",
+        "Primal Fury",
+        "Warband"
+      ],
+      "models": [
+        {
+          "name": "Bestigor Herds",
+          "stats": {
+            "M": "5",
+            "WS": "4",
+            "BS": "3",
+            "S": "4",
+            "T": "4",
+            "W": "1",
+            "I": "4",
+            "A": "1",
+            "LD": "7",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Infantry"
+          },
+          "cost": 13.0,
+          "rules": [
+            "Close Order",
+            "Mark of Chaos Undivided",
+            "Blood Rage",
+            "Stubborn",
+            "Primal Fury",
+            "Veteran",
+            "Warband"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Bestigor",
+          "stats": {
+            "M": "5",
+            "WS": "4",
+            "BS": "3",
+            "S": "4",
+            "T": "4",
+            "W": "1",
+            "I": "4",
+            "A": "1",
+            "LD": "7",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Infantry"
+          },
+          "cost": 13.0,
+          "rules": [
+            "Close Order",
+            "Mark of Chaos Undivided",
+            "Blood Rage",
+            "Stubborn",
+            "Primal Fury",
+            "Veteran",
+            "Warband"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Champion",
+          "stats": {
+            "M": "5",
+            "WS": "4",
+            "BS": "3",
+            "S": "4",
+            "T": "4",
+            "W": "1",
+            "I": "4",
+            "A": "2",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Infantry"
+          },
+          "cost": 21.0,
+          "rules": [
+            "Close Order",
+            "Mark of Chaos Undivided",
+            "Blood Rage",
+            "Primal Fury",
+            "Warband"
+          ],
+          "role": "champion",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Stubborn",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Veteran",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Musician",
+          "cost": 6.0,
+          "is_default": false
+        },
+        {
+          "name": "Standard Bearer",
+          "cost": 6.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Gor Herds",
+      "category": "Core",
+      "base_points": 0.0,
+      "rules": [
+        "Blood Rage",
+        "Open Order",
+        "Mark of Chaos Undivided",
+        "Primal Fury",
+        "Warband",
+        "Horde",
+        "Move Through Cover",
+        "Skirmishers"
+      ],
+      "models": [
+        {
+          "name": "Gor Herds",
+          "stats": {
+            "M": "5",
+            "WS": "4",
+            "BS": "2",
+            "S": "3",
+            "T": "4",
+            "W": "1",
+            "I": "3",
+            "A": "1",
+            "LD": "6",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 7.0,
+          "rules": [
+            "Mark of Chaos Undivided",
+            "Open Order",
+            "Blood Rage",
+            "Ambushers",
+            "Primal Fury",
+            "Skirmishers",
+            "Horde",
+            "Warband",
+            "Move Through Cover"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Gor",
+          "stats": {
+            "M": "5",
+            "WS": "4",
+            "BS": "2",
+            "S": "3",
+            "T": "4",
+            "W": "1",
+            "I": "3",
+            "A": "1",
+            "LD": "6",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 7.0,
+          "rules": [
+            "Mark of Chaos Undivided",
+            "Open Order",
+            "Blood Rage",
+            "Ambushers",
+            "Primal Fury",
+            "Skirmishers",
+            "Horde",
+            "Warband",
+            "Move Through Cover"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Champion",
+          "stats": {
+            "M": "5",
+            "WS": "4",
+            "BS": "2",
+            "S": "3",
+            "T": "4",
+            "W": "1",
+            "I": "3",
+            "A": "2",
+            "LD": "7",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 7.0,
+          "rules": [
+            "Mark of Chaos Undivided",
+            "Open Order",
+            "Blood Rage",
+            "Primal Fury",
+            "Skirmishers",
+            "Horde",
+            "Warband",
+            "Move Through Cover"
+          ],
+          "role": "champion",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Ambushers",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Additional Hand Weapon",
+          "cost": 0.0,
+          "is_default": false
+        },
+        {
+          "name": "Shield",
+          "cost": 0.0,
+          "is_default": false
+        },
+        {
+          "name": "Great Weapon",
+          "cost": 0.0,
+          "is_default": false
+        },
+        {
+          "name": "Musician",
+          "cost": 5.0,
+          "is_default": false
+        },
+        {
+          "name": "Standard Bearer",
+          "cost": 5.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Ungor Herds",
+      "category": "Core",
+      "base_points": 0.0,
+      "rules": [
+        "Chariot Runners",
+        "Open Order",
+        "Mark of Chaos Undivided",
+        "Primal Fury",
+        "Warband",
+        "Horde",
+        "Move Through Cover",
+        "Skirmishers"
+      ],
+      "models": [
+        {
+          "name": "Ungor Herds",
+          "stats": {
+            "M": "5",
+            "WS": "3",
+            "BS": "3",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "3",
+            "A": "1",
+            "LD": "5",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 5.0,
+          "rules": [
+            "Mark of Chaos Undivided",
+            "Open Order",
+            "Ambushers",
+            "Primal Fury",
+            "Skirmishers",
+            "Horde",
+            "Warband",
+            "Move Through Cover",
+            "Chariot Runners"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Ungor",
+          "stats": {
+            "M": "5",
+            "WS": "3",
+            "BS": "3",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "3",
+            "A": "1",
+            "LD": "5",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 5.0,
+          "rules": [
+            "Mark of Chaos Undivided",
+            "Open Order",
+            "Ambushers",
+            "Primal Fury",
+            "Skirmishers",
+            "Horde",
+            "Warband",
+            "Move Through Cover",
+            "Chariot Runners"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Champion",
+          "stats": {
+            "M": "5",
+            "WS": "3",
+            "BS": "3",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "3",
+            "A": "2",
+            "LD": "6",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 7.0,
+          "rules": [
+            "Mark of Chaos Undivided",
+            "Open Order",
+            "Primal Fury",
+            "Skirmishers",
+            "Horde",
+            "Warband",
+            "Move Through Cover",
+            "Chariot Runners"
+          ],
+          "role": "champion",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Ambushers",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Thrusting Spear and Shield",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Shield",
+          "cost": 0.0,
+          "is_default": false
+        },
+        {
+          "name": "Throwing Spear and Shield",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Musician",
+          "cost": 5.0,
+          "is_default": false
+        },
+        {
+          "name": "Standard Bearer",
+          "cost": 5.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Harpies",
+      "category": "Special",
+      "base_points": 0.0,
+      "rules": [
+        "Fly (X)",
+        "Scouts",
+        "Swiftstride",
+        "Move Through Cover",
+        "Skirmishers"
+      ],
+      "models": [
+        {
+          "name": "Harpies",
+          "stats": {
+            "M": "5",
+            "WS": "3",
+            "BS": "0",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "5",
+            "A": "2",
+            "LD": "6",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 11.0,
+          "rules": [
+            "Fly (X)",
+            "Skirmishers",
+            "Scouts",
+            "Swiftstride",
+            "Move Through Cover"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Harpy",
+          "stats": {
+            "M": "5",
+            "WS": "3",
+            "BS": "0",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "5",
+            "A": "2",
+            "LD": "6",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 11.0,
+          "rules": [
+            "Fly (X)",
+            "Skirmishers",
+            "Scouts",
+            "Swiftstride",
+            "Move Through Cover"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": []
+    },
+    {
+      "name": "Minotaur Herds",
+      "category": "Special",
+      "base_points": 0.0,
+      "rules": [
+        "Blood Greed",
+        "Close Order",
+        "Mark of Chaos Undivided",
+        "Primal Fury",
+        "Warband",
+        "Bull-gors",
+        "Fear",
+        "Foe Render",
+        "Impact Hits (X)",
+        "Motley Crew",
+        "Blood Rage"
+      ],
+      "models": [
+        {
+          "name": "Minotaur Herds",
+          "stats": {
+            "M": "6",
+            "WS": "4",
+            "BS": "3",
+            "S": "5",
+            "T": "4",
+            "W": "3",
+            "I": "3",
+            "A": "3",
+            "LD": "7",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Monsterous Infantry"
+          },
+          "cost": 47.0,
+          "rules": [
+            "Close Order",
+            "Mark of Chaos Undivided",
+            "Foe Render",
+            "Blood Rage",
+            "Bull-gors",
+            "Motley Crew",
+            "Blood Greed",
+            "Primal Fury",
+            "Ambushers",
+            "Warband",
+            "Fear",
+            "Impact Hits (X)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Minotaur",
+          "stats": {
+            "M": "6",
+            "WS": "4",
+            "BS": "3",
+            "S": "5",
+            "T": "4",
+            "W": "3",
+            "I": "3",
+            "A": "3",
+            "LD": "7",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Monsterous Infantry"
+          },
+          "cost": 47.0,
+          "rules": [
+            "Close Order",
+            "Mark of Chaos Undivided",
+            "Foe Render",
+            "Blood Rage",
+            "Bull-gors",
+            "Motley Crew",
+            "Blood Greed",
+            "Primal Fury",
+            "Ambushers",
+            "Warband",
+            "Fear",
+            "Impact Hits (X)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Champion",
+          "stats": {
+            "M": "6",
+            "WS": "4",
+            "BS": "3",
+            "S": "5",
+            "T": "4",
+            "W": "3",
+            "I": "3",
+            "A": "4",
+            "LD": "7",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Monsterous Infantry"
+          },
+          "cost": 53.0,
+          "rules": [
+            "Close Order",
+            "Mark of Chaos Undivided",
+            "Foe Render",
+            "Blood Rage",
+            "Bull-gors",
+            "Motley Crew",
+            "Blood Greed",
+            "Primal Fury",
+            "Warband",
+            "Fear",
+            "Impact Hits (X)"
+          ],
+          "role": "champion",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Ambushers",
+          "cost": 3.0,
+          "is_default": false
+        },
+        {
+          "name": "Shield",
+          "cost": 2.0,
+          "is_default": false
+        },
+        {
+          "name": "Additional Hand Weapon",
+          "cost": 3.0,
+          "is_default": false
+        },
+        {
+          "name": "Great Weapon",
+          "cost": 4.0,
+          "is_default": false
+        },
+        {
+          "name": "Musician",
+          "cost": 6.0,
+          "is_default": false
+        },
+        {
+          "name": "Standard Bearer",
+          "cost": 6.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Centigor Herds",
+      "category": "Special",
+      "base_points": 0.0,
+      "rules": [
+        "Drunken",
+        "Move Through Cover",
+        "Mark of Chaos Undivided",
+        "Primal Fury",
+        "Horde",
+        "Open Order",
+        "Skirmishers",
+        "Stomp Attacks (X)",
+        "Swiftstride",
+        "Fast Cavalry",
+        "Warband"
+      ],
+      "models": [
+        {
+          "name": "Centigor Herds",
+          "stats": {
+            "M": "8",
+            "WS": "4",
+            "BS": "3",
+            "S": "4",
+            "T": "4",
+            "W": "1",
+            "I": "2",
+            "A": "1",
+            "LD": "6",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Light Cavalry"
+          },
+          "cost": 19.0,
+          "rules": [
+            "Mark of Chaos Undivided",
+            "Open Order",
+            "Fast Cavalry",
+            "Stomp Attacks (X)",
+            "Primal Fury",
+            "Ambushers",
+            "Skirmishers",
+            "Swiftstride",
+            "Horde",
+            "Warband",
+            "Move Through Cover",
+            "Drunken"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Centigor",
+          "stats": {
+            "M": "8",
+            "WS": "4",
+            "BS": "3",
+            "S": "4",
+            "T": "4",
+            "W": "1",
+            "I": "2",
+            "A": "1",
+            "LD": "6",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Light Cavalry"
+          },
+          "cost": 19.0,
+          "rules": [
+            "Mark of Chaos Undivided",
+            "Open Order",
+            "Fast Cavalry",
+            "Stomp Attacks (X)",
+            "Primal Fury",
+            "Ambushers",
+            "Skirmishers",
+            "Swiftstride",
+            "Horde",
+            "Warband",
+            "Move Through Cover",
+            "Drunken"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Champion",
+          "stats": {
+            "M": "8",
+            "WS": "4",
+            "BS": "3",
+            "S": "4",
+            "T": "4",
+            "W": "1",
+            "I": "2",
+            "A": "2",
+            "LD": "7",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Light Cavalry"
+          },
+          "cost": 27.0,
+          "rules": [
+            "Mark of Chaos Undivided",
+            "Open Order",
+            "Fast Cavalry",
+            "Stomp Attacks (X)",
+            "Primal Fury",
+            "Skirmishers",
+            "Swiftstride",
+            "Horde",
+            "Warband",
+            "Move Through Cover",
+            "Drunken"
+          ],
+          "role": "champion",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Ambushers",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Cavalry Spear and Shield",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Shield",
+          "cost": 0.0,
+          "is_default": false
+        },
+        {
+          "name": "Throwing Spear and Shield",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Great Weapon",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Throwing Weapon",
+          "cost": 0.0,
+          "is_default": false
+        },
+        {
+          "name": "Throwing Axe",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Javelins",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Musician",
+          "cost": 6.0,
+          "is_default": false
+        },
+        {
+          "name": "Standard Bearer",
+          "cost": 6.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Chaos Warhounds",
+      "category": "Core",
+      "base_points": 0.0,
+      "rules": [
+        "Loner",
+        "Open Order",
+        "Swiftstride",
+        "Move Through Cover"
+      ],
+      "models": [
+        {
+          "name": "Chaos Warhounds",
+          "stats": {
+            "M": "7",
+            "WS": "4",
+            "BS": "0",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "3",
+            "A": "1",
+            "LD": "6",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "War Beasts"
+          },
+          "cost": 6.0,
+          "rules": [
+            "Armored Hide (X)",
+            "Vanguard",
+            "Open Order",
+            "Loner",
+            "Poisoned Attacks",
+            "Swiftstride",
+            "Move Through Cover"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Armoured Hide (1)",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Poisoned Attacks",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Vanguard",
+          "cost": 5.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Razorgor Herds",
+      "category": "Core",
+      "base_points": 0.0,
+      "rules": [
+        "Armor Bane (X)",
+        "Open Order",
+        "Swiftstride",
+        "Fear",
+        "Loner",
+        "Foe Render",
+        "Impact Hits (X)",
+        "Primal Fury",
+        "Razor Tusks"
+      ],
+      "models": [
+        {
+          "name": "Razorgor Herds",
+          "stats": {
+            "M": "7",
+            "WS": "3",
+            "BS": "0",
+            "S": "5",
+            "T": "5",
+            "W": "3",
+            "I": "2",
+            "A": "4",
+            "LD": "6",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "War Beasts"
+          },
+          "cost": 52.0,
+          "rules": [
+            "Foe Render",
+            "Open Order",
+            "Loner",
+            "Primal Fury",
+            "Armor Bane (X)",
+            "Swiftstride",
+            "Fear",
+            "Razor Tusks",
+            "Impact Hits (X)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Razorgor",
+          "stats": {
+            "M": "7",
+            "WS": "3",
+            "BS": "0",
+            "S": "5",
+            "T": "5",
+            "W": "3",
+            "I": "2",
+            "A": "4",
+            "LD": "6",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "War Beasts"
+          },
+          "cost": 52.0,
+          "rules": [
+            "Foe Render",
+            "Open Order",
+            "Loner",
+            "Primal Fury",
+            "Armor Bane (X)",
+            "Swiftstride",
+            "Fear",
+            "Razor Tusks",
+            "Impact Hits (X)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": []
+    },
+    {
+      "name": "Bestigor Herds",
+      "category": "Core",
+      "base_points": 0.0,
+      "rules": [
+        "Blood Rage",
+        "Close Order",
+        "Mark of Chaos Undivided",
+        "Primal Fury",
+        "Warband"
+      ],
+      "models": [
+        {
+          "name": "Bestigor Herds",
+          "stats": {
+            "M": "5",
+            "WS": "4",
+            "BS": "3",
+            "S": "4",
+            "T": "4",
+            "W": "1",
+            "I": "4",
+            "A": "1",
+            "LD": "7",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Infantry"
+          },
+          "cost": 13.0,
+          "rules": [
+            "Close Order",
+            "Mark of Chaos Undivided",
+            "Blood Rage",
+            "Stubborn",
+            "Primal Fury",
+            "Veteran",
+            "Warband"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Bestigor",
+          "stats": {
+            "M": "5",
+            "WS": "4",
+            "BS": "3",
+            "S": "4",
+            "T": "4",
+            "W": "1",
+            "I": "4",
+            "A": "1",
+            "LD": "7",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Infantry"
+          },
+          "cost": 13.0,
+          "rules": [
+            "Close Order",
+            "Mark of Chaos Undivided",
+            "Blood Rage",
+            "Stubborn",
+            "Primal Fury",
+            "Veteran",
+            "Warband"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Champion",
+          "stats": {
+            "M": "5",
+            "WS": "4",
+            "BS": "3",
+            "S": "4",
+            "T": "4",
+            "W": "1",
+            "I": "4",
+            "A": "2",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Infantry"
+          },
+          "cost": 21.0,
+          "rules": [
+            "Close Order",
+            "Mark of Chaos Undivided",
+            "Blood Rage",
+            "Primal Fury",
+            "Warband"
+          ],
+          "role": "champion",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Stubborn",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Veteran",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Musician",
+          "cost": 6.0,
+          "is_default": false
+        },
+        {
+          "name": "Standard Bearer",
+          "cost": 6.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Minotaur Herds",
+      "category": "Core",
+      "base_points": 0.0,
+      "rules": [
+        "Blood Greed",
+        "Close Order",
+        "Mark of Chaos Undivided",
+        "Primal Fury",
+        "Warband",
+        "Bull-gors",
+        "Fear",
+        "Foe Render",
+        "Impact Hits (X)",
+        "Motley Crew",
+        "Blood Rage"
+      ],
+      "models": [
+        {
+          "name": "Minotaur Herds",
+          "stats": {
+            "M": "6",
+            "WS": "4",
+            "BS": "3",
+            "S": "5",
+            "T": "4",
+            "W": "3",
+            "I": "3",
+            "A": "3",
+            "LD": "7",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Monsterous Infantry"
+          },
+          "cost": 47.0,
+          "rules": [
+            "Close Order",
+            "Mark of Chaos Undivided",
+            "Foe Render",
+            "Blood Rage",
+            "Bull-gors",
+            "Motley Crew",
+            "Blood Greed",
+            "Primal Fury",
+            "Ambushers",
+            "Warband",
+            "Fear",
+            "Impact Hits (X)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Minotaur",
+          "stats": {
+            "M": "6",
+            "WS": "4",
+            "BS": "3",
+            "S": "5",
+            "T": "4",
+            "W": "3",
+            "I": "3",
+            "A": "3",
+            "LD": "7",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Monsterous Infantry"
+          },
+          "cost": 47.0,
+          "rules": [
+            "Close Order",
+            "Mark of Chaos Undivided",
+            "Foe Render",
+            "Blood Rage",
+            "Bull-gors",
+            "Motley Crew",
+            "Blood Greed",
+            "Primal Fury",
+            "Ambushers",
+            "Warband",
+            "Fear",
+            "Impact Hits (X)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Champion",
+          "stats": {
+            "M": "6",
+            "WS": "4",
+            "BS": "3",
+            "S": "5",
+            "T": "4",
+            "W": "3",
+            "I": "3",
+            "A": "4",
+            "LD": "7",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Monsterous Infantry"
+          },
+          "cost": 53.0,
+          "rules": [
+            "Close Order",
+            "Mark of Chaos Undivided",
+            "Foe Render",
+            "Blood Rage",
+            "Bull-gors",
+            "Motley Crew",
+            "Blood Greed",
+            "Primal Fury",
+            "Warband",
+            "Fear",
+            "Impact Hits (X)"
+          ],
+          "role": "champion",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Ambushers",
+          "cost": 3.0,
+          "is_default": false
+        },
+        {
+          "name": "Shield",
+          "cost": 2.0,
+          "is_default": false
+        },
+        {
+          "name": "Additional Hand Weapon",
+          "cost": 3.0,
+          "is_default": false
+        },
+        {
+          "name": "Great Weapon",
+          "cost": 4.0,
+          "is_default": false
+        },
+        {
+          "name": "Musician",
+          "cost": 6.0,
+          "is_default": false
+        },
+        {
+          "name": "Standard Bearer",
+          "cost": 6.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Gigantic Spawn of Chaos",
+      "category": "Rare",
+      "base_points": 145.0,
+      "rules": [
+        "Armor Bane (X)",
+        "Immune to Psychology",
+        "Random Movement",
+        "Random Attacks",
+        "Stomp Attacks (X)",
+        "Unbreakable",
+        "Close Order",
+        "First Charge",
+        "Large Target",
+        "Timmm-berrr!",
+        "Terror"
+      ],
+      "models": [
+        {
+          "name": "Gigantic Spawn of Chaos",
+          "stats": {
+            "M": "3D6",
+            "WS": "3",
+            "BS": "0",
+            "S": "6",
+            "T": "6",
+            "W": "6",
+            "I": "3",
+            "A": "D6+1",
+            "LD": "10",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Behemoth"
+          },
+          "cost": 145.0,
+          "rules": [
+            "Poisoned Attacks",
+            "Unbreakable",
+            "First Charge",
+            "Timmm-berrr!",
+            "Close Order",
+            "Magic Resistance (-2)",
+            "Terror",
+            "Killing Blow",
+            "Stomp Attacks (X)",
+            "Armor Bane (X)",
+            "Regeneration (5+)",
+            "Random Attacks",
+            "Large Target",
+            "Random Movement",
+            "Counter Charge",
+            "Immune to Psychology",
+            "Strike First",
+            "Flaming Attacks",
+            "Magical Attacks",
+            "Impact Hits (X)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Gnashing Maws",
+            "Slashing Talons"
+          ]
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Spawn of Tzeentch",
+          "cost": 10.0,
+          "is_default": false
+        },
+        {
+          "name": "Spawn of Slaanesh",
+          "cost": 15.0,
+          "is_default": false
+        },
+        {
+          "name": "Spawn of Nurgle",
+          "cost": 25.0,
+          "is_default": false
+        },
+        {
+          "name": "Spawn of Khorne",
+          "cost": 20.0,
+          "is_default": false
+        }
+      ]
+    }
+  ]
+}

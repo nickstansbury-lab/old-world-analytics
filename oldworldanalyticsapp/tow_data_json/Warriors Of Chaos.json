@@ -1,0 +1,4574 @@
+{
+  "faction_name": "Warriors Of Chaos",
+  "units": [
+    {
+      "name": "Chaos Lord",
+      "category": "Characters",
+      "base_points": 195.0,
+      "rules": [
+        "Chaos Armour (5+)",
+        "Ensorcelled Weapons",
+        "Gaze of the Gods",
+        "Rallying Cry"
+      ],
+      "models": [
+        {
+          "name": "Chaos Lord",
+          "stats": {
+            "M": "4",
+            "WS": "7",
+            "BS": "3",
+            "S": "5",
+            "T": "5",
+            "W": "4",
+            "I": "6",
+            "A": "5",
+            "LD": "9",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Infantry (Character)"
+          },
+          "cost": 195.0,
+          "rules": [
+            "Chaos Armour (5+)",
+            "Ensorcelled Weapons",
+            "Gaze of the Gods",
+            "Rallying Cry"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Chaos Lord on Manticore",
+          "stats": {
+            "M": "6",
+            "WS": "7",
+            "BS": "3",
+            "S": "5",
+            "T": "5",
+            "W": "8",
+            "I": "6",
+            "A": "5",
+            "LD": "9",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Infantry (Character)"
+          },
+          "cost": 315.0,
+          "rules": [
+            "Close Order",
+            "Large Target",
+            "Gaze of the Gods",
+            "Chaos Armour (5+)",
+            "Terror",
+            "Stomp Attacks (X)",
+            "Ensorcelled Weapons",
+            "Swiftstride",
+            "Rallying Cry",
+            "Fly (9)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Wicked Claws",
+            "Venomous Tail"
+          ]
+        },
+        {
+          "name": "Chaos Lord on Chaos Dragon",
+          "stats": {
+            "M": "6",
+            "WS": "7",
+            "BS": "3",
+            "S": "5",
+            "T": "6",
+            "W": "10",
+            "I": "6",
+            "A": "5",
+            "LD": "9",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Infantry (Character)"
+          },
+          "cost": 480.0,
+          "rules": [
+            "Close Order",
+            "Large Target",
+            "Gaze of the Gods",
+            "Chaos Armour (5+)",
+            "Terror",
+            "Stomp Attacks (X)",
+            "Impetuous",
+            "Ensorcelled Weapons",
+            "Swiftstride",
+            "Rallying Cry",
+            "Fly (10)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Wicked Claws",
+            "Dark Fire of Chaos",
+            "Fumes of Contagion"
+          ]
+        },
+        {
+          "name": "Chaos Lord on Chaos Steed",
+          "stats": {
+            "M": "7",
+            "WS": "7",
+            "BS": "3",
+            "S": "5",
+            "T": "5",
+            "W": "4",
+            "I": "6",
+            "A": "5",
+            "LD": "9",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Infantry (Character)"
+          },
+          "cost": 211.0,
+          "rules": [
+            "Gaze of the Gods",
+            "Chaos Armour (5+)",
+            "Counter Charge",
+            "Ensorcelled Weapons",
+            "Swiftstride",
+            "First Charge",
+            "Rallying Cry"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Chaos Lord on Daemonic Mount",
+          "stats": {
+            "M": "8",
+            "WS": "7",
+            "BS": "3",
+            "S": "5",
+            "T": "5",
+            "W": "5",
+            "I": "6",
+            "A": "5",
+            "LD": "9",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Infantry (Character)"
+          },
+          "cost": 230.0,
+          "rules": [
+            "Gaze of the Gods",
+            "Chaos Armour (5+)",
+            "Magical Attacks",
+            "Stomp Attacks (X)",
+            "Armor Bane (X)",
+            "Ensorcelled Weapons",
+            "Swiftstride",
+            "Fear",
+            "Rallying Cry"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Chaos Lord on Chaos Chariot",
+          "stats": {
+            "M": "4",
+            "WS": "7",
+            "BS": "3",
+            "S": "5",
+            "T": "5",
+            "W": "4",
+            "I": "6",
+            "A": "5",
+            "LD": "9",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Infantry (Character)"
+          },
+          "cost": 305.0,
+          "rules": [
+            "Close Order",
+            "Mark of Chaos Undivided",
+            "Mark of Khorne",
+            "Gaze of the Gods",
+            "Chaos Armour (5+)",
+            "Mark of Slaanesh",
+            "Mark of Tzeentch",
+            "Ensorcelled Weapons",
+            "Mark of Nurgle",
+            "First Charge",
+            "Impact Hits (X)",
+            "Rallying Cry"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Chaos Lord on Gorebeast Chariot",
+          "stats": {
+            "M": "4",
+            "WS": "7",
+            "BS": "3",
+            "S": "5",
+            "T": "5",
+            "W": "4",
+            "I": "6",
+            "A": "5",
+            "LD": "9",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Infantry (Character)"
+          },
+          "cost": 330.0,
+          "rules": [
+            "Close Order",
+            "Mark of Chaos Undivided",
+            "Mark of Khorne",
+            "Gaze of the Gods",
+            "Chaos Armour (5+)",
+            "Killing Blow",
+            "Mark of Slaanesh",
+            "Mark of Tzeentch",
+            "Armor Bane (X)",
+            "Ensorcelled Weapons",
+            "Mark of Nurgle",
+            "First Charge",
+            "Impact Hits (X)",
+            "Rallying Cry"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Chaos Lord on Chosen Chaos Chariot",
+          "stats": {
+            "M": "4",
+            "WS": "7",
+            "BS": "3",
+            "S": "5",
+            "T": "5",
+            "W": "4",
+            "I": "6",
+            "A": "5",
+            "LD": "9",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Infantry (Character)"
+          },
+          "cost": 335.0,
+          "rules": [
+            "Close Order",
+            "Mark of Chaos Undivided",
+            "Mark of Khorne",
+            "Gaze of the Gods",
+            "Chaos Armour (5+)",
+            "Mark of Slaanesh",
+            "Mark of Tzeentch",
+            "Counter Charge",
+            "Ensorcelled Weapons",
+            "Mark of Nurgle",
+            "First Charge",
+            "Impact Hits (X)",
+            "Rallying Cry"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Shield",
+          "cost": 2.0,
+          "is_default": false
+        },
+        {
+          "name": "Mark of Khorne",
+          "cost": 10.0,
+          "is_default": false
+        },
+        {
+          "name": "Mark of Nurgle",
+          "cost": 10.0,
+          "is_default": false
+        },
+        {
+          "name": "Mark of Slaanesh",
+          "cost": 10.0,
+          "is_default": false
+        },
+        {
+          "name": "Mark of Tzeentch",
+          "cost": 10.0,
+          "is_default": false
+        },
+        {
+          "name": "Venomous Tail",
+          "cost": 15.0,
+          "is_default": false
+        },
+        {
+          "name": "Additional Hand Weapon",
+          "cost": 3.0,
+          "is_default": false
+        },
+        {
+          "name": "Flail",
+          "cost": 3.0,
+          "is_default": false
+        },
+        {
+          "name": "Great Weapon",
+          "cost": 4.0,
+          "is_default": false
+        },
+        {
+          "name": "Halberd",
+          "cost": 3.0,
+          "is_default": false
+        },
+        {
+          "name": "Lance",
+          "cost": 4.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Exalted Champion",
+      "category": "Characters",
+      "base_points": 125.0,
+      "rules": [
+        "Chaos Armour (5+)",
+        "Ensorcelled Weapons",
+        "Gaze of the Gods",
+        "Rallying Cry"
+      ],
+      "models": [
+        {
+          "name": "Exalted Champion",
+          "stats": {
+            "M": "4",
+            "WS": "6",
+            "BS": "3",
+            "S": "5",
+            "T": "4",
+            "W": "3",
+            "I": "5",
+            "A": "4",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Infantry (Character)"
+          },
+          "cost": 125.0,
+          "rules": [
+            "Chaos Armour (5+)",
+            "Ensorcelled Weapons",
+            "Gaze of the Gods",
+            "Rallying Cry"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Exalted Champion on Chaos Steed",
+          "stats": {
+            "M": "7",
+            "WS": "6",
+            "BS": "3",
+            "S": "5",
+            "T": "4",
+            "W": "3",
+            "I": "5",
+            "A": "4",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Infantry (Character)"
+          },
+          "cost": 141.0,
+          "rules": [
+            "Gaze of the Gods",
+            "Chaos Armour (5+)",
+            "Counter Charge",
+            "Ensorcelled Weapons",
+            "Swiftstride",
+            "First Charge",
+            "Rallying Cry"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Exalted Champion on Daemonic Mount",
+          "stats": {
+            "M": "8",
+            "WS": "6",
+            "BS": "3",
+            "S": "5",
+            "T": "4",
+            "W": "4",
+            "I": "5",
+            "A": "4",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Infantry (Character)"
+          },
+          "cost": 160.0,
+          "rules": [
+            "Gaze of the Gods",
+            "Chaos Armour (5+)",
+            "Magical Attacks",
+            "Stomp Attacks (X)",
+            "Armor Bane (X)",
+            "Ensorcelled Weapons",
+            "Swiftstride",
+            "Fear",
+            "Rallying Cry"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Exalted Champion on Chaos Chariot",
+          "stats": {
+            "M": "4",
+            "WS": "6",
+            "BS": "3",
+            "S": "5",
+            "T": "5",
+            "W": "4",
+            "I": "5",
+            "A": "4",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Infantry (Character)"
+          },
+          "cost": 235.0,
+          "rules": [
+            "Close Order",
+            "Mark of Chaos Undivided",
+            "Mark of Khorne",
+            "Gaze of the Gods",
+            "Chaos Armour (5+)",
+            "Mark of Slaanesh",
+            "Mark of Tzeentch",
+            "Ensorcelled Weapons",
+            "Mark of Nurgle",
+            "First Charge",
+            "Impact Hits (X)",
+            "Rallying Cry"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Exalted Champion on Gorebeast Chariot",
+          "stats": {
+            "M": "4",
+            "WS": "6",
+            "BS": "3",
+            "S": "5",
+            "T": "5",
+            "W": "4",
+            "I": "5",
+            "A": "4",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Infantry (Character)"
+          },
+          "cost": 260.0,
+          "rules": [
+            "Close Order",
+            "Mark of Chaos Undivided",
+            "Mark of Khorne",
+            "Gaze of the Gods",
+            "Chaos Armour (5+)",
+            "Killing Blow",
+            "Mark of Slaanesh",
+            "Mark of Tzeentch",
+            "Armor Bane (X)",
+            "Ensorcelled Weapons",
+            "Mark of Nurgle",
+            "First Charge",
+            "Impact Hits (X)",
+            "Rallying Cry"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Exalted Champion on Chosen Chaos Chariot",
+          "stats": {
+            "M": "4",
+            "WS": "6",
+            "BS": "3",
+            "S": "5",
+            "T": "5",
+            "W": "4",
+            "I": "5",
+            "A": "4",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Infantry (Character)"
+          },
+          "cost": 265.0,
+          "rules": [
+            "Close Order",
+            "Mark of Chaos Undivided",
+            "Mark of Khorne",
+            "Gaze of the Gods",
+            "Chaos Armour (5+)",
+            "Mark of Slaanesh",
+            "Mark of Tzeentch",
+            "Counter Charge",
+            "Ensorcelled Weapons",
+            "Mark of Nurgle",
+            "First Charge",
+            "Impact Hits (X)",
+            "Rallying Cry"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Exalted Champion on Manticore",
+          "stats": {
+            "M": "6",
+            "WS": "6",
+            "BS": "3",
+            "S": "5",
+            "T": "4",
+            "W": "7",
+            "I": "5",
+            "A": "4",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Infantry (Character)"
+          },
+          "cost": 245.0,
+          "rules": [
+            "Close Order",
+            "Large Target",
+            "Gaze of the Gods",
+            "Chaos Armour (5+)",
+            "Terror",
+            "Stomp Attacks (X)",
+            "Ensorcelled Weapons",
+            "Swiftstride",
+            "Rallying Cry",
+            "Fly (9)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Wicked Claws",
+            "Venomous Tail"
+          ]
+        },
+        {
+          "name": "Exalted Champion on Chaos Dragon",
+          "stats": {
+            "M": "6",
+            "WS": "6",
+            "BS": "3",
+            "S": "5",
+            "T": "5",
+            "W": "9",
+            "I": "5",
+            "A": "4",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Infantry (Character)"
+          },
+          "cost": 410.0,
+          "rules": [
+            "Close Order",
+            "Large Target",
+            "Gaze of the Gods",
+            "Chaos Armour (5+)",
+            "Terror",
+            "Stomp Attacks (X)",
+            "Impetuous",
+            "Ensorcelled Weapons",
+            "Swiftstride",
+            "Rallying Cry",
+            "Fly (10)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Wicked Claws",
+            "Dark Fire of Chaos",
+            "Fumes of Contagion"
+          ]
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Shield",
+          "cost": 2.0,
+          "is_default": false
+        },
+        {
+          "name": "Battle Standard Bearer",
+          "cost": 25.0,
+          "is_default": false
+        },
+        {
+          "name": "Mark of Khorne",
+          "cost": 10.0,
+          "is_default": false
+        },
+        {
+          "name": "Mark of Nurgle",
+          "cost": 10.0,
+          "is_default": false
+        },
+        {
+          "name": "Mark of Slaanesh",
+          "cost": 10.0,
+          "is_default": false
+        },
+        {
+          "name": "Mark of Tzeentch",
+          "cost": 10.0,
+          "is_default": false
+        },
+        {
+          "name": "Venomous Tail",
+          "cost": 15.0,
+          "is_default": false
+        },
+        {
+          "name": "Additional Hand Weapon",
+          "cost": 3.0,
+          "is_default": false
+        },
+        {
+          "name": "Flail",
+          "cost": 3.0,
+          "is_default": false
+        },
+        {
+          "name": "Great Weapon",
+          "cost": 4.0,
+          "is_default": false
+        },
+        {
+          "name": "Halberd",
+          "cost": 3.0,
+          "is_default": false
+        },
+        {
+          "name": "Lance",
+          "cost": 4.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Aspiring Champion",
+      "category": "Characters",
+      "base_points": 70.0,
+      "rules": [
+        "Chaos Armour (5+)",
+        "Ensorcelled Weapons",
+        "Gaze of the Gods",
+        "Rallying Cry"
+      ],
+      "models": [
+        {
+          "name": "Aspiring Champion",
+          "stats": {
+            "M": "4",
+            "WS": "5",
+            "BS": "3",
+            "S": "4",
+            "T": "4",
+            "W": "2",
+            "I": "4",
+            "A": "3",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Infantry (Character)"
+          },
+          "cost": 70.0,
+          "rules": [
+            "Chaos Armour (5+)",
+            "Ensorcelled Weapons",
+            "Gaze of the Gods",
+            "Rallying Cry"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Aspiring Champion on Chaos Steed",
+          "stats": {
+            "M": "7",
+            "WS": "5",
+            "BS": "3",
+            "S": "4",
+            "T": "4",
+            "W": "2",
+            "I": "4",
+            "A": "3",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Infantry (Character)"
+          },
+          "cost": 86.0,
+          "rules": [
+            "Gaze of the Gods",
+            "Chaos Armour (5+)",
+            "Counter Charge",
+            "Ensorcelled Weapons",
+            "Swiftstride",
+            "First Charge",
+            "Rallying Cry"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Aspiring Champion on Daemonic Mount",
+          "stats": {
+            "M": "8",
+            "WS": "5",
+            "BS": "3",
+            "S": "4",
+            "T": "4",
+            "W": "3",
+            "I": "4",
+            "A": "3",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Infantry (Character)"
+          },
+          "cost": 105.0,
+          "rules": [
+            "Gaze of the Gods",
+            "Chaos Armour (5+)",
+            "Magical Attacks",
+            "Stomp Attacks (X)",
+            "Armor Bane (X)",
+            "Ensorcelled Weapons",
+            "Swiftstride",
+            "Fear",
+            "Rallying Cry"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Aspiring Champion on Chaos Chariot",
+          "stats": {
+            "M": "4",
+            "WS": "5",
+            "BS": "3",
+            "S": "4",
+            "T": "5",
+            "W": "4",
+            "I": "4",
+            "A": "3",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Infantry (Character)"
+          },
+          "cost": 180.0,
+          "rules": [
+            "Close Order",
+            "Mark of Chaos Undivided",
+            "Mark of Khorne",
+            "Gaze of the Gods",
+            "Chaos Armour (5+)",
+            "Mark of Slaanesh",
+            "Mark of Tzeentch",
+            "Ensorcelled Weapons",
+            "Mark of Nurgle",
+            "First Charge",
+            "Impact Hits (X)",
+            "Rallying Cry"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Aspiring Champion on Gorebeast Chariot",
+          "stats": {
+            "M": "4",
+            "WS": "5",
+            "BS": "3",
+            "S": "4",
+            "T": "5",
+            "W": "4",
+            "I": "4",
+            "A": "3",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Infantry (Character)"
+          },
+          "cost": 205.0,
+          "rules": [
+            "Close Order",
+            "Mark of Chaos Undivided",
+            "Mark of Khorne",
+            "Gaze of the Gods",
+            "Chaos Armour (5+)",
+            "Killing Blow",
+            "Mark of Slaanesh",
+            "Mark of Tzeentch",
+            "Armor Bane (X)",
+            "Ensorcelled Weapons",
+            "Mark of Nurgle",
+            "First Charge",
+            "Impact Hits (X)",
+            "Rallying Cry"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Aspiring Champion on Chosen Chaos Chariot",
+          "stats": {
+            "M": "4",
+            "WS": "5",
+            "BS": "3",
+            "S": "4",
+            "T": "5",
+            "W": "4",
+            "I": "4",
+            "A": "3",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Infantry (Character)"
+          },
+          "cost": 210.0,
+          "rules": [
+            "Close Order",
+            "Mark of Chaos Undivided",
+            "Mark of Khorne",
+            "Gaze of the Gods",
+            "Chaos Armour (5+)",
+            "Mark of Slaanesh",
+            "Mark of Tzeentch",
+            "Counter Charge",
+            "Ensorcelled Weapons",
+            "Mark of Nurgle",
+            "First Charge",
+            "Impact Hits (X)",
+            "Rallying Cry"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Shield",
+          "cost": 2.0,
+          "is_default": false
+        },
+        {
+          "name": "Battle Standard Bearer",
+          "cost": 25.0,
+          "is_default": false
+        },
+        {
+          "name": "Ambushers",
+          "cost": 10.0,
+          "is_default": false
+        },
+        {
+          "name": "Mark of Khorne",
+          "cost": 10.0,
+          "is_default": false
+        },
+        {
+          "name": "Mark of Nurgle",
+          "cost": 10.0,
+          "is_default": false
+        },
+        {
+          "name": "Mark of Slaanesh",
+          "cost": 10.0,
+          "is_default": false
+        },
+        {
+          "name": "Mark of Tzeentch",
+          "cost": 10.0,
+          "is_default": false
+        },
+        {
+          "name": "Additional Hand Weapon",
+          "cost": 3.0,
+          "is_default": false
+        },
+        {
+          "name": "Flail",
+          "cost": 3.0,
+          "is_default": false
+        },
+        {
+          "name": "Great Weapon",
+          "cost": 4.0,
+          "is_default": false
+        },
+        {
+          "name": "Halberd",
+          "cost": 3.0,
+          "is_default": false
+        },
+        {
+          "name": "Lance",
+          "cost": 4.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Daemon Prince",
+      "category": "Characters",
+      "base_points": 215.0,
+      "rules": [
+        "Chaos Armour (4+)",
+        "Ensorcelled Weapons",
+        "Gaze of the Gods",
+        "Regeneration (X+)",
+        "Fear",
+        "Immune to Psychology",
+        "Lore Of Chaos",
+        "Unbreakable",
+        "Unstable",
+        "Warp-spawned"
+      ],
+      "models": [
+        {
+          "name": "Daemon Prince",
+          "stats": {
+            "M": "6",
+            "WS": "7",
+            "BS": "5",
+            "S": "6",
+            "T": "5",
+            "W": "4",
+            "I": "7",
+            "A": "5",
+            "LD": "9",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Monsterous Infantry (Character)"
+          },
+          "cost": 215.0,
+          "rules": [
+            "Chaos Armour (4+)",
+            "Ensorcelled Weapons",
+            "Gaze of the Gods",
+            "Regeneration (X+)",
+            "Fear",
+            "Immune to Psychology",
+            "Lore Of Chaos",
+            "Unbreakable",
+            "Unstable",
+            "Warp-spawned"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Daemon Prince on Daemon Prince",
+          "stats": {
+            "M": "6",
+            "WS": "7",
+            "BS": "5",
+            "S": "6",
+            "T": "5",
+            "W": "4",
+            "I": "7",
+            "A": "5",
+            "LD": "9",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Monsterous Infantry (Character)"
+          },
+          "cost": 430.0,
+          "rules": [
+            "Mark of Khorne",
+            "Chaos Armour (4+)",
+            "Mark of Chaos Undivided",
+            "Gaze of the Gods",
+            "Mark of Slaanesh",
+            "Warp-spawned",
+            "Mark of Tzeentch",
+            "Regeneration (X+)",
+            "Lore Of Chaos",
+            "Ensorcelled Weapons",
+            "Immune to Psychology",
+            "Unbreakable",
+            "Unstable",
+            "Fear",
+            "Mark of Nurgle",
+            "Fly (X)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Fly (9)",
+          "cost": 30.0,
+          "is_default": false
+        },
+        {
+          "name": "Mark of Khorne",
+          "cost": 10.0,
+          "is_default": false
+        },
+        {
+          "name": "Mark of Nurgle",
+          "cost": 10.0,
+          "is_default": false
+        },
+        {
+          "name": "Mark of Slaanesh",
+          "cost": 10.0,
+          "is_default": false
+        },
+        {
+          "name": "Mark of Tzeentch",
+          "cost": 10.0,
+          "is_default": false
+        },
+        {
+          "name": "Level 1 Wizard",
+          "cost": 25.0,
+          "is_default": false
+        },
+        {
+          "name": "Level 2 Wizard",
+          "cost": 50.0,
+          "is_default": false
+        },
+        {
+          "name": "Level 3 Wizard",
+          "cost": 75.0,
+          "is_default": false
+        },
+        {
+          "name": "Level 4 Wizard",
+          "cost": 100.0,
+          "is_default": false
+        },
+        {
+          "name": "Armour",
+          "cost": 0.0,
+          "is_default": true
+        },
+        {
+          "name": "Light Armour",
+          "cost": 0.0,
+          "is_default": false
+        },
+        {
+          "name": "Heavy Armour",
+          "cost": 6.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Sorcerer Lord",
+      "category": "Characters",
+      "base_points": 195.0,
+      "rules": [
+        "Chaos Armour (5+)",
+        "Ensorcelled Weapons",
+        "Gaze of the Gods",
+        "Lore Of Chaos"
+      ],
+      "models": [
+        {
+          "name": "Sorcerer Lord",
+          "stats": {
+            "M": "4",
+            "WS": "5",
+            "BS": "3",
+            "S": "4",
+            "T": "4",
+            "W": "3",
+            "I": "4",
+            "A": "3",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Infantry (Character)"
+          },
+          "cost": 195.0,
+          "rules": [
+            "Chaos Armour (5+)",
+            "Ensorcelled Weapons",
+            "Gaze of the Gods",
+            "Lore Of Chaos"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Sorcerer Lord on Manticore",
+          "stats": {
+            "M": "6",
+            "WS": "5",
+            "BS": "3",
+            "S": "4",
+            "T": "4",
+            "W": "7",
+            "I": "4",
+            "A": "3",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Infantry (Character)"
+          },
+          "cost": 315.0,
+          "rules": [
+            "Close Order",
+            "Large Target",
+            "Gaze of the Gods",
+            "Chaos Armour (5+)",
+            "Terror",
+            "Stomp Attacks (X)",
+            "Lore Of Chaos",
+            "Ensorcelled Weapons",
+            "Swiftstride",
+            "Fly (9)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Wicked Claws",
+            "Venomous Tail"
+          ]
+        },
+        {
+          "name": "Sorcerer Lord on Chaos Steed",
+          "stats": {
+            "M": "7",
+            "WS": "5",
+            "BS": "3",
+            "S": "4",
+            "T": "4",
+            "W": "3",
+            "I": "4",
+            "A": "3",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Infantry (Character)"
+          },
+          "cost": 211.0,
+          "rules": [
+            "Gaze of the Gods",
+            "Chaos Armour (5+)",
+            "Lore Of Chaos",
+            "Counter Charge",
+            "Ensorcelled Weapons",
+            "Swiftstride",
+            "First Charge"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Sorcerer Lord on Daemonic Mount",
+          "stats": {
+            "M": "8",
+            "WS": "5",
+            "BS": "3",
+            "S": "4",
+            "T": "4",
+            "W": "4",
+            "I": "4",
+            "A": "3",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Infantry (Character)"
+          },
+          "cost": 230.0,
+          "rules": [
+            "Gaze of the Gods",
+            "Chaos Armour (5+)",
+            "Magical Attacks",
+            "Stomp Attacks (X)",
+            "Lore Of Chaos",
+            "Armor Bane (X)",
+            "Ensorcelled Weapons",
+            "Swiftstride",
+            "Fear"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Sorcerer Lord on Chaos Dragon",
+          "stats": {
+            "M": "6",
+            "WS": "5",
+            "BS": "3",
+            "S": "4",
+            "T": "5",
+            "W": "9",
+            "I": "4",
+            "A": "3",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Infantry (Character)"
+          },
+          "cost": 480.0,
+          "rules": [
+            "Close Order",
+            "Large Target",
+            "Gaze of the Gods",
+            "Chaos Armour (5+)",
+            "Terror",
+            "Stomp Attacks (X)",
+            "Lore Of Chaos",
+            "Impetuous",
+            "Ensorcelled Weapons",
+            "Swiftstride",
+            "Fly (10)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Wicked Claws",
+            "Dark Fire of Chaos",
+            "Fumes of Contagion"
+          ]
+        },
+        {
+          "name": "Sorcerer Lord on Chaos Chariot",
+          "stats": {
+            "M": "4",
+            "WS": "5",
+            "BS": "3",
+            "S": "4",
+            "T": "5",
+            "W": "4",
+            "I": "4",
+            "A": "3",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Infantry (Character)"
+          },
+          "cost": 305.0,
+          "rules": [
+            "Close Order",
+            "Mark of Chaos Undivided",
+            "Mark of Khorne",
+            "Gaze of the Gods",
+            "Chaos Armour (5+)",
+            "Mark of Slaanesh",
+            "Mark of Tzeentch",
+            "Lore Of Chaos",
+            "Ensorcelled Weapons",
+            "Mark of Nurgle",
+            "First Charge",
+            "Impact Hits (X)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Mark of Nurgle",
+          "cost": 10.0,
+          "is_default": false
+        },
+        {
+          "name": "Mark of Slaanesh",
+          "cost": 10.0,
+          "is_default": false
+        },
+        {
+          "name": "Mark of Tzeentch",
+          "cost": 10.0,
+          "is_default": false
+        },
+        {
+          "name": "Level 4 Wizard",
+          "cost": 30.0,
+          "is_default": false
+        },
+        {
+          "name": "Venomous Tail",
+          "cost": 15.0,
+          "is_default": false
+        },
+        {
+          "name": "Mark of Khorne",
+          "cost": 10.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Exalted Sorcerer",
+      "category": "Characters",
+      "base_points": 90.0,
+      "rules": [
+        "Chaos Armour (5+)",
+        "Ensorcelled Weapons",
+        "Gaze of the Gods",
+        "Lore Of Chaos"
+      ],
+      "models": [
+        {
+          "name": "Exalted Sorcerer",
+          "stats": {
+            "M": "4",
+            "WS": "4",
+            "BS": "3",
+            "S": "4",
+            "T": "4",
+            "W": "2",
+            "I": "3",
+            "A": "2",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Infantry (Character)"
+          },
+          "cost": 90.0,
+          "rules": [
+            "Chaos Armour (5+)",
+            "Ensorcelled Weapons",
+            "Gaze of the Gods",
+            "Lore Of Chaos"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Exalted Sorcerer on Chaos Steed",
+          "stats": {
+            "M": "7",
+            "WS": "4",
+            "BS": "3",
+            "S": "4",
+            "T": "4",
+            "W": "2",
+            "I": "3",
+            "A": "2",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Infantry (Character)"
+          },
+          "cost": 106.0,
+          "rules": [
+            "Gaze of the Gods",
+            "Chaos Armour (5+)",
+            "Lore Of Chaos",
+            "Counter Charge",
+            "Ensorcelled Weapons",
+            "Swiftstride",
+            "First Charge"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Exalted Sorcerer on Daemonic Mount",
+          "stats": {
+            "M": "8",
+            "WS": "4",
+            "BS": "3",
+            "S": "4",
+            "T": "4",
+            "W": "3",
+            "I": "3",
+            "A": "2",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Infantry (Character)"
+          },
+          "cost": 125.0,
+          "rules": [
+            "Gaze of the Gods",
+            "Chaos Armour (5+)",
+            "Magical Attacks",
+            "Stomp Attacks (X)",
+            "Lore Of Chaos",
+            "Armor Bane (X)",
+            "Ensorcelled Weapons",
+            "Swiftstride",
+            "Fear"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Exalted Sorcerer on Chaos Chariot",
+          "stats": {
+            "M": "4",
+            "WS": "4",
+            "BS": "3",
+            "S": "4",
+            "T": "5",
+            "W": "4",
+            "I": "3",
+            "A": "2",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Infantry (Character)"
+          },
+          "cost": 200.0,
+          "rules": [
+            "Close Order",
+            "Mark of Chaos Undivided",
+            "Mark of Khorne",
+            "Gaze of the Gods",
+            "Chaos Armour (5+)",
+            "Mark of Slaanesh",
+            "Mark of Tzeentch",
+            "Lore Of Chaos",
+            "Ensorcelled Weapons",
+            "Mark of Nurgle",
+            "First Charge",
+            "Impact Hits (X)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Mark of Nurgle",
+          "cost": 10.0,
+          "is_default": false
+        },
+        {
+          "name": "Mark of Slaanesh",
+          "cost": 10.0,
+          "is_default": false
+        },
+        {
+          "name": "Mark of Tzeentch",
+          "cost": 10.0,
+          "is_default": false
+        },
+        {
+          "name": "Level 2 Wizard",
+          "cost": 30.0,
+          "is_default": false
+        },
+        {
+          "name": "Mark of Khorne",
+          "cost": 10.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Chaos Warriors",
+      "category": "Core",
+      "base_points": 0.0,
+      "rules": [
+        "Close Order",
+        "Ensorcelled Weapons"
+      ],
+      "models": [
+        {
+          "name": "Chaos Warriors",
+          "stats": {
+            "M": "4",
+            "WS": "5",
+            "BS": "3",
+            "S": "4",
+            "T": "4",
+            "W": "1",
+            "I": "4",
+            "A": "1",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Infantry"
+          },
+          "cost": 13.0,
+          "rules": [
+            "Close Order",
+            "Mark of Khorne",
+            "Mark of Chaos Undivided",
+            "Mark of Slaanesh",
+            "Mark of Tzeentch",
+            "Ensorcelled Weapons",
+            "Mark of Nurgle"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Champion",
+          "stats": {
+            "M": "4",
+            "WS": "5",
+            "BS": "3",
+            "S": "4",
+            "T": "4",
+            "W": "1",
+            "I": "4",
+            "A": "2",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Infantry"
+          },
+          "cost": 19.0,
+          "rules": [
+            "Close Order",
+            "Ensorcelled Weapons"
+          ],
+          "role": "champion",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Shield",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Additional Hand Weapon",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Great Weapon",
+          "cost": 2.0,
+          "is_default": false
+        },
+        {
+          "name": "Halberd",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Mark of Khorne",
+          "cost": 2.0,
+          "is_default": false
+        },
+        {
+          "name": "Mark of Tzeentch",
+          "cost": 2.0,
+          "is_default": false
+        },
+        {
+          "name": "Mark of Slaanesh",
+          "cost": 2.0,
+          "is_default": false
+        },
+        {
+          "name": "Mark of Nurgle",
+          "cost": 2.0,
+          "is_default": false
+        },
+        {
+          "name": "Musician",
+          "cost": 6.0,
+          "is_default": false
+        },
+        {
+          "name": "Standard Bearer",
+          "cost": 6.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Chosen Chaos Knights",
+      "category": "Special",
+      "base_points": 0.0,
+      "rules": [
+        "Close Order",
+        "Ensorcelled Weapons",
+        "Chaos Armour (6+)",
+        "Stubborn",
+        "Counter Charge",
+        "First Charge",
+        "Swiftstride"
+      ],
+      "models": [
+        {
+          "name": "Chosen Chaos Knights",
+          "stats": {
+            "M": "-",
+            "WS": "5",
+            "BS": "3",
+            "S": "4",
+            "T": "4",
+            "W": "1",
+            "I": "4",
+            "A": "2",
+            "LD": "9",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Cavalry"
+          },
+          "cost": 36.0,
+          "rules": [
+            "Close Order",
+            "Mark of Chaos Undivided",
+            "Mark of Khorne",
+            "Stubborn",
+            "Mark of Slaanesh",
+            "Chaos Armour (6+)",
+            "Mark of Tzeentch",
+            "Counter Charge",
+            "Ensorcelled Weapons",
+            "Swiftstride",
+            "Mark of Nurgle",
+            "First Charge",
+            "Drilled"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Champion",
+          "stats": {
+            "M": "4",
+            "WS": "5",
+            "BS": "3",
+            "S": "4",
+            "T": "4",
+            "W": "1",
+            "I": "4",
+            "A": "3",
+            "LD": "9",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Infantry"
+          },
+          "cost": 43.0,
+          "rules": [
+            "Close Order",
+            "Stubborn",
+            "Chaos Armour (6+)",
+            "Counter Charge",
+            "Ensorcelled Weapons",
+            "Swiftstride",
+            "First Charge"
+          ],
+          "role": "champion",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Drilled",
+          "cost": 2.0,
+          "is_default": false
+        },
+        {
+          "name": "Lances",
+          "cost": 2.0,
+          "is_default": false
+        },
+        {
+          "name": "Mark of Khorne",
+          "cost": 2.0,
+          "is_default": false
+        },
+        {
+          "name": "Mark of Tzeentch",
+          "cost": 2.0,
+          "is_default": false
+        },
+        {
+          "name": "Mark of Slaanesh",
+          "cost": 2.0,
+          "is_default": false
+        },
+        {
+          "name": "Mark of Nurgle",
+          "cost": 2.0,
+          "is_default": false
+        },
+        {
+          "name": "Armour",
+          "cost": 0.0,
+          "is_default": true
+        },
+        {
+          "name": "Heavy Armour",
+          "cost": 0.0,
+          "is_default": false
+        },
+        {
+          "name": "Full Plate Armour",
+          "cost": 3.0,
+          "is_default": false
+        },
+        {
+          "name": "Musician",
+          "cost": 7.0,
+          "is_default": false
+        },
+        {
+          "name": "Standard Bearer",
+          "cost": 7.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Chaos Marauders",
+      "category": "Core",
+      "base_points": 0.0,
+      "rules": [
+        "Close Order",
+        "Shieldwall",
+        "Warband"
+      ],
+      "models": [
+        {
+          "name": "Chaos Marauders",
+          "stats": {
+            "M": "4",
+            "WS": "4",
+            "BS": "3",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "3",
+            "A": "1",
+            "LD": "6",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 6.0,
+          "rules": [
+            "Close Order",
+            "Mark of Chaos Undivided",
+            "Mark of Khorne",
+            "Open Order",
+            "Mark of Slaanesh",
+            "Mark of Tzeentch",
+            "Skirmishers",
+            "Warband",
+            "Mark of Nurgle",
+            "Shieldwall"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Champion",
+          "stats": {
+            "M": "4",
+            "WS": "4",
+            "BS": "3",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "3",
+            "A": "2",
+            "LD": "7",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 7.0,
+          "rules": [
+            "Close Order",
+            "Warband",
+            "Shieldwall"
+          ],
+          "role": "champion",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Shield",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Light Armour",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Ambushers",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Great Weapon",
+          "cost": 2.0,
+          "is_default": false
+        },
+        {
+          "name": "Flail",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Mark of Khorne",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Mark of Tzeentch",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Mark of Slaanesh",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Mark of Nurgle",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Musician",
+          "cost": 5.0,
+          "is_default": false
+        },
+        {
+          "name": "Standard Bearer",
+          "cost": 5.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Forsaken",
+      "category": "Core",
+      "base_points": 0.0,
+      "rules": [
+        "Open Order",
+        "Ensorcelled Weapons",
+        "Chaos Armour (5+)",
+        "Furious Charge",
+        "Immune to Psychology",
+        "Impetuous",
+        "Loner",
+        "Random Attacks",
+        "Stubborn"
+      ],
+      "models": [
+        {
+          "name": "Forsaken",
+          "stats": {
+            "M": "5",
+            "WS": "4",
+            "BS": "0",
+            "S": "4",
+            "T": "4",
+            "W": "1",
+            "I": "3",
+            "A": "D3",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Infantry"
+          },
+          "cost": 19.0,
+          "rules": [
+            "Random Attacks",
+            "Magic Resistance (-X)",
+            "Open Order",
+            "Stubborn",
+            "Chaos Armour (5+)",
+            "Loner",
+            "Furious Charge",
+            "Impetuous",
+            "Hatred (X)",
+            "Ensorcelled Weapons",
+            "Immune to Psychology",
+            "Swiftstride",
+            "Fear"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": []
+    },
+    {
+      "name": "Chaos Ogres",
+      "category": "Special",
+      "base_points": 0.0,
+      "rules": [
+        "Close Order",
+        "Armor Bane (X)",
+        "Fear",
+        "Impact Hits (X)"
+      ],
+      "models": [
+        {
+          "name": "Chaos Ogres",
+          "stats": {
+            "M": "6",
+            "WS": "3",
+            "BS": "2",
+            "S": "4",
+            "T": "4",
+            "W": "3",
+            "I": "2",
+            "A": "3",
+            "LD": "7",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Monsterous Infantry"
+          },
+          "cost": 33.0,
+          "rules": [
+            "Close Order",
+            "Mark of Chaos Undivided",
+            "Mark of Khorne",
+            "Mark of Slaanesh",
+            "Mark of Tzeentch",
+            "Armor Bane (X)",
+            "Fear",
+            "Mark of Nurgle",
+            "Impact Hits (X)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Champion",
+          "stats": {
+            "M": "6",
+            "WS": "3",
+            "BS": "2",
+            "S": "4",
+            "T": "4",
+            "W": "3",
+            "I": "2",
+            "A": "4",
+            "LD": "7",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Monsterous Infantry"
+          },
+          "cost": 39.0,
+          "rules": [
+            "Close Order",
+            "Fear",
+            "Impact Hits (X)",
+            "Armor Bane (X)"
+          ],
+          "role": "champion",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Additional Hand Weapon",
+          "cost": 3.0,
+          "is_default": false
+        },
+        {
+          "name": "Great Weapon",
+          "cost": 4.0,
+          "is_default": false
+        },
+        {
+          "name": "Mark of Khorne",
+          "cost": 2.0,
+          "is_default": false
+        },
+        {
+          "name": "Mark of Tzeentch",
+          "cost": 2.0,
+          "is_default": false
+        },
+        {
+          "name": "Mark of Slaanesh",
+          "cost": 2.0,
+          "is_default": false
+        },
+        {
+          "name": "Mark of Nurgle",
+          "cost": 2.0,
+          "is_default": false
+        },
+        {
+          "name": "Musician",
+          "cost": 6.0,
+          "is_default": false
+        },
+        {
+          "name": "Standard Bearer",
+          "cost": 6.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Chaos Trolls",
+      "category": "Special",
+      "base_points": 0.0,
+      "rules": [
+        "Close Order",
+        "Armor Bane (X)",
+        "Fear",
+        "Flammable",
+        "Regeneration (X+)",
+        "Stupidity",
+        "Motley Crew"
+      ],
+      "models": [
+        {
+          "name": "Chaos Trolls",
+          "stats": {
+            "M": "6",
+            "WS": "3",
+            "BS": "1",
+            "S": "5",
+            "T": "4",
+            "W": "3",
+            "I": "2",
+            "A": "3",
+            "LD": "4",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Monsterous Infantry"
+          },
+          "cost": 41.0,
+          "rules": [
+            "Close Order",
+            "Motley Crew",
+            "Regeneration (X+)",
+            "Armor Bane (X)",
+            "Flammable",
+            "Fear",
+            "Stupidity"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Troll Vomit"
+          ]
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Additional Hand Weapon",
+          "cost": 3.0,
+          "is_default": false
+        },
+        {
+          "name": "Great Weapon",
+          "cost": 4.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Chaos Spawn",
+      "category": "Special",
+      "base_points": 0.0,
+      "rules": [
+        "Open Order",
+        "Armor Bane (X)",
+        "Fear",
+        "Immune to Psychology",
+        "Random Movement",
+        "Random Attacks",
+        "Stomp Attacks (X)",
+        "Unbreakable"
+      ],
+      "models": [
+        {
+          "name": "Chaos Spawn",
+          "stats": {
+            "M": "2D6",
+            "WS": "3",
+            "BS": "0",
+            "S": "4",
+            "T": "5",
+            "W": "3",
+            "I": "3",
+            "A": "D6",
+            "LD": "10",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Monsterous Infantry"
+          },
+          "cost": 50.0,
+          "rules": [
+            "Flaming Attacks",
+            "Random Attacks",
+            "Open Order",
+            "Random Movement",
+            "Killing Blow",
+            "Magical Attacks",
+            "Stomp Attacks (X)",
+            "Poisoned Attacks",
+            "Armor Bane (X)",
+            "Immune to Psychology",
+            "Unbreakable",
+            "Fear",
+            "Strike First"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Spawn of Khorne",
+          "cost": 3.0,
+          "is_default": false
+        },
+        {
+          "name": "Spawn of Tzeentch",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Spawn of Slaanesh",
+          "cost": 3.0,
+          "is_default": false
+        },
+        {
+          "name": "Spawn of Nurgle",
+          "cost": 2.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Chaos Knights",
+      "category": "Core",
+      "base_points": 0.0,
+      "rules": [
+        "Close Order",
+        "Ensorcelled Weapons",
+        "First Charge",
+        "Swiftstride",
+        "Counter Charge"
+      ],
+      "models": [
+        {
+          "name": "Chaos Knights",
+          "stats": {
+            "M": "-",
+            "WS": "5",
+            "BS": "3",
+            "S": "4",
+            "T": "4",
+            "W": "1",
+            "I": "4",
+            "A": "1",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Cavalry"
+          },
+          "cost": 27.0,
+          "rules": [
+            "Close Order",
+            "Mark of Chaos Undivided",
+            "Mark of Khorne",
+            "Mark of Slaanesh",
+            "Mark of Tzeentch",
+            "Counter Charge",
+            "Ensorcelled Weapons",
+            "Swiftstride",
+            "Mark of Nurgle",
+            "First Charge"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Champion",
+          "stats": {
+            "M": "-",
+            "WS": "5",
+            "BS": "3",
+            "S": "4",
+            "T": "4",
+            "W": "1",
+            "I": "4",
+            "A": "2",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Cavalry"
+          },
+          "cost": 33.0,
+          "rules": [
+            "Close Order",
+            "Counter Charge",
+            "Ensorcelled Weapons",
+            "Swiftstride",
+            "First Charge"
+          ],
+          "role": "champion",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Lances",
+          "cost": 2.0,
+          "is_default": false
+        },
+        {
+          "name": "Mark of Khorne",
+          "cost": 2.0,
+          "is_default": false
+        },
+        {
+          "name": "Mark of Tzeentch",
+          "cost": 2.0,
+          "is_default": false
+        },
+        {
+          "name": "Mark of Slaanesh",
+          "cost": 2.0,
+          "is_default": false
+        },
+        {
+          "name": "Mark of Nurgle",
+          "cost": 2.0,
+          "is_default": false
+        },
+        {
+          "name": "Musician",
+          "cost": 6.0,
+          "is_default": false
+        },
+        {
+          "name": "Standard Bearer",
+          "cost": 6.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Chosen Chaos Warriors",
+      "category": "Special",
+      "base_points": 0.0,
+      "rules": [
+        "Close Order",
+        "Ensorcelled Weapons",
+        "Chaos Armour (6+)",
+        "Stubborn"
+      ],
+      "models": [
+        {
+          "name": "Chosen Chaos Warriors",
+          "stats": {
+            "M": "4",
+            "WS": "5",
+            "BS": "3",
+            "S": "4",
+            "T": "4",
+            "W": "1",
+            "I": "4",
+            "A": "2",
+            "LD": "9",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Infantry"
+          },
+          "cost": 17.0,
+          "rules": [
+            "Close Order",
+            "Mark of Chaos Undivided",
+            "Mark of Khorne",
+            "Stubborn",
+            "Mark of Slaanesh",
+            "Chaos Armour (6+)",
+            "Mark of Tzeentch",
+            "Ensorcelled Weapons",
+            "Mark of Nurgle",
+            "Drilled"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Champion",
+          "stats": {
+            "M": "4",
+            "WS": "5",
+            "BS": "3",
+            "S": "4",
+            "T": "4",
+            "W": "1",
+            "I": "4",
+            "A": "3",
+            "LD": "9",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Infantry"
+          },
+          "cost": 24.0,
+          "rules": [
+            "Close Order",
+            "Ensorcelled Weapons",
+            "Chaos Armour (6+)",
+            "Stubborn"
+          ],
+          "role": "champion",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Shield",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Drilled",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Additional Hand Weapon",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Great Weapon",
+          "cost": 2.0,
+          "is_default": false
+        },
+        {
+          "name": "Halberd",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Mark of Khorne",
+          "cost": 2.0,
+          "is_default": false
+        },
+        {
+          "name": "Mark of Tzeentch",
+          "cost": 2.0,
+          "is_default": false
+        },
+        {
+          "name": "Mark of Slaanesh",
+          "cost": 2.0,
+          "is_default": false
+        },
+        {
+          "name": "Mark of Nurgle",
+          "cost": 2.0,
+          "is_default": false
+        },
+        {
+          "name": "Armour",
+          "cost": 0.0,
+          "is_default": true
+        },
+        {
+          "name": "Heavy Armour",
+          "cost": 0.0,
+          "is_default": false
+        },
+        {
+          "name": "Full Plate Armour",
+          "cost": 2.0,
+          "is_default": false
+        },
+        {
+          "name": "Musician",
+          "cost": 6.0,
+          "is_default": false
+        },
+        {
+          "name": "Standard Bearer",
+          "cost": 6.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Marauder Horsemen",
+      "category": "Core",
+      "base_points": 0.0,
+      "rules": [
+        "Fast Cavalry",
+        "Fire & Flee",
+        "Warband",
+        "Open Order",
+        "Skirmishers",
+        "Swiftstride"
+      ],
+      "models": [
+        {
+          "name": "Marauder Horsemen",
+          "stats": {
+            "M": "-",
+            "WS": "4",
+            "BS": "3",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "3",
+            "A": "1",
+            "LD": "6",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Light Cavalry"
+          },
+          "cost": 12.0,
+          "rules": [
+            "Mark of Khorne",
+            "Mark of Chaos Undivided",
+            "Open Order",
+            "Fast Cavalry",
+            "Mark of Slaanesh",
+            "Mark of Tzeentch",
+            "Skirmishers",
+            "Swiftstride",
+            "Warband",
+            "Mark of Nurgle",
+            "Fire & Flee"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Champion",
+          "stats": {
+            "M": "-",
+            "WS": "4",
+            "BS": "3",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "3",
+            "A": "2",
+            "LD": "7",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Light Cavalry"
+          },
+          "cost": 19.0,
+          "rules": [
+            "Open Order",
+            "Fast Cavalry",
+            "Skirmishers",
+            "Swiftstride",
+            "Warband",
+            "Fire & Flee"
+          ],
+          "role": "champion",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Shield",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Ambushers",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Flail",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Mark of Khorne",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Mark of Tzeentch",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Mark of Slaanesh",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Mark of Nurgle",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Javelins",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Throwing Axes",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Musician",
+          "cost": 5.0,
+          "is_default": false
+        },
+        {
+          "name": "Standard Bearer",
+          "cost": 5.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Chaos Warhounds",
+      "category": "Core",
+      "base_points": 0.0,
+      "rules": [
+        "Move Through Cover",
+        "Open Order",
+        "Loner",
+        "Swiftstride"
+      ],
+      "models": [
+        {
+          "name": "Chaos Warhounds",
+          "stats": {
+            "M": "7",
+            "WS": "4",
+            "BS": "0",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "3",
+            "A": "1",
+            "LD": "6",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "War Beast"
+          },
+          "cost": 6.0,
+          "rules": [
+            "Armored Hide (X)",
+            "Vanguard",
+            "Mark of Chaos Undivided",
+            "Open Order",
+            "Loner",
+            "Poisoned Attacks",
+            "Swiftstride",
+            "Move Through Cover"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Chaos Warhound Handler",
+          "stats": {
+            "M": "5",
+            "WS": "5",
+            "BS": "3",
+            "S": "4",
+            "T": "4",
+            "W": "1",
+            "I": "4",
+            "A": "1",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry (Character)"
+          },
+          "cost": 15.0,
+          "rules": [
+            "Vanguard",
+            "Mark of Chaos Undivided",
+            "Open Order",
+            "Loner",
+            "Swiftstride",
+            "Move Through Cover"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Armoured Hide (1)",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Poisoned Attacks",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Vanguard",
+          "cost": 5.0,
+          "is_default": false
+        },
+        {
+          "name": "Additional Hand Weapon",
+          "cost": 0.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Dragon Ogres",
+      "category": "Special",
+      "base_points": 0.0,
+      "rules": [
+        "Close Order",
+        "Armor Bane (X)",
+        "Fear",
+        "Armored Hide (X)",
+        "Ensorcelled Weapons",
+        "Immune to Psychology",
+        "Stomp Attacks (X)"
+      ],
+      "models": [
+        {
+          "name": "Dragon Ogres",
+          "stats": {
+            "M": "7",
+            "WS": "4",
+            "BS": "2",
+            "S": "5",
+            "T": "4",
+            "W": "4",
+            "I": "2",
+            "A": "3",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Monsterous Cavalry"
+          },
+          "cost": 59.0,
+          "rules": [
+            "Armored Hide (X)",
+            "Close Order",
+            "Stomp Attacks (X)",
+            "Armor Bane (X)",
+            "Ensorcelled Weapons",
+            "Immune to Psychology",
+            "Fear"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Champion",
+          "stats": {
+            "M": "7",
+            "WS": "4",
+            "BS": "2",
+            "S": "5",
+            "T": "4",
+            "W": "4",
+            "I": "2",
+            "A": "4",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Monsterous Cavalry"
+          },
+          "cost": 66.0,
+          "rules": [
+            "Armored Hide (X)",
+            "Close Order",
+            "Stomp Attacks (X)",
+            "Armor Bane (X)",
+            "Ensorcelled Weapons",
+            "Immune to Psychology",
+            "Fear"
+          ],
+          "role": "champion",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Additional Hand Weapon",
+          "cost": 3.0,
+          "is_default": false
+        },
+        {
+          "name": "Great Weapon",
+          "cost": 4.0,
+          "is_default": false
+        },
+        {
+          "name": "Halberd",
+          "cost": 3.0,
+          "is_default": false
+        },
+        {
+          "name": "Armour",
+          "cost": 0.0,
+          "is_default": true
+        },
+        {
+          "name": "Light Armour",
+          "cost": 0.0,
+          "is_default": false
+        },
+        {
+          "name": "Heavy Armour",
+          "cost": 3.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Dragon Ogre Shaggoth",
+      "category": "Rare",
+      "base_points": 225.0,
+      "rules": [
+        "Close Order",
+        "Armor Bane (X)",
+        "Terror",
+        "Armored Hide (X)",
+        "Ensorcelled Weapons",
+        "Immune to Psychology",
+        "Stomp Attacks (X)",
+        "Large Target"
+      ],
+      "models": [
+        {
+          "name": "Dragon Ogre Shaggoth",
+          "stats": {
+            "M": "7",
+            "WS": "6",
+            "BS": "2",
+            "S": "6",
+            "T": "5",
+            "W": "6",
+            "I": "4",
+            "A": "5",
+            "LD": "9",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Monsterous Creature"
+          },
+          "cost": 225.0,
+          "rules": [
+            "Armored Hide (X)",
+            "Close Order",
+            "Large Target",
+            "Terror",
+            "Stomp Attacks (X)",
+            "Armor Bane (X)",
+            "Ensorcelled Weapons",
+            "Immune to Psychology"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Armour",
+          "cost": 0.0,
+          "is_default": true
+        },
+        {
+          "name": "Light Armour",
+          "cost": 0.0,
+          "is_default": false
+        },
+        {
+          "name": "Heavy Armour",
+          "cost": 6.0,
+          "is_default": false
+        },
+        {
+          "name": "Additional Hand Weapon",
+          "cost": 3.0,
+          "is_default": false
+        },
+        {
+          "name": "Great Weapon",
+          "cost": 4.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Marauder Tribe Berserkers",
+      "category": "Core",
+      "base_points": 0.0,
+      "rules": [
+        "Open Order",
+        "Frenzy",
+        "Mark of Chaos Undivided",
+        "Move Through Cover",
+        "Skirmishers",
+        "Warband"
+      ],
+      "models": [
+        {
+          "name": "Marauder Tribe Berserkers",
+          "stats": {
+            "M": "5",
+            "WS": "4",
+            "BS": "3",
+            "S": "3",
+            "T": "4",
+            "W": "1",
+            "I": "3",
+            "A": "1",
+            "LD": "7",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 8.0,
+          "rules": [
+            "Mark of Chaos Undivided",
+            "Open Order",
+            "Ambushers",
+            "Frenzy",
+            "Skirmishers",
+            "Warband",
+            "Move Through Cover"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Champion",
+          "stats": {
+            "M": "5",
+            "WS": "4",
+            "BS": "3",
+            "S": "3",
+            "T": "4",
+            "W": "1",
+            "I": "3",
+            "A": "2",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 8.0,
+          "rules": [
+            "Mark of Chaos Undivided",
+            "Open Order",
+            "Frenzy",
+            "Skirmishers",
+            "Warband",
+            "Move Through Cover"
+          ],
+          "role": "champion",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Throwing Axes",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Ambushers",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Additional Hand Weapon",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Flail",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Musician",
+          "cost": 6.0,
+          "is_default": false
+        },
+        {
+          "name": "Standard Bearer",
+          "cost": 6.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Skin Wolves",
+      "category": "Special",
+      "base_points": 0.0,
+      "rules": [
+        "Open Order",
+        "Mark of Chaos Undivided",
+        "Skirmishers",
+        "Regeneration (5+)",
+        "Swiftstride",
+        "Fear"
+      ],
+      "models": [
+        {
+          "name": "Skin Wolves",
+          "stats": {
+            "M": "7",
+            "WS": "5",
+            "BS": "-",
+            "S": "4",
+            "T": "4",
+            "W": "3",
+            "I": "4",
+            "A": "3",
+            "LD": "7",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Monsterous Infantry"
+          },
+          "cost": 45.0,
+          "rules": [
+            "Mark of Chaos Undivided",
+            "Open Order",
+            "Regeneration (5+)",
+            "Skirmishers",
+            "Swiftstride",
+            "Fear"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Skin Wolf",
+          "stats": {
+            "M": "7",
+            "WS": "5",
+            "BS": "-",
+            "S": "4",
+            "T": "4",
+            "W": "3",
+            "I": "4",
+            "A": "3",
+            "LD": "7",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Monsterous Infantry"
+          },
+          "cost": 45.0,
+          "rules": [
+            "Mark of Chaos Undivided",
+            "Open Order",
+            "Regeneration (5+)",
+            "Skirmishers",
+            "Swiftstride",
+            "Fear"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Champion",
+          "stats": {
+            "M": "7",
+            "WS": "5",
+            "BS": "-",
+            "S": "4",
+            "T": "4",
+            "W": "3",
+            "I": "4",
+            "A": "3",
+            "LD": "7",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Monsterous Infantry"
+          },
+          "cost": 52.0,
+          "rules": [
+            "Mark of Chaos Undivided",
+            "Open Order",
+            "Regeneration (5+)",
+            "Skirmishers",
+            "Swiftstride",
+            "Fear"
+          ],
+          "role": "champion",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": []
+    },
+    {
+      "name": "Marauder Tribe Huscarls",
+      "category": "Special",
+      "base_points": 0.0,
+      "rules": [
+        "Close Order",
+        "Counter Charge",
+        "Warband",
+        "Furious Charge",
+        "Swiftstride"
+      ],
+      "models": [
+        {
+          "name": "Marauder Tribe Huscarls",
+          "stats": {
+            "M": "-",
+            "WS": "4",
+            "BS": "3",
+            "S": "3",
+            "T": "4",
+            "W": "1",
+            "I": "3",
+            "A": "1",
+            "LD": "7",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Light Cavalry"
+          },
+          "cost": 18.0,
+          "rules": [
+            "Close Order",
+            "Mark of Chaos Undivided",
+            "Mark of Khorne",
+            "Mark of Slaanesh",
+            "Furious Charge",
+            "Mark of Tzeentch",
+            "Counter Charge",
+            "Swiftstride",
+            "Warband",
+            "Mark of Nurgle",
+            "Drilled"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Champion",
+          "stats": {
+            "M": "-",
+            "WS": "4",
+            "BS": "3",
+            "S": "3",
+            "T": "4",
+            "W": "1",
+            "I": "3",
+            "A": "2",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Light Cavalry"
+          },
+          "cost": 26.0,
+          "rules": [
+            "Close Order",
+            "Furious Charge",
+            "Counter Charge",
+            "Swiftstride",
+            "Warband"
+          ],
+          "role": "champion",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Shield",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Flail",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Mark of Khorne",
+          "cost": 2.0,
+          "is_default": false
+        },
+        {
+          "name": "Mark of Tzeentch",
+          "cost": 2.0,
+          "is_default": false
+        },
+        {
+          "name": "Mark of Slaanesh",
+          "cost": 2.0,
+          "is_default": false
+        },
+        {
+          "name": "Mark of Nurgle",
+          "cost": 2.0,
+          "is_default": false
+        },
+        {
+          "name": "Javelins",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Throwing Axes",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Armour",
+          "cost": 0.0,
+          "is_default": true
+        },
+        {
+          "name": "Light Armour",
+          "cost": 0.0,
+          "is_default": false
+        },
+        {
+          "name": "Heavy Armour",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Musician",
+          "cost": 6.0,
+          "is_default": false
+        },
+        {
+          "name": "Standard Bearer",
+          "cost": 6.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Gigantic Spawn of Chaos",
+      "category": "Rare",
+      "base_points": 145.0,
+      "rules": [
+        "Armor Bane (X)",
+        "Immune to Psychology",
+        "Random Movement",
+        "Random Attacks",
+        "Stomp Attacks (X)",
+        "Unbreakable",
+        "Close Order",
+        "First Charge",
+        "Large Target",
+        "Timmm-berrr!",
+        "Terror"
+      ],
+      "models": [
+        {
+          "name": "Gigantic Spawn of Chaos",
+          "stats": {
+            "M": "3D6",
+            "WS": "3",
+            "BS": "0",
+            "S": "6",
+            "T": "6",
+            "W": "6",
+            "I": "3",
+            "A": "D6+1",
+            "LD": "10",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Behemoth"
+          },
+          "cost": 145.0,
+          "rules": [
+            "Poisoned Attacks",
+            "Unbreakable",
+            "First Charge",
+            "Timmm-berrr!",
+            "Close Order",
+            "Magic Resistance (-2)",
+            "Terror",
+            "Killing Blow",
+            "Stomp Attacks (X)",
+            "Armor Bane (X)",
+            "Regeneration (5+)",
+            "Random Attacks",
+            "Large Target",
+            "Random Movement",
+            "Counter Charge",
+            "Immune to Psychology",
+            "Strike First",
+            "Flaming Attacks",
+            "Magical Attacks",
+            "Impact Hits (X)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Gnashing Maws",
+            "Slashing Talons"
+          ]
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Spawn of Tzeentch",
+          "cost": 10.0,
+          "is_default": false
+        },
+        {
+          "name": "Spawn of Slaanesh",
+          "cost": 15.0,
+          "is_default": false
+        },
+        {
+          "name": "Spawn of Nurgle",
+          "cost": 25.0,
+          "is_default": false
+        },
+        {
+          "name": "Spawn of Khorne",
+          "cost": 20.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Sorcerer Lord",
+      "category": "Characters",
+      "base_points": 195.0,
+      "rules": [
+        "Chaos Armour (5+)",
+        "Ensorcelled Weapons",
+        "Gaze of the Gods",
+        "Lore Of Chaos"
+      ],
+      "models": [
+        {
+          "name": "Sorcerer Lord",
+          "stats": {
+            "M": "4",
+            "WS": "5",
+            "BS": "3",
+            "S": "4",
+            "T": "4",
+            "W": "3",
+            "I": "4",
+            "A": "3",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Infantry (Character)"
+          },
+          "cost": 195.0,
+          "rules": [
+            "Chaos Armour (5+)",
+            "Ensorcelled Weapons",
+            "Gaze of the Gods",
+            "Lore Of Chaos"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Sorcerer Lord on Manticore",
+          "stats": {
+            "M": "6",
+            "WS": "5",
+            "BS": "3",
+            "S": "4",
+            "T": "4",
+            "W": "7",
+            "I": "4",
+            "A": "3",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Infantry (Character)"
+          },
+          "cost": 315.0,
+          "rules": [
+            "Close Order",
+            "Large Target",
+            "Gaze of the Gods",
+            "Chaos Armour (5+)",
+            "Terror",
+            "Stomp Attacks (X)",
+            "Lore Of Chaos",
+            "Ensorcelled Weapons",
+            "Swiftstride",
+            "Fly (9)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Wicked Claws",
+            "Venomous Tail"
+          ]
+        },
+        {
+          "name": "Sorcerer Lord on Chaos Steed",
+          "stats": {
+            "M": "7",
+            "WS": "5",
+            "BS": "3",
+            "S": "4",
+            "T": "4",
+            "W": "3",
+            "I": "4",
+            "A": "3",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Infantry (Character)"
+          },
+          "cost": 211.0,
+          "rules": [
+            "Gaze of the Gods",
+            "Chaos Armour (5+)",
+            "Lore Of Chaos",
+            "Counter Charge",
+            "Ensorcelled Weapons",
+            "Swiftstride",
+            "First Charge"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Sorcerer Lord on Daemonic Mount",
+          "stats": {
+            "M": "8",
+            "WS": "5",
+            "BS": "3",
+            "S": "4",
+            "T": "4",
+            "W": "4",
+            "I": "4",
+            "A": "3",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Infantry (Character)"
+          },
+          "cost": 230.0,
+          "rules": [
+            "Gaze of the Gods",
+            "Chaos Armour (5+)",
+            "Magical Attacks",
+            "Stomp Attacks (X)",
+            "Lore Of Chaos",
+            "Armor Bane (X)",
+            "Ensorcelled Weapons",
+            "Swiftstride",
+            "Fear"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Sorcerer Lord on Chaos Dragon",
+          "stats": {
+            "M": "6",
+            "WS": "5",
+            "BS": "3",
+            "S": "4",
+            "T": "5",
+            "W": "9",
+            "I": "4",
+            "A": "3",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Infantry (Character)"
+          },
+          "cost": 480.0,
+          "rules": [
+            "Close Order",
+            "Large Target",
+            "Gaze of the Gods",
+            "Chaos Armour (5+)",
+            "Terror",
+            "Stomp Attacks (X)",
+            "Lore Of Chaos",
+            "Impetuous",
+            "Ensorcelled Weapons",
+            "Swiftstride",
+            "Fly (10)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Wicked Claws",
+            "Dark Fire of Chaos",
+            "Fumes of Contagion"
+          ]
+        },
+        {
+          "name": "Sorcerer Lord on Chaos Chariot",
+          "stats": {
+            "M": "4",
+            "WS": "5",
+            "BS": "3",
+            "S": "4",
+            "T": "5",
+            "W": "4",
+            "I": "4",
+            "A": "3",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Infantry (Character)"
+          },
+          "cost": 305.0,
+          "rules": [
+            "Close Order",
+            "Mark of Chaos Undivided",
+            "Mark of Khorne",
+            "Gaze of the Gods",
+            "Chaos Armour (5+)",
+            "Mark of Slaanesh",
+            "Mark of Tzeentch",
+            "Lore Of Chaos",
+            "Ensorcelled Weapons",
+            "Mark of Nurgle",
+            "First Charge",
+            "Impact Hits (X)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Mark of Nurgle",
+          "cost": 10.0,
+          "is_default": false
+        },
+        {
+          "name": "Mark of Slaanesh",
+          "cost": 10.0,
+          "is_default": false
+        },
+        {
+          "name": "Mark of Tzeentch",
+          "cost": 10.0,
+          "is_default": false
+        },
+        {
+          "name": "Level 4 Wizard",
+          "cost": 30.0,
+          "is_default": false
+        },
+        {
+          "name": "Venomous Tail",
+          "cost": 15.0,
+          "is_default": false
+        },
+        {
+          "name": "Mark of Khorne",
+          "cost": 10.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Exalted Sorcerer",
+      "category": "Characters",
+      "base_points": 90.0,
+      "rules": [
+        "Chaos Armour (5+)",
+        "Ensorcelled Weapons",
+        "Gaze of the Gods",
+        "Lore Of Chaos"
+      ],
+      "models": [
+        {
+          "name": "Exalted Sorcerer",
+          "stats": {
+            "M": "4",
+            "WS": "4",
+            "BS": "3",
+            "S": "4",
+            "T": "4",
+            "W": "2",
+            "I": "3",
+            "A": "2",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Infantry (Character)"
+          },
+          "cost": 90.0,
+          "rules": [
+            "Chaos Armour (5+)",
+            "Ensorcelled Weapons",
+            "Gaze of the Gods",
+            "Lore Of Chaos"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Exalted Sorcerer on Chaos Steed",
+          "stats": {
+            "M": "7",
+            "WS": "4",
+            "BS": "3",
+            "S": "4",
+            "T": "4",
+            "W": "2",
+            "I": "3",
+            "A": "2",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Infantry (Character)"
+          },
+          "cost": 106.0,
+          "rules": [
+            "Gaze of the Gods",
+            "Chaos Armour (5+)",
+            "Lore Of Chaos",
+            "Counter Charge",
+            "Ensorcelled Weapons",
+            "Swiftstride",
+            "First Charge"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Exalted Sorcerer on Daemonic Mount",
+          "stats": {
+            "M": "8",
+            "WS": "4",
+            "BS": "3",
+            "S": "4",
+            "T": "4",
+            "W": "3",
+            "I": "3",
+            "A": "2",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Infantry (Character)"
+          },
+          "cost": 125.0,
+          "rules": [
+            "Gaze of the Gods",
+            "Chaos Armour (5+)",
+            "Magical Attacks",
+            "Stomp Attacks (X)",
+            "Lore Of Chaos",
+            "Armor Bane (X)",
+            "Ensorcelled Weapons",
+            "Swiftstride",
+            "Fear"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Exalted Sorcerer on Chaos Chariot",
+          "stats": {
+            "M": "4",
+            "WS": "4",
+            "BS": "3",
+            "S": "4",
+            "T": "5",
+            "W": "4",
+            "I": "3",
+            "A": "2",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Infantry (Character)"
+          },
+          "cost": 200.0,
+          "rules": [
+            "Close Order",
+            "Mark of Chaos Undivided",
+            "Mark of Khorne",
+            "Gaze of the Gods",
+            "Chaos Armour (5+)",
+            "Mark of Slaanesh",
+            "Mark of Tzeentch",
+            "Lore Of Chaos",
+            "Ensorcelled Weapons",
+            "Mark of Nurgle",
+            "First Charge",
+            "Impact Hits (X)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Mark of Nurgle",
+          "cost": 10.0,
+          "is_default": false
+        },
+        {
+          "name": "Mark of Slaanesh",
+          "cost": 10.0,
+          "is_default": false
+        },
+        {
+          "name": "Mark of Tzeentch",
+          "cost": 10.0,
+          "is_default": false
+        },
+        {
+          "name": "Level 2 Wizard",
+          "cost": 30.0,
+          "is_default": false
+        },
+        {
+          "name": "Mark of Khorne",
+          "cost": 10.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Chaos Warriors",
+      "category": "Special",
+      "base_points": 0.0,
+      "rules": [
+        "Close Order",
+        "Ensorcelled Weapons"
+      ],
+      "models": [
+        {
+          "name": "Chaos Warriors",
+          "stats": {
+            "M": "4",
+            "WS": "5",
+            "BS": "3",
+            "S": "4",
+            "T": "4",
+            "W": "1",
+            "I": "4",
+            "A": "1",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Infantry"
+          },
+          "cost": 13.0,
+          "rules": [
+            "Close Order",
+            "Mark of Khorne",
+            "Mark of Chaos Undivided",
+            "Mark of Slaanesh",
+            "Mark of Tzeentch",
+            "Ensorcelled Weapons",
+            "Mark of Nurgle"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Champion",
+          "stats": {
+            "M": "4",
+            "WS": "5",
+            "BS": "3",
+            "S": "4",
+            "T": "4",
+            "W": "1",
+            "I": "4",
+            "A": "2",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Infantry"
+          },
+          "cost": 19.0,
+          "rules": [
+            "Close Order",
+            "Ensorcelled Weapons"
+          ],
+          "role": "champion",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Shield",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Additional Hand Weapon",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Great Weapon",
+          "cost": 2.0,
+          "is_default": false
+        },
+        {
+          "name": "Halberd",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Mark of Khorne",
+          "cost": 2.0,
+          "is_default": false
+        },
+        {
+          "name": "Mark of Tzeentch",
+          "cost": 2.0,
+          "is_default": false
+        },
+        {
+          "name": "Mark of Slaanesh",
+          "cost": 2.0,
+          "is_default": false
+        },
+        {
+          "name": "Mark of Nurgle",
+          "cost": 2.0,
+          "is_default": false
+        },
+        {
+          "name": "Musician",
+          "cost": 6.0,
+          "is_default": false
+        },
+        {
+          "name": "Standard Bearer",
+          "cost": 6.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Dragon Ogres",
+      "category": "Rare",
+      "base_points": 0.0,
+      "rules": [
+        "Close Order",
+        "Armor Bane (X)",
+        "Fear",
+        "Armored Hide (X)",
+        "Ensorcelled Weapons",
+        "Immune to Psychology",
+        "Stomp Attacks (X)"
+      ],
+      "models": [
+        {
+          "name": "Dragon Ogres",
+          "stats": {
+            "M": "7",
+            "WS": "4",
+            "BS": "2",
+            "S": "5",
+            "T": "4",
+            "W": "4",
+            "I": "2",
+            "A": "3",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Monsterous Cavalry"
+          },
+          "cost": 59.0,
+          "rules": [
+            "Armored Hide (X)",
+            "Close Order",
+            "Stomp Attacks (X)",
+            "Armor Bane (X)",
+            "Ensorcelled Weapons",
+            "Immune to Psychology",
+            "Fear"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Champion",
+          "stats": {
+            "M": "7",
+            "WS": "4",
+            "BS": "2",
+            "S": "5",
+            "T": "4",
+            "W": "4",
+            "I": "2",
+            "A": "4",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Monsterous Cavalry"
+          },
+          "cost": 66.0,
+          "rules": [
+            "Armored Hide (X)",
+            "Close Order",
+            "Stomp Attacks (X)",
+            "Armor Bane (X)",
+            "Ensorcelled Weapons",
+            "Immune to Psychology",
+            "Fear"
+          ],
+          "role": "champion",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Additional Hand Weapon",
+          "cost": 3.0,
+          "is_default": false
+        },
+        {
+          "name": "Great Weapon",
+          "cost": 4.0,
+          "is_default": false
+        },
+        {
+          "name": "Halberd",
+          "cost": 3.0,
+          "is_default": false
+        },
+        {
+          "name": "Armour",
+          "cost": 0.0,
+          "is_default": true
+        },
+        {
+          "name": "Light Armour",
+          "cost": 0.0,
+          "is_default": false
+        },
+        {
+          "name": "Heavy Armour",
+          "cost": 3.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Chaos Ogres",
+      "category": "Rare",
+      "base_points": 0.0,
+      "rules": [
+        "Close Order",
+        "Armor Bane (X)",
+        "Fear",
+        "Impact Hits (X)"
+      ],
+      "models": [
+        {
+          "name": "Chaos Ogres",
+          "stats": {
+            "M": "6",
+            "WS": "3",
+            "BS": "2",
+            "S": "4",
+            "T": "4",
+            "W": "3",
+            "I": "2",
+            "A": "3",
+            "LD": "7",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Monsterous Infantry"
+          },
+          "cost": 33.0,
+          "rules": [
+            "Close Order",
+            "Mark of Chaos Undivided",
+            "Mark of Khorne",
+            "Mark of Slaanesh",
+            "Mark of Tzeentch",
+            "Armor Bane (X)",
+            "Fear",
+            "Mark of Nurgle",
+            "Impact Hits (X)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Champion",
+          "stats": {
+            "M": "6",
+            "WS": "3",
+            "BS": "2",
+            "S": "4",
+            "T": "4",
+            "W": "3",
+            "I": "2",
+            "A": "4",
+            "LD": "7",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Monsterous Infantry"
+          },
+          "cost": 39.0,
+          "rules": [
+            "Close Order",
+            "Fear",
+            "Impact Hits (X)",
+            "Armor Bane (X)"
+          ],
+          "role": "champion",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Additional Hand Weapon",
+          "cost": 3.0,
+          "is_default": false
+        },
+        {
+          "name": "Great Weapon",
+          "cost": 4.0,
+          "is_default": false
+        },
+        {
+          "name": "Mark of Khorne",
+          "cost": 2.0,
+          "is_default": false
+        },
+        {
+          "name": "Mark of Tzeentch",
+          "cost": 2.0,
+          "is_default": false
+        },
+        {
+          "name": "Mark of Slaanesh",
+          "cost": 2.0,
+          "is_default": false
+        },
+        {
+          "name": "Mark of Nurgle",
+          "cost": 2.0,
+          "is_default": false
+        },
+        {
+          "name": "Musician",
+          "cost": 6.0,
+          "is_default": false
+        },
+        {
+          "name": "Standard Bearer",
+          "cost": 6.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Chaos Trolls",
+      "category": "Rare",
+      "base_points": 0.0,
+      "rules": [
+        "Close Order",
+        "Armor Bane (X)",
+        "Fear",
+        "Flammable",
+        "Regeneration (X+)",
+        "Stupidity",
+        "Motley Crew"
+      ],
+      "models": [
+        {
+          "name": "Chaos Trolls",
+          "stats": {
+            "M": "6",
+            "WS": "3",
+            "BS": "1",
+            "S": "5",
+            "T": "4",
+            "W": "3",
+            "I": "2",
+            "A": "3",
+            "LD": "4",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Monsterous Infantry"
+          },
+          "cost": 41.0,
+          "rules": [
+            "Close Order",
+            "Motley Crew",
+            "Regeneration (X+)",
+            "Armor Bane (X)",
+            "Flammable",
+            "Fear",
+            "Stupidity"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Troll Vomit"
+          ]
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Additional Hand Weapon",
+          "cost": 3.0,
+          "is_default": false
+        },
+        {
+          "name": "Great Weapon",
+          "cost": 4.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Gor Herds",
+      "category": "Unknown",
+      "base_points": 0.0,
+      "rules": [
+        "Open Order",
+        "Warband",
+        "Horde",
+        "Move Through Cover",
+        "Skirmishers",
+        "Mark of Chaos Undivided"
+      ],
+      "models": [
+        {
+          "name": "Gor Herds",
+          "stats": {
+            "M": "5",
+            "WS": "4",
+            "BS": "2",
+            "S": "3",
+            "T": "4",
+            "W": "1",
+            "I": "3",
+            "A": "1",
+            "LD": "6",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 7.0,
+          "rules": [
+            "Mark of Chaos Undivided",
+            "Open Order",
+            "Ambushers",
+            "Skirmishers",
+            "Horde",
+            "Warband",
+            "Move Through Cover"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Gor",
+          "stats": {
+            "M": "5",
+            "WS": "4",
+            "BS": "2",
+            "S": "3",
+            "T": "4",
+            "W": "1",
+            "I": "3",
+            "A": "1",
+            "LD": "6",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 7.0,
+          "rules": [
+            "Mark of Chaos Undivided",
+            "Open Order",
+            "Ambushers",
+            "Skirmishers",
+            "Horde",
+            "Warband",
+            "Move Through Cover"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Champion",
+          "stats": {
+            "M": "5",
+            "WS": "4",
+            "BS": "2",
+            "S": "3",
+            "T": "4",
+            "W": "1",
+            "I": "3",
+            "A": "2",
+            "LD": "7",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 7.0,
+          "rules": [
+            "Mark of Chaos Undivided",
+            "Open Order",
+            "Skirmishers",
+            "Horde",
+            "Warband",
+            "Move Through Cover"
+          ],
+          "role": "champion",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Ambushers",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Additional Hand Weapon",
+          "cost": 0.0,
+          "is_default": false
+        },
+        {
+          "name": "Shield",
+          "cost": 0.0,
+          "is_default": false
+        },
+        {
+          "name": "Great Weapon",
+          "cost": 0.0,
+          "is_default": false
+        },
+        {
+          "name": "Musician",
+          "cost": 5.0,
+          "is_default": false
+        },
+        {
+          "name": "Standard Bearer",
+          "cost": 5.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Ungor Herds",
+      "category": "Unknown",
+      "base_points": 0.0,
+      "rules": [
+        "Chariot Runners",
+        "Open Order",
+        "Mark of Chaos Undivided",
+        "Warband",
+        "Horde",
+        "Move Through Cover",
+        "Skirmishers"
+      ],
+      "models": [
+        {
+          "name": "Ungor Herds",
+          "stats": {
+            "M": "5",
+            "WS": "3",
+            "BS": "3",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "3",
+            "A": "1",
+            "LD": "5",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 5.0,
+          "rules": [
+            "Mark of Chaos Undivided",
+            "Open Order",
+            "Ambushers",
+            "Skirmishers",
+            "Horde",
+            "Warband",
+            "Move Through Cover",
+            "Chariot Runners"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Ungor",
+          "stats": {
+            "M": "5",
+            "WS": "3",
+            "BS": "3",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "3",
+            "A": "1",
+            "LD": "5",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 5.0,
+          "rules": [
+            "Mark of Chaos Undivided",
+            "Open Order",
+            "Ambushers",
+            "Skirmishers",
+            "Horde",
+            "Warband",
+            "Move Through Cover",
+            "Chariot Runners"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Champion",
+          "stats": {
+            "M": "5",
+            "WS": "3",
+            "BS": "3",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "3",
+            "A": "2",
+            "LD": "6",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 7.0,
+          "rules": [
+            "Mark of Chaos Undivided",
+            "Open Order",
+            "Skirmishers",
+            "Horde",
+            "Warband",
+            "Move Through Cover",
+            "Chariot Runners"
+          ],
+          "role": "champion",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Ambushers",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Thrusting Spear and Shield",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Shield",
+          "cost": 0.0,
+          "is_default": false
+        },
+        {
+          "name": "Throwing Spear and Shield",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Musician",
+          "cost": 5.0,
+          "is_default": false
+        },
+        {
+          "name": "Standard Bearer",
+          "cost": 5.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Centigor Herds",
+      "category": "Unknown",
+      "base_points": 0.0,
+      "rules": [
+        "Move Through Cover",
+        "Mark of Chaos Undivided",
+        "Horde",
+        "Open Order",
+        "Skirmishers",
+        "Stomp Attacks (X)",
+        "Swiftstride",
+        "Fast Cavalry",
+        "Warband"
+      ],
+      "models": [
+        {
+          "name": "Centigor Herds",
+          "stats": {
+            "M": "8",
+            "WS": "4",
+            "BS": "3",
+            "S": "4",
+            "T": "4",
+            "W": "1",
+            "I": "2",
+            "A": "1",
+            "LD": "6",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Light Cavalry"
+          },
+          "cost": 19.0,
+          "rules": [
+            "Mark of Chaos Undivided",
+            "Open Order",
+            "Fast Cavalry",
+            "Stomp Attacks (X)",
+            "Ambushers",
+            "Skirmishers",
+            "Swiftstride",
+            "Horde",
+            "Warband",
+            "Move Through Cover"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Centigor",
+          "stats": {
+            "M": "8",
+            "WS": "4",
+            "BS": "3",
+            "S": "4",
+            "T": "4",
+            "W": "1",
+            "I": "2",
+            "A": "1",
+            "LD": "6",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Light Cavalry"
+          },
+          "cost": 19.0,
+          "rules": [
+            "Mark of Chaos Undivided",
+            "Open Order",
+            "Fast Cavalry",
+            "Stomp Attacks (X)",
+            "Ambushers",
+            "Skirmishers",
+            "Swiftstride",
+            "Horde",
+            "Warband",
+            "Move Through Cover"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Champion",
+          "stats": {
+            "M": "8",
+            "WS": "4",
+            "BS": "3",
+            "S": "4",
+            "T": "4",
+            "W": "1",
+            "I": "2",
+            "A": "2",
+            "LD": "7",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Light Cavalry"
+          },
+          "cost": 27.0,
+          "rules": [
+            "Mark of Chaos Undivided",
+            "Open Order",
+            "Fast Cavalry",
+            "Stomp Attacks (X)",
+            "Skirmishers",
+            "Swiftstride",
+            "Horde",
+            "Warband",
+            "Move Through Cover"
+          ],
+          "role": "champion",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Ambushers",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Cavalry Spear and Shield",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Shield",
+          "cost": 0.0,
+          "is_default": false
+        },
+        {
+          "name": "Throwing Spear and Shield",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Great Weapon",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Throwing Weapon",
+          "cost": 0.0,
+          "is_default": false
+        },
+        {
+          "name": "Throwing Axe",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Javelins",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Musician",
+          "cost": 6.0,
+          "is_default": false
+        },
+        {
+          "name": "Standard Bearer",
+          "cost": 6.0,
+          "is_default": false
+        }
+      ]
+    }
+  ]
+}

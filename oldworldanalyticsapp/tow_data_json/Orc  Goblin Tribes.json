@@ -1,0 +1,4606 @@
+{
+  "faction_name": "Orc & Goblin Tribes",
+  "units": [
+    {
+      "name": "Orc Mob",
+      "category": "Core",
+      "base_points": 0.0,
+      "rules": [
+        "Impetuous",
+        "Close Order",
+        "Warband",
+        "Choppas",
+        "Ignore Goblin Panic"
+      ],
+      "models": [
+        {
+          "name": "Orc Mob",
+          "stats": {
+            "M": "4",
+            "WS": "3",
+            "BS": "3",
+            "S": "3",
+            "T": "4",
+            "W": "1",
+            "I": "3",
+            "A": "1",
+            "LD": "6",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 5.0,
+          "rules": [
+            "Close Order",
+            "Ignore Goblin Panic",
+            "Impetuous",
+            "Frenzy",
+            "Skirmishers",
+            "Choppas",
+            "Warband",
+            "Warpaint",
+            "Impact Hits (X)",
+            "Big 'Uns"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Orc Boy",
+          "stats": {
+            "M": "4",
+            "WS": "3",
+            "BS": "3",
+            "S": "3",
+            "T": "4",
+            "W": "1",
+            "I": "3",
+            "A": "1",
+            "LD": "6",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 5.0,
+          "rules": [
+            "Close Order",
+            "Ignore Goblin Panic",
+            "Impetuous",
+            "Frenzy",
+            "Choppas",
+            "Warband",
+            "Warpaint",
+            "Big 'Uns"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Champion",
+          "stats": {
+            "M": "4",
+            "WS": "3",
+            "BS": "3",
+            "S": "3",
+            "T": "4",
+            "W": "1",
+            "I": "3",
+            "A": "2",
+            "LD": "7",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 7.0,
+          "rules": [
+            "Close Order",
+            "Ignore Goblin Panic",
+            "Impetuous",
+            "Choppas",
+            "Warband"
+          ],
+          "role": "champion",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Shields",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Replace Light Armor with Frenzy",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Warpaint",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Big 'Uns",
+          "cost": 2.0,
+          "is_default": false
+        },
+        {
+          "name": "Additional Hand Weapon",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Thrusting Spear",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Throwing Spear",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Big Stabbas",
+          "cost": 5.0,
+          "is_default": false
+        },
+        {
+          "name": "Musician",
+          "cost": 5.0,
+          "is_default": false
+        },
+        {
+          "name": "Standard Bearer",
+          "cost": 5.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Black Orc Mob",
+      "category": "Special",
+      "base_points": 0.0,
+      "rules": [
+        "Furious Charge",
+        "Close Order",
+        "Quell Impetuosity",
+        "Choppas",
+        "Ignore Panic",
+        "Motley Crew",
+        "Da Boyz"
+      ],
+      "models": [
+        {
+          "name": "Black Orc Mob",
+          "stats": {
+            "M": "4",
+            "WS": "4",
+            "BS": "3",
+            "S": "4",
+            "T": "4",
+            "W": "1",
+            "I": "3",
+            "A": "1",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Infantry"
+          },
+          "cost": 12.0,
+          "rules": [
+            "Close Order",
+            "Motley Crew",
+            "Stubborn",
+            "Da Boyz",
+            "Furious Charge",
+            "Veteran",
+            "Choppas",
+            "Ignore Panic",
+            "Quell Impetuosity"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Champion",
+          "stats": {
+            "M": "4",
+            "WS": "4",
+            "BS": "3",
+            "S": "4",
+            "T": "4",
+            "W": "1",
+            "I": "3",
+            "A": "2",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Infantry"
+          },
+          "cost": 18.0,
+          "rules": [
+            "Close Order",
+            "Motley Crew",
+            "Da Boyz",
+            "Furious Charge",
+            "Choppas",
+            "Ignore Panic",
+            "Quell Impetuosity"
+          ],
+          "role": "champion",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Shields",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Great Weapon",
+          "cost": 2.0,
+          "is_default": false
+        },
+        {
+          "name": "Additional Hand Weapon",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Stubborn",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Veteran",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Musician",
+          "cost": 6.0,
+          "is_default": false
+        },
+        {
+          "name": "Standard Bearer",
+          "cost": 6.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Black Orc Warboss",
+      "category": "Characters",
+      "base_points": 135.0,
+      "rules": [
+        "Choppas",
+        "Da Boyz",
+        "Furious Charge",
+        "Ignore Panic",
+        "Quell Impetuosity",
+        "Rallying Cry",
+        "Waaagh!"
+      ],
+      "models": [
+        {
+          "name": "Black Orc Warboss",
+          "stats": {
+            "M": "4",
+            "WS": "7",
+            "BS": "3",
+            "S": "5",
+            "T": "5",
+            "W": "3",
+            "I": "6",
+            "A": "4",
+            "LD": "9",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Infantry"
+          },
+          "cost": 135.0,
+          "rules": [
+            "Choppas",
+            "Da Boyz",
+            "Furious Charge",
+            "Ignore Panic",
+            "Quell Impetuosity",
+            "Rallying Cry",
+            "Waaagh!"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Black Orc Warboss on Wyvern",
+          "stats": {
+            "M": "4",
+            "WS": "7",
+            "BS": "3",
+            "S": "5",
+            "T": "6",
+            "W": "7",
+            "I": "6",
+            "A": "4",
+            "LD": "9",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Infantry"
+          },
+          "cost": 265.0,
+          "rules": [
+            "Close Order",
+            "Large Target",
+            "Terror",
+            "Da Boyz",
+            "Stomp Attacks (X)",
+            "Furious Charge",
+            "Waaagh!",
+            "Swiftstride",
+            "Choppas",
+            "Ignore Panic",
+            "Quell Impetuosity",
+            "Rallying Cry",
+            "Fly (X)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Wicked Claws",
+            "Venemous Tail"
+          ]
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Shield",
+          "cost": 2.0,
+          "is_default": false
+        },
+        {
+          "name": "Additional Hand Weapon",
+          "cost": 3.0,
+          "is_default": false
+        },
+        {
+          "name": "Great Weapon",
+          "cost": 4.0,
+          "is_default": false
+        },
+        {
+          "name": "Cavalry Spear",
+          "cost": 2.0,
+          "is_default": false
+        },
+        {
+          "name": "Frenzy",
+          "cost": 2.0,
+          "is_default": false
+        },
+        {
+          "name": "Warpaint",
+          "cost": 10.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Black Orc Bigboss",
+      "category": "Characters",
+      "base_points": 75.0,
+      "rules": [
+        "Choppas",
+        "Da Boyz",
+        "Furious Charge",
+        "Ignore Panic",
+        "Quell Impetuosity",
+        "Rallying Cry",
+        "Waaagh!"
+      ],
+      "models": [
+        {
+          "name": "Black Orc Bigboss",
+          "stats": {
+            "M": "4",
+            "WS": "6",
+            "BS": "3",
+            "S": "4",
+            "T": "5",
+            "W": "2",
+            "I": "5",
+            "A": "3",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Infantry"
+          },
+          "cost": 75.0,
+          "rules": [
+            "Choppas",
+            "Da Boyz",
+            "Furious Charge",
+            "Ignore Panic",
+            "Quell Impetuosity",
+            "Rallying Cry",
+            "Waaagh!"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Shield",
+          "cost": 2.0,
+          "is_default": false
+        },
+        {
+          "name": "Battle Standard Bearer",
+          "cost": 25.0,
+          "is_default": false
+        },
+        {
+          "name": "Additional Hand Weapon",
+          "cost": 3.0,
+          "is_default": false
+        },
+        {
+          "name": "Great Weapon",
+          "cost": 4.0,
+          "is_default": false
+        },
+        {
+          "name": "Cavalry Spear",
+          "cost": 2.0,
+          "is_default": false
+        },
+        {
+          "name": "Frenzy",
+          "cost": 2.0,
+          "is_default": false
+        },
+        {
+          "name": "Warpaint",
+          "cost": 10.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Black Orc Mob",
+      "category": "Core",
+      "base_points": 0.0,
+      "rules": [
+        "Furious Charge",
+        "Close Order",
+        "Quell Impetuosity",
+        "Choppas",
+        "Ignore Panic",
+        "Motley Crew",
+        "Da Boyz"
+      ],
+      "models": [
+        {
+          "name": "Black Orc Mob",
+          "stats": {
+            "M": "4",
+            "WS": "4",
+            "BS": "3",
+            "S": "4",
+            "T": "4",
+            "W": "1",
+            "I": "3",
+            "A": "1",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Infantry"
+          },
+          "cost": 12.0,
+          "rules": [
+            "Close Order",
+            "Motley Crew",
+            "Stubborn",
+            "Da Boyz",
+            "Furious Charge",
+            "Veteran",
+            "Choppas",
+            "Ignore Panic",
+            "Quell Impetuosity"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Champion",
+          "stats": {
+            "M": "4",
+            "WS": "4",
+            "BS": "3",
+            "S": "4",
+            "T": "4",
+            "W": "1",
+            "I": "3",
+            "A": "2",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Infantry"
+          },
+          "cost": 18.0,
+          "rules": [
+            "Close Order",
+            "Motley Crew",
+            "Da Boyz",
+            "Furious Charge",
+            "Choppas",
+            "Ignore Panic",
+            "Quell Impetuosity"
+          ],
+          "role": "champion",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Shields",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Great Weapon",
+          "cost": 2.0,
+          "is_default": false
+        },
+        {
+          "name": "Additional Hand Weapon",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Stubborn",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Veteran",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Musician",
+          "cost": 6.0,
+          "is_default": false
+        },
+        {
+          "name": "Standard Bearer",
+          "cost": 6.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Goblin Mob",
+      "category": "Core",
+      "base_points": 0.0,
+      "rules": [
+        "Impetuous",
+        "Close Order",
+        "Warband",
+        "Fear Elves",
+        "Horde"
+      ],
+      "models": [
+        {
+          "name": "Goblin Mob",
+          "stats": {
+            "M": "4",
+            "WS": "2",
+            "BS": "3",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "2",
+            "A": "1",
+            "LD": "5",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 3.0,
+          "rules": [
+            "Fear Elves",
+            "Close Order",
+            "Impetuous",
+            "Skirmishers",
+            "Armor Bane (X)",
+            "Horde",
+            "Warband",
+            "Strike First"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Goblin",
+          "stats": {
+            "M": "4",
+            "WS": "2",
+            "BS": "3",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "2",
+            "A": "1",
+            "LD": "5",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 3.0,
+          "rules": [
+            "Fear Elves",
+            "Close Order",
+            "Impetuous",
+            "Horde",
+            "Warband"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Nasty Skulkers",
+          "stats": {
+            "M": "4",
+            "WS": "4",
+            "BS": "3",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "4",
+            "A": "2",
+            "LD": "6",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 10.0,
+          "rules": [
+            "Fear Elves",
+            "Close Order",
+            "Impetuous",
+            "Armor Bane (X)",
+            "Horde",
+            "Warband",
+            "Strike First"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Champion",
+          "stats": {
+            "M": "4",
+            "WS": "2",
+            "BS": "3",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "2",
+            "A": "2",
+            "LD": "6",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 17.0,
+          "rules": [
+            "Fear Elves",
+            "Close Order",
+            "Impetuous",
+            "Horde",
+            "Warband"
+          ],
+          "role": "champion",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Light Armor",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Thrusting Spear",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Replace Shield with Shortbow",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Musician",
+          "cost": 5.0,
+          "is_default": false
+        },
+        {
+          "name": "Standard Bearer",
+          "cost": 5.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Snotling Mob",
+      "category": "Core",
+      "base_points": 0.0,
+      "rules": [
+        "Impetuous",
+        "Open Order",
+        "Skirmishers",
+        "Immune to Psychology",
+        "Loner",
+        "Unbreakable",
+        "Vanguard"
+      ],
+      "models": [
+        {
+          "name": "Snotling Mob",
+          "stats": {
+            "M": "5",
+            "WS": "2",
+            "BS": "2",
+            "S": "2",
+            "T": "2",
+            "W": "6",
+            "I": "3",
+            "A": "5",
+            "LD": "4",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Swarms"
+          },
+          "cost": 35.0,
+          "rules": [
+            "Vanguard",
+            "Open Order",
+            "Loner",
+            "Impetuous",
+            "Skirmishers",
+            "Immune to Psychology",
+            "Unbreakable"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Snotlings",
+          "stats": {
+            "M": "5",
+            "WS": "2",
+            "BS": "2",
+            "S": "2",
+            "T": "2",
+            "W": "6",
+            "I": "3",
+            "A": "5",
+            "LD": "4",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Swarms"
+          },
+          "cost": 35.0,
+          "rules": [
+            "Vanguard",
+            "Open Order",
+            "Loner",
+            "Impetuous",
+            "Skirmishers",
+            "Immune to Psychology",
+            "Unbreakable"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": []
+    },
+    {
+      "name": "Night Goblin Mob",
+      "category": "Core",
+      "base_points": 0.0,
+      "rules": [
+        "Hatred (X)",
+        "Close Order",
+        "Warband",
+        "Fear Elves",
+        "Horde"
+      ],
+      "models": [
+        {
+          "name": "Night Goblin Mob",
+          "stats": {
+            "M": "4",
+            "WS": "2",
+            "BS": "3",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "3",
+            "A": "1",
+            "LD": "4",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 3.0,
+          "rules": [
+            "Fear Elves",
+            "Close Order",
+            "Hatred (X)",
+            "Immune to Psychology",
+            "Horde",
+            "Warband"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Fanatics",
+          "stats": {
+            "M": "*",
+            "WS": "*",
+            "BS": "*",
+            "S": "5",
+            "T": "3",
+            "W": "1",
+            "I": "5",
+            "A": "*",
+            "LD": "10",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 25.0,
+          "rules": [
+            "Fear Elves",
+            "Close Order",
+            "Hatred (X)",
+            "Immune to Psychology",
+            "Horde",
+            "Warband"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Champion",
+          "stats": {
+            "M": "4",
+            "WS": "2",
+            "BS": "3",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "3",
+            "A": "2",
+            "LD": "5",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 32.0,
+          "rules": [
+            "Fear Elves",
+            "Close Order",
+            "Hatred (X)",
+            "Horde",
+            "Warband"
+          ],
+          "role": "champion",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Thrusting Spear",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Replace Shield with Shortbow",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Netters",
+          "cost": 25.0,
+          "is_default": false
+        },
+        {
+          "name": "Musician",
+          "cost": 5.0,
+          "is_default": false
+        },
+        {
+          "name": "Standard Bearer",
+          "cost": 5.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Night Goblin Squig Herd",
+      "category": "Core",
+      "base_points": 0.0,
+      "rules": [
+        "Hatred (X)",
+        "Open Order",
+        "Warband",
+        "Immune to Psychology",
+        "Impetuous",
+        "Loner",
+        "Motley Crew",
+        "Skirmishers"
+      ],
+      "models": [
+        {
+          "name": "Night Goblin Squig Herd",
+          "stats": {
+            "M": "4",
+            "WS": "2",
+            "BS": "3",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "3",
+            "A": "1",
+            "LD": "6",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 10.0,
+          "rules": [
+            "Open Order",
+            "Motley Crew",
+            "Loner",
+            "Impetuous",
+            "Hatred (X)",
+            "Skirmishers",
+            "Immune to Psychology",
+            "Warband"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Huge Gob"
+          ]
+        },
+        {
+          "name": "Squig Herder",
+          "stats": {
+            "M": "4",
+            "WS": "2",
+            "BS": "3",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "3",
+            "A": "1",
+            "LD": "6",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 3.0,
+          "rules": [
+            "Open Order",
+            "Motley Crew",
+            "Loner",
+            "Impetuous",
+            "Hatred (X)",
+            "Skirmishers",
+            "Immune to Psychology",
+            "Warband"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Cave Squig",
+          "stats": {
+            "M": "4",
+            "WS": "4",
+            "BS": "-",
+            "S": "5",
+            "T": "3",
+            "W": "1",
+            "I": "4",
+            "A": "2",
+            "LD": "3",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 10.0,
+          "rules": [
+            "Open Order",
+            "Motley Crew",
+            "Loner",
+            "Impetuous",
+            "Hatred (X)",
+            "Skirmishers",
+            "Immune to Psychology",
+            "Warband"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Huge Gob"
+          ]
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Thrusting Spear",
+          "cost": 1.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Common Troll Mob",
+      "category": "Special",
+      "base_points": 0.0,
+      "rules": [
+        "Fear",
+        "Close Order",
+        "Flammable",
+        "Armor Bane (X)",
+        "Regeneration (X+)",
+        "Stupidity",
+        "Motley Crew"
+      ],
+      "models": [
+        {
+          "name": "Common Troll Mob",
+          "stats": {
+            "M": "6",
+            "WS": "3",
+            "BS": "1",
+            "S": "5",
+            "T": "4",
+            "W": "3",
+            "I": "2",
+            "A": "3",
+            "LD": "4",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Monsterous Infantry"
+          },
+          "cost": 41.0,
+          "rules": [
+            "Close Order",
+            "Motley Crew",
+            "Regeneration (X+)",
+            "Armor Bane (X)",
+            "Flammable",
+            "Fear",
+            "Stupidity"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Troll Vomit"
+          ]
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Great Weapon",
+          "cost": 4.0,
+          "is_default": false
+        },
+        {
+          "name": "Additional Hand Weapon",
+          "cost": 3.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "River Troll Mob",
+      "category": "Special",
+      "base_points": 0.0,
+      "rules": [
+        "Fear",
+        "Close Order",
+        "Flammable",
+        "Armor Bane (X)",
+        "Regeneration (X+)",
+        "Stupidity",
+        "Motley Crew"
+      ],
+      "models": [
+        {
+          "name": "River Troll Mob",
+          "stats": {
+            "M": "6",
+            "WS": "3",
+            "BS": "1",
+            "S": "5",
+            "T": "4",
+            "W": "4",
+            "I": "1",
+            "A": "3",
+            "LD": "4",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Monsterous Infantry"
+          },
+          "cost": 49.0,
+          "rules": [
+            "Close Order",
+            "Motley Crew",
+            "Regeneration (X+)",
+            "Armor Bane (X)",
+            "Flammable",
+            "Fear",
+            "Stupidity"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Troll Vomit"
+          ]
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Great Weapon",
+          "cost": 4.0,
+          "is_default": false
+        },
+        {
+          "name": "Additional Hand Weapon",
+          "cost": 3.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Stone Troll Mob",
+      "category": "Special",
+      "base_points": 0.0,
+      "rules": [
+        "Fear",
+        "Close Order",
+        "Flammable",
+        "Armor Bane (X)",
+        "Regeneration (X+)",
+        "Stupidity",
+        "Armored Hide (X)",
+        "Magic Resistance (-X)",
+        "Motley Crew"
+      ],
+      "models": [
+        {
+          "name": "Stone Troll Mob",
+          "stats": {
+            "M": "6",
+            "WS": "3",
+            "BS": "1",
+            "S": "5",
+            "T": "4",
+            "W": "3",
+            "I": "1",
+            "A": "3",
+            "LD": "5",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Monsterous Infantry"
+          },
+          "cost": 45.0,
+          "rules": [
+            "Armored Hide (X)",
+            "Close Order",
+            "Magic Resistance (-X)",
+            "Motley Crew",
+            "Regeneration (X+)",
+            "Armor Bane (X)",
+            "Flammable",
+            "Fear",
+            "Stupidity"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Troll Vomit"
+          ]
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Great Weapon",
+          "cost": 4.0,
+          "is_default": false
+        },
+        {
+          "name": "Additional Hand Weapon",
+          "cost": 3.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Orc Boar Boy Mob",
+      "category": "Special",
+      "base_points": 0.0,
+      "rules": [
+        "Impetuous",
+        "Close Order",
+        "Warband",
+        "Choppas",
+        "Ignore Goblin Panic",
+        "Armored Hide (X)",
+        "Counter Charge",
+        "Furious Charge",
+        "Swiftstride",
+        "Tusker Charge"
+      ],
+      "models": [
+        {
+          "name": "Orc Boar Boy Mob",
+          "stats": {
+            "M": "-",
+            "WS": "3",
+            "BS": "3",
+            "S": "3",
+            "T": "4",
+            "W": "1",
+            "I": "3",
+            "A": "1",
+            "LD": "6",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Cavalry"
+          },
+          "cost": 15.0,
+          "rules": [
+            "Armored Hide (X)",
+            "Close Order",
+            "Ignore Goblin Panic",
+            "Vanguard",
+            "Furious Charge",
+            "Impetuous",
+            "Counter Charge",
+            "Frenzy",
+            "Tusker Charge",
+            "Swiftstride",
+            "Choppas",
+            "Warband",
+            "Warpaint",
+            "Big 'Uns"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Champion",
+          "stats": {
+            "M": "-",
+            "WS": "3",
+            "BS": "3",
+            "S": "3",
+            "T": "4",
+            "W": "1",
+            "I": "3",
+            "A": "2",
+            "LD": "7",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Cavalry"
+          },
+          "cost": 23.0,
+          "rules": [
+            "Armored Hide (X)",
+            "Close Order",
+            "Ignore Goblin Panic",
+            "Furious Charge",
+            "Impetuous",
+            "Counter Charge",
+            "Tusker Charge",
+            "Swiftstride",
+            "Choppas",
+            "Warband"
+          ],
+          "role": "champion",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Shields",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Replace Light Armor with Frenzy",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Warpaint",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Cavalry Spear",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Replace Light Armor with Heavy Armor",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Big 'Uns",
+          "cost": 2.0,
+          "is_default": false
+        },
+        {
+          "name": "Vanguard",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Musician",
+          "cost": 6.0,
+          "is_default": false
+        },
+        {
+          "name": "Standard Bearer",
+          "cost": 6.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Goblin Spider Rider Mob",
+      "category": "Core",
+      "base_points": 0.0,
+      "rules": [
+        "Impetuous",
+        "Open Order",
+        "Warband",
+        "Fear Elves",
+        "Fast Cavalry",
+        "Move Through Cover",
+        "Swiftstride",
+        "Poisoned Attacks"
+      ],
+      "models": [
+        {
+          "name": "Goblin Spider Rider Mob",
+          "stats": {
+            "M": "-",
+            "WS": "2",
+            "BS": "3",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "3",
+            "A": "1",
+            "LD": "5",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Light Cavalry"
+          },
+          "cost": 12.0,
+          "rules": [
+            "Fear Elves",
+            "Open Order",
+            "Fast Cavalry",
+            "Poisoned Attacks",
+            "Impetuous",
+            "Swiftstride",
+            "Warband",
+            "Move Through Cover"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Spider Rider",
+          "stats": {
+            "M": "-",
+            "WS": "2",
+            "BS": "3",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "3",
+            "A": "1",
+            "LD": "5",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Light Cavalry"
+          },
+          "cost": 12.0,
+          "rules": [
+            "Fear Elves",
+            "Open Order",
+            "Fast Cavalry",
+            "Poisoned Attacks",
+            "Impetuous",
+            "Swiftstride",
+            "Warband",
+            "Move Through Cover"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Champion",
+          "stats": {
+            "M": "-",
+            "WS": "2",
+            "BS": "3",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "3",
+            "A": "2",
+            "LD": "6",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Light Cavalry"
+          },
+          "cost": 19.0,
+          "rules": [
+            "Fear Elves",
+            "Open Order",
+            "Fast Cavalry",
+            "Poisoned Attacks",
+            "Impetuous",
+            "Swiftstride",
+            "Warband",
+            "Move Through Cover"
+          ],
+          "role": "champion",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Light Armor",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Cavalry Spear",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Shortbow",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Musician",
+          "cost": 5.0,
+          "is_default": false
+        },
+        {
+          "name": "Standard Bearer",
+          "cost": 5.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Goblin Wolf Rider Mob",
+      "category": "Core",
+      "base_points": 0.0,
+      "rules": [
+        "Impetuous",
+        "Warband",
+        "Fear Elves",
+        "Fast Cavalry",
+        "Swiftstride",
+        "Chariot Runners",
+        "Fire & Flee",
+        "Open Order",
+        "Skirmishers"
+      ],
+      "models": [
+        {
+          "name": "Goblin Wolf Rider Mob",
+          "stats": {
+            "M": "-",
+            "WS": "2",
+            "BS": "3",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "3",
+            "A": "1",
+            "LD": "5",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Light Cavalry"
+          },
+          "cost": 10.0,
+          "rules": [
+            "Fear Elves",
+            "Feigned Flight",
+            "Fast Cavalry",
+            "Open Order",
+            "Ambushers",
+            "Impetuous",
+            "Reserve Move",
+            "Skirmishers",
+            "Swiftstride",
+            "Warband",
+            "Fire & Flee",
+            "Chariot Runners"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Wolf Rider",
+          "stats": {
+            "M": "-",
+            "WS": "2",
+            "BS": "3",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "3",
+            "A": "1",
+            "LD": "5",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Light Cavalry"
+          },
+          "cost": 10.0,
+          "rules": [
+            "Fear Elves",
+            "Feigned Flight",
+            "Fast Cavalry",
+            "Open Order",
+            "Ambushers",
+            "Impetuous",
+            "Reserve Move",
+            "Skirmishers",
+            "Swiftstride",
+            "Warband",
+            "Fire & Flee",
+            "Chariot Runners"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Champion",
+          "stats": {
+            "M": "-",
+            "WS": "2",
+            "BS": "3",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "3",
+            "A": "2",
+            "LD": "6",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Light Cavalry"
+          },
+          "cost": 17.0,
+          "rules": [
+            "Fear Elves",
+            "Fast Cavalry",
+            "Open Order",
+            "Impetuous",
+            "Skirmishers",
+            "Swiftstride",
+            "Warband",
+            "Fire & Flee",
+            "Chariot Runners"
+          ],
+          "role": "champion",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Light Armor",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Feigned Flight",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Reserve Move",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Ambishers",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Replace Shield with Shortbow",
+          "cost": 0.0,
+          "is_default": false
+        },
+        {
+          "name": "Musician",
+          "cost": 5.0,
+          "is_default": false
+        },
+        {
+          "name": "Standard Bearer",
+          "cost": 5.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Night Goblin Squig Hopper Mob",
+      "category": "Core",
+      "base_points": 0.0,
+      "rules": [
+        "Hatred (X)",
+        "Open Order",
+        "Warband",
+        "Immune to Psychology",
+        "Impact Hits (X)",
+        "Skirmishers",
+        "Random Movement",
+        "Loner"
+      ],
+      "models": [
+        {
+          "name": "Night Goblin Squig Hopper Mob",
+          "stats": {
+            "M": "-",
+            "WS": "2",
+            "BS": "3",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "3",
+            "A": "1",
+            "LD": "5",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Light Cavalry"
+          },
+          "cost": 12.0,
+          "rules": [
+            "Open Order",
+            "Random Movement",
+            "Loner",
+            "Hatred (X)",
+            "Skirmishers",
+            "Immune to Psychology",
+            "Warband",
+            "Impact Hits (X)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Huge Gob"
+          ]
+        },
+        {
+          "name": "Squig Hopper",
+          "stats": {
+            "M": "-",
+            "WS": "2",
+            "BS": "3",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "3",
+            "A": "1",
+            "LD": "5",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Light Cavalry"
+          },
+          "cost": 12.0,
+          "rules": [
+            "Open Order",
+            "Random Movement",
+            "Loner",
+            "Hatred (X)",
+            "Skirmishers",
+            "Immune to Psychology",
+            "Warband",
+            "Impact Hits (X)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Champion",
+          "stats": {
+            "M": "-",
+            "WS": "2",
+            "BS": "3",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "3",
+            "A": "2",
+            "LD": "6",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 18.0,
+          "rules": [
+            "Open Order",
+            "Random Movement",
+            "Loner",
+            "Hatred (X)",
+            "Skirmishers",
+            "Immune to Psychology",
+            "Warband",
+            "Impact Hits (X)"
+          ],
+          "role": "champion",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Cavalry Spear",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Light Armor",
+          "cost": 1.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Orc Boar Chariot",
+      "category": "Special",
+      "base_points": 80.0,
+      "rules": [
+        "Choppas",
+        "Close Order",
+        "First Charge",
+        "Ignore Goblin Panic",
+        "Impact Hits (X)",
+        "Impetuous",
+        "Tusker Charge",
+        "Warband"
+      ],
+      "models": [
+        {
+          "name": "Orc Boar Chariot",
+          "stats": {
+            "M": "-",
+            "WS": "3",
+            "BS": "3",
+            "S": "3",
+            "T": "-",
+            "W": "-",
+            "I": "3",
+            "A": "1",
+            "LD": "7",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": ""
+          },
+          "cost": 85.0,
+          "rules": [
+            "Close Order",
+            "Ignore Goblin Panic",
+            "Impetuous",
+            "Frenzy",
+            "Tusker Charge",
+            "Choppas",
+            "Warband",
+            "Warpaint",
+            "First Charge",
+            "Impact Hits (X)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Orc Crew",
+          "stats": {
+            "M": "-",
+            "WS": "3",
+            "BS": "3",
+            "S": "3",
+            "T": "-",
+            "W": "-",
+            "I": "3",
+            "A": "1",
+            "LD": "7",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": ""
+          },
+          "cost": 5.0,
+          "rules": [
+            "Close Order",
+            "Ignore Goblin Panic",
+            "Impetuous",
+            "Frenzy",
+            "Tusker Charge",
+            "Choppas",
+            "Warband",
+            "First Charge",
+            "Impact Hits (X)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "War Boar",
+          "stats": {
+            "M": "7",
+            "WS": "3",
+            "BS": "-",
+            "S": "3",
+            "T": "-",
+            "W": "-",
+            "I": "3",
+            "A": "1",
+            "LD": "-",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": ""
+          },
+          "cost": 85.0,
+          "rules": [
+            "Close Order",
+            "Ignore Goblin Panic",
+            "Impetuous",
+            "Tusker Charge",
+            "Choppas",
+            "Warband",
+            "First Charge",
+            "Impact Hits (X)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Frenzy",
+          "cost": 2.0,
+          "is_default": false
+        },
+        {
+          "name": "Warpaint",
+          "cost": 10.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Goblin Wolf Chariots",
+      "category": "Special",
+      "base_points": 0.0,
+      "rules": [
+        "Fear Elves",
+        "Impact Hits (X)",
+        "Impetuous",
+        "Open Order",
+        "Swiftstride",
+        "Warband"
+      ],
+      "models": [
+        {
+          "name": "Goblin Wolf Chariots",
+          "stats": {
+            "M": "-",
+            "WS": "2",
+            "BS": "3",
+            "S": "3",
+            "T": "-",
+            "W": "-",
+            "I": "3",
+            "A": "1",
+            "LD": "6",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": ""
+          },
+          "cost": 48.0,
+          "rules": [
+            "Fear Elves",
+            "Open Order",
+            "Impetuous",
+            "Swiftstride",
+            "Warband",
+            "Impact Hits (X)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Goblin Crew",
+          "stats": {
+            "M": "-",
+            "WS": "2",
+            "BS": "3",
+            "S": "3",
+            "T": "-",
+            "W": "-",
+            "I": "3",
+            "A": "1",
+            "LD": "6",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": ""
+          },
+          "cost": 48.0,
+          "rules": [
+            "Fear Elves",
+            "Open Order",
+            "Impetuous",
+            "Swiftstride",
+            "Warband",
+            "Impact Hits (X)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Giant Wolf",
+          "stats": {
+            "M": "9",
+            "WS": "3",
+            "BS": "-",
+            "S": "3",
+            "T": "-",
+            "W": "-",
+            "I": "3",
+            "A": "1",
+            "LD": "-",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": ""
+          },
+          "cost": 5.0,
+          "rules": [
+            "Fear Elves",
+            "Open Order",
+            "Impetuous",
+            "Swiftstride",
+            "Warband",
+            "Impact Hits (X)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Standard Bearer",
+          "cost": 5.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Snotling Pump Wagons",
+      "category": "Special",
+      "base_points": 0.0,
+      "rules": [
+        "Impact Hits (X)",
+        "Armor Bane (X)",
+        "Open Order",
+        "Loner",
+        "Immune to Psychology",
+        "Random Movement"
+      ],
+      "models": [
+        {
+          "name": "Snotling Pump Wagons",
+          "stats": {
+            "M": "2D6",
+            "WS": "-",
+            "BS": "-",
+            "S": "4",
+            "T": "4",
+            "W": "3",
+            "I": "-",
+            "A": "-",
+            "LD": "-",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Light Chariot"
+          },
+          "cost": 35.0,
+          "rules": [
+            "Open Order",
+            "Random Movement",
+            "Loner",
+            "Armor Bane (X)",
+            "Immune to Psychology",
+            "Impact Hits (X)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Pump Wagon",
+          "stats": {
+            "M": "2D6",
+            "WS": "-",
+            "BS": "-",
+            "S": "4",
+            "T": "4",
+            "W": "3",
+            "I": "-",
+            "A": "-",
+            "LD": "-",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Light Chariot"
+          },
+          "cost": 35.0,
+          "rules": [
+            "Open Order",
+            "Random Movement",
+            "Loner",
+            "Armor Bane (X)",
+            "Immune to Psychology",
+            "Impact Hits (X)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Snotling Crew",
+          "stats": {
+            "M": "-",
+            "WS": "2",
+            "BS": "2",
+            "S": "2",
+            "T": "-",
+            "W": "-",
+            "I": "3",
+            "A": "1",
+            "LD": "4",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": ""
+          },
+          "cost": 35.0,
+          "rules": [
+            "Open Order",
+            "Random Movement",
+            "Loner",
+            "Armor Bane (X)",
+            "Immune to Psychology",
+            "Impact Hits (X)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": []
+    },
+    {
+      "name": "Mangler Squigs",
+      "category": "Rare",
+      "base_points": 95.0,
+      "rules": [
+        "Close Order",
+        "Hatred (X)",
+        "Immune to Psychology",
+        "Impact Hits (X)",
+        "Large Target",
+        "Random Attacks",
+        "Random Movement",
+        "Stomp Attacks (X)",
+        "Timmm-berrr!"
+      ],
+      "models": [
+        {
+          "name": "Mangler Squigs",
+          "stats": {
+            "M": "3D6",
+            "WS": "4",
+            "BS": "0",
+            "S": "6",
+            "T": "5",
+            "W": "4",
+            "I": "3",
+            "A": "D6",
+            "LD": "4",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Behemoth"
+          },
+          "cost": 95.0,
+          "rules": [
+            "Timmm-berrr!",
+            "Close Order",
+            "Random Attacks",
+            "Large Target",
+            "Random Movement",
+            "Stomp Attacks (X)",
+            "Hatred (X)",
+            "Immune to Psychology",
+            "Impact Hits (X)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Colossal Fang-filled Gob"
+          ]
+        }
+      ],
+      "upgrades": []
+    },
+    {
+      "name": "Giant",
+      "category": "Rare",
+      "base_points": 200.0,
+      "rules": [
+        "Close Order",
+        "Immune to Psychology",
+        "Large Target",
+        "Stomp Attacks (X)",
+        "Terror",
+        "Timmm-berrr!",
+        "Unbreakable"
+      ],
+      "models": [
+        {
+          "name": "Giant",
+          "stats": {
+            "M": "6",
+            "WS": "3",
+            "BS": "1",
+            "S": "6",
+            "T": "6",
+            "W": "6",
+            "I": "2",
+            "A": "*",
+            "LD": "10",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Behemoth"
+          },
+          "cost": 200.0,
+          "rules": [
+            "Timmm-berrr!",
+            "Close Order",
+            "Large Target",
+            "Terror",
+            "Stomp Attacks (X)",
+            "Immune to Psychology",
+            "Unbreakable"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": []
+    },
+    {
+      "name": "Goblin Bolt Throwa",
+      "category": "Special",
+      "base_points": 45.0,
+      "rules": [
+        "Fear Elves",
+        "Skirmishers"
+      ],
+      "models": [
+        {
+          "name": "Goblin Bolt Throwa",
+          "stats": {
+            "M": "-",
+            "WS": "-",
+            "BS": "-",
+            "S": "-",
+            "T": "5",
+            "W": "3",
+            "I": "-",
+            "A": "-",
+            "LD": "-",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Warmachine"
+          },
+          "cost": 45.0,
+          "rules": [
+            "Fear Elves",
+            "Choppas",
+            "Skirmishers"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Orc Bully",
+          "stats": {
+            "M": "4",
+            "WS": "3",
+            "BS": "3",
+            "S": "3",
+            "T": "4",
+            "W": "1",
+            "I": "3",
+            "A": "2",
+            "LD": "7",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": ""
+          },
+          "cost": 10.0,
+          "rules": [
+            "Fear Elves",
+            "Choppas",
+            "Skirmishers"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": []
+    },
+    {
+      "name": "Doom Diver Catapult",
+      "category": "Rare",
+      "base_points": 95.0,
+      "rules": [
+        "Fear Elves",
+        "Skirmishers"
+      ],
+      "models": [
+        {
+          "name": "Doom Diver Catapult",
+          "stats": {
+            "M": "-",
+            "WS": "-",
+            "BS": "-",
+            "S": "-",
+            "T": "5",
+            "W": "3",
+            "I": "-",
+            "A": "-",
+            "LD": "-",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Warmachine"
+          },
+          "cost": 95.0,
+          "rules": [
+            "Fear Elves",
+            "Choppas",
+            "Skirmishers"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Orc Bully",
+          "stats": {
+            "M": "4",
+            "WS": "3",
+            "BS": "3",
+            "S": "3",
+            "T": "4",
+            "W": "1",
+            "I": "3",
+            "A": "2",
+            "LD": "7",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": ""
+          },
+          "cost": 10.0,
+          "rules": [
+            "Fear Elves",
+            "Choppas",
+            "Skirmishers"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": []
+    },
+    {
+      "name": "Goblin Rock Lobber",
+      "category": "Rare",
+      "base_points": 75.0,
+      "rules": [
+        "Fear Elves",
+        "Skirmishers"
+      ],
+      "models": [
+        {
+          "name": "Goblin Rock Lobber",
+          "stats": {
+            "M": "-",
+            "WS": "-",
+            "BS": "-",
+            "S": "-",
+            "T": "6",
+            "W": "4",
+            "I": "-",
+            "A": "-",
+            "LD": "-",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Warmachine"
+          },
+          "cost": 75.0,
+          "rules": [
+            "Fear Elves",
+            "Choppas",
+            "Skirmishers"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Orc Bully",
+          "stats": {
+            "M": "4",
+            "WS": "3",
+            "BS": "3",
+            "S": "3",
+            "T": "4",
+            "W": "1",
+            "I": "3",
+            "A": "2",
+            "LD": "7",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": ""
+          },
+          "cost": 10.0,
+          "rules": [
+            "Fear Elves",
+            "Choppas",
+            "Skirmishers"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": []
+    },
+    {
+      "name": "Orc Bigboss",
+      "category": "Characters",
+      "base_points": 55.0,
+      "rules": [
+        "Choppas",
+        "Furious Charge",
+        "Ignore Goblin Panic",
+        "Impetuous",
+        "Rallying Cry",
+        "Waaagh!",
+        "Warband"
+      ],
+      "models": [
+        {
+          "name": "Orc Bigboss",
+          "stats": {
+            "M": "4",
+            "WS": "5",
+            "BS": "2",
+            "S": "4",
+            "T": "5",
+            "W": "2",
+            "I": "4",
+            "A": "3",
+            "LD": "7",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 55.0,
+          "rules": [
+            "Choppas",
+            "Furious Charge",
+            "Ignore Goblin Panic",
+            "Impetuous",
+            "Rallying Cry",
+            "Waaagh!",
+            "Warband"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Shield",
+          "cost": 2.0,
+          "is_default": false
+        },
+        {
+          "name": "Battle Standard Bearer",
+          "cost": 25.0,
+          "is_default": false
+        },
+        {
+          "name": "Warpaint",
+          "cost": 5.0,
+          "is_default": false
+        },
+        {
+          "name": "Additional Hand Weapon",
+          "cost": 3.0,
+          "is_default": false
+        },
+        {
+          "name": "Great Weapon",
+          "cost": 4.0,
+          "is_default": false
+        },
+        {
+          "name": "Cavalry Spear",
+          "cost": 2.0,
+          "is_default": false
+        },
+        {
+          "name": "Frenzy",
+          "cost": 2.0,
+          "is_default": false
+        },
+        {
+          "name": "Heavy Armor",
+          "cost": 3.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Orc Warboss",
+      "category": "Characters",
+      "base_points": 110.0,
+      "rules": [
+        "Choppas",
+        "Furious Charge",
+        "Ignore Goblin Panic",
+        "Impetuous",
+        "Rallying Cry",
+        "Waaagh!",
+        "Warband"
+      ],
+      "models": [
+        {
+          "name": "Orc Warboss",
+          "stats": {
+            "M": "4",
+            "WS": "6",
+            "BS": "2",
+            "S": "5",
+            "T": "5",
+            "W": "3",
+            "I": "5",
+            "A": "4",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 110.0,
+          "rules": [
+            "Choppas",
+            "Furious Charge",
+            "Ignore Goblin Panic",
+            "Impetuous",
+            "Rallying Cry",
+            "Waaagh!",
+            "Warband"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Shield",
+          "cost": 2.0,
+          "is_default": false
+        },
+        {
+          "name": "Warpaint",
+          "cost": 5.0,
+          "is_default": false
+        },
+        {
+          "name": "Additional Hand Weapon",
+          "cost": 3.0,
+          "is_default": false
+        },
+        {
+          "name": "Great Weapon",
+          "cost": 4.0,
+          "is_default": false
+        },
+        {
+          "name": "Cavalry Spear",
+          "cost": 2.0,
+          "is_default": false
+        },
+        {
+          "name": "Frenzy",
+          "cost": 2.0,
+          "is_default": false
+        },
+        {
+          "name": "Heavy Armor",
+          "cost": 3.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Orc Weirdboy",
+      "category": "Characters",
+      "base_points": 65.0,
+      "rules": [
+        "Choppas",
+        "Ignore Goblin Panic",
+        "Lore Of Gork",
+        "Warband"
+      ],
+      "models": [
+        {
+          "name": "Orc Weirdboy",
+          "stats": {
+            "M": "4",
+            "WS": "3",
+            "BS": "2",
+            "S": "3",
+            "T": "4",
+            "W": "2",
+            "I": "3",
+            "A": "1",
+            "LD": "7",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 65.0,
+          "rules": [
+            "Choppas",
+            "Ignore Goblin Panic",
+            "Lore Of Gork",
+            "Warband"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Warpaint",
+          "cost": 5.0,
+          "is_default": false
+        },
+        {
+          "name": "Level 2 Wizard",
+          "cost": 30.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Orc Weirdnob",
+      "category": "Characters",
+      "base_points": 140.0,
+      "rules": [
+        "Choppas",
+        "Ignore Goblin Panic",
+        "Lore Of Gork",
+        "Warband"
+      ],
+      "models": [
+        {
+          "name": "Orc Weirdnob",
+          "stats": {
+            "M": "4",
+            "WS": "4",
+            "BS": "2",
+            "S": "4",
+            "T": "5",
+            "W": "3",
+            "I": "4",
+            "A": "2",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 140.0,
+          "rules": [
+            "Choppas",
+            "Ignore Goblin Panic",
+            "Lore Of Gork",
+            "Warband"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Orc Weirdnob on Wyvern",
+          "stats": {
+            "M": "4",
+            "WS": "4",
+            "BS": "2",
+            "S": "4",
+            "T": "6",
+            "W": "7",
+            "I": "4",
+            "A": "2",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 270.0,
+          "rules": [
+            "Close Order",
+            "Ignore Goblin Panic",
+            "Large Target",
+            "Terror",
+            "Lore Of Gork",
+            "Stomp Attacks (X)",
+            "Swiftstride",
+            "Choppas",
+            "Warband",
+            "Fly (X)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Wicked Claws",
+            "Venemous Tail"
+          ]
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Warpaint",
+          "cost": 5.0,
+          "is_default": false
+        },
+        {
+          "name": "Level 4 Wizard",
+          "cost": 30.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Goblin Bigboss",
+      "category": "Characters",
+      "base_points": 35.0,
+      "rules": [
+        "Fear Elves",
+        "Impetuous",
+        "Rallying Cry",
+        "Warband"
+      ],
+      "models": [
+        {
+          "name": "Goblin Bigboss",
+          "stats": {
+            "M": "4",
+            "WS": "4",
+            "BS": "3",
+            "S": "4",
+            "T": "4",
+            "W": "2",
+            "I": "4",
+            "A": "3",
+            "LD": "6",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 35.0,
+          "rules": [
+            "Fear Elves",
+            "Impetuous",
+            "Rallying Cry",
+            "Warband"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Goblin Bigboss on Gigantic Spider",
+          "stats": {
+            "M": "7",
+            "WS": "4",
+            "BS": "3",
+            "S": "4",
+            "T": "4",
+            "W": "3",
+            "I": "4",
+            "A": "3",
+            "LD": "6",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 70.0,
+          "rules": [
+            "Fear Elves",
+            "Armored Hide (X)",
+            "Fast Cavalry",
+            "Poisoned Attacks",
+            "Impetuous",
+            "Swiftstride",
+            "Warband",
+            "Move Through Cover",
+            "Rallying Cry"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Shield",
+          "cost": 2.0,
+          "is_default": false
+        },
+        {
+          "name": "Battle Standard Bearer",
+          "cost": 25.0,
+          "is_default": false
+        },
+        {
+          "name": "Light Armor",
+          "cost": 3.0,
+          "is_default": false
+        },
+        {
+          "name": "Ambushers",
+          "cost": 10.0,
+          "is_default": false
+        },
+        {
+          "name": "Additional Hand Weapon",
+          "cost": 3.0,
+          "is_default": false
+        },
+        {
+          "name": "Great Weapon",
+          "cost": 4.0,
+          "is_default": false
+        },
+        {
+          "name": "Cavalry Spear",
+          "cost": 2.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Night Goblin Bigboss",
+      "category": "Characters",
+      "base_points": 30.0,
+      "rules": [
+        "Fear Elves",
+        "Hatred (X)",
+        "Rallying Cry",
+        "Warband"
+      ],
+      "models": [
+        {
+          "name": "Night Goblin Bigboss",
+          "stats": {
+            "M": "4",
+            "WS": "4",
+            "BS": "3",
+            "S": "4",
+            "T": "4",
+            "W": "2",
+            "I": "4",
+            "A": "3",
+            "LD": "5",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 30.0,
+          "rules": [
+            "Fear Elves",
+            "Hatred (X)",
+            "Rallying Cry",
+            "Warband"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Night Goblin Bigboss on Giant Cave Squig",
+          "stats": {
+            "M": "3D6",
+            "WS": "4",
+            "BS": "3",
+            "S": "4",
+            "T": "4",
+            "W": "3",
+            "I": "4",
+            "A": "3",
+            "LD": "5",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 55.0,
+          "rules": [
+            "Fear Elves",
+            "Armored Hide (X)",
+            "Random Movement",
+            "Loner",
+            "Hatred (X)",
+            "Warband",
+            "Impact Hits (X)",
+            "Rallying Cry"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Massive Gob"
+          ]
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Shield",
+          "cost": 2.0,
+          "is_default": false
+        },
+        {
+          "name": "Battle Standard Bearer",
+          "cost": 25.0,
+          "is_default": false
+        },
+        {
+          "name": "Light Armor",
+          "cost": 3.0,
+          "is_default": false
+        },
+        {
+          "name": "Additional Hand Weapon",
+          "cost": 3.0,
+          "is_default": false
+        },
+        {
+          "name": "Great Weapon",
+          "cost": 4.0,
+          "is_default": false
+        },
+        {
+          "name": "Cavalry Spear",
+          "cost": 2.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Goblin Warboss",
+      "category": "Characters",
+      "base_points": 60.0,
+      "rules": [
+        "Fear Elves",
+        "Impetuous",
+        "Rallying Cry",
+        "Warband"
+      ],
+      "models": [
+        {
+          "name": "Goblin Warboss",
+          "stats": {
+            "M": "4",
+            "WS": "5",
+            "BS": "3",
+            "S": "4",
+            "T": "4",
+            "W": "3",
+            "I": "5",
+            "A": "4",
+            "LD": "7",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 60.0,
+          "rules": [
+            "Fear Elves",
+            "Impetuous",
+            "Rallying Cry",
+            "Warband"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Goblin Warboss on Gigantic Spider",
+          "stats": {
+            "M": "7",
+            "WS": "5",
+            "BS": "3",
+            "S": "4",
+            "T": "4",
+            "W": "4",
+            "I": "5",
+            "A": "4",
+            "LD": "7",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 95.0,
+          "rules": [
+            "Fear Elves",
+            "Armored Hide (X)",
+            "Fast Cavalry",
+            "Poisoned Attacks",
+            "Impetuous",
+            "Swiftstride",
+            "Warband",
+            "Move Through Cover",
+            "Rallying Cry"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Shield",
+          "cost": 2.0,
+          "is_default": false
+        },
+        {
+          "name": "Light Armor",
+          "cost": 3.0,
+          "is_default": false
+        },
+        {
+          "name": "Ambushers",
+          "cost": 10.0,
+          "is_default": false
+        },
+        {
+          "name": "Additional Hand Weapon",
+          "cost": 3.0,
+          "is_default": false
+        },
+        {
+          "name": "Great Weapon",
+          "cost": 4.0,
+          "is_default": false
+        },
+        {
+          "name": "Cavalry Spear",
+          "cost": 2.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Night Goblin Warboss",
+      "category": "Characters",
+      "base_points": 55.0,
+      "rules": [
+        "Fear Elves",
+        "Hatred (X)",
+        "Rallying Cry",
+        "Warband"
+      ],
+      "models": [
+        {
+          "name": "Night Goblin Warboss",
+          "stats": {
+            "M": "4",
+            "WS": "5",
+            "BS": "3",
+            "S": "4",
+            "T": "4",
+            "W": "3",
+            "I": "5",
+            "A": "4",
+            "LD": "6",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 55.0,
+          "rules": [
+            "Fear Elves",
+            "Hatred (X)",
+            "Rallying Cry",
+            "Warband"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Night Goblin Warboss on Giant Cave Squig",
+          "stats": {
+            "M": "3D6",
+            "WS": "5",
+            "BS": "3",
+            "S": "4",
+            "T": "4",
+            "W": "4",
+            "I": "5",
+            "A": "4",
+            "LD": "6",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 80.0,
+          "rules": [
+            "Fear Elves",
+            "Armored Hide (X)",
+            "Random Movement",
+            "Loner",
+            "Hatred (X)",
+            "Warband",
+            "Impact Hits (X)",
+            "Rallying Cry"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Massive Gob"
+          ]
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Shield",
+          "cost": 2.0,
+          "is_default": false
+        },
+        {
+          "name": "Light Armor",
+          "cost": 3.0,
+          "is_default": false
+        },
+        {
+          "name": "Additional Hand Weapon",
+          "cost": 3.0,
+          "is_default": false
+        },
+        {
+          "name": "Great Weapon",
+          "cost": 4.0,
+          "is_default": false
+        },
+        {
+          "name": "Cavalry Spear",
+          "cost": 2.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Night Goblin Oddgit",
+      "category": "Characters",
+      "base_points": 65.0,
+      "rules": [
+        "Fear Elves",
+        "Hatred (X)",
+        "Lore Of Mork",
+        "Warband"
+      ],
+      "models": [
+        {
+          "name": "Night Goblin Oddgit",
+          "stats": {
+            "M": "4",
+            "WS": "3",
+            "BS": "3",
+            "S": "3",
+            "T": "3",
+            "W": "2",
+            "I": "3",
+            "A": "1",
+            "LD": "5",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 65.0,
+          "rules": [
+            "Fear Elves",
+            "Hatred (X)",
+            "Lore Of Mork",
+            "Warband"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Level 2 Wizard",
+          "cost": 30.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Night Goblin Oddnob",
+      "category": "Characters",
+      "base_points": 130.0,
+      "rules": [
+        "Fear Elves",
+        "Hatred (X)",
+        "Lore Of Mork",
+        "Warband"
+      ],
+      "models": [
+        {
+          "name": "Night Goblin Oddnob",
+          "stats": {
+            "M": "4",
+            "WS": "4",
+            "BS": "3",
+            "S": "3",
+            "T": "4",
+            "W": "3",
+            "I": "4",
+            "A": "2",
+            "LD": "6",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 130.0,
+          "rules": [
+            "Fear Elves",
+            "Hatred (X)",
+            "Lore Of Mork",
+            "Warband"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Level 4 Wizard",
+          "cost": 30.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Goblin Oddgit",
+      "category": "Characters",
+      "base_points": 60.0,
+      "rules": [
+        "Fear Elves",
+        "Lore Of Mork",
+        "Warband"
+      ],
+      "models": [
+        {
+          "name": "Goblin Oddgit",
+          "stats": {
+            "M": "4",
+            "WS": "3",
+            "BS": "3",
+            "S": "3",
+            "T": "3",
+            "W": "2",
+            "I": "3",
+            "A": "1",
+            "LD": "6",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 60.0,
+          "rules": [
+            "Fear Elves",
+            "Lore Of Mork",
+            "Warband"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Ambushers",
+          "cost": 10.0,
+          "is_default": false
+        },
+        {
+          "name": "Level 2 Wizard",
+          "cost": 30.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Goblin Oddnob",
+      "category": "Characters",
+      "base_points": 135.0,
+      "rules": [
+        "Fear Elves",
+        "Lore Of Mork",
+        "Warband"
+      ],
+      "models": [
+        {
+          "name": "Goblin Oddnob",
+          "stats": {
+            "M": "4",
+            "WS": "4",
+            "BS": "3",
+            "S": "3",
+            "T": "4",
+            "W": "3",
+            "I": "4",
+            "A": "2",
+            "LD": "7",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 135.0,
+          "rules": [
+            "Fear Elves",
+            "Lore Of Mork",
+            "Warband"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Ambushers",
+          "cost": 10.0,
+          "is_default": false
+        },
+        {
+          "name": "Level 4 Wizard",
+          "cost": 30.0,
+          "is_default": false
+        },
+        {
+          "name": "Spidersilk Lobber",
+          "cost": 35.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Kiknif Toofsnatcha",
+      "category": "Characters",
+      "base_points": 105.0,
+      "rules": [
+        "Ambushers",
+        "Armor Bane (X)",
+        "Armored Hide (X)",
+        "Chariot Runners",
+        "Fast Cavalry",
+        "Fear Elves",
+        "Impetuous",
+        "Rallying Cry",
+        "Swiftstride",
+        "Warband"
+      ],
+      "models": [
+        {
+          "name": "Kiknif Toofsnatcha",
+          "stats": {
+            "M": "4",
+            "WS": "5",
+            "BS": "3",
+            "S": "4",
+            "T": "4",
+            "W": "3",
+            "I": "5",
+            "A": "4",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Light Cavalry"
+          },
+          "cost": 105.0,
+          "rules": [
+            "Ambushers",
+            "Armor Bane (X)",
+            "Armored Hide (X)",
+            "Chariot Runners",
+            "Fast Cavalry",
+            "Fear Elves",
+            "Impetuous",
+            "Rallying Cry",
+            "Swiftstride",
+            "Warband"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Kiknif Toofsnatcha on Kiknif Toofsnatcha",
+          "stats": {
+            "M": "4",
+            "WS": "5",
+            "BS": "3",
+            "S": "4",
+            "T": "4",
+            "W": "3",
+            "I": "5",
+            "A": "4",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Light Cavalry"
+          },
+          "cost": 210.0,
+          "rules": [
+            "Armored Hide (X)",
+            "Fear Elves",
+            "Fast Cavalry",
+            "Ambushers",
+            "Impetuous",
+            "Armor Bane (X)",
+            "Swiftstride",
+            "Warband",
+            "Chariot Runners",
+            "Rallying Cry"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Da Skull Smasha - Pick",
+            "Da Skull Smasha - Hammer"
+          ]
+        }
+      ],
+      "upgrades": []
+    },
+    {
+      "name": "Ogdruz Swampdigga",
+      "category": "Characters",
+      "base_points": 195.0,
+      "rules": [
+        "Choppas",
+        "Ignore Goblin Panic",
+        "Warband",
+        "Regeneration (X+)",
+        "Flammable"
+      ],
+      "models": [
+        {
+          "name": "Ogdruz Swampdigga",
+          "stats": {
+            "M": "4",
+            "WS": "4",
+            "BS": "2",
+            "S": "4",
+            "T": "5",
+            "W": "3",
+            "I": "4",
+            "A": "2",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 195.0,
+          "rules": [
+            "Choppas",
+            "Ignore Goblin Panic",
+            "Warband",
+            "Regeneration (X+)",
+            "Flammable"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": []
+    },
+    {
+      "name": "Troll Hag",
+      "category": "Rare",
+      "base_points": 235.0,
+      "rules": [
+        "Close Order",
+        "Flammable",
+        "Immune to Psychology",
+        "Large Target",
+        "Regeneration (X+)",
+        "Stomp Attacks (X)",
+        "Stupidity",
+        "Terror",
+        "Timmm-berrr!",
+        "Unbreakable"
+      ],
+      "models": [
+        {
+          "name": "Troll Hag",
+          "stats": {
+            "M": "5",
+            "WS": "2",
+            "BS": "2",
+            "S": "6",
+            "T": "5",
+            "W": "6",
+            "I": "2",
+            "A": "3",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Behemoth (Character)"
+          },
+          "cost": 235.0,
+          "rules": [
+            "Timmm-berrr!",
+            "Close Order",
+            "Large Target",
+            "Terror",
+            "Stomp Attacks (X)",
+            "Regeneration (X+)",
+            "Flammable",
+            "Immune to Psychology",
+            "Unbreakable",
+            "Stupidity"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Troll Vomit",
+            "Swamp Breath"
+          ]
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Level 2 Wizard",
+          "cost": 35.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Black Orc Boar Chariot",
+      "category": "Rare",
+      "base_points": 130.0,
+      "rules": [
+        "Choppas",
+        "Close Order",
+        "First Charge",
+        "Ignore Panic",
+        "Impact Hits (X)",
+        "Furious Charge",
+        "Tusker Charge"
+      ],
+      "models": [
+        {
+          "name": "Black Orc Boar Chariot",
+          "stats": {
+            "M": "-",
+            "WS": "4",
+            "BS": "3",
+            "S": "4",
+            "T": "4",
+            "W": "-",
+            "I": "3",
+            "A": "1",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": ""
+          },
+          "cost": 130.0,
+          "rules": [
+            "Close Order",
+            "Furious Charge",
+            "Tusker Charge",
+            "Choppas",
+            "First Charge",
+            "Ignore Panic",
+            "Impact Hits (X)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Black Orc Crew",
+          "stats": {
+            "M": "-",
+            "WS": "4",
+            "BS": "3",
+            "S": "4",
+            "T": "4",
+            "W": "-",
+            "I": "3",
+            "A": "1",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": ""
+          },
+          "cost": 130.0,
+          "rules": [
+            "Close Order",
+            "Furious Charge",
+            "Tusker Charge",
+            "Choppas",
+            "First Charge",
+            "Ignore Panic",
+            "Impact Hits (X)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "War Boar",
+          "stats": {
+            "M": "7",
+            "WS": "3",
+            "BS": "-",
+            "S": "3",
+            "T": "-",
+            "W": "-",
+            "I": "3",
+            "A": "1",
+            "LD": "-",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": ""
+          },
+          "cost": 130.0,
+          "rules": [
+            "Close Order",
+            "Furious Charge",
+            "Tusker Charge",
+            "Choppas",
+            "First Charge",
+            "Ignore Panic",
+            "Impact Hits (X)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Additional Hand Weapon",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Great Weapon",
+          "cost": 2.0,
+          "is_default": false
+        },
+        {
+          "name": "Standard Bearer",
+          "cost": 10.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Arachnarok Spider",
+      "category": "Rare",
+      "base_points": 310.0,
+      "rules": [],
+      "models": [
+        {
+          "name": "Arachnarok Spider",
+          "stats": {
+            "M": "-",
+            "WS": "2",
+            "BS": "3",
+            "S": "3",
+            "T": "-",
+            "W": "-",
+            "I": "3",
+            "A": "1",
+            "LD": "7",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": ""
+          },
+          "cost": 310.0,
+          "rules": [],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Venom Surge",
+            "Spidersilk Lobber"
+          ]
+        },
+        {
+          "name": "Goblin Crew",
+          "stats": {
+            "M": "-",
+            "WS": "2",
+            "BS": "3",
+            "S": "3",
+            "T": "-",
+            "W": "-",
+            "I": "3",
+            "A": "1",
+            "LD": "7",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": ""
+          },
+          "cost": 310.0,
+          "rules": [],
+          "role": "rank_and_file",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Spidersilk Lobber",
+          "cost": 35.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Troll Hag",
+      "category": "Characters",
+      "base_points": 235.0,
+      "rules": [
+        "Close Order",
+        "Flammable",
+        "Immune to Psychology",
+        "Large Target",
+        "Regeneration (X+)",
+        "Stomp Attacks (X)",
+        "Stupidity",
+        "Terror",
+        "Timmm-berrr!",
+        "Unbreakable",
+        "Enhanced Regeneration"
+      ],
+      "models": [
+        {
+          "name": "Troll Hag",
+          "stats": {
+            "M": "5",
+            "WS": "2",
+            "BS": "2",
+            "S": "6",
+            "T": "5",
+            "W": "6",
+            "I": "2",
+            "A": "3",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Behemoth (Character)"
+          },
+          "cost": 235.0,
+          "rules": [
+            "Close Order",
+            "Flammable",
+            "Immune to Psychology",
+            "Large Target",
+            "Regeneration (X+)",
+            "Stomp Attacks (X)",
+            "Stupidity",
+            "Terror",
+            "Timmm-berrr!",
+            "Unbreakable",
+            "Enhanced Regeneration"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Troll Hag on Troll Hag",
+          "stats": {
+            "M": "5",
+            "WS": "2",
+            "BS": "2",
+            "S": "6",
+            "T": "5",
+            "W": "6",
+            "I": "2",
+            "A": "3",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Behemoth (Character)"
+          },
+          "cost": 470.0,
+          "rules": [
+            "Timmm-berrr!",
+            "Close Order",
+            "Large Target",
+            "Terror",
+            "Stomp Attacks (X)",
+            "Regeneration (X+)",
+            "Flammable",
+            "Immune to Psychology",
+            "Unbreakable",
+            "Stupidity",
+            "Enhanced Regeneration"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Troll Vomit",
+            "Swamp Breath"
+          ]
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Level 2 Wizard",
+          "cost": 35.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Common Troll Mob",
+      "category": "Core",
+      "base_points": 0.0,
+      "rules": [
+        "Fear",
+        "Close Order",
+        "Flammable",
+        "Armor Bane (X)",
+        "Regeneration (X+)",
+        "Stupidity",
+        "Enhanced Regeneration",
+        "Motley Crew"
+      ],
+      "models": [
+        {
+          "name": "Common Troll Mob",
+          "stats": {
+            "M": "6",
+            "WS": "3",
+            "BS": "1",
+            "S": "5",
+            "T": "4",
+            "W": "3",
+            "I": "2",
+            "A": "3",
+            "LD": "4",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Monsterous Infantry"
+          },
+          "cost": 41.0,
+          "rules": [
+            "Close Order",
+            "Motley Crew",
+            "Regeneration (X+)",
+            "Armor Bane (X)",
+            "Flammable",
+            "Fear",
+            "Stupidity",
+            "Enhanced Regeneration"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Troll Vomit"
+          ]
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Great Weapon",
+          "cost": 4.0,
+          "is_default": false
+        },
+        {
+          "name": "Additional Hand Weapon",
+          "cost": 3.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Stone Troll Mob",
+      "category": "Core",
+      "base_points": 0.0,
+      "rules": [
+        "Fear",
+        "Close Order",
+        "Flammable",
+        "Armor Bane (X)",
+        "Regeneration (X+)",
+        "Stupidity",
+        "Armored Hide (X)",
+        "Magic Resistance (-X)",
+        "Enhanced Regeneration",
+        "Motley Crew"
+      ],
+      "models": [
+        {
+          "name": "Stone Troll Mob",
+          "stats": {
+            "M": "6",
+            "WS": "3",
+            "BS": "1",
+            "S": "5",
+            "T": "4",
+            "W": "3",
+            "I": "1",
+            "A": "3",
+            "LD": "5",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Monsterous Infantry"
+          },
+          "cost": 45.0,
+          "rules": [
+            "Armored Hide (X)",
+            "Close Order",
+            "Magic Resistance (-X)",
+            "Motley Crew",
+            "Regeneration (X+)",
+            "Armor Bane (X)",
+            "Flammable",
+            "Fear",
+            "Stupidity",
+            "Enhanced Regeneration"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Troll Vomit"
+          ]
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Great Weapon",
+          "cost": 4.0,
+          "is_default": false
+        },
+        {
+          "name": "Additional Hand Weapon",
+          "cost": 3.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "River Troll Mob",
+      "category": "Core",
+      "base_points": 0.0,
+      "rules": [
+        "Fear",
+        "Close Order",
+        "Flammable",
+        "Armor Bane (X)",
+        "Regeneration (X+)",
+        "Stupidity",
+        "Enhanced Regeneration",
+        "Motley Crew"
+      ],
+      "models": [
+        {
+          "name": "River Troll Mob",
+          "stats": {
+            "M": "6",
+            "WS": "3",
+            "BS": "1",
+            "S": "5",
+            "T": "4",
+            "W": "4",
+            "I": "1",
+            "A": "3",
+            "LD": "4",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Monsterous Infantry"
+          },
+          "cost": 49.0,
+          "rules": [
+            "Close Order",
+            "Motley Crew",
+            "Regeneration (X+)",
+            "Armor Bane (X)",
+            "Flammable",
+            "Fear",
+            "Stupidity",
+            "Enhanced Regeneration"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Troll Vomit"
+          ]
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Great Weapon",
+          "cost": 4.0,
+          "is_default": false
+        },
+        {
+          "name": "Additional Hand Weapon",
+          "cost": 3.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Goblin Wolf Chariots",
+      "category": "Core",
+      "base_points": 0.0,
+      "rules": [
+        "Fear Elves",
+        "Impact Hits (X)",
+        "Impetuous",
+        "Open Order",
+        "Swiftstride",
+        "Warband"
+      ],
+      "models": [
+        {
+          "name": "Goblin Wolf Chariots",
+          "stats": {
+            "M": "-",
+            "WS": "2",
+            "BS": "3",
+            "S": "3",
+            "T": "-",
+            "W": "-",
+            "I": "3",
+            "A": "1",
+            "LD": "6",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": ""
+          },
+          "cost": 48.0,
+          "rules": [
+            "Fear Elves",
+            "Open Order",
+            "Impetuous",
+            "Swiftstride",
+            "Warband",
+            "Impact Hits (X)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Goblin Crew",
+          "stats": {
+            "M": "-",
+            "WS": "2",
+            "BS": "3",
+            "S": "3",
+            "T": "-",
+            "W": "-",
+            "I": "3",
+            "A": "1",
+            "LD": "6",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": ""
+          },
+          "cost": 48.0,
+          "rules": [
+            "Fear Elves",
+            "Open Order",
+            "Impetuous",
+            "Swiftstride",
+            "Warband",
+            "Impact Hits (X)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Giant Wolf",
+          "stats": {
+            "M": "9",
+            "WS": "3",
+            "BS": "-",
+            "S": "3",
+            "T": "-",
+            "W": "-",
+            "I": "3",
+            "A": "1",
+            "LD": "-",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": ""
+          },
+          "cost": 5.0,
+          "rules": [
+            "Fear Elves",
+            "Open Order",
+            "Impetuous",
+            "Swiftstride",
+            "Warband",
+            "Impact Hits (X)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Standard Bearer",
+          "cost": 5.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Black Orc Warboss",
+      "category": "Characters",
+      "base_points": 135.0,
+      "rules": [
+        "Choppas",
+        "Furious Charge",
+        "Ignore Panic",
+        "Rallying Cry",
+        "Waaagh!"
+      ],
+      "models": [
+        {
+          "name": "Black Orc Warboss",
+          "stats": {
+            "M": "4",
+            "WS": "7",
+            "BS": "3",
+            "S": "5",
+            "T": "5",
+            "W": "3",
+            "I": "6",
+            "A": "4",
+            "LD": "9",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Infantry"
+          },
+          "cost": 135.0,
+          "rules": [
+            "Choppas",
+            "Furious Charge",
+            "Ignore Panic",
+            "Rallying Cry",
+            "Waaagh!"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Black Orc Warboss on Wyvern",
+          "stats": {
+            "M": "4",
+            "WS": "7",
+            "BS": "3",
+            "S": "5",
+            "T": "6",
+            "W": "7",
+            "I": "6",
+            "A": "4",
+            "LD": "9",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Infantry"
+          },
+          "cost": 265.0,
+          "rules": [
+            "Close Order",
+            "Large Target",
+            "Terror",
+            "Stomp Attacks (X)",
+            "Furious Charge",
+            "Waaagh!",
+            "Swiftstride",
+            "Choppas",
+            "Ignore Panic",
+            "Rallying Cry",
+            "Fly (X)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Wicked Claws",
+            "Venemous Tail"
+          ]
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Shield",
+          "cost": 2.0,
+          "is_default": false
+        },
+        {
+          "name": "Additional Hand Weapon",
+          "cost": 3.0,
+          "is_default": false
+        },
+        {
+          "name": "Great Weapon",
+          "cost": 4.0,
+          "is_default": false
+        },
+        {
+          "name": "Cavalry Spear",
+          "cost": 2.0,
+          "is_default": false
+        },
+        {
+          "name": "Frenzy",
+          "cost": 2.0,
+          "is_default": false
+        },
+        {
+          "name": "Warpaint",
+          "cost": 10.0,
+          "is_default": false
+        },
+        {
+          "name": "Standard Bearer",
+          "cost": 10.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Black Orc Bigboss",
+      "category": "Characters",
+      "base_points": 75.0,
+      "rules": [
+        "Choppas",
+        "Furious Charge",
+        "Ignore Panic",
+        "Rallying Cry",
+        "Waaagh!"
+      ],
+      "models": [
+        {
+          "name": "Black Orc Bigboss",
+          "stats": {
+            "M": "4",
+            "WS": "6",
+            "BS": "3",
+            "S": "4",
+            "T": "5",
+            "W": "2",
+            "I": "5",
+            "A": "3",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Infantry"
+          },
+          "cost": 75.0,
+          "rules": [
+            "Choppas",
+            "Furious Charge",
+            "Ignore Panic",
+            "Rallying Cry",
+            "Waaagh!"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Shield",
+          "cost": 2.0,
+          "is_default": false
+        },
+        {
+          "name": "Battle Standard Bearer",
+          "cost": 25.0,
+          "is_default": false
+        },
+        {
+          "name": "Additional Hand Weapon",
+          "cost": 3.0,
+          "is_default": false
+        },
+        {
+          "name": "Great Weapon",
+          "cost": 4.0,
+          "is_default": false
+        },
+        {
+          "name": "Cavalry Spear",
+          "cost": 2.0,
+          "is_default": false
+        },
+        {
+          "name": "Frenzy",
+          "cost": 2.0,
+          "is_default": false
+        },
+        {
+          "name": "Warpaint",
+          "cost": 10.0,
+          "is_default": false
+        },
+        {
+          "name": "Standard Bearer",
+          "cost": 10.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Black Orc Boar Chariot",
+      "category": "Core",
+      "base_points": 130.0,
+      "rules": [
+        "Choppas",
+        "Close Order",
+        "First Charge",
+        "Ignore Panic",
+        "Impact Hits (X)",
+        "Furious Charge",
+        "Tusker Charge"
+      ],
+      "models": [
+        {
+          "name": "Black Orc Boar Chariot",
+          "stats": {
+            "M": "-",
+            "WS": "4",
+            "BS": "3",
+            "S": "4",
+            "T": "4",
+            "W": "-",
+            "I": "3",
+            "A": "1",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": ""
+          },
+          "cost": 130.0,
+          "rules": [
+            "Close Order",
+            "Furious Charge",
+            "Tusker Charge",
+            "Choppas",
+            "First Charge",
+            "Ignore Panic",
+            "Impact Hits (X)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Black Orc Crew",
+          "stats": {
+            "M": "-",
+            "WS": "4",
+            "BS": "3",
+            "S": "4",
+            "T": "4",
+            "W": "-",
+            "I": "3",
+            "A": "1",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": ""
+          },
+          "cost": 130.0,
+          "rules": [
+            "Close Order",
+            "Furious Charge",
+            "Tusker Charge",
+            "Choppas",
+            "First Charge",
+            "Ignore Panic",
+            "Impact Hits (X)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "War Boar",
+          "stats": {
+            "M": "7",
+            "WS": "3",
+            "BS": "-",
+            "S": "3",
+            "T": "-",
+            "W": "-",
+            "I": "3",
+            "A": "1",
+            "LD": "-",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": ""
+          },
+          "cost": 130.0,
+          "rules": [
+            "Close Order",
+            "Furious Charge",
+            "Tusker Charge",
+            "Choppas",
+            "First Charge",
+            "Ignore Panic",
+            "Impact Hits (X)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Additional Hand Weapon",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Great Weapon",
+          "cost": 2.0,
+          "is_default": false
+        },
+        {
+          "name": "Standard Bearer",
+          "cost": 10.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Orc Boar Boy Mob",
+      "category": "Core",
+      "base_points": 0.0,
+      "rules": [
+        "Impetuous",
+        "Close Order",
+        "Warband",
+        "Choppas",
+        "Ignore Goblin Panic",
+        "Armored Hide (X)",
+        "Counter Charge",
+        "Furious Charge",
+        "Swiftstride",
+        "Tusker Charge"
+      ],
+      "models": [
+        {
+          "name": "Orc Boar Boy Mob",
+          "stats": {
+            "M": "-",
+            "WS": "3",
+            "BS": "3",
+            "S": "3",
+            "T": "4",
+            "W": "1",
+            "I": "3",
+            "A": "1",
+            "LD": "6",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Cavalry"
+          },
+          "cost": 15.0,
+          "rules": [
+            "Armored Hide (X)",
+            "Close Order",
+            "Ignore Goblin Panic",
+            "Vanguard",
+            "Furious Charge",
+            "Impetuous",
+            "Counter Charge",
+            "Frenzy",
+            "Tusker Charge",
+            "Swiftstride",
+            "Choppas",
+            "Warband",
+            "Warpaint",
+            "Big 'Uns"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Champion",
+          "stats": {
+            "M": "-",
+            "WS": "3",
+            "BS": "3",
+            "S": "3",
+            "T": "4",
+            "W": "1",
+            "I": "3",
+            "A": "2",
+            "LD": "7",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Cavalry"
+          },
+          "cost": 23.0,
+          "rules": [
+            "Armored Hide (X)",
+            "Close Order",
+            "Ignore Goblin Panic",
+            "Furious Charge",
+            "Impetuous",
+            "Counter Charge",
+            "Tusker Charge",
+            "Swiftstride",
+            "Choppas",
+            "Warband"
+          ],
+          "role": "champion",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Shields",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Replace Light Armor with Frenzy",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Warpaint",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Cavalry Spear",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Replace Light Armor with Heavy Armor",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Big 'Uns",
+          "cost": 2.0,
+          "is_default": false
+        },
+        {
+          "name": "Vanguard",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Musician",
+          "cost": 6.0,
+          "is_default": false
+        },
+        {
+          "name": "Standard Bearer",
+          "cost": 6.0,
+          "is_default": false
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,3073 @@
+{
+  "faction_name": "Daemons Of Chaos",
+  "units": [
+    {
+      "name": "Bloodthirster - Greater Daemon Of Khorne",
+      "category": "Characters",
+      "base_points": 355.0,
+      "rules": [
+        "Daemonic",
+        "Daemon Of Khorne",
+        "Fly (X)",
+        "Furious Charge",
+        "Impact Hits (X)",
+        "Impetuous",
+        "Infernal Favour (2)",
+        "Large Target",
+        "Magic Resistance (-X)",
+        "Terror"
+      ],
+      "models": [
+        {
+          "name": "Bloodthirster - Greater Daemon Of Khorne",
+          "stats": {
+            "M": "8",
+            "WS": "10",
+            "BS": "5",
+            "S": "6",
+            "T": "6",
+            "W": "6",
+            "I": "7",
+            "A": "6",
+            "LD": "9",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Behemoth (Character)"
+          },
+          "cost": 355.0,
+          "rules": [
+            "Daemonic",
+            "Daemon Of Khorne",
+            "Fly (X)",
+            "Furious Charge",
+            "Impact Hits (X)",
+            "Impetuous",
+            "Infernal Favour (2)",
+            "Large Target",
+            "Magic Resistance (-X)",
+            "Terror"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Bloodthirster - Greater Daemon Of Khorne on Bloodthirster - Greater Daemon Of Khorne",
+          "stats": {
+            "M": "8",
+            "WS": "10",
+            "BS": "5",
+            "S": "6",
+            "T": "6",
+            "W": "6",
+            "I": "7",
+            "A": "6",
+            "LD": "9",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Behemoth (Character)"
+          },
+          "cost": 710.0,
+          "rules": [
+            "Magic Resistance (-X)",
+            "Large Target",
+            "Terror",
+            "Furious Charge",
+            "Impetuous",
+            "Daemonic",
+            "Daemon Of Khorne",
+            "Infernal Favour (2)",
+            "Impact Hits (X)",
+            "Fly (X)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Bloodflail",
+            "Great Axe",
+            "Lash of Khorne"
+          ]
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Weapon",
+          "cost": 0.0,
+          "is_default": true
+        },
+        {
+          "name": "Bloodflail",
+          "cost": 25.0,
+          "is_default": false
+        },
+        {
+          "name": "Great Axe",
+          "cost": 35.0,
+          "is_default": false
+        },
+        {
+          "name": "Lash of Khorne",
+          "cost": 15.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Chaos Furies",
+      "category": "Core",
+      "base_points": 0.0,
+      "rules": [
+        "Daemonic",
+        "Fly (X)",
+        "Furious Charge",
+        "Skirmishers",
+        "Swiftstride",
+        "Vanguard"
+      ],
+      "models": [
+        {
+          "name": "Chaos Furies",
+          "stats": {
+            "M": "4",
+            "WS": "3",
+            "BS": "0",
+            "S": "4",
+            "T": "3",
+            "W": "1",
+            "I": "4",
+            "A": "1",
+            "LD": "5",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 12.0,
+          "rules": [
+            "Fly (X)",
+            "Vanguard",
+            "Daemon Of Slaanesh",
+            "Furious Charge",
+            "Skirmishers",
+            "Daemon Of Nurgle",
+            "Daemonic",
+            "Swiftstride",
+            "Daemon Of Khorne",
+            "Daemon Of Tzeentch"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Daemonic Tails"
+          ]
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Daemon of Khorne",
+          "cost": 2.0,
+          "is_default": false
+        },
+        {
+          "name": "Daemon of Nurgle",
+          "cost": 2.0,
+          "is_default": false
+        },
+        {
+          "name": "Daemon of Tzeentch",
+          "cost": 2.0,
+          "is_default": false
+        },
+        {
+          "name": "Daemon of Slaanesh",
+          "cost": 2.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Soul Grinder",
+      "category": "Rare",
+      "base_points": 255.0,
+      "rules": [
+        "Close Order",
+        "Daemonic",
+        "Furious Charge",
+        "Large Target",
+        "Reserve Move",
+        "Stomp Attacks (X)",
+        "Terror"
+      ],
+      "models": [
+        {
+          "name": "Soul Grinder",
+          "stats": {
+            "M": "8",
+            "WS": "3",
+            "BS": "3",
+            "S": "6",
+            "T": "6",
+            "W": "6",
+            "I": "3",
+            "A": "4",
+            "LD": "7",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Behemoth"
+          },
+          "cost": 255.0,
+          "rules": [
+            "Daemon Of Slaanesh",
+            "Close Order",
+            "Large Target",
+            "Terror",
+            "Stomp Attacks (X)",
+            "Furious Charge",
+            "Reserve Move",
+            "Daemon Of Nurgle",
+            "Daemonic",
+            "Daemon Of Tzeentch",
+            "Daemon Of Khorne"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Harvester Cannon",
+            "Iron Claw",
+            "Warp Gaze",
+            "Baleful Torrent"
+          ]
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Daemon of Khorne",
+          "cost": 10.0,
+          "is_default": false
+        },
+        {
+          "name": "Daemon of Nurgle",
+          "cost": 10.0,
+          "is_default": false
+        },
+        {
+          "name": "Daemon of Tzeentch",
+          "cost": 10.0,
+          "is_default": false
+        },
+        {
+          "name": "Daemon of Slaanesh",
+          "cost": 10.0,
+          "is_default": false
+        },
+        {
+          "name": "Upgrades",
+          "cost": 0.0,
+          "is_default": false
+        },
+        {
+          "name": "Baleful Torrent",
+          "cost": 25.0,
+          "is_default": false
+        },
+        {
+          "name": "Warp Gaze",
+          "cost": 30.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Daemonic Herald Of Khorne",
+      "category": "Characters",
+      "base_points": 80.0,
+      "rules": [
+        "Daemonic",
+        "Daemon Of Khorne",
+        "Furious Charge",
+        "Impetuous",
+        "Infernal Favour (1)",
+        "Magic Resistance (-X)"
+      ],
+      "models": [
+        {
+          "name": "Daemonic Herald Of Khorne",
+          "stats": {
+            "M": "5",
+            "WS": "7",
+            "BS": "4",
+            "S": "5",
+            "T": "4",
+            "W": "2",
+            "I": "6",
+            "A": "3",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Infantry (Character)"
+          },
+          "cost": 80.0,
+          "rules": [
+            "Daemonic",
+            "Daemon Of Khorne",
+            "Furious Charge",
+            "Impetuous",
+            "Infernal Favour (1)",
+            "Magic Resistance (-X)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Hellblade"
+          ]
+        },
+        {
+          "name": "Daemonic Herald Of Khorne on Juggernaut Of Khorne",
+          "stats": {
+            "M": "7",
+            "WS": "7",
+            "BS": "4",
+            "S": "5",
+            "T": "5",
+            "W": "3",
+            "I": "6",
+            "A": "3",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Infantry (Character)"
+          },
+          "cost": 130.0,
+          "rules": [
+            "Armored Hide (X)",
+            "Magic Resistance (-X)",
+            "Furious Charge",
+            "Impetuous",
+            "Daemonic",
+            "Swiftstride",
+            "Daemon Of Khorne",
+            "Infernal Favour (1)",
+            "First Charge",
+            "Impact Hits (X)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Brass Bound Hooves",
+            "Hellblade"
+          ]
+        },
+        {
+          "name": "Daemonic Herald Of Khorne on Blood Throne Of Khorne",
+          "stats": {
+            "M": "7",
+            "WS": "7",
+            "BS": "4",
+            "S": "5",
+            "T": "5",
+            "W": "4",
+            "I": "6",
+            "A": "3",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Infantry (Character)"
+          },
+          "cost": 240.0,
+          "rules": [
+            "Close Order",
+            "Magic Resistance (-X)",
+            "Furious Charge",
+            "Impetuous",
+            "Daemonic",
+            "Daemon Of Khorne",
+            "Infernal Favour (1)",
+            "First Charge",
+            "Impact Hits (X)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Hellblade"
+          ]
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Daemonic Locus",
+          "cost": 25.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Bloodletters Of Khorne",
+      "category": "Special",
+      "base_points": 0.0,
+      "rules": [
+        "Close Order",
+        "Daemonic",
+        "Daemon Of Khorne",
+        "Impetuous",
+        "Magic Resistance (-X)"
+      ],
+      "models": [
+        {
+          "name": "Bloodletters Of Khorne",
+          "stats": {
+            "M": "5",
+            "WS": "5",
+            "BS": "3",
+            "S": "4",
+            "T": "3",
+            "W": "1",
+            "I": "4",
+            "A": "1",
+            "LD": "7",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Infantry"
+          },
+          "cost": 14.0,
+          "rules": [
+            "Close Order",
+            "Magic Resistance (-X)",
+            "Impetuous",
+            "Daemonic",
+            "Daemon Of Khorne"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Hellblade"
+          ]
+        },
+        {
+          "name": "Bloodletter",
+          "stats": {
+            "M": "5",
+            "WS": "5",
+            "BS": "3",
+            "S": "4",
+            "T": "3",
+            "W": "1",
+            "I": "4",
+            "A": "1",
+            "LD": "7",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Infantry"
+          },
+          "cost": 14.0,
+          "rules": [
+            "Close Order",
+            "Magic Resistance (-X)",
+            "Impetuous",
+            "Daemonic",
+            "Daemon Of Khorne"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Hellblade"
+          ]
+        },
+        {
+          "name": "Champion",
+          "stats": {
+            "M": "5",
+            "WS": "5",
+            "BS": "3",
+            "S": "4",
+            "T": "3",
+            "W": "1",
+            "I": "4",
+            "A": "2",
+            "LD": "7",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Infantry"
+          },
+          "cost": 21.0,
+          "rules": [
+            "Close Order",
+            "Magic Resistance (-X)",
+            "Impetuous",
+            "Daemonic",
+            "Daemon Of Khorne"
+          ],
+          "role": "champion",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Musician",
+          "cost": 7.0,
+          "is_default": false
+        },
+        {
+          "name": "Standard Bearer",
+          "cost": 7.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Daemon Prince",
+      "category": "Characters",
+      "base_points": 210.0,
+      "rules": [
+        "Daemonic",
+        "Infernal Favour (2)",
+        "Lore Of Daemons"
+      ],
+      "models": [
+        {
+          "name": "Daemon Prince",
+          "stats": {
+            "M": "6",
+            "WS": "7",
+            "BS": "5",
+            "S": "6",
+            "T": "5",
+            "W": "4",
+            "I": "7",
+            "A": "5",
+            "LD": "9",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Monsterous Infantry (Character)"
+          },
+          "cost": 210.0,
+          "rules": [
+            "Daemonic",
+            "Infernal Favour (2)",
+            "Lore Of Daemons"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Daemon Prince on Daemon Prince",
+          "stats": {
+            "M": "6",
+            "WS": "7",
+            "BS": "5",
+            "S": "6",
+            "T": "5",
+            "W": "4",
+            "I": "7",
+            "A": "5",
+            "LD": "9",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Monsterous Infantry (Character)"
+          },
+          "cost": 420.0,
+          "rules": [
+            "Daemon Of Slaanesh",
+            "Lore Of Daemons",
+            "Daemon Of Nurgle",
+            "Daemonic",
+            "Daemon Of Tzeentch",
+            "Daemon Of Khorne",
+            "Infernal Favour (2)",
+            "Fly (X)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Ensorcelled Weapon"
+          ]
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Fly (9)",
+          "cost": 30.0,
+          "is_default": false
+        },
+        {
+          "name": "Daemon of Khorne",
+          "cost": 10.0,
+          "is_default": false
+        },
+        {
+          "name": "Daemon of Nurgle",
+          "cost": 10.0,
+          "is_default": false
+        },
+        {
+          "name": "Daemon of Tzeentch",
+          "cost": 10.0,
+          "is_default": false
+        },
+        {
+          "name": "Daemon of Slaanesh",
+          "cost": 10.0,
+          "is_default": false
+        },
+        {
+          "name": "Armour",
+          "cost": 0.0,
+          "is_default": true
+        },
+        {
+          "name": "Light Armour",
+          "cost": 0.0,
+          "is_default": false
+        },
+        {
+          "name": "Heavy Armour",
+          "cost": 6.0,
+          "is_default": false
+        },
+        {
+          "name": "Level 1 Wizard",
+          "cost": 25.0,
+          "is_default": false
+        },
+        {
+          "name": "Level 2 Wizard",
+          "cost": 50.0,
+          "is_default": false
+        },
+        {
+          "name": "Level 3 Wizard",
+          "cost": 75.0,
+          "is_default": false
+        },
+        {
+          "name": "Level 4 Wizard",
+          "cost": 100.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Flesh Hounds Of Khorne",
+      "category": "Special",
+      "base_points": 0.0,
+      "rules": [
+        "Close Order",
+        "Daemonic",
+        "Daemon Of Khorne",
+        "Impetuous",
+        "Magic Resistance (-X)",
+        "Armor Bane (X)",
+        "Counter Charge"
+      ],
+      "models": [
+        {
+          "name": "Flesh Hounds Of Khorne",
+          "stats": {
+            "M": "8",
+            "WS": "5",
+            "BS": "0",
+            "S": "4",
+            "T": "4",
+            "W": "2",
+            "I": "4",
+            "A": "2",
+            "LD": "7",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Cavalry"
+          },
+          "cost": 32.0,
+          "rules": [
+            "Close Order",
+            "Magic Resistance (-X)",
+            "Vanguard",
+            "Ambushers",
+            "Impetuous",
+            "Counter Charge",
+            "Armor Bane (X)",
+            "Daemonic",
+            "Daemon Of Khorne"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Flesh Hound",
+          "stats": {
+            "M": "8",
+            "WS": "5",
+            "BS": "0",
+            "S": "4",
+            "T": "4",
+            "W": "2",
+            "I": "4",
+            "A": "2",
+            "LD": "7",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Cavalry"
+          },
+          "cost": 32.0,
+          "rules": [
+            "Close Order",
+            "Magic Resistance (-X)",
+            "Vanguard",
+            "Ambushers",
+            "Impetuous",
+            "Counter Charge",
+            "Armor Bane (X)",
+            "Daemonic",
+            "Daemon Of Khorne"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Ambushers",
+          "cost": 3.0,
+          "is_default": false
+        },
+        {
+          "name": "Vanguard",
+          "cost": 2.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Bloodcrushers Of Khorne",
+      "category": "Rare",
+      "base_points": 0.0,
+      "rules": [
+        "Close Order",
+        "Daemonic",
+        "Daemon Of Khorne",
+        "Impetuous",
+        "Magic Resistance (-X)",
+        "Armored Hide (X)",
+        "Impact Hits (X)",
+        "Swiftstride"
+      ],
+      "models": [
+        {
+          "name": "Bloodcrushers Of Khorne",
+          "stats": {
+            "M": "7",
+            "WS": "4",
+            "BS": "-",
+            "S": "5",
+            "T": "-",
+            "W": "-",
+            "I": "2",
+            "A": "2",
+            "LD": "-",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Monsterous Cavalry"
+          },
+          "cost": 65.0,
+          "rules": [
+            "Armored Hide (X)",
+            "Close Order",
+            "Magic Resistance (-X)",
+            "Impetuous",
+            "Daemonic",
+            "Swiftstride",
+            "Daemon Of Khorne",
+            "Impact Hits (X)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Hellblade",
+            "Brass Bound Hooves"
+          ]
+        },
+        {
+          "name": "Bloodletter",
+          "stats": {
+            "M": "-",
+            "WS": "5",
+            "BS": "3",
+            "S": "4",
+            "T": "4",
+            "W": "3",
+            "I": "4",
+            "A": "1",
+            "LD": "7",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Monsterous Cavalry"
+          },
+          "cost": 65.0,
+          "rules": [
+            "Armored Hide (X)",
+            "Close Order",
+            "Magic Resistance (-X)",
+            "Impetuous",
+            "Daemonic",
+            "Swiftstride",
+            "Daemon Of Khorne",
+            "Impact Hits (X)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Hellblade"
+          ]
+        },
+        {
+          "name": "Champion",
+          "stats": {
+            "M": "-",
+            "WS": "5",
+            "BS": "3",
+            "S": "4",
+            "T": "4",
+            "W": "3",
+            "I": "4",
+            "A": "2",
+            "LD": "7",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Monsterous Cavalry"
+          },
+          "cost": 72.0,
+          "rules": [
+            "Armored Hide (X)",
+            "Close Order",
+            "Magic Resistance (-X)",
+            "Impetuous",
+            "Daemonic",
+            "Swiftstride",
+            "Daemon Of Khorne",
+            "Impact Hits (X)"
+          ],
+          "role": "champion",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Musician",
+          "cost": 7.0,
+          "is_default": false
+        },
+        {
+          "name": "Standard Bearer",
+          "cost": 7.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Great Unclean One - Greater Daemon Of Nurgle",
+      "category": "Characters",
+      "base_points": 330.0,
+      "rules": [
+        "Daemonic",
+        "Daemon Of Nurgle",
+        "Infernal Favour (2)",
+        "Large Target",
+        "Lore Of Daemons",
+        "Terror",
+        "Poisoned Attacks",
+        "Regeneration (X+)",
+        "Stomp Attacks (X)"
+      ],
+      "models": [
+        {
+          "name": "Great Unclean One - Greater Daemon Of Nurgle",
+          "stats": {
+            "M": "5",
+            "WS": "6",
+            "BS": "3",
+            "S": "6",
+            "T": "7",
+            "W": "7",
+            "I": "4",
+            "A": "5",
+            "LD": "9",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Behemoth (Character)"
+          },
+          "cost": 330.0,
+          "rules": [
+            "Daemonic",
+            "Daemon Of Nurgle",
+            "Infernal Favour (2)",
+            "Large Target",
+            "Lore Of Daemons",
+            "Terror",
+            "Poisoned Attacks",
+            "Regeneration (X+)",
+            "Stomp Attacks (X)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Great Unclean One - Greater Daemon Of Nurgle on Great Unclean One - Greater Daemon Of Nurgle",
+          "stats": {
+            "M": "5",
+            "WS": "6",
+            "BS": "3",
+            "S": "6",
+            "T": "7",
+            "W": "7",
+            "I": "4",
+            "A": "5",
+            "LD": "9",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Behemoth (Character)"
+          },
+          "cost": 660.0,
+          "rules": [
+            "Large Target",
+            "Lore Of Daemons",
+            "Terror",
+            "Stomp Attacks (X)",
+            "Poisoned Attacks",
+            "Regeneration (X+)",
+            "Daemon Of Nurgle",
+            "Daemonic",
+            "Infernal Favour (2)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Plagueflail",
+            "Bilesword"
+          ]
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Weapon",
+          "cost": 0.0,
+          "is_default": false
+        },
+        {
+          "name": "Additional Hand Weapon",
+          "cost": 6.0,
+          "is_default": false
+        },
+        {
+          "name": "Bilesword",
+          "cost": 10.0,
+          "is_default": false
+        },
+        {
+          "name": "Plagueflail",
+          "cost": 25.0,
+          "is_default": false
+        },
+        {
+          "name": "Level 2 Wizard",
+          "cost": 30.0,
+          "is_default": false
+        },
+        {
+          "name": "Level 3 Wizard",
+          "cost": 60.0,
+          "is_default": false
+        },
+        {
+          "name": "Level 4 Wizard",
+          "cost": 90.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Daemonic Herald Of Nurgle",
+      "category": "Characters",
+      "base_points": 95.0,
+      "rules": [
+        "Daemonic",
+        "Daemon Of Nurgle",
+        "Regeneration (X+)",
+        "Poisoned Attacks",
+        "Infernal Favour (1)",
+        "Lore Of Daemons"
+      ],
+      "models": [
+        {
+          "name": "Daemonic Herald Of Nurgle",
+          "stats": {
+            "M": "4",
+            "WS": "5",
+            "BS": "5",
+            "S": "5",
+            "T": "5",
+            "W": "2",
+            "I": "4",
+            "A": "3",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry (Character)"
+          },
+          "cost": 95.0,
+          "rules": [
+            "Daemonic",
+            "Daemon Of Nurgle",
+            "Regeneration (X+)",
+            "Poisoned Attacks",
+            "Infernal Favour (1)",
+            "Lore Of Daemons"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Plaguesword"
+          ]
+        },
+        {
+          "name": "Daemonic Herald Of Nurgle on Palanquin Of Nurgle",
+          "stats": {
+            "M": "4",
+            "WS": "5",
+            "BS": "5",
+            "S": "5",
+            "T": "5",
+            "W": "6",
+            "I": "4",
+            "A": "3",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry (Character)"
+          },
+          "cost": 135.0,
+          "rules": [
+            "Random Attacks",
+            "Lore Of Daemons",
+            "Poisoned Attacks",
+            "Regeneration (X+)",
+            "Daemon Of Nurgle",
+            "Daemonic",
+            "Infernal Favour (1)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Plaguesword"
+          ]
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Daemonic Locus",
+          "cost": 25.0,
+          "is_default": false
+        },
+        {
+          "name": "Level 1 Wizard",
+          "cost": 30.0,
+          "is_default": false
+        },
+        {
+          "name": "Level 2 Wizard",
+          "cost": 60.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Plaguebearers Of Nurgle",
+      "category": "Special",
+      "base_points": 0.0,
+      "rules": [
+        "Close Order",
+        "Daemonic",
+        "Daemon Of Nurgle",
+        "Poisoned Attacks",
+        "Regeneration (X+)"
+      ],
+      "models": [
+        {
+          "name": "Plaguebearers Of Nurgle",
+          "stats": {
+            "M": "4",
+            "WS": "3",
+            "BS": "3",
+            "S": "4",
+            "T": "4",
+            "W": "1",
+            "I": "2",
+            "A": "1",
+            "LD": "7",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 13.0,
+          "rules": [
+            "Close Order",
+            "Poisoned Attacks",
+            "Regeneration (X+)",
+            "Daemon Of Nurgle",
+            "Daemonic"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Plaguesword"
+          ]
+        },
+        {
+          "name": "Plaguebearer",
+          "stats": {
+            "M": "4",
+            "WS": "3",
+            "BS": "3",
+            "S": "4",
+            "T": "4",
+            "W": "1",
+            "I": "2",
+            "A": "1",
+            "LD": "7",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 13.0,
+          "rules": [
+            "Close Order",
+            "Poisoned Attacks",
+            "Regeneration (X+)",
+            "Daemon Of Nurgle",
+            "Daemonic"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Plaguesword"
+          ]
+        },
+        {
+          "name": "Champion",
+          "stats": {
+            "M": "4",
+            "WS": "3",
+            "BS": "3",
+            "S": "4",
+            "T": "4",
+            "W": "1",
+            "I": "2",
+            "A": "2",
+            "LD": "7",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 19.0,
+          "rules": [
+            "Close Order",
+            "Poisoned Attacks",
+            "Regeneration (X+)",
+            "Daemon Of Nurgle",
+            "Daemonic"
+          ],
+          "role": "champion",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Musician",
+          "cost": 6.0,
+          "is_default": false
+        },
+        {
+          "name": "Standard Bearer",
+          "cost": 6.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Beasts Of Nurgle",
+      "category": "Rare",
+      "base_points": 0.0,
+      "rules": [
+        "Close Order",
+        "Daemonic",
+        "Daemon Of Nurgle",
+        "Poisoned Attacks",
+        "Regeneration (X+)",
+        "Impetuous",
+        "Infernal Favour (1)",
+        "Loner",
+        "Random Attacks"
+      ],
+      "models": [
+        {
+          "name": "Beasts Of Nurgle",
+          "stats": {
+            "M": "5",
+            "WS": "3",
+            "BS": "0",
+            "S": "4",
+            "T": "5",
+            "W": "4",
+            "I": "2",
+            "A": "D6+1",
+            "LD": "7",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Monsterous Infantry"
+          },
+          "cost": 62.0,
+          "rules": [
+            "Close Order",
+            "Random Attacks",
+            "Loner",
+            "Poisoned Attacks",
+            "Regeneration (X+)",
+            "Impetuous",
+            "Daemon Of Nurgle",
+            "Daemonic",
+            "Infernal Favour (1)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Writhing Tentacles"
+          ]
+        }
+      ],
+      "upgrades": []
+    },
+    {
+      "name": "Nurglings",
+      "category": "Special",
+      "base_points": 0.0,
+      "rules": [
+        "Skirmishers",
+        "Daemonic",
+        "Daemon Of Nurgle",
+        "Poisoned Attacks",
+        "Regeneration (X+)",
+        "Loner",
+        "Random Attacks"
+      ],
+      "models": [
+        {
+          "name": "Nurglings",
+          "stats": {
+            "M": "4",
+            "WS": "2",
+            "BS": "0",
+            "S": "2",
+            "T": "3",
+            "W": "7",
+            "I": "2",
+            "A": "D3+1",
+            "LD": "5",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Swarms"
+          },
+          "cost": 45.0,
+          "rules": [
+            "Random Attacks",
+            "Loner",
+            "Poisoned Attacks",
+            "Regeneration (X+)",
+            "Daemon Of Nurgle",
+            "Skirmishers",
+            "Daemonic"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": []
+    },
+    {
+      "name": "Plague Drones Of Nurgle",
+      "category": "Rare",
+      "base_points": 0.0,
+      "rules": [
+        "Skirmishers",
+        "Daemonic",
+        "Daemon Of Nurgle",
+        "Poisoned Attacks",
+        "Regeneration (X+)",
+        "Armor Bane (X)",
+        "Fly (X)",
+        "Swiftstride"
+      ],
+      "models": [
+        {
+          "name": "Plague Drones Of Nurgle",
+          "stats": {
+            "M": "1",
+            "WS": "3",
+            "BS": "-",
+            "S": "5",
+            "T": "-",
+            "W": "-",
+            "I": "2",
+            "A": "3",
+            "LD": "-",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Monsterous Cavalry"
+          },
+          "cost": 63.0,
+          "rules": [
+            "Fly (X)",
+            "Poisoned Attacks",
+            "Regeneration (X+)",
+            "Daemon Of Nurgle",
+            "Skirmishers",
+            "Daemonic",
+            "Armor Bane (X)",
+            "Swiftstride"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Plaguesword",
+            "Venom Sting",
+            "Death's Heads"
+          ]
+        },
+        {
+          "name": "Plaguebearer",
+          "stats": {
+            "M": "-",
+            "WS": "3",
+            "BS": "3",
+            "S": "4",
+            "T": "5",
+            "W": "3",
+            "I": "2",
+            "A": "1",
+            "LD": "7",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Monsterous Cavalry"
+          },
+          "cost": 63.0,
+          "rules": [
+            "Fly (X)",
+            "Poisoned Attacks",
+            "Regeneration (X+)",
+            "Daemon Of Nurgle",
+            "Skirmishers",
+            "Daemonic",
+            "Armor Bane (X)",
+            "Swiftstride"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Plaguesword",
+            "Venom Sting",
+            "Death's Heads"
+          ]
+        },
+        {
+          "name": "Champion",
+          "stats": {
+            "M": "-",
+            "WS": "3",
+            "BS": "3",
+            "S": "4",
+            "T": "5",
+            "W": "3",
+            "I": "2",
+            "A": "2",
+            "LD": "7",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Monsterous Cavalry"
+          },
+          "cost": 70.0,
+          "rules": [
+            "Fly (X)",
+            "Poisoned Attacks",
+            "Regeneration (X+)",
+            "Daemon Of Nurgle",
+            "Skirmishers",
+            "Daemonic",
+            "Armor Bane (X)",
+            "Swiftstride"
+          ],
+          "role": "champion",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Plague Proboscies",
+          "cost": 2.0,
+          "is_default": false
+        },
+        {
+          "name": "Venom Sting",
+          "cost": 2.0,
+          "is_default": false
+        },
+        {
+          "name": "Musician",
+          "cost": 7.0,
+          "is_default": false
+        },
+        {
+          "name": "Standard Bearer",
+          "cost": 7.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Keeper Of Secrets - Greater Daemon Of Slaanesh",
+      "category": "Characters",
+      "base_points": 330.0,
+      "rules": [
+        "Daemonic",
+        "Daemon Of Slaanesh",
+        "Infernal Favour (2)",
+        "Large Target",
+        "Lore Of Daemons",
+        "Terror",
+        "Swiftstride",
+        "Stomp Attacks (X)"
+      ],
+      "models": [
+        {
+          "name": "Keeper Of Secrets - Greater Daemon Of Slaanesh",
+          "stats": {
+            "M": "8",
+            "WS": "7",
+            "BS": "6",
+            "S": "6",
+            "T": "6",
+            "W": "6",
+            "I": "7",
+            "A": "6",
+            "LD": "9",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Behemoth (Character)"
+          },
+          "cost": 330.0,
+          "rules": [
+            "Daemonic",
+            "Daemon Of Slaanesh",
+            "Infernal Favour (2)",
+            "Large Target",
+            "Lore Of Daemons",
+            "Terror",
+            "Swiftstride",
+            "Stomp Attacks (X)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Keeper Of Secrets - Greater Daemon Of Slaanesh on Keeper Of Secrets - Greater Daemon Of Slaanesh",
+          "stats": {
+            "M": "8",
+            "WS": "7",
+            "BS": "6",
+            "S": "6",
+            "T": "6",
+            "W": "6",
+            "I": "7",
+            "A": "6",
+            "LD": "9",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Behemoth (Character)"
+          },
+          "cost": 660.0,
+          "rules": [
+            "Daemon Of Slaanesh",
+            "Large Target",
+            "Lore Of Daemons",
+            "Terror",
+            "Stomp Attacks (X)",
+            "Daemonic",
+            "Swiftstride",
+            "Infernal Favour (2)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Impaling Claws"
+          ]
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Level 2 Wizard",
+          "cost": 30.0,
+          "is_default": false
+        },
+        {
+          "name": "Level 3 Wizard",
+          "cost": 60.0,
+          "is_default": false
+        },
+        {
+          "name": "Level 4 Wizard",
+          "cost": 90.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Daemonic Herald Of Slaanesh",
+      "category": "Characters",
+      "base_points": 85.0,
+      "rules": [
+        "Daemonic",
+        "Daemon Of Nurgle",
+        "Infernal Favour (1)",
+        "Lore Of Daemons"
+      ],
+      "models": [
+        {
+          "name": "Daemonic Herald Of Slaanesh",
+          "stats": {
+            "M": "6",
+            "WS": "6",
+            "BS": "4",
+            "S": "4",
+            "T": "3",
+            "W": "2",
+            "I": "6",
+            "A": "3",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry (Character)"
+          },
+          "cost": 85.0,
+          "rules": [
+            "Daemonic",
+            "Daemon Of Nurgle",
+            "Infernal Favour (1)",
+            "Lore Of Daemons"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Piercing Claws"
+          ]
+        },
+        {
+          "name": "Daemonic Herald Of Slaanesh on Steed Of Slaanesh",
+          "stats": {
+            "M": "9",
+            "WS": "6",
+            "BS": "4",
+            "S": "4",
+            "T": "3",
+            "W": "2",
+            "I": "6",
+            "A": "3",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry (Character)"
+          },
+          "cost": 101.0,
+          "rules": [
+            "Daemon Of Slaanesh",
+            "Lore Of Daemons",
+            "Fast Cavalry",
+            "Poisoned Attacks",
+            "Counter Charge",
+            "Armor Bane (X)",
+            "Daemon Of Nurgle",
+            "Daemonic",
+            "Swiftstride",
+            "Infernal Favour (1)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Piercing Claws"
+          ]
+        },
+        {
+          "name": "Daemonic Herald Of Slaanesh on Seeker Chariot Of Slaanesh",
+          "stats": {
+            "M": "6",
+            "WS": "6",
+            "BS": "4",
+            "S": "4",
+            "T": "4",
+            "W": "4",
+            "I": "6",
+            "A": "3",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry (Character)"
+          },
+          "cost": 185.0,
+          "rules": [
+            "Daemon Of Slaanesh",
+            "Lore Of Daemons",
+            "Open Order",
+            "Poisoned Attacks",
+            "Counter Charge",
+            "Daemon Of Nurgle",
+            "Armor Bane (X)",
+            "Daemonic",
+            "Swiftstride",
+            "Infernal Favour (1)",
+            "First Charge",
+            "Impact Hits (X)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Piercing Claws"
+          ]
+        },
+        {
+          "name": "Daemonic Herald Of Slaanesh on Steed of Slaanesh",
+          "stats": {
+            "M": "9",
+            "WS": "6",
+            "BS": "4",
+            "S": "4",
+            "T": "3",
+            "W": "2",
+            "I": "6",
+            "A": "3",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry (Character)"
+          },
+          "cost": 85.0,
+          "rules": [
+            "Daemonic",
+            "Infernal Favour (1)",
+            "Lore Of Daemons",
+            "Daemon Of Nurgle"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Piercing Claws"
+          ]
+        },
+        {
+          "name": "Daemonic Herald Of Slaanesh on Exalted Seeker Chariot Of Slaanesh",
+          "stats": {
+            "M": "6",
+            "WS": "6",
+            "BS": "4",
+            "S": "4",
+            "T": "4",
+            "W": "6",
+            "I": "6",
+            "A": "3",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry (Character)"
+          },
+          "cost": 270.0,
+          "rules": [
+            "Daemon Of Slaanesh",
+            "Close Order",
+            "Lore Of Daemons",
+            "Poisoned Attacks",
+            "Daemon Of Nurgle",
+            "Armor Bane (X)",
+            "Daemonic",
+            "Infernal Favour (1)",
+            "First Charge",
+            "Impact Hits (X)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Piercing Claws"
+          ]
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Daemonic Locus",
+          "cost": 25.0,
+          "is_default": false
+        },
+        {
+          "name": "Level 1 Wizard",
+          "cost": 30.0,
+          "is_default": false
+        },
+        {
+          "name": "Level 2 Wizard",
+          "cost": 60.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Daemonettes Of Slaanesh",
+      "category": "Special",
+      "base_points": 0.0,
+      "rules": [
+        "Close Order",
+        "Daemonic",
+        "Daemon Of Slaanesh"
+      ],
+      "models": [
+        {
+          "name": "Daemonettes Of Slaanesh",
+          "stats": {
+            "M": "5",
+            "WS": "4",
+            "BS": "3",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "5",
+            "A": "1",
+            "LD": "7",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 11.0,
+          "rules": [
+            "Daemon Of Slaanesh",
+            "Close Order",
+            "Daemonic"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Piercing Claws"
+          ]
+        },
+        {
+          "name": "Daemonette",
+          "stats": {
+            "M": "5",
+            "WS": "4",
+            "BS": "3",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "5",
+            "A": "1",
+            "LD": "7",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 11.0,
+          "rules": [
+            "Daemon Of Slaanesh",
+            "Close Order",
+            "Daemonic"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Piercing Claws"
+          ]
+        },
+        {
+          "name": "Champion",
+          "stats": {
+            "M": "5",
+            "WS": "4",
+            "BS": "3",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "5",
+            "A": "2",
+            "LD": "7",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 17.0,
+          "rules": [
+            "Daemon Of Slaanesh",
+            "Close Order",
+            "Daemonic"
+          ],
+          "role": "champion",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Musician",
+          "cost": 6.0,
+          "is_default": false
+        },
+        {
+          "name": "Standard Bearer",
+          "cost": 6.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Seekers Of Slaanesh",
+      "category": "Special",
+      "base_points": 0.0,
+      "rules": [
+        "Open Order",
+        "Daemonic",
+        "Daemon Of Slaanesh",
+        "Armor Bane (X)",
+        "Counter Charge",
+        "Fast Cavalry",
+        "Poisoned Attacks",
+        "Skirmishers",
+        "Swiftstride"
+      ],
+      "models": [
+        {
+          "name": "Seekers Of Slaanesh",
+          "stats": {
+            "M": "9",
+            "WS": "3",
+            "BS": "-",
+            "S": "3",
+            "T": "-",
+            "W": "-",
+            "I": "5",
+            "A": "1",
+            "LD": "-",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Light Cavalry"
+          },
+          "cost": 21.0,
+          "rules": [
+            "Daemon Of Slaanesh",
+            "Open Order",
+            "Fast Cavalry",
+            "Poisoned Attacks",
+            "Counter Charge",
+            "Armor Bane (X)",
+            "Skirmishers",
+            "Daemonic",
+            "Swiftstride"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Piercing Claws"
+          ]
+        },
+        {
+          "name": "Seeker",
+          "stats": {
+            "M": "",
+            "WS": "4",
+            "BS": "3",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "5",
+            "A": "1",
+            "LD": "7",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Light Cavalry"
+          },
+          "cost": 21.0,
+          "rules": [
+            "Daemon Of Slaanesh",
+            "Open Order",
+            "Fast Cavalry",
+            "Poisoned Attacks",
+            "Counter Charge",
+            "Armor Bane (X)",
+            "Skirmishers",
+            "Daemonic",
+            "Swiftstride"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Piercing Claws"
+          ]
+        },
+        {
+          "name": "Champion",
+          "stats": {
+            "M": "-",
+            "WS": "4",
+            "BS": "3",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "5",
+            "A": "2",
+            "LD": "7",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Light Cavalry"
+          },
+          "cost": 27.0,
+          "rules": [
+            "Daemon Of Slaanesh",
+            "Open Order",
+            "Fast Cavalry",
+            "Poisoned Attacks",
+            "Counter Charge",
+            "Armor Bane (X)",
+            "Skirmishers",
+            "Daemonic",
+            "Swiftstride"
+          ],
+          "role": "champion",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Musician",
+          "cost": 6.0,
+          "is_default": false
+        },
+        {
+          "name": "Standard Bearer",
+          "cost": 6.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Fiends Of Slaanesh",
+      "category": "Rare",
+      "base_points": 0.0,
+      "rules": [
+        "Daemonic",
+        "Daemon Of Slaanesh",
+        "Close Order",
+        "Swiftstride"
+      ],
+      "models": [
+        {
+          "name": "Fiends Of Slaanesh",
+          "stats": {
+            "M": "8",
+            "WS": "4",
+            "BS": "0",
+            "S": "4",
+            "T": "4",
+            "W": "3",
+            "I": "6",
+            "A": "3",
+            "LD": "7",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Monsterous Cavalry"
+          },
+          "cost": 66.0,
+          "rules": [
+            "Daemon Of Slaanesh",
+            "Daemonic",
+            "Swiftstride",
+            "Close Order"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Piercing Claws",
+            "Venemous Tail"
+          ]
+        }
+      ],
+      "upgrades": []
+    },
+    {
+      "name": "Hellflayer Of Slaanesh",
+      "category": "Rare",
+      "base_points": 145.0,
+      "rules": [
+        "Daemonic",
+        "Daemon Of Slaanesh",
+        "Close Order",
+        "Swiftstride",
+        "Armor Bane (X)",
+        "Counter Charge",
+        "First Charge",
+        "Impact Hits (X)",
+        "Poisoned Attacks"
+      ],
+      "models": [
+        {
+          "name": "Hellflayer Of Slaanesh",
+          "stats": {
+            "M": "-",
+            "WS": "-",
+            "BS": "-",
+            "S": "4",
+            "T": "4",
+            "W": "4",
+            "I": "-",
+            "A": "-",
+            "LD": "-",
+            "ArmourSave": "5+",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Light Chariot"
+          },
+          "cost": 145.0,
+          "rules": [
+            "Daemon Of Slaanesh",
+            "Close Order",
+            "Poisoned Attacks",
+            "Counter Charge",
+            "Armor Bane (X)",
+            "Daemonic",
+            "Swiftstride",
+            "First Charge",
+            "Impact Hits (X)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Piercing Claws"
+          ]
+        },
+        {
+          "name": "Exalted Alluress",
+          "stats": {
+            "M": "-",
+            "WS": "5",
+            "BS": "3",
+            "S": "3",
+            "T": "-",
+            "W": "-",
+            "I": "5",
+            "A": "2",
+            "LD": "7",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": ""
+          },
+          "cost": 145.0,
+          "rules": [
+            "Daemon Of Slaanesh",
+            "Close Order",
+            "Poisoned Attacks",
+            "Counter Charge",
+            "Armor Bane (X)",
+            "Daemonic",
+            "Swiftstride",
+            "First Charge",
+            "Impact Hits (X)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Piercing Claws"
+          ]
+        },
+        {
+          "name": "Daemonette Crew",
+          "stats": {
+            "M": "-",
+            "WS": "4",
+            "BS": "3",
+            "S": "3",
+            "T": "-",
+            "W": "-",
+            "I": "5",
+            "A": "1",
+            "LD": "7",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": ""
+          },
+          "cost": 145.0,
+          "rules": [
+            "Daemon Of Slaanesh",
+            "Close Order",
+            "Poisoned Attacks",
+            "Counter Charge",
+            "Armor Bane (X)",
+            "Daemonic",
+            "Swiftstride",
+            "First Charge",
+            "Impact Hits (X)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Piercing Claws"
+          ]
+        },
+        {
+          "name": "Steed of Slaanesh",
+          "stats": {
+            "M": "9",
+            "WS": "3",
+            "BS": "-",
+            "S": "3",
+            "T": "-",
+            "W": "-",
+            "I": "5",
+            "A": "1",
+            "LD": "-",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Light Cavalry"
+          },
+          "cost": 145.0,
+          "rules": [
+            "Daemon Of Slaanesh",
+            "Close Order",
+            "Poisoned Attacks",
+            "Counter Charge",
+            "Armor Bane (X)",
+            "Daemonic",
+            "Swiftstride",
+            "First Charge",
+            "Impact Hits (X)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": []
+    },
+    {
+      "name": "Lord Of Change - Greater Daemon Of Tzeentch",
+      "category": "Characters",
+      "base_points": 310.0,
+      "rules": [
+        "Daemonic",
+        "Daemon Of Tzeentch",
+        "Infernal Favour (2)",
+        "Large Target",
+        "Lore Of Daemons",
+        "Terror",
+        "Stomp Attacks (X)",
+        "Flaming Attacks",
+        "Fly (X)",
+        "Swiftstride"
+      ],
+      "models": [
+        {
+          "name": "Lord Of Change - Greater Daemon Of Tzeentch",
+          "stats": {
+            "M": "6",
+            "WS": "6",
+            "BS": "6",
+            "S": "6",
+            "T": "6",
+            "W": "6",
+            "I": "6",
+            "A": "4",
+            "LD": "9",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Behemoth (Character)"
+          },
+          "cost": 310.0,
+          "rules": [
+            "Daemonic",
+            "Daemon Of Tzeentch",
+            "Infernal Favour (2)",
+            "Large Target",
+            "Lore Of Daemons",
+            "Terror",
+            "Stomp Attacks (X)",
+            "Flaming Attacks",
+            "Fly (X)",
+            "Swiftstride"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Lord Of Change - Greater Daemon Of Tzeentch on Lord Of Change - Greater Daemon Of Tzeentch",
+          "stats": {
+            "M": "6",
+            "WS": "6",
+            "BS": "6",
+            "S": "6",
+            "T": "6",
+            "W": "6",
+            "I": "6",
+            "A": "4",
+            "LD": "9",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Behemoth (Character)"
+          },
+          "cost": 620.0,
+          "rules": [
+            "Flaming Attacks",
+            "Large Target",
+            "Lore Of Daemons",
+            "Terror",
+            "Stomp Attacks (X)",
+            "Daemonic",
+            "Daemon Of Tzeentch",
+            "Swiftstride",
+            "Infernal Favour (2)",
+            "Fly (X)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Tzeentchian Wand"
+          ]
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Tzeentchian Wand",
+          "cost": 20.0,
+          "is_default": false
+        },
+        {
+          "name": "Level 3 Wizard",
+          "cost": 30.0,
+          "is_default": false
+        },
+        {
+          "name": "Level 4 Wizard",
+          "cost": 60.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Daemonic Herald Of Tzeentch",
+      "category": "Characters",
+      "base_points": 90.0,
+      "rules": [
+        "Daemonic",
+        "Daemon Of Tzeentch",
+        "Infernal Favour (1)",
+        "Lore Of Daemons"
+      ],
+      "models": [
+        {
+          "name": "Daemonic Herald Of Tzeentch",
+          "stats": {
+            "M": "4",
+            "WS": "3",
+            "BS": "4",
+            "S": "3",
+            "T": "3",
+            "W": "2",
+            "I": "3",
+            "A": "2",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry (Character)"
+          },
+          "cost": 90.0,
+          "rules": [
+            "Daemonic",
+            "Daemon Of Tzeentch",
+            "Infernal Favour (1)",
+            "Lore Of Daemons"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Flames Of Tzeentch"
+          ]
+        },
+        {
+          "name": "Daemonic Herald Of Tzeentch on Disc Of Tzeentch",
+          "stats": {
+            "M": "1",
+            "WS": "3",
+            "BS": "4",
+            "S": "3",
+            "T": "3",
+            "W": "2",
+            "I": "3",
+            "A": "2",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry (Character)"
+          },
+          "cost": 110.0,
+          "rules": [
+            "Lore Of Daemons",
+            "Daemonic",
+            "Daemon Of Tzeentch",
+            "Swiftstride",
+            "Infernal Favour (1)",
+            "Fly (X)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Flames Of Tzeentch"
+          ]
+        },
+        {
+          "name": "Daemonic Herald Of Tzeentch on Chariot Of Tzeentch",
+          "stats": {
+            "M": "4",
+            "WS": "3",
+            "BS": "4",
+            "S": "3",
+            "T": "4",
+            "W": "4",
+            "I": "3",
+            "A": "2",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry (Character)"
+          },
+          "cost": 180.0,
+          "rules": [
+            "Close Order",
+            "Lore Of Daemons",
+            "Daemonic",
+            "Daemon Of Tzeentch",
+            "Infernal Favour (1)",
+            "Impact Hits (X)",
+            "Fly (X)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Lamprey's Bite",
+            "Flames Of Tzeentch"
+          ]
+        },
+        {
+          "name": "Daemonic Herald Of Tzeentch on Burning Chariot Of Tzeentch",
+          "stats": {
+            "M": "4",
+            "WS": "3",
+            "BS": "4",
+            "S": "3",
+            "T": "4",
+            "W": "4",
+            "I": "3",
+            "A": "2",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry (Character)"
+          },
+          "cost": 280.0,
+          "rules": [
+            "Close Order",
+            "Lore Of Daemons",
+            "Daemonic",
+            "Daemon Of Tzeentch",
+            "Infernal Favour (1)",
+            "Impact Hits (X)",
+            "Fly (X)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Lamprey's Bite",
+            "Warpflame",
+            "Flames Of Tzeentch"
+          ]
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Daemonic Locus",
+          "cost": 25.0,
+          "is_default": false
+        },
+        {
+          "name": "Level 2 Wizard",
+          "cost": 30.0,
+          "is_default": false
+        },
+        {
+          "name": "Level 3 Wizard",
+          "cost": 60.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Pink Horrors Of Tzeentch",
+      "category": "Special",
+      "base_points": 0.0,
+      "rules": [
+        "Close Order",
+        "Daemonic",
+        "Daemon Of Tzeentch"
+      ],
+      "models": [
+        {
+          "name": "Pink Horrors Of Tzeentch",
+          "stats": {
+            "M": "4",
+            "WS": "3",
+            "BS": "3",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "3",
+            "A": "1",
+            "LD": "7",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 12.0,
+          "rules": [
+            "Close Order",
+            "Daemon Of Tzeentch",
+            "Daemonic"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Flames Of Tzeentch"
+          ]
+        },
+        {
+          "name": "Pink Horror",
+          "stats": {
+            "M": "4",
+            "WS": "3",
+            "BS": "3",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "3",
+            "A": "1",
+            "LD": "7",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 12.0,
+          "rules": [
+            "Close Order",
+            "Daemon Of Tzeentch",
+            "Daemonic"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Flames Of Tzeentch"
+          ]
+        },
+        {
+          "name": "Champion",
+          "stats": {
+            "M": "4",
+            "WS": "3",
+            "BS": "3",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "3",
+            "A": "2",
+            "LD": "7",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 18.0,
+          "rules": [
+            "Close Order",
+            "Daemon Of Tzeentch",
+            "Daemonic"
+          ],
+          "role": "champion",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Musician",
+          "cost": 6.0,
+          "is_default": false
+        },
+        {
+          "name": "Standard Bearer",
+          "cost": 6.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Blue Horrors Of Tzeentch",
+      "category": "Special",
+      "base_points": 0.0,
+      "rules": [
+        "Open Order",
+        "Daemonic",
+        "Daemon Of Tzeentch",
+        "Move Through Cover"
+      ],
+      "models": [
+        {
+          "name": "Blue Horrors Of Tzeentch",
+          "stats": {
+            "M": "4",
+            "WS": "2",
+            "BS": "3",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "3",
+            "A": "1",
+            "LD": "7",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 9.0,
+          "rules": [
+            "Daemonic",
+            "Daemon Of Tzeentch",
+            "Open Order",
+            "Move Through Cover"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Flames Of Tzeentch"
+          ]
+        },
+        {
+          "name": "Blue Horror",
+          "stats": {
+            "M": "4",
+            "WS": "2",
+            "BS": "3",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "3",
+            "A": "1",
+            "LD": "7",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 9.0,
+          "rules": [
+            "Daemonic",
+            "Daemon Of Tzeentch",
+            "Open Order",
+            "Move Through Cover"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Flames Of Tzeentch"
+          ]
+        },
+        {
+          "name": "Champion",
+          "stats": {
+            "M": "4",
+            "WS": "2",
+            "BS": "3",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "3",
+            "A": "2",
+            "LD": "7",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 15.0,
+          "rules": [
+            "Daemonic",
+            "Daemon Of Tzeentch",
+            "Open Order",
+            "Move Through Cover"
+          ],
+          "role": "champion",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": []
+    },
+    {
+      "name": "Brimstone Horrors Of Tzeentch",
+      "category": "Special",
+      "base_points": 0.0,
+      "rules": [
+        "Skirmishers",
+        "Daemonic",
+        "Daemon Of Tzeentch",
+        "Flaming Attacks",
+        "Loner"
+      ],
+      "models": [
+        {
+          "name": "Brimstone Horrors Of Tzeentch",
+          "stats": {
+            "M": "5",
+            "WS": "2",
+            "BS": "2",
+            "S": "2",
+            "T": "3",
+            "W": "6",
+            "I": "2",
+            "A": "4",
+            "LD": "5",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Swarms"
+          },
+          "cost": 38.0,
+          "rules": [
+            "Flaming Attacks",
+            "Loner",
+            "Skirmishers",
+            "Daemonic",
+            "Daemon Of Tzeentch"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Brimstone Horrors",
+          "stats": {
+            "M": "5",
+            "WS": "2",
+            "BS": "2",
+            "S": "2",
+            "T": "3",
+            "W": "6",
+            "I": "2",
+            "A": "4",
+            "LD": "5",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Swarms"
+          },
+          "cost": 38.0,
+          "rules": [
+            "Flaming Attacks",
+            "Loner",
+            "Skirmishers",
+            "Daemonic",
+            "Daemon Of Tzeentch"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": []
+    },
+    {
+      "name": "Flamers Of Tzeentch",
+      "category": "Rare",
+      "base_points": 0.0,
+      "rules": [
+        "Skirmishers",
+        "Daemonic",
+        "Daemon Of Tzeentch",
+        "Flaming Attacks",
+        "Move Through Cover"
+      ],
+      "models": [
+        {
+          "name": "Flamers Of Tzeentch",
+          "stats": {
+            "M": "6",
+            "WS": "2",
+            "BS": "4",
+            "S": "4",
+            "T": "4",
+            "W": "2",
+            "I": "4",
+            "A": "2",
+            "LD": "7",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 40.0,
+          "rules": [
+            "Flaming Attacks",
+            "Lore Of Daemons",
+            "Skirmishers",
+            "Daemonic",
+            "Daemon Of Tzeentch",
+            "Infernal Favour (1)",
+            "Move Through Cover"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Warpflame"
+          ]
+        },
+        {
+          "name": "Flamer",
+          "stats": {
+            "M": "6",
+            "WS": "2",
+            "BS": "4",
+            "S": "4",
+            "T": "4",
+            "W": "2",
+            "I": "4",
+            "A": "2",
+            "LD": "7",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 40.0,
+          "rules": [
+            "Flaming Attacks",
+            "Skirmishers",
+            "Daemonic",
+            "Daemon Of Tzeentch",
+            "Move Through Cover"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Warpflame"
+          ]
+        },
+        {
+          "name": "Champion",
+          "stats": {
+            "M": "6",
+            "WS": "2",
+            "BS": "5",
+            "S": "4",
+            "T": "4",
+            "W": "2",
+            "I": "4",
+            "A": "2",
+            "LD": "7",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 47.0,
+          "rules": [
+            "Flaming Attacks",
+            "Lore Of Daemons",
+            "Skirmishers",
+            "Daemonic",
+            "Daemon Of Tzeentch",
+            "Infernal Favour (1)",
+            "Move Through Cover"
+          ],
+          "role": "champion",
+          "default_weapons": []
+        },
+        {
+          "name": "Pyroclaster",
+          "stats": {
+            "M": "6",
+            "WS": "2",
+            "BS": "5",
+            "S": "4",
+            "T": "4",
+            "W": "2",
+            "I": "4",
+            "A": "2",
+            "LD": "7",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 7.0,
+          "rules": [
+            "Flaming Attacks",
+            "Skirmishers",
+            "Daemonic",
+            "Daemon Of Tzeentch",
+            "Move Through Cover"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Exalted Flamer",
+          "stats": {
+            "M": "6",
+            "WS": "2",
+            "BS": "5",
+            "S": "4",
+            "T": "4",
+            "W": "3",
+            "I": "4",
+            "A": "2",
+            "LD": "7",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 47.0,
+          "rules": [
+            "Flaming Attacks",
+            "Lore Of Daemons",
+            "Skirmishers",
+            "Daemonic",
+            "Daemon Of Tzeentch",
+            "Infernal Favour (1)",
+            "Move Through Cover"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Level 2 Wizard",
+          "cost": 30.0,
+          "is_default": false
+        },
+        {
+          "name": "Level 3 Wizard",
+          "cost": 60.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Screamers Of Tzeentch",
+      "category": "Rare",
+      "base_points": 0.0,
+      "rules": [
+        "Skirmishers",
+        "Daemonic",
+        "Daemon Of Tzeentch",
+        "Loner",
+        "Fly (X)"
+      ],
+      "models": [
+        {
+          "name": "Screamers Of Tzeentch",
+          "stats": {
+            "M": "1",
+            "WS": "3",
+            "BS": "0",
+            "S": "4",
+            "T": "4",
+            "W": "2",
+            "I": "4",
+            "A": "2",
+            "LD": "7",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "War Beast"
+          },
+          "cost": 44.0,
+          "rules": [
+            "Fly (X)",
+            "Loner",
+            "Skirmishers",
+            "Daemonic",
+            "Daemon Of Tzeentch"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Lamprey's Bite"
+          ]
+        },
+        {
+          "name": "Screamer",
+          "stats": {
+            "M": "1",
+            "WS": "3",
+            "BS": "0",
+            "S": "4",
+            "T": "4",
+            "W": "2",
+            "I": "4",
+            "A": "2",
+            "LD": "7",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "War Beast"
+          },
+          "cost": 44.0,
+          "rules": [
+            "Fly (X)",
+            "Loner",
+            "Skirmishers",
+            "Daemonic",
+            "Daemon Of Tzeentch"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Lamprey's Bite"
+          ]
+        }
+      ],
+      "upgrades": []
+    },
+    {
+      "name": "Seeker Chariots Of Slaanesh",
+      "category": "Rare",
+      "base_points": 0.0,
+      "rules": [
+        "Armor Bane (X)",
+        "Counter Charge",
+        "First Charge",
+        "Open Order",
+        "Daemonic",
+        "Impact Hits (X)",
+        "Poisoned Attacks",
+        "Swiftstride",
+        "Daemon Of Slaanesh"
+      ],
+      "models": [
+        {
+          "name": "Seeker Chariots Of Slaanesh",
+          "stats": {
+            "M": "-",
+            "WS": "-",
+            "BS": "-",
+            "S": "4",
+            "T": "4",
+            "W": "4",
+            "I": "-",
+            "A": "-",
+            "LD": "-",
+            "ArmourSave": "5+",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Light Chariot"
+          },
+          "cost": 100.0,
+          "rules": [
+            "Daemon Of Slaanesh",
+            "Open Order",
+            "Poisoned Attacks",
+            "Counter Charge",
+            "Armor Bane (X)",
+            "Daemonic",
+            "Swiftstride",
+            "First Charge",
+            "Impact Hits (X)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Piercing Claws"
+          ]
+        },
+        {
+          "name": "Daemonette Crew",
+          "stats": {
+            "M": "-",
+            "WS": "4",
+            "BS": "3",
+            "S": "3",
+            "T": "-",
+            "W": "-",
+            "I": "5",
+            "A": "1",
+            "LD": "7",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": ""
+          },
+          "cost": 100.0,
+          "rules": [
+            "Daemon Of Slaanesh",
+            "Open Order",
+            "Poisoned Attacks",
+            "Counter Charge",
+            "Armor Bane (X)",
+            "Daemonic",
+            "Swiftstride",
+            "First Charge",
+            "Impact Hits (X)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Piercing Claws"
+          ]
+        },
+        {
+          "name": "Steed of Slaanesh",
+          "stats": {
+            "M": "9",
+            "WS": "3",
+            "BS": "-",
+            "S": "3",
+            "T": "-",
+            "W": "-",
+            "I": "5",
+            "A": "1",
+            "LD": "-",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Light Cavalry"
+          },
+          "cost": 100.0,
+          "rules": [
+            "Daemon Of Slaanesh",
+            "Open Order",
+            "Poisoned Attacks",
+            "Counter Charge",
+            "Armor Bane (X)",
+            "Daemonic",
+            "Swiftstride",
+            "First Charge",
+            "Impact Hits (X)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": []
+    }
+  ]
+}

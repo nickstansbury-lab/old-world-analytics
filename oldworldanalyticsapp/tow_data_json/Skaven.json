@@ -1,0 +1,1206 @@
+{
+  "faction_name": "Skaven",
+  "units": [
+    {
+      "name": "Stormvermin",
+      "category": "Core",
+      "base_points": 0.0,
+      "rules": [
+        "Close Order",
+        "Horde",
+        "Scurry Away",
+        "Warband",
+        "Warpstone Weapons"
+      ],
+      "models": [
+        {
+          "name": "Stormvermin",
+          "stats": {
+            "M": "5",
+            "WS": "4",
+            "BS": "3",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "5",
+            "A": "1",
+            "LD": "6",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 10.0,
+          "rules": [
+            "Close Order",
+            "Horde",
+            "Warband",
+            "Scurry Away",
+            "Warpstone Weapons"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Champion",
+          "stats": {
+            "M": "5",
+            "WS": "4",
+            "BS": "3",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "5",
+            "A": "2",
+            "LD": "6",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 23.0,
+          "rules": [
+            "Close Order",
+            "Horde",
+            "Warband",
+            "Scurry Away",
+            "Warpstone Weapons"
+          ],
+          "role": "champion",
+          "default_weapons": []
+        },
+        {
+          "name": "Weapon Team",
+          "stats": {
+            "M": "5",
+            "WS": "3",
+            "BS": "3",
+            "S": "3",
+            "T": "3",
+            "W": "2",
+            "I": "3",
+            "A": "2",
+            "LD": "4",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 15.0,
+          "rules": [
+            "Close Order",
+            "Open Order",
+            "Loner",
+            "Horde",
+            "Warband",
+            "Scurry Away",
+            "Warpstone Weapons"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Warp Grinder",
+            "Doom-Flayer",
+            "Poisoned Wind Mortar",
+            "Warpfire Thrower",
+            "Ratling Gun",
+            "Weapon Team"
+          ]
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Shield",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Musician",
+          "cost": 6.0,
+          "is_default": false
+        },
+        {
+          "name": "Standard Bearer",
+          "cost": 6.0,
+          "is_default": false
+        },
+        {
+          "name": "Weapon Team",
+          "cost": 0.0,
+          "is_default": true
+        },
+        {
+          "name": "Doom-Flayer",
+          "cost": 40.0,
+          "is_default": false
+        },
+        {
+          "name": "Poisoned Wind Mortar",
+          "cost": 55.0,
+          "is_default": false
+        },
+        {
+          "name": "Ratling Gun",
+          "cost": 50.0,
+          "is_default": false
+        },
+        {
+          "name": "Warpfire Thrower",
+          "cost": 60.0,
+          "is_default": false
+        },
+        {
+          "name": "Warp Grinder",
+          "cost": 30.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Clanrats",
+      "category": "Core",
+      "base_points": 0.0,
+      "rules": [
+        "Close Order",
+        "Horde",
+        "Scurry Away",
+        "Warband"
+      ],
+      "models": [
+        {
+          "name": "Clanrats",
+          "stats": {
+            "M": "5",
+            "WS": "3",
+            "BS": "3",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "4",
+            "A": "1",
+            "LD": "4",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 4.0,
+          "rules": [
+            "Close Order",
+            "Horde",
+            "Scurry Away",
+            "Warband"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Champion",
+          "stats": {
+            "M": "5",
+            "WS": "3",
+            "BS": "3",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "4",
+            "A": "2",
+            "LD": "5",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 22.0,
+          "rules": [
+            "Close Order",
+            "Horde",
+            "Scurry Away",
+            "Warband"
+          ],
+          "role": "champion",
+          "default_weapons": []
+        },
+        {
+          "name": "Weapon Team",
+          "stats": {
+            "M": "5",
+            "WS": "3",
+            "BS": "3",
+            "S": "3",
+            "T": "3",
+            "W": "2",
+            "I": "3",
+            "A": "2",
+            "LD": "4",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 15.0,
+          "rules": [
+            "Close Order",
+            "Open Order",
+            "Loner",
+            "Horde",
+            "Warband",
+            "Scurry Away"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Warp Grinder",
+            "Doom-Flayer",
+            "Poisoned Wind Mortar",
+            "Warpfire Thrower",
+            "Ratling Gun",
+            "Weapon Team"
+          ]
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Shield",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Thrusting Spear",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Musician",
+          "cost": 5.0,
+          "is_default": false
+        },
+        {
+          "name": "Standard Bearer",
+          "cost": 5.0,
+          "is_default": false
+        },
+        {
+          "name": "Weapon Team",
+          "cost": 0.0,
+          "is_default": true
+        },
+        {
+          "name": "Doom-Flayer",
+          "cost": 40.0,
+          "is_default": false
+        },
+        {
+          "name": "Poisoned Wind Mortar",
+          "cost": 55.0,
+          "is_default": false
+        },
+        {
+          "name": "Ratling Gun",
+          "cost": 50.0,
+          "is_default": false
+        },
+        {
+          "name": "Warpfire Thrower",
+          "cost": 60.0,
+          "is_default": false
+        },
+        {
+          "name": "Warp Grinder",
+          "cost": 30.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Warplock Jezzails",
+      "category": "Special",
+      "base_points": 0.0,
+      "rules": [
+        "Open Order",
+        "Scurry Away",
+        "Warband"
+      ],
+      "models": [
+        {
+          "name": "Warplock Jezzails",
+          "stats": {
+            "M": "5",
+            "WS": "3",
+            "BS": "3",
+            "S": "3",
+            "T": "3",
+            "W": "2",
+            "I": "3",
+            "A": "2",
+            "LD": "5",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 19.0,
+          "rules": [
+            "Scurry Away",
+            "Warband",
+            "Open Order"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Warplock Jezzail"
+          ]
+        },
+        {
+          "name": "Jezzail Team",
+          "stats": {
+            "M": "5",
+            "WS": "3",
+            "BS": "3",
+            "S": "3",
+            "T": "3",
+            "W": "2",
+            "I": "3",
+            "A": "2",
+            "LD": "5",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 19.0,
+          "rules": [
+            "Scurry Away",
+            "Warband",
+            "Open Order"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Warplock Jezzail"
+          ]
+        }
+      ],
+      "upgrades": []
+    },
+    {
+      "name": "Poisoned Wind Globadiers",
+      "category": "Special",
+      "base_points": 0.0,
+      "rules": [
+        "Skirmishers",
+        "Scurry Away",
+        "Warband"
+      ],
+      "models": [
+        {
+          "name": "Poisoned Wind Globadiers",
+          "stats": {
+            "M": "5",
+            "WS": "3",
+            "BS": "3",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "4",
+            "A": "1",
+            "LD": "5",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 10.0,
+          "rules": [
+            "Scurry Away",
+            "Warband",
+            "Skirmishers"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Poisoned Wind Globes"
+          ]
+        },
+        {
+          "name": "Globadier",
+          "stats": {
+            "M": "5",
+            "WS": "3",
+            "BS": "3",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "4",
+            "A": "1",
+            "LD": "5",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 10.0,
+          "rules": [
+            "Scurry Away",
+            "Warband",
+            "Skirmishers"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Poisoned Wind Globes"
+          ]
+        }
+      ],
+      "upgrades": []
+    },
+    {
+      "name": "Rat Swarms",
+      "category": "Core",
+      "base_points": 0.0,
+      "rules": [
+        "Skirmishers",
+        "Immune to Psychology",
+        "Loner",
+        "Vanguard",
+        "Unbreakable"
+      ],
+      "models": [
+        {
+          "name": "Rat Swarms",
+          "stats": {
+            "M": "6",
+            "WS": "2",
+            "BS": "0",
+            "S": "2",
+            "T": "2",
+            "W": "5",
+            "I": "4",
+            "A": "5",
+            "LD": "4",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Swarms"
+          },
+          "cost": 36.0,
+          "rules": [
+            "Vanguard",
+            "Loner",
+            "Skirmishers",
+            "Immune to Psychology",
+            "Unbreakable"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": []
+    },
+    {
+      "name": "Rat Ogres",
+      "category": "Special",
+      "base_points": 0.0,
+      "rules": [
+        "Close Order",
+        "Horde",
+        "Scurry Away",
+        "Warband",
+        "Armor Bane (X)",
+        "Fear",
+        "Frenzy"
+      ],
+      "models": [
+        {
+          "name": "Rat Ogres",
+          "stats": {
+            "M": "6",
+            "WS": "4",
+            "BS": "1",
+            "S": "5",
+            "T": "4",
+            "W": "3",
+            "I": "4",
+            "A": "3",
+            "LD": "5",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Monsterous Infantry"
+          },
+          "cost": 48.0,
+          "rules": [
+            "Close Order",
+            "Frenzy",
+            "Armor Bane (X)",
+            "Horde",
+            "Warband",
+            "Fear",
+            "Scurry Away"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Master Moulder",
+          "stats": {
+            "M": "6",
+            "WS": "3",
+            "BS": "3",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "4",
+            "A": "2",
+            "LD": "7",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 55.0,
+          "rules": [
+            "Close Order",
+            "Motley Crew",
+            "Frenzy",
+            "Armor Bane (X)",
+            "Horde",
+            "Warband",
+            "Fear",
+            "Scurry Away"
+          ],
+          "role": "champion",
+          "default_weapons": [
+            "Things-catcher"
+          ]
+        },
+        {
+          "name": "Packmaster",
+          "stats": {
+            "M": "6",
+            "WS": "3",
+            "BS": "3",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "4",
+            "A": "1",
+            "LD": "6",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 53.0,
+          "rules": [
+            "Close Order",
+            "Motley Crew",
+            "Frenzy",
+            "Armor Bane (X)",
+            "Horde",
+            "Warband",
+            "Fear",
+            "Scurry Away"
+          ],
+          "role": "champion",
+          "default_weapons": [
+            "Things-catcher"
+          ]
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Equipment",
+          "cost": 0.0,
+          "is_default": true
+        },
+        {
+          "name": "Things-catcher",
+          "cost": 5.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Giant Rats",
+      "category": "Core",
+      "base_points": 0.0,
+      "rules": [
+        "Close Order",
+        "Horde",
+        "Scurry Away",
+        "Warband",
+        "Fight in Extra Rank"
+      ],
+      "models": [
+        {
+          "name": "Giant Rats",
+          "stats": {
+            "M": "6",
+            "WS": "3",
+            "BS": "0",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "4",
+            "A": "1",
+            "LD": "3",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "War Beast"
+          },
+          "cost": 3.0,
+          "rules": [
+            "Close Order",
+            "Fight in Extra Rank",
+            "Horde",
+            "Warband",
+            "Scurry Away"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Master Moulder",
+          "stats": {
+            "M": "6",
+            "WS": "3",
+            "BS": "3",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "4",
+            "A": "2",
+            "LD": "7",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 7.0,
+          "rules": [
+            "Close Order",
+            "Motley Crew",
+            "Fight in Extra Rank",
+            "Horde",
+            "Warband",
+            "Scurry Away"
+          ],
+          "role": "champion",
+          "default_weapons": [
+            "Things-catcher"
+          ]
+        },
+        {
+          "name": "Packmaster",
+          "stats": {
+            "M": "6",
+            "WS": "3",
+            "BS": "3",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "4",
+            "A": "1",
+            "LD": "6",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 5.0,
+          "rules": [
+            "Close Order",
+            "Motley Crew",
+            "Fight in Extra Rank",
+            "Horde",
+            "Warband",
+            "Scurry Away"
+          ],
+          "role": "champion",
+          "default_weapons": [
+            "Things-catcher"
+          ]
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Equipment",
+          "cost": 0.0,
+          "is_default": true
+        },
+        {
+          "name": "Things-catcher",
+          "cost": 5.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Night Runners",
+      "category": "Core",
+      "base_points": 0.0,
+      "rules": [
+        "Skirmishers",
+        "Evasive",
+        "Scurry Away",
+        "Fire & Flee"
+      ],
+      "models": [
+        {
+          "name": "Night Runners",
+          "stats": {
+            "M": "6",
+            "WS": "3",
+            "BS": "3",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "5",
+            "A": "1",
+            "LD": "5",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 7.0,
+          "rules": [
+            "Evasive",
+            "Scurry Away",
+            "Fire & Flee",
+            "Skirmishers"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Champion",
+          "stats": {
+            "M": "6",
+            "WS": "3",
+            "BS": "3",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "5",
+            "A": "2",
+            "LD": "5",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 13.0,
+          "rules": [
+            "Evasive",
+            "Scurry Away",
+            "Fire & Flee",
+            "Skirmishers"
+          ],
+          "role": "champion",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Additional Hand Weapon",
+          "cost": 2.0,
+          "is_default": false
+        },
+        {
+          "name": "Sling",
+          "cost": 2.0,
+          "is_default": false
+        },
+        {
+          "name": "Throwing Weapons",
+          "cost": 1.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Gutter Runners",
+      "category": "Special",
+      "base_points": 0.0,
+      "rules": [
+        "Skirmishers",
+        "Evasive",
+        "Scurry Away",
+        "Fire & Flee",
+        "Feigned Flight",
+        "Move Through Cover",
+        "Scouts"
+      ],
+      "models": [
+        {
+          "name": "Gutter Runners",
+          "stats": {
+            "M": "6",
+            "WS": "4",
+            "BS": "4",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "5",
+            "A": "1",
+            "LD": "7",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 14.0,
+          "rules": [
+            "Feigned Flight",
+            "Evasive",
+            "Ambushers",
+            "Poisoned Attacks",
+            "Skirmishers",
+            "Scouts",
+            "Move Through Cover",
+            "Fire & Flee",
+            "Scurry Away"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Champion",
+          "stats": {
+            "M": "6",
+            "WS": "4",
+            "BS": "4",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "5",
+            "A": "2",
+            "LD": "7",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 21.0,
+          "rules": [
+            "Feigned Flight",
+            "Evasive",
+            "Skirmishers",
+            "Scouts",
+            "Move Through Cover",
+            "Fire & Flee",
+            "Scurry Away"
+          ],
+          "role": "champion",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Sling",
+          "cost": 2.0,
+          "is_default": false
+        },
+        {
+          "name": "Throwing Weapons",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Poisoned Attacks",
+          "cost": 2.0,
+          "is_default": false
+        },
+        {
+          "name": "Ambushers",
+          "cost": 2.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Plague Monks",
+      "category": "Special",
+      "base_points": 0.0,
+      "rules": [
+        "Close Order",
+        "Warband",
+        "Scurry Away",
+        "Horde",
+        "Frenzy"
+      ],
+      "models": [
+        {
+          "name": "Plague Monks",
+          "stats": {
+            "M": "5",
+            "WS": "3",
+            "BS": "3",
+            "S": "3",
+            "T": "4",
+            "W": "1",
+            "I": "3",
+            "A": "1",
+            "LD": "5",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 13.0,
+          "rules": [
+            "Close Order",
+            "Frenzy",
+            "Horde",
+            "Warband",
+            "Scurry Away"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Champion",
+          "stats": {
+            "M": "5",
+            "WS": "4",
+            "BS": "3",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "5",
+            "A": "2",
+            "LD": "6",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 19.0,
+          "rules": [
+            "Close Order",
+            "Frenzy",
+            "Horde",
+            "Warband",
+            "Scurry Away"
+          ],
+          "role": "champion",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Additional Hand Weapon",
+          "cost": 2.0,
+          "is_default": false
+        },
+        {
+          "name": "Musician",
+          "cost": 6.0,
+          "is_default": false
+        },
+        {
+          "name": "Standard Bearer",
+          "cost": 6.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Plague Censor Bearers",
+      "category": "Rare",
+      "base_points": 0.0,
+      "rules": [
+        "Skirmishers",
+        "Stubborn",
+        "Scurry Away",
+        "Warband",
+        "Frenzy"
+      ],
+      "models": [
+        {
+          "name": "Plague Censor Bearers",
+          "stats": {
+            "M": "5",
+            "WS": "3",
+            "BS": "3",
+            "S": "3",
+            "T": "4",
+            "W": "1",
+            "I": "3",
+            "A": "1",
+            "LD": "5",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 13.0,
+          "rules": [
+            "Stubborn",
+            "Frenzy",
+            "Skirmishers",
+            "Warband",
+            "Scurry Away"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Plague Censor"
+          ]
+        },
+        {
+          "name": "Censor Bearer",
+          "stats": {
+            "M": "5",
+            "WS": "3",
+            "BS": "3",
+            "S": "3",
+            "T": "4",
+            "W": "1",
+            "I": "3",
+            "A": "1",
+            "LD": "5",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 13.0,
+          "rules": [
+            "Stubborn",
+            "Frenzy",
+            "Skirmishers",
+            "Warband",
+            "Scurry Away"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Plague Censor"
+          ]
+        }
+      ],
+      "upgrades": []
+    },
+    {
+      "name": "Doomwheel",
+      "category": "Rare",
+      "base_points": 145.0,
+      "rules": [
+        "Close Order",
+        "Immune to Psychology",
+        "Impact Hits (X)",
+        "Large Target",
+        "Random Attacks",
+        "Random Movement",
+        "Stomp Attacks (X)"
+      ],
+      "models": [
+        {
+          "name": "Doomwheel",
+          "stats": {
+            "M": "3D6",
+            "WS": "-",
+            "BS": "-",
+            "S": "5",
+            "T": "5",
+            "W": "4",
+            "I": "-",
+            "A": "-",
+            "LD": "-",
+            "ArmourSave": "5+",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Chariot"
+          },
+          "cost": 145.0,
+          "rules": [
+            "Random Attacks",
+            "Close Order",
+            "Large Target",
+            "Random Movement",
+            "Stomp Attacks (X)",
+            "Immune to Psychology",
+            "Impact Hits (X)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": []
+    },
+    {
+      "name": "Warp Lightning Cannon",
+      "category": "Rare",
+      "base_points": 110.0,
+      "rules": [
+        "Skirmishers"
+      ],
+      "models": [
+        {
+          "name": "Warp Lightning Cannon",
+          "stats": {
+            "M": "-",
+            "WS": "-",
+            "BS": "-",
+            "S": "-",
+            "T": "6",
+            "W": "4",
+            "I": "-",
+            "A": "-",
+            "LD": "-",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "War Machine"
+          },
+          "cost": 110.0,
+          "rules": [
+            "Skirmishers"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Warp Lightning Cannon"
+          ]
+        }
+      ],
+      "upgrades": []
+    },
+    {
+      "name": "Plagueclaw Catapult",
+      "category": "Rare",
+      "base_points": 110.0,
+      "rules": [
+        "Skirmishers",
+        "Random Attacks",
+        "Stubborn"
+      ],
+      "models": [
+        {
+          "name": "Plagueclaw Catapult",
+          "stats": {
+            "M": "-",
+            "WS": "-",
+            "BS": "-",
+            "S": "-",
+            "T": "6",
+            "W": "4",
+            "I": "-",
+            "A": "-",
+            "LD": "-",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "War Machine"
+          },
+          "cost": 110.0,
+          "rules": [
+            "Random Attacks",
+            "Stubborn",
+            "Skirmishers"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Plagueclaw Catapult"
+          ]
+        }
+      ],
+      "upgrades": []
+    }
+  ]
+}

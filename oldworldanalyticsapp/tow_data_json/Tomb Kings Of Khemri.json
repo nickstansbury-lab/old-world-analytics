@@ -1,0 +1,2711 @@
+{
+  "faction_name": "Tomb Kings Of Khemri",
+  "units": [
+    {
+      "name": "Necrotect",
+      "category": "Characters",
+      "base_points": 55.0,
+      "rules": [
+        "Dry as Dust",
+        "Flammable",
+        "Kopesh",
+        "Nehekharan Undead",
+        "Regeneration (6+)"
+      ],
+      "models": [
+        {
+          "name": "Necrotect",
+          "stats": {
+            "M": "4",
+            "WS": "3",
+            "BS": "3",
+            "S": "4",
+            "T": "4",
+            "W": "2",
+            "I": "3",
+            "A": "2",
+            "LD": "7",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry (Character)"
+          },
+          "cost": 55.0,
+          "rules": [
+            "Dry as Dust",
+            "Flammable",
+            "Kopesh",
+            "Nehekharan Undead",
+            "Regeneration (6+)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": []
+    },
+    {
+      "name": "Tomb Guard",
+      "category": "Special",
+      "base_points": 0.0,
+      "rules": [
+        "Cleaving Blow",
+        "Regimental Unit",
+        "Regeneration (6+)",
+        "Nehekharan Undead",
+        "Khopesh",
+        "Indomitable (1)",
+        "Close Order"
+      ],
+      "models": [
+        {
+          "name": "Tomb Guard",
+          "stats": {
+            "M": "4",
+            "WS": "3",
+            "BS": "3",
+            "S": "4",
+            "T": "4",
+            "W": "1",
+            "I": "2",
+            "A": "1",
+            "LD": "7",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 10.0,
+          "rules": [
+            "Close Order",
+            "Nehekharan Undead",
+            "Regimental Unit",
+            "Cleaving Blow",
+            "Indomitable (1)",
+            "Nehekharan Phalanx",
+            "Regeneration (6+)",
+            "Khopesh",
+            "Drilled"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Champion",
+          "stats": {
+            "M": "4",
+            "WS": "3",
+            "BS": "3",
+            "S": "4",
+            "T": "4",
+            "W": "1",
+            "I": "3",
+            "A": "2",
+            "LD": "7",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 16.0,
+          "rules": [
+            "Close Order",
+            "Nehekharan Undead",
+            "Regimental Unit",
+            "Cleaving Blow",
+            "Indomitable (1)",
+            "Regeneration (6+)",
+            "Khopesh"
+          ],
+          "role": "champion",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Halberd",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Drilled",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Nehekharan Phalanx",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Musician",
+          "cost": 6.0,
+          "is_default": false
+        },
+        {
+          "name": "Standard Bearer",
+          "cost": 6.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Skeleton Warriors",
+      "category": "Core",
+      "base_points": 0.0,
+      "rules": [
+        "Regimental Unit",
+        "Regeneration (6+)",
+        "Nehekharan Undead",
+        "Horde",
+        "Close Order"
+      ],
+      "models": [
+        {
+          "name": "Skeleton Warriors",
+          "stats": {
+            "M": "4",
+            "WS": "2",
+            "BS": "2",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "2",
+            "A": "1",
+            "LD": "5",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 4.0,
+          "rules": [
+            "Close Order",
+            "Nehekharan Undead",
+            "Regimental Unit",
+            "Horde",
+            "Nehekharan Phalanx",
+            "Regeneration (6+)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Champion",
+          "stats": {
+            "M": "4",
+            "WS": "2",
+            "BS": "2",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "2",
+            "A": "2",
+            "LD": "5",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 5.0,
+          "rules": [
+            "Close Order",
+            "Nehekharan Undead",
+            "Regimental Unit",
+            "Horde",
+            "Regeneration (6+)"
+          ],
+          "role": "champion",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Thrusting Spear",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Light Armor",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Nehekharan Phalanx",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Musician",
+          "cost": 5.0,
+          "is_default": false
+        },
+        {
+          "name": "Standard Bearer",
+          "cost": 5.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Skeleton Archers",
+      "category": "Core",
+      "base_points": 0.0,
+      "rules": [
+        "Detatchment",
+        "Regeneration (6+)",
+        "Nehekharan Undead",
+        "Arrows of Asaph",
+        "Open Order"
+      ],
+      "models": [
+        {
+          "name": "Skeleton Archers",
+          "stats": {
+            "M": "4",
+            "WS": "2",
+            "BS": "2",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "2",
+            "A": "1",
+            "LD": "5",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 5.0,
+          "rules": [
+            "Nehekharan Undead",
+            "Open Order",
+            "Detatchment",
+            "Regeneration (6+)",
+            "Arrows of Asaph"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Champion",
+          "stats": {
+            "M": "4",
+            "WS": "2",
+            "BS": "3",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "2",
+            "A": "1",
+            "LD": "5",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 5.0,
+          "rules": [
+            "Nehekharan Undead",
+            "Open Order",
+            "Detatchment",
+            "Regeneration (6+)",
+            "Arrows of Asaph"
+          ],
+          "role": "champion",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Light Armor",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Musician",
+          "cost": 5.0,
+          "is_default": false
+        },
+        {
+          "name": "Standard Bearer",
+          "cost": 5.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Skeleton Skirmishers",
+      "category": "Core",
+      "base_points": 0.0,
+      "rules": [
+        "Chariot Runners",
+        "Regeneration (6+)",
+        "Nehekharan Undead",
+        "Arrows of Asaph",
+        "Skirmishers",
+        "Vanguard"
+      ],
+      "models": [
+        {
+          "name": "Skeleton Skirmishers",
+          "stats": {
+            "M": "5",
+            "WS": "2",
+            "BS": "2",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "2",
+            "A": "1",
+            "LD": "4",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 4.0,
+          "rules": [
+            "Vanguard",
+            "Nehekharan Undead",
+            "Ambushers",
+            "Skirmishers",
+            "Regeneration (6+)",
+            "Arrows of Asaph",
+            "Chariot Runners"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Ambushers",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Warbow",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Shield",
+          "cost": 1.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Ushabti",
+      "category": "Special",
+      "base_points": 0.0,
+      "rules": [
+        "Khopesh",
+        "Regeneration (6+)",
+        "Nehekharan Undead",
+        "Indomitable (1)",
+        "Close Order",
+        "Arrows of Asaph"
+      ],
+      "models": [
+        {
+          "name": "Ushabti",
+          "stats": {
+            "M": "5",
+            "WS": "4",
+            "BS": "3",
+            "S": "4",
+            "T": "4",
+            "W": "3",
+            "I": "2",
+            "A": "3",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Monsterous Infantry"
+          },
+          "cost": 49.0,
+          "rules": [
+            "Close Order",
+            "Nehekharan Undead",
+            "Arrows of Asaph",
+            "Indomitable (1)",
+            "Regeneration (6+)",
+            "Khopesh"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Ritual Blade",
+            "Greatbow"
+          ]
+        },
+        {
+          "name": "Champion",
+          "stats": {
+            "M": "5",
+            "WS": "4",
+            "BS": "3",
+            "S": "4",
+            "T": "4",
+            "W": "3",
+            "I": "2",
+            "A": "4",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Monsterous Infantry"
+          },
+          "cost": 56.0,
+          "rules": [
+            "Close Order",
+            "Nehekharan Undead",
+            "Arrows of Asaph",
+            "Indomitable (1)",
+            "Regeneration (6+)",
+            "Khopesh"
+          ],
+          "role": "champion",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Replace Ritual Blade with Greatbow",
+          "cost": 0.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Tomb Swarms",
+      "category": "Core",
+      "base_points": 0.0,
+      "rules": [
+        "Regeneration (6+)",
+        "Nehekharan Undead",
+        "Poisoned Attacks",
+        "Skirmishers",
+        "Dry as Dust"
+      ],
+      "models": [
+        {
+          "name": "Tomb Swarms",
+          "stats": {
+            "M": "5",
+            "WS": "3",
+            "BS": "0",
+            "S": "2",
+            "T": "2",
+            "W": "5",
+            "I": "1",
+            "A": "5",
+            "LD": "10",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Swarms"
+          },
+          "cost": 37.0,
+          "rules": [
+            "Nehekharan Undead",
+            "Ambushers",
+            "Poisoned Attacks",
+            "Skirmishers",
+            "Dry as Dust",
+            "Regeneration (6+)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Ambushers",
+          "cost": 2.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Carrion",
+      "category": "Special",
+      "base_points": 0.0,
+      "rules": [
+        "Regeneration (6+)",
+        "Nehekharan Undead",
+        "Swiftstride",
+        "Skirmishers",
+        "Fly (10)"
+      ],
+      "models": [
+        {
+          "name": "Carrion",
+          "stats": {
+            "M": "2",
+            "WS": "3",
+            "BS": "0",
+            "S": "4",
+            "T": "4",
+            "W": "2",
+            "I": "3",
+            "A": "3",
+            "LD": "4",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Monsterous Infantry"
+          },
+          "cost": 27.0,
+          "rules": [
+            "Fly (10)",
+            "Nehekharan Undead",
+            "Skirmishers",
+            "Swiftstride",
+            "Regeneration (6+)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": []
+    },
+    {
+      "name": "Skeleton Horsemen",
+      "category": "Core",
+      "base_points": 0.0,
+      "rules": [
+        "Swiftstride",
+        "Regeneration (6+)",
+        "Nehekharan Undead",
+        "Horde",
+        "Close Order",
+        "Vanguard"
+      ],
+      "models": [
+        {
+          "name": "Skeleton Horsemen",
+          "stats": {
+            "M": "-",
+            "WS": "2",
+            "BS": "2",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "2",
+            "A": "1",
+            "LD": "5",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Cavalry"
+          },
+          "cost": 11.0,
+          "rules": [
+            "Close Order",
+            "Vanguard",
+            "Nehekharan Undead",
+            "Counter Charge",
+            "Swiftstride",
+            "Horde",
+            "Regeneration (6+)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Champion",
+          "stats": {
+            "M": "-",
+            "WS": "2",
+            "BS": "2",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "2",
+            "A": "2",
+            "LD": "5",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Cavalry"
+          },
+          "cost": 17.0,
+          "rules": [
+            "Close Order",
+            "Vanguard",
+            "Nehekharan Undead",
+            "Swiftstride",
+            "Horde",
+            "Regeneration (6+)"
+          ],
+          "role": "champion",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Cavalry Spear",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Light Armor",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Counter Charge",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Musician",
+          "cost": 6.0,
+          "is_default": false
+        },
+        {
+          "name": "Standard Bearer",
+          "cost": 6.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Skeleton Horse Archers",
+      "category": "Core",
+      "base_points": 0.0,
+      "rules": [
+        "Swiftstride",
+        "Regeneration (6+)",
+        "Nehekharan Undead",
+        "Arrows of Asaph",
+        "Open Order",
+        "Reserve Move",
+        "Scouts",
+        "Swiftstride"
+      ],
+      "models": [
+        {
+          "name": "Skeleton Horse Archers",
+          "stats": {
+            "M": "-",
+            "WS": "2",
+            "BS": "2",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "2",
+            "A": "1",
+            "LD": "5",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Cavalry"
+          },
+          "cost": 11.0,
+          "rules": [
+            "Nehekharan Undead",
+            "Open Order",
+            "Reserve Move",
+            "Scouts",
+            "Swiftstride",
+            "Regeneration (6+)",
+            "Arrows of Asaph",
+            "Chariot Runners"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Champion",
+          "stats": {
+            "M": "-",
+            "WS": "2",
+            "BS": "3",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "2",
+            "A": "1",
+            "LD": "5",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Cavalry"
+          },
+          "cost": 17.0,
+          "rules": [
+            "Nehekharan Undead",
+            "Open Order",
+            "Reserve Move",
+            "Scouts",
+            "Swiftstride",
+            "Regeneration (6+)",
+            "Arrows of Asaph"
+          ],
+          "role": "champion",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Light Armor",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Chariot Runners",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Musician",
+          "cost": 6.0,
+          "is_default": false
+        },
+        {
+          "name": "Standard Bearer",
+          "cost": 6.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Necropolis Knights",
+      "category": "Special",
+      "base_points": 0.0,
+      "rules": [
+        "Swiftstride",
+        "Regeneration (6+)",
+        "Nehekharan Undead",
+        "Impact Hits (X)",
+        "Close Order",
+        "Poisoned Attacks",
+        "Armored Hide (X)",
+        "Cleaving Blow",
+        "Indomitable (1)",
+        "Khopesh"
+      ],
+      "models": [
+        {
+          "name": "Necropolis Knights",
+          "stats": {
+            "M": "-",
+            "WS": "4",
+            "BS": "3",
+            "S": "4",
+            "T": "4",
+            "W": "3",
+            "I": "3",
+            "A": "2",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Monsterous Cavalry"
+          },
+          "cost": 54.0,
+          "rules": [
+            "Armored Hide (X)",
+            "Close Order",
+            "Nehekharan Undead",
+            "Poisoned Attacks",
+            "Cleaving Blow",
+            "Indomitable (1)",
+            "Swiftstride",
+            "Regeneration (6+)",
+            "Impact Hits (X)",
+            "Khopesh"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Champion",
+          "stats": {
+            "M": "-",
+            "WS": "4",
+            "BS": "3",
+            "S": "4",
+            "T": "4",
+            "W": "3",
+            "I": "3",
+            "A": "3",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Monsterous Cavalry"
+          },
+          "cost": 61.0,
+          "rules": [
+            "Armored Hide (X)",
+            "Close Order",
+            "Nehekharan Undead",
+            "Poisoned Attacks",
+            "Cleaving Blow",
+            "Indomitable (1)",
+            "Swiftstride",
+            "Regeneration (6+)",
+            "Impact Hits (X)",
+            "Khopesh"
+          ],
+          "role": "champion",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Great Weapon",
+          "cost": 3.0,
+          "is_default": false
+        },
+        {
+          "name": "Musician",
+          "cost": 7.0,
+          "is_default": false
+        },
+        {
+          "name": "Standard Bearer",
+          "cost": 7.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Sepulchral Stalkers",
+      "category": "Special",
+      "base_points": 0.0,
+      "rules": [
+        "Swiftstride",
+        "Regeneration (6+)",
+        "Nehekharan Undead",
+        "Close Order",
+        "Indomitable (1)"
+      ],
+      "models": [
+        {
+          "name": "Sepulchral Stalkers",
+          "stats": {
+            "M": "7",
+            "WS": "3",
+            "BS": "3",
+            "S": "4",
+            "T": "4",
+            "W": "3",
+            "I": "3",
+            "A": "2",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Monsterous Cavalry"
+          },
+          "cost": 52.0,
+          "rules": [
+            "Close Order",
+            "Nehekharan Undead",
+            "Ambushers",
+            "Indomitable (1)",
+            "Swiftstride",
+            "Regeneration (6+)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Writhing Tail",
+            "Petrifying Gaze"
+          ]
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Ambushers",
+          "cost": 2.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Skeleton Chariots",
+      "category": "Core",
+      "base_points": 0.0,
+      "rules": [
+        "Arrows of Asaph",
+        "Dry as Dust",
+        "Horde",
+        "Impact Hits (X)",
+        "Nehekharan Undead",
+        "Open Order",
+        "Regeneration (6+)",
+        "Reserve Move",
+        "Swiftstride"
+      ],
+      "models": [
+        {
+          "name": "Skeleton Chariots",
+          "stats": {
+            "M": "-",
+            "WS": "-",
+            "BS": "-",
+            "S": "4",
+            "T": "4",
+            "W": "3",
+            "I": "-",
+            "A": "-",
+            "LD": "-",
+            "ArmourSave": "5+",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Light Chariot"
+          },
+          "cost": 41.0,
+          "rules": [
+            "Regeneration (6+)",
+            "Open Order",
+            "Reserve Move",
+            "Swiftstride",
+            "Horde",
+            "Impact Hits (X)",
+            "Dry as Dust",
+            "Nehekharan Undead",
+            "Arrows of Asaph"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Skeleton Crew",
+          "stats": {
+            "M": "-",
+            "WS": "3",
+            "BS": "2",
+            "S": "3",
+            "T": "-",
+            "W": "-",
+            "I": "2",
+            "A": "1",
+            "LD": "7",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": ""
+          },
+          "cost": 41.0,
+          "rules": [
+            "Regeneration (6+)",
+            "Open Order",
+            "Reserve Move",
+            "Swiftstride",
+            "Horde",
+            "Impact Hits (X)",
+            "Dry as Dust",
+            "Nehekharan Undead",
+            "Arrows of Asaph"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Skeletal Steed",
+          "stats": {
+            "M": "8",
+            "WS": "2",
+            "BS": "-",
+            "S": "3",
+            "T": "-",
+            "W": "-",
+            "I": "2",
+            "A": "1",
+            "LD": "-",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": ""
+          },
+          "cost": 41.0,
+          "rules": [
+            "Regeneration (6+)",
+            "Open Order",
+            "Reserve Move",
+            "Swiftstride",
+            "Horde",
+            "Impact Hits (X)",
+            "Dry as Dust",
+            "Nehekharan Undead",
+            "Arrows of Asaph"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Champion",
+          "stats": {
+            "M": "-",
+            "WS": "3",
+            "BS": "2",
+            "S": "4",
+            "T": "-",
+            "W": "-",
+            "I": "2",
+            "A": "2",
+            "LD": "7",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": ""
+          },
+          "cost": 47.0,
+          "rules": [
+            "Regeneration (6+)",
+            "Open Order",
+            "Reserve Move",
+            "Swiftstride",
+            "Horde",
+            "Impact Hits (X)",
+            "Dry as Dust",
+            "Nehekharan Undead",
+            "Arrows of Asaph"
+          ],
+          "role": "champion",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Musician",
+          "cost": 6.0,
+          "is_default": false
+        },
+        {
+          "name": "Standard Bearer",
+          "cost": 6.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Tomb Scorpion",
+      "category": "Special",
+      "base_points": 70.0,
+      "rules": [
+        "Close Order",
+        "Indomitable (1)",
+        "Magic Resistance (-X)",
+        "Nehekharan Undead",
+        "Regeneration (6+)",
+        "Stomp Attacks (X)",
+        "Swiftstride",
+        "Vanguard"
+      ],
+      "models": [
+        {
+          "name": "Tomb Scorpion",
+          "stats": {
+            "M": "7",
+            "WS": "4",
+            "BS": "0",
+            "S": "5",
+            "T": "5",
+            "W": "3",
+            "I": "3",
+            "A": "4",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Monsterous Creature"
+          },
+          "cost": 70.0,
+          "rules": [
+            "Close Order",
+            "Magic Resistance (-X)",
+            "Nehekharan Undead",
+            "Vanguard",
+            "Stomp Attacks (X)",
+            "Ambushers",
+            "Swiftstride",
+            "Indomitable (1)",
+            "Regeneration (6+)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Decapitating Claws",
+            "Envenomed Sting"
+          ]
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Ambushers",
+          "cost": 5.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Necrolith Colossus",
+      "category": "Rare",
+      "base_points": 160.0,
+      "rules": [
+        "Close Order",
+        "Indomitable (2)",
+        "Large Target",
+        "Nehekharan Undead",
+        "Regeneration (6+)",
+        "Stomp Attacks (X)",
+        "Terror",
+        "Timmm-berrr!"
+      ],
+      "models": [
+        {
+          "name": "Necrolith Colossus",
+          "stats": {
+            "M": "6",
+            "WS": "3",
+            "BS": "2",
+            "S": "6",
+            "T": "6",
+            "W": "5",
+            "I": "1",
+            "A": "4",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Behemoth"
+          },
+          "cost": 160.0,
+          "rules": [
+            "Timmm-berrr!",
+            "Close Order",
+            "Large Target",
+            "Terror",
+            "Stomp Attacks (X)",
+            "Nehekharan Undead",
+            "Regeneration (6+)",
+            "Indomitable (2)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Paired Great Khopeshes"
+          ]
+        }
+      ],
+      "upgrades": []
+    },
+    {
+      "name": "Necrosphinx",
+      "category": "Rare",
+      "base_points": 195.0,
+      "rules": [
+        "Close Order",
+        "Indomitable (2)",
+        "Large Target",
+        "Nehekharan Undead",
+        "Regeneration (5+)",
+        "Stomp Attacks (X)",
+        "Terror",
+        "Swiftstride",
+        "Fly (X)"
+      ],
+      "models": [
+        {
+          "name": "Necrosphinx",
+          "stats": {
+            "M": "6",
+            "WS": "4",
+            "BS": "0",
+            "S": "5",
+            "T": "6",
+            "W": "6",
+            "I": "1",
+            "A": "5",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Behemoth"
+          },
+          "cost": 195.0,
+          "rules": [
+            "Fly (X)",
+            "Close Order",
+            "Large Target",
+            "Terror",
+            "Stomp Attacks (X)",
+            "Regeneration (5+)",
+            "Swiftstride",
+            "Nehekharan Undead",
+            "Indomitable (2)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Envenomed Sting",
+            "Cleaving Blades",
+            "Decapitating Strike"
+          ]
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Envenomed Sting",
+          "cost": 5.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Screaming Skull Catapult",
+      "category": "Rare",
+      "base_points": 105.0,
+      "rules": [
+        "Dry as Dust",
+        "Indomitable (1)",
+        "Nehekharan Undead",
+        "Regeneration (6+)",
+        "Skirmishers"
+      ],
+      "models": [
+        {
+          "name": "Screaming Skull Catapult",
+          "stats": {
+            "M": "-",
+            "WS": "-",
+            "BS": "-",
+            "S": "-",
+            "T": "6",
+            "W": "3",
+            "I": "-",
+            "A": "-",
+            "LD": "-",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "War Machine"
+          },
+          "cost": 105.0,
+          "rules": [
+            "Nehekharan Undead",
+            "Skirmishers",
+            "Dry as Dust",
+            "Indomitable (1)",
+            "Regeneration (6+)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Screaming Skull Catapult"
+          ]
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Skulls of the Foe",
+          "cost": 20.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Casket Of Souls",
+      "category": "Rare",
+      "base_points": 135.0,
+      "rules": [
+        "Cleaving Blow",
+        "Dry as Dust",
+        "Indomitable (2)",
+        "Nehekharan Undead",
+        "Regeneration (5+)",
+        "Skirmishers"
+      ],
+      "models": [
+        {
+          "name": "Casket Of Souls",
+          "stats": {
+            "M": "-",
+            "WS": "-",
+            "BS": "-",
+            "S": "-",
+            "T": "6",
+            "W": "4",
+            "I": "-",
+            "A": "-",
+            "LD": "-",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "War Machine"
+          },
+          "cost": 135.0,
+          "rules": [
+            "Cleaving Blow",
+            "Regeneration (5+)",
+            "Skirmishers",
+            "Dry as Dust",
+            "Nehekharan Undead",
+            "Indomitable (2)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": []
+    },
+    {
+      "name": "Tomb Guard",
+      "category": "Core",
+      "base_points": 0.0,
+      "rules": [
+        "Cleaving Blow",
+        "Regimental Unit",
+        "Regeneration (6+)",
+        "Nehekharan Undead",
+        "Khopesh",
+        "Indomitable (1)",
+        "Close Order"
+      ],
+      "models": [
+        {
+          "name": "Tomb Guard",
+          "stats": {
+            "M": "4",
+            "WS": "3",
+            "BS": "3",
+            "S": "4",
+            "T": "4",
+            "W": "1",
+            "I": "2",
+            "A": "1",
+            "LD": "7",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 10.0,
+          "rules": [
+            "Close Order",
+            "Nehekharan Undead",
+            "Regimental Unit",
+            "Cleaving Blow",
+            "Indomitable (1)",
+            "Nehekharan Phalanx",
+            "Regeneration (6+)",
+            "Khopesh",
+            "Drilled"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Champion",
+          "stats": {
+            "M": "4",
+            "WS": "3",
+            "BS": "3",
+            "S": "4",
+            "T": "4",
+            "W": "1",
+            "I": "3",
+            "A": "2",
+            "LD": "7",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 16.0,
+          "rules": [
+            "Close Order",
+            "Nehekharan Undead",
+            "Regimental Unit",
+            "Cleaving Blow",
+            "Indomitable (1)",
+            "Regeneration (6+)",
+            "Khopesh"
+          ],
+          "role": "champion",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Halberd",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Drilled",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Nehekharan Phalanx",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Musician",
+          "cost": 6.0,
+          "is_default": false
+        },
+        {
+          "name": "Standard Bearer",
+          "cost": 6.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Sepulchral Stalkers",
+      "category": "Core",
+      "base_points": 0.0,
+      "rules": [
+        "Swiftstride",
+        "Regeneration (6+)",
+        "Nehekharan Undead",
+        "Close Order",
+        "Indomitable (1)"
+      ],
+      "models": [
+        {
+          "name": "Sepulchral Stalkers",
+          "stats": {
+            "M": "7",
+            "WS": "3",
+            "BS": "3",
+            "S": "4",
+            "T": "4",
+            "W": "3",
+            "I": "3",
+            "A": "2",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Monsterous Cavalry"
+          },
+          "cost": 52.0,
+          "rules": [
+            "Close Order",
+            "Nehekharan Undead",
+            "Ambushers",
+            "Indomitable (1)",
+            "Swiftstride",
+            "Regeneration (6+)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Writhing Tail",
+            "Petrifying Gaze"
+          ]
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Ambushers",
+          "cost": 2.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Arch Necrotect",
+      "category": "Characters",
+      "base_points": 90.0,
+      "rules": [
+        "Dry as Dust",
+        "Flammable",
+        "Kopesh",
+        "Nehekharan Undead",
+        "Regeneration (5+)"
+      ],
+      "models": [
+        {
+          "name": "Arch Necrotect",
+          "stats": {
+            "M": "4",
+            "WS": "4",
+            "BS": "3",
+            "S": "4",
+            "T": "4",
+            "W": "3",
+            "I": "3",
+            "A": "3",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry (Character)"
+          },
+          "cost": 90.0,
+          "rules": [
+            "Dry as Dust",
+            "Flammable",
+            "Kopesh",
+            "Nehekharan Undead",
+            "Regeneration (5+)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": []
+    },
+    {
+      "name": "Venerable Ushabti",
+      "category": "Special",
+      "base_points": 0.0,
+      "rules": [
+        "Khopesh",
+        "Regeneration (6+)",
+        "Nehekharan Undead",
+        "Indomitable (1)",
+        "Close Order",
+        "Magic Resistance (-X)"
+      ],
+      "models": [
+        {
+          "name": "Venerable Ushabti",
+          "stats": {
+            "M": "4",
+            "WS": "5",
+            "BS": "3",
+            "S": "5",
+            "T": "4",
+            "W": "3",
+            "I": "2",
+            "A": "3",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Monsterous Infantry"
+          },
+          "cost": 56.0,
+          "rules": [
+            "Close Order",
+            "Magic Resistance (-X)",
+            "Nehekharan Undead",
+            "Indomitable (1)",
+            "Regeneration (6+)",
+            "Khopesh"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Ritual Blade"
+          ]
+        },
+        {
+          "name": "Champion",
+          "stats": {
+            "M": "4",
+            "WS": "5",
+            "BS": "3",
+            "S": "5",
+            "T": "4",
+            "W": "3",
+            "I": "2",
+            "A": "4",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Monsterous Infantry"
+          },
+          "cost": 63.0,
+          "rules": [
+            "Close Order",
+            "Magic Resistance (-X)",
+            "Nehekharan Undead",
+            "Indomitable (1)",
+            "Regeneration (6+)",
+            "Khopesh"
+          ],
+          "role": "champion",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": []
+    },
+    {
+      "name": "Necroserpents",
+      "category": "Special",
+      "base_points": 0.0,
+      "rules": [
+        "Swiftstride",
+        "Regeneration (6+)",
+        "Nehekharan Undead",
+        "Impact Hits (X)",
+        "Poisoned Attacks",
+        "Armored Hide (X)",
+        "Indomitable (1)",
+        "Move Through Cover",
+        "Ambushers",
+        "Open Order"
+      ],
+      "models": [
+        {
+          "name": "Necroserpents",
+          "stats": {
+            "M": "7",
+            "WS": "3",
+            "BS": "0",
+            "S": "5",
+            "T": "4",
+            "W": "3",
+            "I": "3",
+            "A": "3",
+            "LD": "87",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Monsterous Cavalry"
+          },
+          "cost": 38.0,
+          "rules": [
+            "Armored Hide (X)",
+            "Nehekharan Undead",
+            "Open Order",
+            "Ambushers",
+            "Poisoned Attacks",
+            "Indomitable (1)",
+            "Swiftstride",
+            "Move Through Cover",
+            "Regeneration (6+)",
+            "Impact Hits (X)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "The Terrors Below",
+          "cost": 2.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Tomb Guard Chariots",
+      "category": "Core",
+      "base_points": 0.0,
+      "rules": [
+        "Indomitable (2)",
+        "Dry as Dust",
+        "Horde",
+        "Impact Hits (X)",
+        "Nehekharan Undead",
+        "Open Order",
+        "Regeneration (6+)",
+        "Reserve Move",
+        "Swiftstride",
+        "Khopesh"
+      ],
+      "models": [
+        {
+          "name": "Tomb Guard Chariots",
+          "stats": {
+            "M": "-",
+            "WS": "-",
+            "BS": "-",
+            "S": "4",
+            "T": "4",
+            "W": "3",
+            "I": "-",
+            "A": "-",
+            "LD": "-",
+            "ArmourSave": "5+",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Light Chariot"
+          },
+          "cost": 53.0,
+          "rules": [
+            "Regeneration (6+)",
+            "Open Order",
+            "Reserve Move",
+            "Cleaving Blow",
+            "Swiftstride",
+            "Horde",
+            "Khopesh",
+            "Dry as Dust",
+            "Nehekharan Undead",
+            "Impact Hits (X)",
+            "Indomitable (2)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Tomb Guard Crew",
+          "stats": {
+            "M": "-",
+            "WS": "3",
+            "BS": "2",
+            "S": "4",
+            "T": "-",
+            "W": "-",
+            "I": "2",
+            "A": "1",
+            "LD": "7",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": ""
+          },
+          "cost": 53.0,
+          "rules": [
+            "Regeneration (6+)",
+            "Open Order",
+            "Reserve Move",
+            "Cleaving Blow",
+            "Swiftstride",
+            "Horde",
+            "Khopesh",
+            "Dry as Dust",
+            "Nehekharan Undead",
+            "Impact Hits (X)",
+            "Indomitable (2)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Skeletal Steed",
+          "stats": {
+            "M": "8",
+            "WS": "2",
+            "BS": "-",
+            "S": "3",
+            "T": "-",
+            "W": "-",
+            "I": "2",
+            "A": "1",
+            "LD": "-",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": ""
+          },
+          "cost": 53.0,
+          "rules": [
+            "Regeneration (6+)",
+            "Open Order",
+            "Reserve Move",
+            "Swiftstride",
+            "Horde",
+            "Khopesh",
+            "Dry as Dust",
+            "Nehekharan Undead",
+            "Impact Hits (X)",
+            "Indomitable (2)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Champion",
+          "stats": {
+            "M": "-",
+            "WS": "3",
+            "BS": "3",
+            "S": "4",
+            "T": "-",
+            "W": "-",
+            "I": "2",
+            "A": "2",
+            "LD": "7",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": ""
+          },
+          "cost": 60.0,
+          "rules": [
+            "Regeneration (6+)",
+            "Open Order",
+            "Reserve Move",
+            "Swiftstride",
+            "Horde",
+            "Khopesh",
+            "Dry as Dust",
+            "Nehekharan Undead",
+            "Impact Hits (X)",
+            "Indomitable (2)"
+          ],
+          "role": "champion",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Musician",
+          "cost": 7.0,
+          "is_default": false
+        },
+        {
+          "name": "Standard Bearer",
+          "cost": 7.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Tomb Guard Chariots",
+      "category": "Special",
+      "base_points": 0.0,
+      "rules": [
+        "Indomitable (2)",
+        "Dry as Dust",
+        "Horde",
+        "Impact Hits (X)",
+        "Nehekharan Undead",
+        "Open Order",
+        "Regeneration (6+)",
+        "Reserve Move",
+        "Swiftstride",
+        "Khopesh"
+      ],
+      "models": [
+        {
+          "name": "Tomb Guard Chariots",
+          "stats": {
+            "M": "-",
+            "WS": "-",
+            "BS": "-",
+            "S": "4",
+            "T": "4",
+            "W": "3",
+            "I": "-",
+            "A": "-",
+            "LD": "-",
+            "ArmourSave": "5+",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Light Chariot"
+          },
+          "cost": 53.0,
+          "rules": [
+            "Regeneration (6+)",
+            "Open Order",
+            "Reserve Move",
+            "Cleaving Blow",
+            "Swiftstride",
+            "Horde",
+            "Khopesh",
+            "Dry as Dust",
+            "Nehekharan Undead",
+            "Impact Hits (X)",
+            "Indomitable (2)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Tomb Guard Crew",
+          "stats": {
+            "M": "-",
+            "WS": "3",
+            "BS": "2",
+            "S": "4",
+            "T": "-",
+            "W": "-",
+            "I": "2",
+            "A": "1",
+            "LD": "7",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": ""
+          },
+          "cost": 53.0,
+          "rules": [
+            "Regeneration (6+)",
+            "Open Order",
+            "Reserve Move",
+            "Cleaving Blow",
+            "Swiftstride",
+            "Horde",
+            "Khopesh",
+            "Dry as Dust",
+            "Nehekharan Undead",
+            "Impact Hits (X)",
+            "Indomitable (2)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Skeletal Steed",
+          "stats": {
+            "M": "8",
+            "WS": "2",
+            "BS": "-",
+            "S": "3",
+            "T": "-",
+            "W": "-",
+            "I": "2",
+            "A": "1",
+            "LD": "-",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": ""
+          },
+          "cost": 53.0,
+          "rules": [
+            "Regeneration (6+)",
+            "Open Order",
+            "Reserve Move",
+            "Swiftstride",
+            "Horde",
+            "Khopesh",
+            "Dry as Dust",
+            "Nehekharan Undead",
+            "Impact Hits (X)",
+            "Indomitable (2)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Champion",
+          "stats": {
+            "M": "-",
+            "WS": "3",
+            "BS": "3",
+            "S": "4",
+            "T": "-",
+            "W": "-",
+            "I": "2",
+            "A": "2",
+            "LD": "7",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": ""
+          },
+          "cost": 60.0,
+          "rules": [
+            "Regeneration (6+)",
+            "Open Order",
+            "Reserve Move",
+            "Swiftstride",
+            "Horde",
+            "Khopesh",
+            "Dry as Dust",
+            "Nehekharan Undead",
+            "Impact Hits (X)",
+            "Indomitable (2)"
+          ],
+          "role": "champion",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Musician",
+          "cost": 7.0,
+          "is_default": false
+        },
+        {
+          "name": "Standard Bearer",
+          "cost": 7.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Skeleton Skirmishers",
+      "category": "Special",
+      "base_points": 0.0,
+      "rules": [
+        "Chariot Runners",
+        "Regeneration (6+)",
+        "Nehekharan Undead",
+        "Arrows of Asaph",
+        "Skirmishers",
+        "Vanguard"
+      ],
+      "models": [
+        {
+          "name": "Skeleton Skirmishers",
+          "stats": {
+            "M": "5",
+            "WS": "2",
+            "BS": "2",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "2",
+            "A": "1",
+            "LD": "4",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 4.0,
+          "rules": [
+            "Vanguard",
+            "Nehekharan Undead",
+            "Ambushers",
+            "Skirmishers",
+            "Regeneration (6+)",
+            "Arrows of Asaph",
+            "Chariot Runners"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Ambushers",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Warbow",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Shield",
+          "cost": 1.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Skeleton Horse Archers",
+      "category": "Special",
+      "base_points": 0.0,
+      "rules": [
+        "Swiftstride",
+        "Regeneration (6+)",
+        "Nehekharan Undead",
+        "Arrows of Asaph",
+        "Open Order",
+        "Reserve Move",
+        "Scouts",
+        "Swiftstride"
+      ],
+      "models": [
+        {
+          "name": "Skeleton Horse Archers",
+          "stats": {
+            "M": "-",
+            "WS": "2",
+            "BS": "2",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "2",
+            "A": "1",
+            "LD": "5",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Cavalry"
+          },
+          "cost": 11.0,
+          "rules": [
+            "Nehekharan Undead",
+            "Open Order",
+            "Reserve Move",
+            "Scouts",
+            "Swiftstride",
+            "Regeneration (6+)",
+            "Arrows of Asaph",
+            "Chariot Runners"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Champion",
+          "stats": {
+            "M": "-",
+            "WS": "2",
+            "BS": "3",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "2",
+            "A": "1",
+            "LD": "5",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Cavalry"
+          },
+          "cost": 17.0,
+          "rules": [
+            "Nehekharan Undead",
+            "Open Order",
+            "Reserve Move",
+            "Scouts",
+            "Swiftstride",
+            "Regeneration (6+)",
+            "Arrows of Asaph"
+          ],
+          "role": "champion",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Light Armor",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Chariot Runners",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Musician",
+          "cost": 6.0,
+          "is_default": false
+        },
+        {
+          "name": "Standard Bearer",
+          "cost": 6.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Tomb Scorpion",
+      "category": "Special",
+      "base_points": 70.0,
+      "rules": [
+        "Close Order",
+        "Indomitable (1)",
+        "Magic Resistance (-X)",
+        "Nehekharan Undead",
+        "Regeneration (6+)",
+        "Stomp Attacks (X)",
+        "Swiftstride",
+        "Vanguard"
+      ],
+      "models": [
+        {
+          "name": "Tomb Scorpion",
+          "stats": {
+            "M": "7",
+            "WS": "4",
+            "BS": "0",
+            "S": "5",
+            "T": "5",
+            "W": "3",
+            "I": "3",
+            "A": "4",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Monsterous Creature"
+          },
+          "cost": 70.0,
+          "rules": [
+            "Close Order",
+            "Magic Resistance (-X)",
+            "Nehekharan Undead",
+            "Vanguard",
+            "Stomp Attacks (X)",
+            "Ambushers",
+            "Swiftstride",
+            "Indomitable (1)",
+            "Regeneration (6+)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Decapitating Claws",
+            "Envenomed Sting"
+          ]
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Ambushers",
+          "cost": 5.0,
+          "is_default": false
+        },
+        {
+          "name": "The Terrors Below",
+          "cost": 2.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Necroserpents",
+      "category": "Core",
+      "base_points": 0.0,
+      "rules": [
+        "Swiftstride",
+        "Regeneration (6+)",
+        "Nehekharan Undead",
+        "Impact Hits (X)",
+        "Poisoned Attacks",
+        "Armored Hide (X)",
+        "Indomitable (1)",
+        "Move Through Cover",
+        "Ambushers",
+        "Open Order"
+      ],
+      "models": [
+        {
+          "name": "Necroserpents",
+          "stats": {
+            "M": "7",
+            "WS": "3",
+            "BS": "0",
+            "S": "5",
+            "T": "4",
+            "W": "3",
+            "I": "3",
+            "A": "3",
+            "LD": "87",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Monsterous Cavalry"
+          },
+          "cost": 38.0,
+          "rules": [
+            "Armored Hide (X)",
+            "Nehekharan Undead",
+            "Open Order",
+            "Ambushers",
+            "Poisoned Attacks",
+            "Indomitable (1)",
+            "Swiftstride",
+            "Move Through Cover",
+            "Regeneration (6+)",
+            "Impact Hits (X)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "The Terrors Below",
+          "cost": 2.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Ushabti",
+      "category": "Core",
+      "base_points": 0.0,
+      "rules": [
+        "Khopesh",
+        "Regeneration (6+)",
+        "Nehekharan Undead",
+        "Indomitable (1)",
+        "Close Order",
+        "Arrows of Asaph"
+      ],
+      "models": [
+        {
+          "name": "Ushabti",
+          "stats": {
+            "M": "5",
+            "WS": "4",
+            "BS": "3",
+            "S": "4",
+            "T": "4",
+            "W": "3",
+            "I": "2",
+            "A": "3",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Monsterous Infantry"
+          },
+          "cost": 49.0,
+          "rules": [
+            "Close Order",
+            "Nehekharan Undead",
+            "Arrows of Asaph",
+            "Indomitable (1)",
+            "Regeneration (6+)",
+            "Khopesh"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Ritual Blade",
+            "Greatbow"
+          ]
+        },
+        {
+          "name": "Champion",
+          "stats": {
+            "M": "5",
+            "WS": "4",
+            "BS": "3",
+            "S": "4",
+            "T": "4",
+            "W": "3",
+            "I": "2",
+            "A": "4",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Monsterous Infantry"
+          },
+          "cost": 56.0,
+          "rules": [
+            "Close Order",
+            "Nehekharan Undead",
+            "Arrows of Asaph",
+            "Indomitable (1)",
+            "Regeneration (6+)",
+            "Khopesh"
+          ],
+          "role": "champion",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Replace Ritual Blade with Greatbow",
+          "cost": 0.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Tomb Swarms",
+      "category": "Special",
+      "base_points": 0.0,
+      "rules": [
+        "Regeneration (6+)",
+        "Nehekharan Undead",
+        "Poisoned Attacks",
+        "Skirmishers",
+        "Dry as Dust"
+      ],
+      "models": [
+        {
+          "name": "Tomb Swarms",
+          "stats": {
+            "M": "5",
+            "WS": "3",
+            "BS": "0",
+            "S": "2",
+            "T": "2",
+            "W": "5",
+            "I": "1",
+            "A": "5",
+            "LD": "10",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Swarms"
+          },
+          "cost": 37.0,
+          "rules": [
+            "Nehekharan Undead",
+            "Ambushers",
+            "Poisoned Attacks",
+            "Skirmishers",
+            "Dry as Dust",
+            "Regeneration (6+)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Ambushers",
+          "cost": 2.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Skeleton Chariots",
+      "category": "Special",
+      "base_points": 0.0,
+      "rules": [
+        "Arrows of Asaph",
+        "Dry as Dust",
+        "Horde",
+        "Impact Hits (X)",
+        "Nehekharan Undead",
+        "Open Order",
+        "Regeneration (6+)",
+        "Reserve Move",
+        "Swiftstride"
+      ],
+      "models": [
+        {
+          "name": "Skeleton Chariots",
+          "stats": {
+            "M": "-",
+            "WS": "-",
+            "BS": "-",
+            "S": "4",
+            "T": "4",
+            "W": "3",
+            "I": "-",
+            "A": "-",
+            "LD": "-",
+            "ArmourSave": "5+",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Light Chariot"
+          },
+          "cost": 41.0,
+          "rules": [
+            "Regeneration (6+)",
+            "Open Order",
+            "Reserve Move",
+            "Swiftstride",
+            "Horde",
+            "Impact Hits (X)",
+            "Dry as Dust",
+            "Nehekharan Undead",
+            "Arrows of Asaph"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Skeleton Crew",
+          "stats": {
+            "M": "-",
+            "WS": "3",
+            "BS": "2",
+            "S": "3",
+            "T": "-",
+            "W": "-",
+            "I": "2",
+            "A": "1",
+            "LD": "7",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": ""
+          },
+          "cost": 41.0,
+          "rules": [
+            "Regeneration (6+)",
+            "Open Order",
+            "Reserve Move",
+            "Swiftstride",
+            "Horde",
+            "Impact Hits (X)",
+            "Dry as Dust",
+            "Nehekharan Undead",
+            "Arrows of Asaph"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Skeletal Steed",
+          "stats": {
+            "M": "8",
+            "WS": "2",
+            "BS": "-",
+            "S": "3",
+            "T": "-",
+            "W": "-",
+            "I": "2",
+            "A": "1",
+            "LD": "-",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": ""
+          },
+          "cost": 41.0,
+          "rules": [
+            "Regeneration (6+)",
+            "Open Order",
+            "Reserve Move",
+            "Swiftstride",
+            "Horde",
+            "Impact Hits (X)",
+            "Dry as Dust",
+            "Nehekharan Undead",
+            "Arrows of Asaph"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Champion",
+          "stats": {
+            "M": "-",
+            "WS": "3",
+            "BS": "2",
+            "S": "4",
+            "T": "-",
+            "W": "-",
+            "I": "2",
+            "A": "2",
+            "LD": "7",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": ""
+          },
+          "cost": 47.0,
+          "rules": [
+            "Regeneration (6+)",
+            "Open Order",
+            "Reserve Move",
+            "Swiftstride",
+            "Horde",
+            "Impact Hits (X)",
+            "Dry as Dust",
+            "Nehekharan Undead",
+            "Arrows of Asaph"
+          ],
+          "role": "champion",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Musician",
+          "cost": 6.0,
+          "is_default": false
+        },
+        {
+          "name": "Standard Bearer",
+          "cost": 6.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Necrosphinx",
+      "category": "Special",
+      "base_points": 195.0,
+      "rules": [
+        "Close Order",
+        "Indomitable (2)",
+        "Large Target",
+        "Nehekharan Undead",
+        "Regeneration (5+)",
+        "Stomp Attacks (X)",
+        "Terror",
+        "Swiftstride",
+        "Fly (X)"
+      ],
+      "models": [
+        {
+          "name": "Necrosphinx",
+          "stats": {
+            "M": "6",
+            "WS": "4",
+            "BS": "0",
+            "S": "5",
+            "T": "6",
+            "W": "6",
+            "I": "1",
+            "A": "5",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Behemoth"
+          },
+          "cost": 195.0,
+          "rules": [
+            "Fly (X)",
+            "Close Order",
+            "Large Target",
+            "Terror",
+            "Stomp Attacks (X)",
+            "Regeneration (5+)",
+            "Swiftstride",
+            "Nehekharan Undead",
+            "Indomitable (2)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Envenomed Sting",
+            "Cleaving Blades",
+            "Decapitating Strike"
+          ]
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Envenomed Sting",
+          "cost": 5.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Necrolith Colossus",
+      "category": "Special",
+      "base_points": 160.0,
+      "rules": [
+        "Close Order",
+        "Indomitable (2)",
+        "Large Target",
+        "Nehekharan Undead",
+        "Regeneration (6+)",
+        "Stomp Attacks (X)",
+        "Terror",
+        "Timmm-berrr!"
+      ],
+      "models": [
+        {
+          "name": "Necrolith Colossus",
+          "stats": {
+            "M": "6",
+            "WS": "3",
+            "BS": "2",
+            "S": "6",
+            "T": "6",
+            "W": "5",
+            "I": "1",
+            "A": "4",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Behemoth"
+          },
+          "cost": 160.0,
+          "rules": [
+            "Timmm-berrr!",
+            "Close Order",
+            "Large Target",
+            "Terror",
+            "Stomp Attacks (X)",
+            "Nehekharan Undead",
+            "Regeneration (6+)",
+            "Indomitable (2)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Paired Great Khopeshes"
+          ]
+        }
+      ],
+      "upgrades": []
+    }
+  ]
+}

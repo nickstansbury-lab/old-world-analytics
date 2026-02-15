@@ -1,0 +1,2038 @@
+{
+  "faction_name": "Grand Cathay",
+  "units": [
+    {
+      "name": "Miao Ying, The Storm Dragon",
+      "category": "Characters",
+      "base_points": 484.0,
+      "rules": [
+        "Celestial Forged Armour (5+)",
+        "Hatred (X)",
+        "Magic Resistance (-1)",
+        "Mastery Of The Elemental Winds",
+        "Stubborn",
+        "Will Of The Dragons",
+        "Rallying Cry",
+        "Fly (X)",
+        "Large Target",
+        "Stomp Attacks (X)",
+        "Swiftstride",
+        "Terror"
+      ],
+      "models": [
+        {
+          "name": "Miao Ying, The Storm Dragon",
+          "stats": {
+            "M": "4",
+            "WS": "7",
+            "BS": "5",
+            "S": "4",
+            "T": "4",
+            "W": "7",
+            "I": "7",
+            "A": "4",
+            "LD": "10",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Infantry (Named Character)"
+          },
+          "cost": 484.0,
+          "rules": [
+            "Celestial Forged Armour (5+)",
+            "Hatred (X)",
+            "Magic Resistance (-1)",
+            "Mastery Of The Elemental Winds",
+            "Stubborn",
+            "Will Of The Dragons",
+            "Rallying Cry",
+            "Fly (X)",
+            "Large Target",
+            "Stomp Attacks (X)",
+            "Swiftstride",
+            "Terror"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": []
+    },
+    {
+      "name": "Shugengan Lord",
+      "category": "Characters",
+      "base_points": 220.0,
+      "rules": [
+        "Armored Hide (X)",
+        "Celestial Forged Armour (5+)",
+        "Counter Charge",
+        "Fear",
+        "Fly (X)",
+        "Impact Hits (X)",
+        "Mastery Of The Elemental Winds",
+        "Swiftstride",
+        "Will Of The Dragons"
+      ],
+      "models": [
+        {
+          "name": "Shugengan Lord",
+          "stats": {
+            "M": "-",
+            "WS": "6",
+            "BS": "3",
+            "S": "4",
+            "T": "5",
+            "W": "7",
+            "I": "6",
+            "A": "4",
+            "LD": "9",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Monstrous Creature (Character)"
+          },
+          "cost": 220.0,
+          "rules": [
+            "Armored Hide (X)",
+            "Celestial Forged Armour (5+)",
+            "Counter Charge",
+            "Fear",
+            "Fly (X)",
+            "Impact Hits (X)",
+            "Mastery Of The Elemental Winds",
+            "Swiftstride",
+            "Will Of The Dragons"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Dragon Fire Pistol",
+          "cost": 4.0,
+          "is_default": false
+        },
+        {
+          "name": "Level 4 Wizard",
+          "cost": 60.0,
+          "is_default": false
+        },
+        {
+          "name": "Level 3 Wizard",
+          "cost": 30.0,
+          "is_default": false
+        },
+        {
+          "name": "Armour",
+          "cost": 0.0,
+          "is_default": true
+        },
+        {
+          "name": "Light Armour",
+          "cost": 0.0,
+          "is_default": false
+        },
+        {
+          "name": "Heavy Armour",
+          "cost": 4.0,
+          "is_default": false
+        },
+        {
+          "name": "Armament",
+          "cost": 0.0,
+          "is_default": false
+        },
+        {
+          "name": "Celestial Blade",
+          "cost": 6.0,
+          "is_default": false
+        },
+        {
+          "name": "Cathayan Lance",
+          "cost": 4.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Shugengan General",
+      "category": "Characters",
+      "base_points": 145.0,
+      "rules": [
+        "Armored Hide (X)",
+        "Celestial Forged Armour (5+)",
+        "Counter Charge",
+        "Fear",
+        "Fly (X)",
+        "Impact Hits (X)",
+        "Mastery Of The Elemental Winds",
+        "Swiftstride",
+        "Will Of The Dragons"
+      ],
+      "models": [
+        {
+          "name": "Shugengan General",
+          "stats": {
+            "M": "-",
+            "WS": "5",
+            "BS": "3",
+            "S": "4",
+            "T": "5",
+            "W": "6",
+            "I": "5",
+            "A": "3",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Monstrous Creature (Character)"
+          },
+          "cost": 145.0,
+          "rules": [
+            "Armored Hide (X)",
+            "Celestial Forged Armour (5+)",
+            "Counter Charge",
+            "Fear",
+            "Fly (X)",
+            "Impact Hits (X)",
+            "Mastery Of The Elemental Winds",
+            "Swiftstride",
+            "Will Of The Dragons"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Dragon Fire Pistol",
+          "cost": 4.0,
+          "is_default": false
+        },
+        {
+          "name": "Level 2 Wizard",
+          "cost": 30.0,
+          "is_default": false
+        },
+        {
+          "name": "Armour",
+          "cost": 0.0,
+          "is_default": true
+        },
+        {
+          "name": "Light Armour",
+          "cost": 0.0,
+          "is_default": false
+        },
+        {
+          "name": "Heavy Armour",
+          "cost": 4.0,
+          "is_default": false
+        },
+        {
+          "name": "Armament",
+          "cost": 0.0,
+          "is_default": false
+        },
+        {
+          "name": "Celestial Blade",
+          "cost": 6.0,
+          "is_default": false
+        },
+        {
+          "name": "Cathayan Lance",
+          "cost": 4.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Gate Master",
+      "category": "Characters",
+      "base_points": 80.0,
+      "rules": [
+        "Will Of The Dragons"
+      ],
+      "models": [
+        {
+          "name": "Gate Master",
+          "stats": {
+            "M": "4",
+            "WS": "7",
+            "BS": "4",
+            "S": "4",
+            "T": "4",
+            "W": "3",
+            "I": "4",
+            "A": "3",
+            "LD": "9",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Infantry (Character)"
+          },
+          "cost": 80.0,
+          "rules": [
+            "Will Of The Dragons"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Gate Master on Cathayan Warhorse",
+          "stats": {
+            "M": "7",
+            "WS": "7",
+            "BS": "4",
+            "S": "4",
+            "T": "4",
+            "W": "3",
+            "I": "4",
+            "A": "3",
+            "LD": "9",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Infantry (Character)"
+          },
+          "cost": 96.0,
+          "rules": [
+            "First Charge",
+            "Swiftstride",
+            "Will Of The Dragons",
+            "Counter Charge"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Armament",
+          "cost": 0.0,
+          "is_default": false
+        },
+        {
+          "name": "Celestial Blade",
+          "cost": 6.0,
+          "is_default": false
+        },
+        {
+          "name": "Cathayan Lance",
+          "cost": 4.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Gate Keeper",
+      "category": "Characters",
+      "base_points": 45.0,
+      "rules": [
+        "Will Of The Dragons"
+      ],
+      "models": [
+        {
+          "name": "Gate Keeper",
+          "stats": {
+            "M": "4",
+            "WS": "6",
+            "BS": "4",
+            "S": "4",
+            "T": "4",
+            "W": "2",
+            "I": "4",
+            "A": "2",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Infantry (Character)"
+          },
+          "cost": 45.0,
+          "rules": [
+            "Will Of The Dragons"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Gate Keeper on Cathayan Warhorse",
+          "stats": {
+            "M": "7",
+            "WS": "6",
+            "BS": "4",
+            "S": "4",
+            "T": "4",
+            "W": "2",
+            "I": "4",
+            "A": "2",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Infantry (Character)"
+          },
+          "cost": 61.0,
+          "rules": [
+            "First Charge",
+            "Swiftstride",
+            "Will Of The Dragons",
+            "Counter Charge"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Battle Standard Bearer",
+          "cost": 25.0,
+          "is_default": false
+        },
+        {
+          "name": "Armament",
+          "cost": 0.0,
+          "is_default": false
+        },
+        {
+          "name": "Celestial Blade",
+          "cost": 6.0,
+          "is_default": false
+        },
+        {
+          "name": "Cathayan Lance",
+          "cost": 4.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Lord Magistrate",
+      "category": "Characters",
+      "base_points": 65.0,
+      "rules": [
+        "Will Of The Dragons"
+      ],
+      "models": [
+        {
+          "name": "Lord Magistrate",
+          "stats": {
+            "M": "4",
+            "WS": "5",
+            "BS": "4",
+            "S": "3",
+            "T": "3",
+            "W": "3",
+            "I": "4",
+            "A": "2",
+            "LD": "9",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry (Character)"
+          },
+          "cost": 65.0,
+          "rules": [
+            "Will Of The Dragons"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Lord Magistrate on Sky Lantern",
+          "stats": {
+            "M": "1",
+            "WS": "5",
+            "BS": "4",
+            "S": "3",
+            "T": "5",
+            "W": "7",
+            "I": "4",
+            "A": "2",
+            "LD": "9",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry (Character)"
+          },
+          "cost": 200.0,
+          "rules": [
+            "Feigned Flight",
+            "Close Order",
+            "Large Target",
+            "Will Of The Dragons",
+            "Reserve Move",
+            "Scouts",
+            "Unbreakable",
+            "Fire & Flee",
+            "Impact Hits (X)",
+            "Fly (X)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Sky Lantern Crane Guns",
+            "Dragon Fire Bombs",
+            "Iron Hail Gun",
+            "Gunpowder Bombs"
+          ]
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Armament",
+          "cost": 0.0,
+          "is_default": false
+        },
+        {
+          "name": "Dragon Fire Bombs",
+          "cost": 10.0,
+          "is_default": false
+        },
+        {
+          "name": "Gunpowder Bombs",
+          "cost": 5.0,
+          "is_default": false
+        },
+        {
+          "name": "Sky Lantern Bombs",
+          "cost": 15.0,
+          "is_default": false
+        },
+        {
+          "name": "Equipment",
+          "cost": 0.0,
+          "is_default": true
+        },
+        {
+          "name": "Sky Lantern Crane Guns",
+          "cost": 0.0,
+          "is_default": false
+        },
+        {
+          "name": "Iron Hail Guns and Gunpowder Bombs",
+          "cost": 0.0,
+          "is_default": false
+        },
+        {
+          "name": "Iron Hail Guns and Dragon Fire Bombs",
+          "cost": 20.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Strategist",
+      "category": "Characters",
+      "base_points": 40.0,
+      "rules": [
+        "Will Of The Dragons"
+      ],
+      "models": [
+        {
+          "name": "Strategist",
+          "stats": {
+            "M": "4",
+            "WS": "4",
+            "BS": "4",
+            "S": "3",
+            "T": "3",
+            "W": "2",
+            "I": "3",
+            "A": "1",
+            "LD": "9",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry (Character)"
+          },
+          "cost": 40.0,
+          "rules": [
+            "Will Of The Dragons"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Strategist on Sky Lantern",
+          "stats": {
+            "M": "1",
+            "WS": "4",
+            "BS": "4",
+            "S": "3",
+            "T": "5",
+            "W": "7",
+            "I": "3",
+            "A": "1",
+            "LD": "9",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry (Character)"
+          },
+          "cost": 175.0,
+          "rules": [
+            "Feigned Flight",
+            "Close Order",
+            "Large Target",
+            "Will Of The Dragons",
+            "Reserve Move",
+            "Scouts",
+            "Unbreakable",
+            "Fire & Flee",
+            "Impact Hits (X)",
+            "Fly (X)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Sky Lantern Crane Guns",
+            "Dragon Fire Bombs",
+            "Iron Hail Gun",
+            "Gunpowder Bombs"
+          ]
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Armament",
+          "cost": 0.0,
+          "is_default": false
+        },
+        {
+          "name": "Dragon Fire Bombs",
+          "cost": 10.0,
+          "is_default": false
+        },
+        {
+          "name": "Gunpowder Bombs",
+          "cost": 5.0,
+          "is_default": false
+        },
+        {
+          "name": "Sky Lantern Bombs",
+          "cost": 15.0,
+          "is_default": false
+        },
+        {
+          "name": "Equipment",
+          "cost": 0.0,
+          "is_default": true
+        },
+        {
+          "name": "Sky Lantern Crane Guns",
+          "cost": 0.0,
+          "is_default": false
+        },
+        {
+          "name": "Iron Hail Guns and Gunpowder Bombs",
+          "cost": 0.0,
+          "is_default": false
+        },
+        {
+          "name": "Iron Hail Guns and Dragon Fire Bombs",
+          "cost": 20.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Jade Warriors",
+      "category": "Core",
+      "base_points": 0.0,
+      "rules": [
+        "Close Order",
+        "Detatchment",
+        "Regimental Unit",
+        "Will Of The Dragons"
+      ],
+      "models": [
+        {
+          "name": "Jade Warriors",
+          "stats": {
+            "M": "4",
+            "WS": "4",
+            "BS": "3",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "3",
+            "A": "1",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Infantry"
+          },
+          "cost": 8.0,
+          "rules": [
+            "Close Order",
+            "Detatchment",
+            "Stubborn",
+            "Regimental Unit",
+            "Will Of The Dragons",
+            "Drilled"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Champion",
+          "stats": {
+            "M": "4",
+            "WS": "4",
+            "BS": "3",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "3",
+            "A": "2",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Infantry"
+          },
+          "cost": 14.0,
+          "rules": [
+            "Close Order",
+            "Will Of The Dragons",
+            "Regimental Unit",
+            "Detatchment"
+          ],
+          "role": "champion",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Shield",
+          "cost": 0.0,
+          "is_default": false
+        },
+        {
+          "name": "Musician",
+          "cost": 6.0,
+          "is_default": false
+        },
+        {
+          "name": "Standard Bearer",
+          "cost": 6.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Jade Lancers",
+      "category": "Core",
+      "base_points": 0.0,
+      "rules": [
+        "Close Order",
+        "Counter Charge",
+        "Horde",
+        "Will Of The Dragons",
+        "Swiftstride"
+      ],
+      "models": [
+        {
+          "name": "Jade Lancers",
+          "stats": {
+            "M": "-",
+            "WS": "4",
+            "BS": "3",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "3",
+            "A": "1",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Cavalry"
+          },
+          "cost": 20.0,
+          "rules": [
+            "Close Order",
+            "Stubborn",
+            "Ambushers",
+            "Will Of The Dragons",
+            "Counter Charge",
+            "Swiftstride",
+            "Horde",
+            "Drilled"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Cathayan Lance"
+          ]
+        },
+        {
+          "name": "Champion",
+          "stats": {
+            "M": "-",
+            "WS": "4",
+            "BS": "3",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "3",
+            "A": "2",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Cavalry"
+          },
+          "cost": 26.0,
+          "rules": [
+            "Close Order",
+            "Will Of The Dragons",
+            "Counter Charge",
+            "Swiftstride",
+            "Horde"
+          ],
+          "role": "champion",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Drilled",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Ambushers",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Stubborn",
+          "cost": 2.0,
+          "is_default": false
+        },
+        {
+          "name": "Musician",
+          "cost": 6.0,
+          "is_default": false
+        },
+        {
+          "name": "Standard Bearer",
+          "cost": 6.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Jade Lancers",
+      "category": "Special",
+      "base_points": 0.0,
+      "rules": [
+        "Close Order",
+        "Counter Charge",
+        "Horde",
+        "Will Of The Dragons",
+        "Swiftstride"
+      ],
+      "models": [
+        {
+          "name": "Jade Lancers",
+          "stats": {
+            "M": "-",
+            "WS": "4",
+            "BS": "3",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "3",
+            "A": "1",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Cavalry"
+          },
+          "cost": 20.0,
+          "rules": [
+            "Close Order",
+            "Stubborn",
+            "Ambushers",
+            "Will Of The Dragons",
+            "Counter Charge",
+            "Swiftstride",
+            "Horde",
+            "Drilled"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Cathayan Lance"
+          ]
+        },
+        {
+          "name": "Champion",
+          "stats": {
+            "M": "-",
+            "WS": "4",
+            "BS": "3",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "3",
+            "A": "2",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Cavalry"
+          },
+          "cost": 26.0,
+          "rules": [
+            "Close Order",
+            "Will Of The Dragons",
+            "Counter Charge",
+            "Swiftstride",
+            "Horde"
+          ],
+          "role": "champion",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Drilled",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Ambushers",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Stubborn",
+          "cost": 2.0,
+          "is_default": false
+        },
+        {
+          "name": "Musician",
+          "cost": 6.0,
+          "is_default": false
+        },
+        {
+          "name": "Standard Bearer",
+          "cost": 6.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Sky Lantern",
+      "category": "Rare",
+      "base_points": 135.0,
+      "rules": [
+        "Close Order",
+        "Feigned Flight",
+        "Fire & Flee",
+        "Fly (X)",
+        "Impact Hits (X)",
+        "Large Target",
+        "Reserve Move",
+        "Scouts",
+        "Unbreakable"
+      ],
+      "models": [
+        {
+          "name": "Sky Lantern",
+          "stats": {
+            "M": "1",
+            "WS": "-",
+            "BS": "-",
+            "S": "5",
+            "T": "5",
+            "W": "7",
+            "I": "-",
+            "A": "-",
+            "LD": "-",
+            "ArmourSave": "4+",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Chariot"
+          },
+          "cost": 135.0,
+          "rules": [
+            "Feigned Flight",
+            "Close Order",
+            "Fly (X)",
+            "Large Target",
+            "Ambushers",
+            "Reserve Move",
+            "Scouts",
+            "Unbreakable",
+            "Fire & Flee",
+            "Impact Hits (X)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Sky Lantern Crane Guns",
+            "Dragon Fire Bombs",
+            "Iron Hail Gun",
+            "Gunpowder Bombs"
+          ]
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Sky Lantern Bombs",
+          "cost": 15.0,
+          "is_default": false
+        },
+        {
+          "name": "Ambushers",
+          "cost": 15.0,
+          "is_default": false
+        },
+        {
+          "name": "Equipment",
+          "cost": 0.0,
+          "is_default": true
+        },
+        {
+          "name": "Sky Lantern Crane Guns",
+          "cost": 0.0,
+          "is_default": false
+        },
+        {
+          "name": "Iron Hail Guns and Gunpowder Bombs",
+          "cost": 0.0,
+          "is_default": false
+        },
+        {
+          "name": "Iron Hail Guns and Dragon Fire Bombs",
+          "cost": 20.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Cathayan Sentinel",
+      "category": "Rare",
+      "base_points": 230.0,
+      "rules": [
+        "Close Order",
+        "Immune to Psychology",
+        "Large Target",
+        "Stomp Attacks (X)",
+        "Terror",
+        "Timmm-berrr!",
+        "Unbreakable"
+      ],
+      "models": [
+        {
+          "name": "Cathayan Sentinel",
+          "stats": {
+            "M": "6",
+            "WS": "5",
+            "BS": "1",
+            "S": "6",
+            "T": "6",
+            "W": "6",
+            "I": "3",
+            "A": "3",
+            "LD": "10",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Behemoth"
+          },
+          "cost": 230.0,
+          "rules": [
+            "Timmm-berrr!",
+            "Close Order",
+            "Magic Resistance (-2)",
+            "Large Target",
+            "Terror",
+            "Stomp Attacks (X)",
+            "Immune to Psychology",
+            "Unbreakable",
+            "Regeneration (6+)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Great Blade - Scything Blow",
+            "Great Blade - Deadly Strike"
+          ]
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Jade Sentinel",
+          "cost": 20.0,
+          "is_default": false
+        },
+        {
+          "name": "Obsidian Sentinel",
+          "cost": 25.0,
+          "is_default": false
+        },
+        {
+          "name": "Granite Sentinel",
+          "cost": 35.0,
+          "is_default": false
+        },
+        {
+          "name": "Warpstone Sentinel",
+          "cost": 40.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Fire Rain Rocket Battery",
+      "category": "Special",
+      "base_points": 130.0,
+      "rules": [
+        "Skirmishers"
+      ],
+      "models": [
+        {
+          "name": "Fire Rain Rocket Battery",
+          "stats": {
+            "M": "-",
+            "WS": "-",
+            "BS": "-",
+            "S": "-",
+            "T": "6",
+            "W": "3",
+            "I": "-",
+            "A": "-",
+            "LD": "-",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "War Machine"
+          },
+          "cost": 130.0,
+          "rules": [
+            "Skirmishers"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Bastion Rockets",
+            "Gunpowder Bombs",
+            "Rocket Battery"
+          ]
+        },
+        {
+          "name": "Ogre Loader",
+          "stats": {
+            "M": "4",
+            "WS": "3",
+            "BS": "3",
+            "S": "4",
+            "T": "4",
+            "W": "3",
+            "I": "2",
+            "A": "3",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Monsterous Infantry (Character)"
+          },
+          "cost": 35.0,
+          "rules": [
+            "Skirmishers"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Gunpowder Bombs"
+          ]
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Gunpowder Bombs",
+          "cost": 8.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Cathayan Grand Cannon",
+      "category": "Special",
+      "base_points": 130.0,
+      "rules": [
+        "Skirmishers"
+      ],
+      "models": [
+        {
+          "name": "Cathayan Grand Cannon",
+          "stats": {
+            "M": "4",
+            "WS": "3",
+            "BS": "3",
+            "S": "3",
+            "T": "3",
+            "W": "3",
+            "I": "3",
+            "A": "3",
+            "LD": "7",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": ""
+          },
+          "cost": 130.0,
+          "rules": [
+            "Skirmishers"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Grand Cannon",
+            "Gunpowder Bombs"
+          ]
+        },
+        {
+          "name": "Ogre Loader",
+          "stats": {
+            "M": "4",
+            "WS": "3",
+            "BS": "3",
+            "S": "4",
+            "T": "4",
+            "W": "3",
+            "I": "2",
+            "A": "3",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Monsterous Infantry (Character)"
+          },
+          "cost": 35.0,
+          "rules": [
+            "Skirmishers"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Gunpowder Bombs"
+          ]
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Gunpowder Bombs",
+          "cost": 8.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Cathayan Sentinel",
+      "category": "Special",
+      "base_points": 230.0,
+      "rules": [
+        "Close Order",
+        "Immune to Psychology",
+        "Large Target",
+        "Stomp Attacks (X)",
+        "Terror",
+        "Timmm-berrr!",
+        "Unbreakable"
+      ],
+      "models": [
+        {
+          "name": "Cathayan Sentinel",
+          "stats": {
+            "M": "6",
+            "WS": "5",
+            "BS": "1",
+            "S": "6",
+            "T": "6",
+            "W": "6",
+            "I": "3",
+            "A": "3",
+            "LD": "10",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Behemoth"
+          },
+          "cost": 230.0,
+          "rules": [
+            "Timmm-berrr!",
+            "Close Order",
+            "Magic Resistance (-2)",
+            "Large Target",
+            "Terror",
+            "Stomp Attacks (X)",
+            "Immune to Psychology",
+            "Unbreakable",
+            "Regeneration (6+)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Great Blade - Scything Blow",
+            "Great Blade - Deadly Strike"
+          ]
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Jade Sentinel",
+          "cost": 20.0,
+          "is_default": false
+        },
+        {
+          "name": "Obsidian Sentinel",
+          "cost": 25.0,
+          "is_default": false
+        },
+        {
+          "name": "Granite Sentinel",
+          "cost": 35.0,
+          "is_default": false
+        },
+        {
+          "name": "Warpstone Sentinel",
+          "cost": 40.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Sky Lantern",
+      "category": "Special",
+      "base_points": 135.0,
+      "rules": [
+        "Close Order",
+        "Feigned Flight",
+        "Fire & Flee",
+        "Fly (X)",
+        "Impact Hits (X)",
+        "Large Target",
+        "Reserve Move",
+        "Scouts",
+        "Unbreakable"
+      ],
+      "models": [
+        {
+          "name": "Sky Lantern",
+          "stats": {
+            "M": "1",
+            "WS": "-",
+            "BS": "-",
+            "S": "5",
+            "T": "5",
+            "W": "7",
+            "I": "-",
+            "A": "-",
+            "LD": "-",
+            "ArmourSave": "4+",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Chariot"
+          },
+          "cost": 135.0,
+          "rules": [
+            "Feigned Flight",
+            "Close Order",
+            "Fly (X)",
+            "Large Target",
+            "Ambushers",
+            "Reserve Move",
+            "Scouts",
+            "Unbreakable",
+            "Fire & Flee",
+            "Impact Hits (X)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Sky Lantern Crane Guns",
+            "Dragon Fire Bombs",
+            "Iron Hail Gun",
+            "Gunpowder Bombs"
+          ]
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Sky Lantern Bombs",
+          "cost": 15.0,
+          "is_default": false
+        },
+        {
+          "name": "Ambushers",
+          "cost": 15.0,
+          "is_default": false
+        },
+        {
+          "name": "Equipment",
+          "cost": 0.0,
+          "is_default": true
+        },
+        {
+          "name": "Sky Lantern Crane Guns",
+          "cost": 0.0,
+          "is_default": false
+        },
+        {
+          "name": "Iron Hail Guns and Gunpowder Bombs",
+          "cost": 0.0,
+          "is_default": false
+        },
+        {
+          "name": "Iron Hail Guns and Dragon Fire Bombs",
+          "cost": 20.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "State Troops",
+      "category": "Unknown",
+      "base_points": 0.0,
+      "rules": [
+        "Close Order",
+        "Detatchment",
+        "Regimental Unit",
+        "Horde",
+        "Cathayan Black Powder"
+      ],
+      "models": [
+        {
+          "name": "State Troops",
+          "stats": {
+            "M": "4",
+            "WS": "3",
+            "BS": "3",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "3",
+            "A": "1",
+            "LD": "7",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 5.0,
+          "rules": [
+            "Close Order",
+            "Detatchment",
+            "Regimental Unit",
+            "Horde",
+            "Cathayan Black Powder"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Champion",
+          "stats": {
+            "M": "4",
+            "WS": "3",
+            "BS": "3",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "3",
+            "A": "2",
+            "LD": "7",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 5.0,
+          "rules": [
+            "Close Order",
+            "Detatchment",
+            "Regimental Unit",
+            "Horde",
+            "Cathayan Black Powder"
+          ],
+          "role": "champion",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Shield",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Halberds",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Thrusting Spear",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Musician",
+          "cost": 5.0,
+          "is_default": false
+        },
+        {
+          "name": "Standard Bearer",
+          "cost": 5.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "State Missile Troops",
+      "category": "Unknown",
+      "base_points": 0.0,
+      "rules": [
+        "Close Order",
+        "Detatchment",
+        "Regimental Unit",
+        "Cathayan Black Powder"
+      ],
+      "models": [
+        {
+          "name": "State Missile Troops",
+          "stats": {
+            "M": "4",
+            "WS": "3",
+            "BS": "3",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "3",
+            "A": "1",
+            "LD": "7",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 7.0,
+          "rules": [
+            "Close Order",
+            "Detatchment",
+            "Cathayan Black Powder",
+            "Regimental Unit",
+            "Drilled"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Hochland Long Rifle"
+          ]
+        },
+        {
+          "name": "Champion",
+          "stats": {
+            "M": "4",
+            "WS": "3",
+            "BS": "4",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "3",
+            "A": "1",
+            "LD": "7",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 12.0,
+          "rules": [
+            "Close Order",
+            "Regimental Unit",
+            "Detatchment",
+            "Cathayan Black Powder"
+          ],
+          "role": "champion",
+          "default_weapons": [
+            "Hochland Long Rifle"
+          ]
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Light Armour",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Drilled",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Handgun",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Equipment",
+          "cost": 0.0,
+          "is_default": false
+        },
+        {
+          "name": "Brace of Pistols",
+          "cost": 5.0,
+          "is_default": false
+        },
+        {
+          "name": "Hochland Long Rifle",
+          "cost": 8.0,
+          "is_default": false
+        },
+        {
+          "name": "Repeater Handgun",
+          "cost": 5.0,
+          "is_default": false
+        },
+        {
+          "name": "Musician",
+          "cost": 5.0,
+          "is_default": false
+        },
+        {
+          "name": "Standard Bearer",
+          "cost": 5.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Free Company Militia",
+      "category": "Unknown",
+      "base_points": 0.0,
+      "rules": [
+        "Open Order",
+        "Detatchment",
+        "Horde",
+        "Impetuous",
+        "Levies",
+        "Warband",
+        "Cathayan Black Powder"
+      ],
+      "models": [
+        {
+          "name": "Free Company Militia",
+          "stats": {
+            "M": "4",
+            "WS": "3",
+            "BS": "3",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "3",
+            "A": "1",
+            "LD": "6",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 6.0,
+          "rules": [
+            "Levies",
+            "Open Order",
+            "Detatchment",
+            "Impetuous",
+            "Horde",
+            "Warband",
+            "Cathayan Black Powder"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Militia Fighter",
+          "stats": {
+            "M": "4",
+            "WS": "3",
+            "BS": "3",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "3",
+            "A": "1",
+            "LD": "6",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 6.0,
+          "rules": [
+            "Levies",
+            "Open Order",
+            "Detatchment",
+            "Impetuous",
+            "Horde",
+            "Warband",
+            "Cathayan Black Powder"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Champion",
+          "stats": {
+            "M": "4",
+            "WS": "3",
+            "BS": "3",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "3",
+            "A": "2",
+            "LD": "7",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 7.0,
+          "rules": [
+            "Levies",
+            "Open Order",
+            "Detatchment",
+            "Impetuous",
+            "Horde",
+            "Warband",
+            "Cathayan Black Powder"
+          ],
+          "role": "champion",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": []
+    },
+    {
+      "name": "Empire Archers",
+      "category": "Unknown",
+      "base_points": 0.0,
+      "rules": [
+        "Open Order",
+        "Detatchment",
+        "Move Through Cover",
+        "Skirmishers",
+        "Vanguard"
+      ],
+      "models": [
+        {
+          "name": "Empire Archers",
+          "stats": {
+            "M": "4",
+            "WS": "3",
+            "BS": "3",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "3",
+            "A": "1",
+            "LD": "7",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 7.0,
+          "rules": [
+            "Vanguard",
+            "Open Order",
+            "Detatchment",
+            "Skirmishers",
+            "Scouts",
+            "Fire & Flee",
+            "Move Through Cover"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Archer",
+          "stats": {
+            "M": "4",
+            "WS": "3",
+            "BS": "3",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "3",
+            "A": "1",
+            "LD": "7",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 7.0,
+          "rules": [
+            "Vanguard",
+            "Open Order",
+            "Detatchment",
+            "Skirmishers",
+            "Scouts",
+            "Fire & Flee",
+            "Move Through Cover"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Champion",
+          "stats": {
+            "M": "4",
+            "WS": "3",
+            "BS": "4",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "3",
+            "A": "1",
+            "LD": "7",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 12.0,
+          "rules": [
+            "Vanguard",
+            "Open Order",
+            "Detatchment",
+            "Skirmishers",
+            "Move Through Cover"
+          ],
+          "role": "champion",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Fire & Flee",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Scouts",
+          "cost": 1.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Pistoliers",
+      "category": "Unknown",
+      "base_points": 0.0,
+      "rules": [
+        "Open Order",
+        "Counter Charge",
+        "Fast Cavalry",
+        "Skirmishers",
+        "Swiftstride",
+        "Fire & Flee",
+        "Impetuous",
+        "Cathayan Black Powder"
+      ],
+      "models": [
+        {
+          "name": "Pistoliers",
+          "stats": {
+            "M": "8",
+            "WS": "3",
+            "BS": "-",
+            "S": "3",
+            "T": "-",
+            "W": "-",
+            "I": "3",
+            "A": "1",
+            "LD": "-",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Light Cavalry"
+          },
+          "cost": 16.0,
+          "rules": [
+            "Vanguard",
+            "Fast Cavalry",
+            "Open Order",
+            "Counter Charge",
+            "Impetuous",
+            "Skirmishers",
+            "Swiftstride",
+            "Fire & Flee",
+            "Cathayan Black Powder"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Grenade Launching Blunderbuss"
+          ]
+        },
+        {
+          "name": "Champion",
+          "stats": {
+            "M": "-",
+            "WS": "3",
+            "BS": "4",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "3",
+            "A": "1",
+            "LD": "7",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Light Cavalry"
+          },
+          "cost": 24.0,
+          "rules": [
+            "Fast Cavalry",
+            "Open Order",
+            "Counter Charge",
+            "Impetuous",
+            "Skirmishers",
+            "Swiftstride",
+            "Fire & Flee",
+            "Cathayan Black Powder"
+          ],
+          "role": "champion",
+          "default_weapons": [
+            "Grenade Launching Blunderbuss"
+          ]
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Vanguard",
+          "cost": 2.0,
+          "is_default": false
+        },
+        {
+          "name": "Equipment",
+          "cost": 0.0,
+          "is_default": false
+        },
+        {
+          "name": "Grenade Launching Blunderbuss",
+          "cost": 5.0,
+          "is_default": false
+        },
+        {
+          "name": "Repeater Handgun",
+          "cost": 5.0,
+          "is_default": false
+        },
+        {
+          "name": "Musician",
+          "cost": 6.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Outriders",
+      "category": "Unknown",
+      "base_points": 0.0,
+      "rules": [
+        "Open Order",
+        "Vanguard",
+        "Fast Cavalry",
+        "Skirmishers",
+        "Swiftstride",
+        "Fire & Flee",
+        "Cathayan Black Powder"
+      ],
+      "models": [
+        {
+          "name": "Outriders",
+          "stats": {
+            "M": "8",
+            "WS": "3",
+            "BS": "-",
+            "S": "3",
+            "T": "-",
+            "W": "-",
+            "I": "3",
+            "A": "1",
+            "LD": "-",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Light Cavalry"
+          },
+          "cost": 19.0,
+          "rules": [
+            "Vanguard",
+            "Fast Cavalry",
+            "Open Order",
+            "Skirmishers",
+            "Swiftstride",
+            "Fire & Flee",
+            "Cathayan Black Powder"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Grenade Launching Blunderbuss"
+          ]
+        },
+        {
+          "name": "Champion",
+          "stats": {
+            "M": "-",
+            "WS": "3",
+            "BS": "5",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "3",
+            "A": "1",
+            "LD": "7",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Light Cavalry"
+          },
+          "cost": 25.0,
+          "rules": [
+            "Vanguard",
+            "Fast Cavalry",
+            "Open Order",
+            "Skirmishers",
+            "Swiftstride",
+            "Fire & Flee",
+            "Cathayan Black Powder"
+          ],
+          "role": "champion",
+          "default_weapons": [
+            "Grenade Launching Blunderbuss"
+          ]
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Equipment",
+          "cost": 0.0,
+          "is_default": false
+        },
+        {
+          "name": "Grenade Launching Blunderbuss",
+          "cost": 10.0,
+          "is_default": false
+        },
+        {
+          "name": "Musician",
+          "cost": 6.0,
+          "is_default": false
+        }
+      ]
+    }
+  ]
+}

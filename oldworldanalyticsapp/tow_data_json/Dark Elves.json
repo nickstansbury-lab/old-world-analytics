@@ -1,0 +1,2829 @@
+{
+  "faction_name": "Dark Elves",
+  "units": [
+    {
+      "name": "Dark Elf Master",
+      "category": "Characters",
+      "base_points": 70.0,
+      "rules": [
+        "Eternal Hatred",
+        "Hatred (X)",
+        "Murderous",
+        "Strike First"
+      ],
+      "models": [
+        {
+          "name": "Dark Elf Master",
+          "stats": {
+            "M": "5",
+            "WS": "6",
+            "BS": "6",
+            "S": "4",
+            "T": "3",
+            "W": "2",
+            "I": "5",
+            "A": "3",
+            "LD": "9",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry (Character)"
+          },
+          "cost": 70.0,
+          "rules": [
+            "Eternal Hatred",
+            "Hatred (X)",
+            "Murderous",
+            "Strike First"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Dark Elf Master on Cold One",
+          "stats": {
+            "M": "7",
+            "WS": "6",
+            "BS": "6",
+            "S": "4",
+            "T": "4",
+            "W": "2",
+            "I": "5",
+            "A": "3",
+            "LD": "9",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry (Character)"
+          },
+          "cost": 88.0,
+          "rules": [
+            "Armored Hide (X)",
+            "Eternal Hatred",
+            "Murderous",
+            "Armor Bane (X)",
+            "Hatred (X)",
+            "First Charge",
+            "Swiftstride",
+            "Fear",
+            "Stupidity",
+            "Strike First"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Dark Elf Master on Cold One Chariot",
+          "stats": {
+            "M": "5",
+            "WS": "6",
+            "BS": "6",
+            "S": "4",
+            "T": "5",
+            "W": "4",
+            "I": "5",
+            "A": "3",
+            "LD": "9",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry (Character)"
+          },
+          "cost": 195.0,
+          "rules": [
+            "Eternal Hatred",
+            "Close Order",
+            "Elven Reflexes",
+            "Murderous",
+            "Hatred (X)",
+            "Armor Bane (X)",
+            "First Charge",
+            "Fear",
+            "Stupidity",
+            "Strike First",
+            "Impact Hits (X)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Shield",
+          "cost": 2.0,
+          "is_default": false
+        },
+        {
+          "name": "Sea Dragon Cloak",
+          "cost": 4.0,
+          "is_default": false
+        },
+        {
+          "name": "Battle Standard Bearer",
+          "cost": 25.0,
+          "is_default": false
+        },
+        {
+          "name": "Armour",
+          "cost": 0.0,
+          "is_default": true
+        },
+        {
+          "name": "Light Armour",
+          "cost": 0.0,
+          "is_default": false
+        },
+        {
+          "name": "Heavy Armour",
+          "cost": 3.0,
+          "is_default": false
+        },
+        {
+          "name": "Full Plate Armour",
+          "cost": 6.0,
+          "is_default": false
+        },
+        {
+          "name": "Additional Hand Weapon",
+          "cost": 3.0,
+          "is_default": false
+        },
+        {
+          "name": "Great Weapon",
+          "cost": 4.0,
+          "is_default": false
+        },
+        {
+          "name": "Halberd",
+          "cost": 3.0,
+          "is_default": false
+        },
+        {
+          "name": "Lance",
+          "cost": 4.0,
+          "is_default": false
+        },
+        {
+          "name": "Repeater Crossbow",
+          "cost": 6.0,
+          "is_default": false
+        },
+        {
+          "name": "Repeater Handbow",
+          "cost": 5.0,
+          "is_default": false
+        },
+        {
+          "name": "Brace of Repeater Handbows",
+          "cost": 10.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Dark Elf Dreadlord",
+      "category": "Characters",
+      "base_points": 130.0,
+      "rules": [
+        "Eternal Hatred",
+        "Hatred (X)",
+        "Murderous",
+        "Strike First"
+      ],
+      "models": [
+        {
+          "name": "Dark Elf Dreadlord",
+          "stats": {
+            "M": "5",
+            "WS": "7",
+            "BS": "7",
+            "S": "4",
+            "T": "3",
+            "W": "3",
+            "I": "6",
+            "A": "4",
+            "LD": "10",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry (Character)"
+          },
+          "cost": 130.0,
+          "rules": [
+            "Eternal Hatred",
+            "Hatred (X)",
+            "Murderous",
+            "Strike First"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Dark Elf Dreadlord on Cold One",
+          "stats": {
+            "M": "7",
+            "WS": "7",
+            "BS": "7",
+            "S": "4",
+            "T": "4",
+            "W": "3",
+            "I": "6",
+            "A": "4",
+            "LD": "10",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry (Character)"
+          },
+          "cost": 148.0,
+          "rules": [
+            "Armored Hide (X)",
+            "Eternal Hatred",
+            "Murderous",
+            "Armor Bane (X)",
+            "Hatred (X)",
+            "First Charge",
+            "Swiftstride",
+            "Fear",
+            "Stupidity",
+            "Strike First"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Dark Elf Dreadlord on Cold One Chariot",
+          "stats": {
+            "M": "5",
+            "WS": "7",
+            "BS": "7",
+            "S": "4",
+            "T": "5",
+            "W": "4",
+            "I": "6",
+            "A": "4",
+            "LD": "10",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry (Character)"
+          },
+          "cost": 255.0,
+          "rules": [
+            "Eternal Hatred",
+            "Close Order",
+            "Elven Reflexes",
+            "Murderous",
+            "Hatred (X)",
+            "Armor Bane (X)",
+            "First Charge",
+            "Fear",
+            "Stupidity",
+            "Strike First",
+            "Impact Hits (X)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Dark Elf Dreadlord on Black Dragon",
+          "stats": {
+            "M": "6",
+            "WS": "7",
+            "BS": "7",
+            "S": "4",
+            "T": "6",
+            "W": "9",
+            "I": "6",
+            "A": "4",
+            "LD": "10",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry (Character)"
+          },
+          "cost": 410.0,
+          "rules": [
+            "Eternal Hatred",
+            "Close Order",
+            "Large Target",
+            "Terror",
+            "Stomp Attacks (X)",
+            "Murderous",
+            "Hatred (X)",
+            "Swiftstride",
+            "Strike First",
+            "Fly (10)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Wicked Claws",
+            "Serrated Maw",
+            "Noxious Breath"
+          ]
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Shield",
+          "cost": 2.0,
+          "is_default": false
+        },
+        {
+          "name": "Sea Dragon Cloak",
+          "cost": 4.0,
+          "is_default": false
+        },
+        {
+          "name": "Armour",
+          "cost": 0.0,
+          "is_default": true
+        },
+        {
+          "name": "Light Armour",
+          "cost": 0.0,
+          "is_default": false
+        },
+        {
+          "name": "Heavy Armour",
+          "cost": 3.0,
+          "is_default": false
+        },
+        {
+          "name": "Full Plate Armour",
+          "cost": 6.0,
+          "is_default": false
+        },
+        {
+          "name": "Additional Hand Weapon",
+          "cost": 3.0,
+          "is_default": false
+        },
+        {
+          "name": "Great Weapon",
+          "cost": 4.0,
+          "is_default": false
+        },
+        {
+          "name": "Halberd",
+          "cost": 3.0,
+          "is_default": false
+        },
+        {
+          "name": "Lance",
+          "cost": 4.0,
+          "is_default": false
+        },
+        {
+          "name": "Repeater Crossbow",
+          "cost": 6.0,
+          "is_default": false
+        },
+        {
+          "name": "Repeater Handbow",
+          "cost": 5.0,
+          "is_default": false
+        },
+        {
+          "name": "Brace of Repeater Handbows",
+          "cost": 10.0,
+          "is_default": false
+        },
+        {
+          "name": "Venomous Tail",
+          "cost": 15.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Dark Elf Sorceress",
+      "category": "Characters",
+      "base_points": 75.0,
+      "rules": [
+        "Eternal Hatred",
+        "Hatred (X)",
+        "Murderous",
+        "Elven Reflexes",
+        "Hekarti's Blessing",
+        "Lore Of Naggaroth"
+      ],
+      "models": [
+        {
+          "name": "Dark Elf Sorceress",
+          "stats": {
+            "M": "5",
+            "WS": "4",
+            "BS": "4",
+            "S": "3",
+            "T": "3",
+            "W": "2",
+            "I": "4",
+            "A": "1",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry (Character)"
+          },
+          "cost": 75.0,
+          "rules": [
+            "Eternal Hatred",
+            "Hatred (X)",
+            "Murderous",
+            "Elven Reflexes",
+            "Hekarti's Blessing",
+            "Lore Of Naggaroth"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Dark Elf Sorceress on Dark Pegasus",
+          "stats": {
+            "M": "8",
+            "WS": "4",
+            "BS": "4",
+            "S": "3",
+            "T": "3",
+            "W": "3",
+            "I": "4",
+            "A": "1",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry (Character)"
+          },
+          "cost": 110.0,
+          "rules": [
+            "Hekarti's Blessing",
+            "Eternal Hatred",
+            "Elven Reflexes",
+            "Counter Charge",
+            "Murderous",
+            "Hatred (X)",
+            "Armor Bane (X)",
+            "Swiftstride",
+            "First Charge",
+            "Lore Of Naggaroth",
+            "Fly (X)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Dark Elf Sorceress on Cold One",
+          "stats": {
+            "M": "7",
+            "WS": "4",
+            "BS": "4",
+            "S": "3",
+            "T": "4",
+            "W": "2",
+            "I": "4",
+            "A": "1",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry (Character)"
+          },
+          "cost": 93.0,
+          "rules": [
+            "Hekarti's Blessing",
+            "Eternal Hatred",
+            "Armored Hide (X)",
+            "Elven Reflexes",
+            "Murderous",
+            "Hatred (X)",
+            "Armor Bane (X)",
+            "Swiftstride",
+            "Fear",
+            "Stupidity",
+            "First Charge",
+            "Lore Of Naggaroth"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Level 2 Wizard",
+          "cost": 30.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Dark Elf Supreme Sorceress",
+      "category": "Characters",
+      "base_points": 150.0,
+      "rules": [
+        "Eternal Hatred",
+        "Hatred (X)",
+        "Murderous",
+        "Elven Reflexes",
+        "Hekarti's Blessing",
+        "Lore Of Naggaroth"
+      ],
+      "models": [
+        {
+          "name": "Dark Elf Supreme Sorceress",
+          "stats": {
+            "M": "5",
+            "WS": "4",
+            "BS": "4",
+            "S": "3",
+            "T": "3",
+            "W": "3",
+            "I": "5",
+            "A": "2",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry (Character)"
+          },
+          "cost": 150.0,
+          "rules": [
+            "Eternal Hatred",
+            "Hatred (X)",
+            "Murderous",
+            "Elven Reflexes",
+            "Hekarti's Blessing",
+            "Lore Of Naggaroth"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Dark Elf Supreme Sorceress on Dark Pegasus",
+          "stats": {
+            "M": "8",
+            "WS": "4",
+            "BS": "4",
+            "S": "3",
+            "T": "3",
+            "W": "4",
+            "I": "5",
+            "A": "2",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry (Character)"
+          },
+          "cost": 185.0,
+          "rules": [
+            "Hekarti's Blessing",
+            "Eternal Hatred",
+            "Elven Reflexes",
+            "Counter Charge",
+            "Murderous",
+            "Hatred (X)",
+            "Armor Bane (X)",
+            "Swiftstride",
+            "First Charge",
+            "Lore Of Naggaroth",
+            "Fly (X)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Dark Elf Supreme Sorceress on Cold One",
+          "stats": {
+            "M": "7",
+            "WS": "4",
+            "BS": "4",
+            "S": "3",
+            "T": "4",
+            "W": "3",
+            "I": "5",
+            "A": "2",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry (Character)"
+          },
+          "cost": 168.0,
+          "rules": [
+            "Hekarti's Blessing",
+            "Eternal Hatred",
+            "Armored Hide (X)",
+            "Elven Reflexes",
+            "Murderous",
+            "Hatred (X)",
+            "Armor Bane (X)",
+            "Swiftstride",
+            "Fear",
+            "Stupidity",
+            "First Charge",
+            "Lore Of Naggaroth"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Dark Elf Supreme Sorceress on Black Dragon",
+          "stats": {
+            "M": "6",
+            "WS": "4",
+            "BS": "4",
+            "S": "3",
+            "T": "6",
+            "W": "9",
+            "I": "5",
+            "A": "2",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry (Character)"
+          },
+          "cost": 430.0,
+          "rules": [
+            "Hekarti's Blessing",
+            "Eternal Hatred",
+            "Close Order",
+            "Elven Reflexes",
+            "Large Target",
+            "Terror",
+            "Stomp Attacks (X)",
+            "Murderous",
+            "Hatred (X)",
+            "Swiftstride",
+            "Lore Of Naggaroth",
+            "Fly (10)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Wicked Claws",
+            "Serrated Maw",
+            "Noxious Breath"
+          ]
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Level 4 Wizard",
+          "cost": 30.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "High Beastmaster",
+      "category": "Characters",
+      "base_points": 75.0,
+      "rules": [
+        "Eternal Hatred",
+        "Hatred (X)",
+        "Murderous",
+        "Strike First"
+      ],
+      "models": [
+        {
+          "name": "High Beastmaster",
+          "stats": {
+            "M": "-",
+            "WS": "7",
+            "BS": "7",
+            "S": "4",
+            "T": "3",
+            "W": "3",
+            "I": "5",
+            "A": "3",
+            "LD": "9",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry (Character)"
+          },
+          "cost": 75.0,
+          "rules": [
+            "Eternal Hatred",
+            "Hatred (X)",
+            "Murderous",
+            "Strike First"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "High Beastmaster on Scourgerunner Chariot",
+          "stats": {
+            "M": "-",
+            "WS": "7",
+            "BS": "7",
+            "S": "4",
+            "T": "4",
+            "W": "4",
+            "I": "5",
+            "A": "3",
+            "LD": "9",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry (Character)"
+          },
+          "cost": 160.0,
+          "rules": [
+            "Sea Dragon Cloak",
+            "Eternal Hatred",
+            "Elven Reflexes",
+            "Open Order",
+            "Murderous",
+            "Hatred (X)",
+            "Swiftstride",
+            "Strike First",
+            "Impact Hits (X)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Ravager Harpoon"
+          ]
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Shield",
+          "cost": 2.0,
+          "is_default": false
+        },
+        {
+          "name": "Sea Dragon Cloak",
+          "cost": 4.0,
+          "is_default": false
+        },
+        {
+          "name": "Cavalry Spear",
+          "cost": 2.0,
+          "is_default": false
+        },
+        {
+          "name": "Repeater Crossbow",
+          "cost": 6.0,
+          "is_default": false
+        },
+        {
+          "name": "Armour",
+          "cost": 0.0,
+          "is_default": true
+        },
+        {
+          "name": "Light Armour",
+          "cost": 0.0,
+          "is_default": false
+        },
+        {
+          "name": "Heavy Armour",
+          "cost": 3.0,
+          "is_default": false
+        },
+        {
+          "name": "Venomous Tail",
+          "cost": 15.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Death Hag",
+      "category": "Characters",
+      "base_points": 70.0,
+      "rules": [
+        "Eternal Hatred",
+        "Hatred (X)",
+        "Murderous",
+        "Strike First",
+        "Loner",
+        "Poisoned Attacks",
+        "Frenzy"
+      ],
+      "models": [
+        {
+          "name": "Death Hag",
+          "stats": {
+            "M": "5",
+            "WS": "6",
+            "BS": "6",
+            "S": "4",
+            "T": "3",
+            "W": "2",
+            "I": "7",
+            "A": "3",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry (Character)"
+          },
+          "cost": 70.0,
+          "rules": [
+            "Eternal Hatred",
+            "Hatred (X)",
+            "Murderous",
+            "Strike First",
+            "Loner",
+            "Poisoned Attacks",
+            "Frenzy"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Death Hag on Cauldron Of Blood",
+          "stats": {
+            "M": "2",
+            "WS": "6",
+            "BS": "6",
+            "S": "4",
+            "T": "5",
+            "W": "5",
+            "I": "7",
+            "A": "3",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry (Character)"
+          },
+          "cost": 220.0,
+          "rules": [
+            "Eternal Hatred",
+            "Close Order",
+            "Large Target",
+            "Elven Reflexes",
+            "Magic Resistance (-X)",
+            "Dragged Along",
+            "Terror",
+            "Loner",
+            "Poisoned Attacks",
+            "Frenzy",
+            "Murderous",
+            "Hatred (X)",
+            "Strike First",
+            "Impact Hits (X)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Cry of War",
+          "cost": 15.0,
+          "is_default": false
+        },
+        {
+          "name": "Rune of Khaine",
+          "cost": 10.0,
+          "is_default": false
+        },
+        {
+          "name": "Witchbrew",
+          "cost": 20.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Khainite Assassin",
+      "category": "Characters",
+      "base_points": 80.0,
+      "rules": [
+        "Eternal Hatred",
+        "Hatred (X)",
+        "Murderous",
+        "Strike First",
+        "Immune to Psychology"
+      ],
+      "models": [
+        {
+          "name": "Khainite Assassin",
+          "stats": {
+            "M": "5",
+            "WS": "8",
+            "BS": "7",
+            "S": "4",
+            "T": "3",
+            "W": "2",
+            "I": "7",
+            "A": "3",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry (Character)"
+          },
+          "cost": 80.0,
+          "rules": [
+            "Eternal Hatred",
+            "Hatred (X)",
+            "Murderous",
+            "Strike First",
+            "Immune to Psychology"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Additional Hand Weapon",
+          "cost": 3.0,
+          "is_default": false
+        },
+        {
+          "name": "Repeater Handbow",
+          "cost": 5.0,
+          "is_default": false
+        },
+        {
+          "name": "Black Lotus",
+          "cost": 5.0,
+          "is_default": false
+        },
+        {
+          "name": "Dark Venom",
+          "cost": 15.0,
+          "is_default": false
+        },
+        {
+          "name": "Manbane",
+          "cost": 15.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Dark Elf Warriors",
+      "category": "Core",
+      "base_points": 0.0,
+      "rules": [
+        "Close Order",
+        "Elven Reflexes",
+        "Hatred (X)",
+        "Martial Prowess"
+      ],
+      "models": [
+        {
+          "name": "Dark Elf Warriors",
+          "stats": {
+            "M": "5",
+            "WS": "4",
+            "BS": "4",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "4",
+            "A": "1",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 8.0,
+          "rules": [
+            "Close Order",
+            "Elven Reflexes",
+            "Veteran",
+            "Hatred (X)",
+            "Martial Prowess"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Champion",
+          "stats": {
+            "M": "5",
+            "WS": "4",
+            "BS": "4",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "4",
+            "A": "2",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 13.0,
+          "rules": [
+            "Close Order",
+            "Martial Prowess",
+            "Elven Reflexes",
+            "Hatred (X)"
+          ],
+          "role": "champion",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Thrusting Spear",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Veteran",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Musician",
+          "cost": 5.0,
+          "is_default": false
+        },
+        {
+          "name": "Standard Bearer",
+          "cost": 5.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Repeater Crossbowmen",
+      "category": "Core",
+      "base_points": 0.0,
+      "rules": [
+        "Close Order",
+        "Elven Reflexes",
+        "Hatred (X)",
+        "Martial Prowess"
+      ],
+      "models": [
+        {
+          "name": "Repeater Crossbowmen",
+          "stats": {
+            "M": "5",
+            "WS": "4",
+            "BS": "4",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "4",
+            "A": "1",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 11.0,
+          "rules": [
+            "Close Order",
+            "Elven Reflexes",
+            "Veteran",
+            "Hatred (X)",
+            "Martial Prowess"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Champion",
+          "stats": {
+            "M": "5",
+            "WS": "4",
+            "BS": "5",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "4",
+            "A": "1",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 16.0,
+          "rules": [
+            "Close Order",
+            "Martial Prowess",
+            "Elven Reflexes",
+            "Hatred (X)"
+          ],
+          "role": "champion",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Shield",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Veteran",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Musician",
+          "cost": 5.0,
+          "is_default": false
+        },
+        {
+          "name": "Standard Bearer",
+          "cost": 5.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Black Ark Corsairs",
+      "category": "Core",
+      "base_points": 0.0,
+      "rules": [
+        "Open Order",
+        "Elven Reflexes",
+        "Hatred (X)",
+        "Move Through Cover",
+        "Sea Dragon Cloak"
+      ],
+      "models": [
+        {
+          "name": "Black Ark Corsairs",
+          "stats": {
+            "M": "5",
+            "WS": "4",
+            "BS": "4",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "4",
+            "A": "1",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 11.0,
+          "rules": [
+            "Sea Dragon Cloak",
+            "Elven Reflexes",
+            "Open Order",
+            "Hatred (X)",
+            "Move Through Cover"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Corsair",
+          "stats": {
+            "M": "5",
+            "WS": "4",
+            "BS": "4",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "4",
+            "A": "1",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 11.0,
+          "rules": [
+            "Sea Dragon Cloak",
+            "Elven Reflexes",
+            "Open Order",
+            "Hatred (X)",
+            "Move Through Cover"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Champion",
+          "stats": {
+            "M": "5",
+            "WS": "4",
+            "BS": "4",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "4",
+            "A": "2",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 17.0,
+          "rules": [
+            "Sea Dragon Cloak",
+            "Elven Reflexes",
+            "Open Order",
+            "Hatred (X)",
+            "Move Through Cover"
+          ],
+          "role": "champion",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Additional Hand Weapon",
+          "cost": 0.0,
+          "is_default": false
+        },
+        {
+          "name": "Musician",
+          "cost": 6.0,
+          "is_default": false
+        },
+        {
+          "name": "Standard Bearer",
+          "cost": 6.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Black Guard Of Naggarond",
+      "category": "Special",
+      "base_points": 0.0,
+      "rules": [
+        "Close Order",
+        "Elven Reflexes",
+        "Hatred (X)",
+        "Martial Prowess",
+        "Eternal Hatred",
+        "Stubborn",
+        "Immune to Psychology"
+      ],
+      "models": [
+        {
+          "name": "Black Guard Of Naggarond",
+          "stats": {
+            "M": "5",
+            "WS": "5",
+            "BS": "4",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "5",
+            "A": "1",
+            "LD": "9",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 15.0,
+          "rules": [
+            "Close Order",
+            "Eternal Hatred",
+            "Elven Reflexes",
+            "Stubborn",
+            "Hatred (X)",
+            "Immune to Psychology",
+            "Martial Prowess",
+            "Drilled"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Dread Halberd"
+          ]
+        },
+        {
+          "name": "Black Guard",
+          "stats": {
+            "M": "5",
+            "WS": "5",
+            "BS": "4",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "5",
+            "A": "1",
+            "LD": "9",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 15.0,
+          "rules": [
+            "Close Order",
+            "Eternal Hatred",
+            "Elven Reflexes",
+            "Stubborn",
+            "Hatred (X)",
+            "Immune to Psychology",
+            "Martial Prowess",
+            "Drilled"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Dread Halberd"
+          ]
+        },
+        {
+          "name": "Champion",
+          "stats": {
+            "M": "5",
+            "WS": "5",
+            "BS": "4",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "5",
+            "A": "2",
+            "LD": "9",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 22.0,
+          "rules": [
+            "Close Order",
+            "Eternal Hatred",
+            "Elven Reflexes",
+            "Stubborn",
+            "Hatred (X)",
+            "Immune to Psychology",
+            "Martial Prowess"
+          ],
+          "role": "champion",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Drilled",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Musician",
+          "cost": 7.0,
+          "is_default": false
+        },
+        {
+          "name": "Standard Bearer",
+          "cost": 7.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Har Ganeth Executioners",
+      "category": "Special",
+      "base_points": 0.0,
+      "rules": [
+        "Close Order",
+        "Elven Reflexes",
+        "Hatred (X)",
+        "Veteran",
+        "Murderous"
+      ],
+      "models": [
+        {
+          "name": "Har Ganeth Executioners",
+          "stats": {
+            "M": "5",
+            "WS": "5",
+            "BS": "4",
+            "S": "4",
+            "T": "3",
+            "W": "1",
+            "I": "5",
+            "A": "1",
+            "LD": "9",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 15.0,
+          "rules": [
+            "Close Order",
+            "Elven Reflexes",
+            "Veteran",
+            "Murderous",
+            "Hatred (X)",
+            "Drilled"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Har Ganeth Greatsword"
+          ]
+        },
+        {
+          "name": "Executioner",
+          "stats": {
+            "M": "5",
+            "WS": "5",
+            "BS": "4",
+            "S": "4",
+            "T": "3",
+            "W": "1",
+            "I": "5",
+            "A": "1",
+            "LD": "9",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 15.0,
+          "rules": [
+            "Close Order",
+            "Elven Reflexes",
+            "Veteran",
+            "Murderous",
+            "Hatred (X)",
+            "Drilled"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Har Ganeth Greatsword"
+          ]
+        },
+        {
+          "name": "Champion",
+          "stats": {
+            "M": "5",
+            "WS": "5",
+            "BS": "4",
+            "S": "4",
+            "T": "3",
+            "W": "1",
+            "I": "5",
+            "A": "2",
+            "LD": "9",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 21.0,
+          "rules": [
+            "Close Order",
+            "Elven Reflexes",
+            "Veteran",
+            "Murderous",
+            "Hatred (X)"
+          ],
+          "role": "champion",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Drilled",
+          "cost": 2.0,
+          "is_default": false
+        },
+        {
+          "name": "Musician",
+          "cost": 6.0,
+          "is_default": false
+        },
+        {
+          "name": "Standard Bearer",
+          "cost": 6.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Dark Elf Shades",
+      "category": "Special",
+      "base_points": 0.0,
+      "rules": [
+        "Skirmishers",
+        "Elven Reflexes",
+        "Hatred (X)",
+        "Evasive",
+        "Move Through Cover",
+        "Scouts"
+      ],
+      "models": [
+        {
+          "name": "Dark Elf Shades",
+          "stats": {
+            "M": "5",
+            "WS": "5",
+            "BS": "5",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "5",
+            "A": "1",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 15.0,
+          "rules": [
+            "Elven Reflexes",
+            "Evasive",
+            "Ambushers",
+            "Veteran",
+            "Hatred (X)",
+            "Skirmishers",
+            "Scouts",
+            "Move Through Cover",
+            "Chariot Runners"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Shade",
+          "stats": {
+            "M": "5",
+            "WS": "5",
+            "BS": "5",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "5",
+            "A": "1",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 15.0,
+          "rules": [
+            "Elven Reflexes",
+            "Evasive",
+            "Ambushers",
+            "Veteran",
+            "Hatred (X)",
+            "Skirmishers",
+            "Scouts",
+            "Move Through Cover",
+            "Chariot Runners"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Champion",
+          "stats": {
+            "M": "5",
+            "WS": "5",
+            "BS": "6",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "5",
+            "A": "1",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 21.0,
+          "rules": [
+            "Elven Reflexes",
+            "Evasive",
+            "Hatred (X)",
+            "Skirmishers",
+            "Scouts",
+            "Move Through Cover"
+          ],
+          "role": "champion",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Light Armour",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Additional Hand Weapon",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Great Weapon",
+          "cost": 2.0,
+          "is_default": false
+        },
+        {
+          "name": "Ambushers",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Chariot Runners",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Veteran",
+          "cost": 1.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Witch Elves",
+      "category": "Special",
+      "base_points": 0.0,
+      "rules": [
+        "Close Order",
+        "Elven Reflexes",
+        "Hatred (X)",
+        "Murderous",
+        "Loner",
+        "Horde",
+        "Frenzy",
+        "Poisoned Attacks"
+      ],
+      "models": [
+        {
+          "name": "Witch Elves",
+          "stats": {
+            "M": "5",
+            "WS": "4",
+            "BS": "4",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "5",
+            "A": "1",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 11.0,
+          "rules": [
+            "Close Order",
+            "Elven Reflexes",
+            "Loner",
+            "Poisoned Attacks",
+            "Frenzy",
+            "Murderous",
+            "Hatred (X)",
+            "Horde"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Witch Elf",
+          "stats": {
+            "M": "5",
+            "WS": "4",
+            "BS": "4",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "5",
+            "A": "1",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 11.0,
+          "rules": [
+            "Close Order",
+            "Elven Reflexes",
+            "Loner",
+            "Poisoned Attacks",
+            "Frenzy",
+            "Murderous",
+            "Hatred (X)",
+            "Horde"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Champion",
+          "stats": {
+            "M": "5",
+            "WS": "4",
+            "BS": "4",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "5",
+            "A": "2",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 18.0,
+          "rules": [
+            "Close Order",
+            "Elven Reflexes",
+            "Loner",
+            "Poisoned Attacks",
+            "Frenzy",
+            "Murderous",
+            "Hatred (X)",
+            "Horde"
+          ],
+          "role": "champion",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Musician",
+          "cost": 7.0,
+          "is_default": false
+        },
+        {
+          "name": "Standard Bearer",
+          "cost": 7.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Sisters Of Slaughter",
+      "category": "Rare",
+      "base_points": 0.0,
+      "rules": [
+        "Open Order",
+        "Elven Reflexes",
+        "Hatred (X)",
+        "Murderous",
+        "Loner",
+        "Impetuous"
+      ],
+      "models": [
+        {
+          "name": "Sisters Of Slaughter",
+          "stats": {
+            "M": "5",
+            "WS": "5",
+            "BS": "4",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "6",
+            "A": "1",
+            "LD": "9",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 11.0,
+          "rules": [
+            "Elven Reflexes",
+            "Open Order",
+            "Loner",
+            "Impetuous",
+            "Murderous",
+            "Hatred (X)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Lash & Buckler"
+          ]
+        },
+        {
+          "name": "Champion",
+          "stats": {
+            "M": "5",
+            "WS": "5",
+            "BS": "4",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "6",
+            "A": "3",
+            "LD": "9",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 18.0,
+          "rules": [
+            "Elven Reflexes",
+            "Open Order",
+            "Loner",
+            "Impetuous",
+            "Murderous",
+            "Hatred (X)"
+          ],
+          "role": "champion",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Musician",
+          "cost": 7.0,
+          "is_default": false
+        },
+        {
+          "name": "Standard Bearer",
+          "cost": 7.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Haripes",
+      "category": "Special",
+      "base_points": 0.0,
+      "rules": [
+        "Skirmishers",
+        "Scouts",
+        "Move Through Cover",
+        "Fly (X)",
+        "Swiftstride"
+      ],
+      "models": [
+        {
+          "name": "Haripes",
+          "stats": {
+            "M": "5",
+            "WS": "3",
+            "BS": "0",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "5",
+            "A": "2",
+            "LD": "6",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 11.0,
+          "rules": [
+            "Fly (X)",
+            "Skirmishers",
+            "Scouts",
+            "Swiftstride",
+            "Move Through Cover"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Harpy",
+          "stats": {
+            "M": "5",
+            "WS": "3",
+            "BS": "0",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "5",
+            "A": "2",
+            "LD": "6",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 11.0,
+          "rules": [
+            "Fly (X)",
+            "Skirmishers",
+            "Scouts",
+            "Swiftstride",
+            "Move Through Cover"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": []
+    },
+    {
+      "name": "Cold One Knights",
+      "category": "Special",
+      "base_points": 0.0,
+      "rules": [
+        "Close Order",
+        "Elven Reflexes",
+        "Hatred (X)",
+        "Stupidity",
+        "Armor Bane (X)",
+        "Armored Hide (X)",
+        "Fear",
+        "First Charge",
+        "Swiftstride"
+      ],
+      "models": [
+        {
+          "name": "Cold One Knights",
+          "stats": {
+            "M": "7",
+            "WS": "3",
+            "BS": "-",
+            "S": "4",
+            "T": "-",
+            "W": "-",
+            "I": "2",
+            "A": "2",
+            "LD": "-",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": ""
+          },
+          "cost": 31.0,
+          "rules": [
+            "Armored Hide (X)",
+            "Close Order",
+            "Elven Reflexes",
+            "Armor Bane (X)",
+            "Hatred (X)",
+            "Swiftstride",
+            "Stupidity",
+            "Fear",
+            "First Charge"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Champion",
+          "stats": {
+            "M": "-",
+            "WS": "5",
+            "BS": "4",
+            "S": "4",
+            "T": "4",
+            "W": "1",
+            "I": "5",
+            "A": "2",
+            "LD": "9",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Cavalry"
+          },
+          "cost": 38.0,
+          "rules": [
+            "Armored Hide (X)",
+            "Close Order",
+            "Elven Reflexes",
+            "Armor Bane (X)",
+            "Hatred (X)",
+            "Swiftstride",
+            "Stupidity",
+            "Fear",
+            "First Charge"
+          ],
+          "role": "champion",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Armour",
+          "cost": 0.0,
+          "is_default": true
+        },
+        {
+          "name": "Heavy Armour",
+          "cost": 0.0,
+          "is_default": false
+        },
+        {
+          "name": "Full Plate Armour",
+          "cost": 4.0,
+          "is_default": false
+        },
+        {
+          "name": "Musician",
+          "cost": 7.0,
+          "is_default": false
+        },
+        {
+          "name": "Standard Bearer",
+          "cost": 7.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Dark Riders",
+      "category": "Core",
+      "base_points": 0.0,
+      "rules": [
+        "Skirmishers",
+        "Elven Reflexes",
+        "Hatred (X)",
+        "Open Order",
+        "Fast Cavalry",
+        "Swiftstride"
+      ],
+      "models": [
+        {
+          "name": "Dark Riders",
+          "stats": {
+            "M": "-",
+            "WS": "4",
+            "BS": "4",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "4",
+            "A": "1",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Light Cavalry"
+          },
+          "cost": 16.0,
+          "rules": [
+            "Elven Reflexes",
+            "Fast Cavalry",
+            "Open Order",
+            "Hatred (X)",
+            "Skirmishers",
+            "Scouts",
+            "Swiftstride",
+            "Fire & Flee"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Champion",
+          "stats": {
+            "M": "-",
+            "WS": "4",
+            "BS": "4",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "4",
+            "A": "2",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Light Cavalry"
+          },
+          "cost": 22.0,
+          "rules": [
+            "Elven Reflexes",
+            "Fast Cavalry",
+            "Open Order",
+            "Hatred (X)",
+            "Skirmishers",
+            "Swiftstride"
+          ],
+          "role": "champion",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Repeater Crossbows",
+          "cost": 2.0,
+          "is_default": false
+        },
+        {
+          "name": "Shield",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Musician",
+          "cost": 6.0,
+          "is_default": false
+        },
+        {
+          "name": "Standard Bearer",
+          "cost": 6.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Doomfire Warlocks",
+      "category": "Rare",
+      "base_points": 0.0,
+      "rules": [
+        "Poisoned Attacks",
+        "Elven Reflexes",
+        "Hatred (X)",
+        "Open Order",
+        "Fast Cavalry",
+        "Swiftstride"
+      ],
+      "models": [
+        {
+          "name": "Doomfire Warlocks",
+          "stats": {
+            "M": "-",
+            "WS": "4",
+            "BS": "4",
+            "S": "4",
+            "T": "3",
+            "W": "1",
+            "I": "5",
+            "A": "1",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Light Cavalry"
+          },
+          "cost": 22.0,
+          "rules": [
+            "Elven Reflexes",
+            "Fast Cavalry",
+            "Open Order",
+            "Poisoned Attacks",
+            "Hatred (X)",
+            "Swiftstride"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Champion",
+          "stats": {
+            "M": "-",
+            "WS": "4",
+            "BS": "4",
+            "S": "4",
+            "T": "3",
+            "W": "1",
+            "I": "5",
+            "A": "2",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Light Cavalry"
+          },
+          "cost": 28.0,
+          "rules": [
+            "Elven Reflexes",
+            "Fast Cavalry",
+            "Open Order",
+            "Poisoned Attacks",
+            "Hatred (X)",
+            "Swiftstride"
+          ],
+          "role": "champion",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": []
+    },
+    {
+      "name": "Scourgerunner Chariots",
+      "category": "Special",
+      "base_points": 0.0,
+      "rules": [],
+      "models": [
+        {
+          "name": "Scourgerunner Chariots",
+          "stats": {
+            "M": "-",
+            "WS": "-",
+            "BS": "-",
+            "S": "4",
+            "T": "4",
+            "W": "4",
+            "I": "-",
+            "A": "-",
+            "LD": "-",
+            "ArmourSave": "5+",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Light Chariot"
+          },
+          "cost": 85.0,
+          "rules": [
+            "Sea Dragon Cloak",
+            "Elven Reflexes",
+            "Open Order",
+            "Hatred (X)",
+            "Swiftstride",
+            "Impact Hits (X)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Ravager Harpoon"
+          ]
+        },
+        {
+          "name": "Dark Steed",
+          "stats": {
+            "M": "9",
+            "WS": "3",
+            "BS": "-",
+            "S": "3",
+            "T": "-",
+            "W": "-",
+            "I": "4",
+            "A": "1",
+            "LD": "-",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": ""
+          },
+          "cost": 85.0,
+          "rules": [],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Beastmaster Crew",
+          "stats": {
+            "M": "-",
+            "WS": "4",
+            "BS": "4",
+            "S": "3",
+            "T": "-",
+            "W": "-",
+            "I": "4",
+            "A": "1",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": ""
+          },
+          "cost": 85.0,
+          "rules": [],
+          "role": "champion",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": []
+    },
+    {
+      "name": "War Hydra",
+      "category": "Rare",
+      "base_points": 200.0,
+      "rules": [
+        "Close Order",
+        "Extra Attacks (+X)",
+        "Immune to Psychology",
+        "Large Target",
+        "Monster Handlers",
+        "Regeneration (X+)",
+        "Stomp Attacks (X)",
+        "Terror"
+      ],
+      "models": [
+        {
+          "name": "War Hydra",
+          "stats": {
+            "M": "6",
+            "WS": "4",
+            "BS": "0",
+            "S": "5",
+            "T": "5",
+            "W": "5",
+            "I": "3",
+            "A": "2",
+            "LD": "6",
+            "ArmourSave": "5+",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Behemoth"
+          },
+          "cost": 200.0,
+          "rules": [
+            "Close Order",
+            "Large Target",
+            "Terror",
+            "Stomp Attacks (X)",
+            "Regeneration (X+)",
+            "Immune to Psychology",
+            "Extra Attacks (+X)",
+            "Monster Handlers"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Fiery Breath",
+            "Wicked Claws",
+            "Serrated Maw"
+          ]
+        },
+        {
+          "name": "Beastmaster Handler",
+          "stats": {
+            "M": "6",
+            "WS": "4",
+            "BS": "-",
+            "S": "3",
+            "T": "-",
+            "W": "-",
+            "I": "4",
+            "A": "1",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": ""
+          },
+          "cost": 200.0,
+          "rules": [
+            "Close Order",
+            "Large Target",
+            "Terror",
+            "Stomp Attacks (X)",
+            "Regeneration (X+)",
+            "Immune to Psychology",
+            "Extra Attacks (+X)",
+            "Monster Handlers"
+          ],
+          "role": "champion",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": []
+    },
+    {
+      "name": "Bloodwrack Medusa",
+      "category": "Rare",
+      "base_points": 85.0,
+      "rules": [
+        "Close Order",
+        "Elven Reflexes",
+        "Fear",
+        "Frenzy",
+        "Hatred (X)",
+        "Magic Resistance (-X)",
+        "Murderous",
+        "Poisoned Attacks"
+      ],
+      "models": [
+        {
+          "name": "Bloodwrack Medusa",
+          "stats": {
+            "M": "7",
+            "WS": "5",
+            "BS": "5",
+            "S": "4",
+            "T": "4",
+            "W": "4",
+            "I": "5",
+            "A": "3",
+            "LD": "7",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Monsterous Creature"
+          },
+          "cost": 85.0,
+          "rules": [
+            "Close Order",
+            "Magic Resistance (-X)",
+            "Elven Reflexes",
+            "Poisoned Attacks",
+            "Frenzy",
+            "Hatred (X)",
+            "Murderous",
+            "Fear"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Petrifying Gaze"
+          ]
+        }
+      ],
+      "upgrades": []
+    },
+    {
+      "name": "Kharibdyss",
+      "category": "Rare",
+      "base_points": 195.0,
+      "rules": [
+        "Close Order",
+        "Immune to Psychology",
+        "Large Target",
+        "Monster Handlers",
+        "Stomp Attacks (X)",
+        "Terror"
+      ],
+      "models": [
+        {
+          "name": "Kharibdyss",
+          "stats": {
+            "M": "6",
+            "WS": "5",
+            "BS": "0",
+            "S": "7",
+            "T": "5",
+            "W": "5",
+            "I": "3",
+            "A": "5",
+            "LD": "6",
+            "ArmourSave": "5+",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Behemoth"
+          },
+          "cost": 195.0,
+          "rules": [
+            "Close Order",
+            "Large Target",
+            "Terror",
+            "Stomp Attacks (X)",
+            "Immune to Psychology",
+            "Monster Handlers"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Cavernous Maw",
+            "Writhing Tentacles"
+          ]
+        },
+        {
+          "name": "Beastmaster Handler",
+          "stats": {
+            "M": "6",
+            "WS": "4",
+            "BS": "-",
+            "S": "3",
+            "T": "-",
+            "W": "-",
+            "I": "4",
+            "A": "1",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": ""
+          },
+          "cost": 195.0,
+          "rules": [
+            "Close Order",
+            "Large Target",
+            "Terror",
+            "Stomp Attacks (X)",
+            "Immune to Psychology",
+            "Monster Handlers"
+          ],
+          "role": "champion",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": []
+    },
+    {
+      "name": "Reaper Bolt Thrower",
+      "category": "Rare",
+      "base_points": 80.0,
+      "rules": [
+        "Elven Reflexes",
+        "Hatred (X)",
+        "Skirmishers"
+      ],
+      "models": [
+        {
+          "name": "Reaper Bolt Thrower",
+          "stats": {
+            "M": "-",
+            "WS": "-",
+            "BS": "-",
+            "S": "-",
+            "T": "6",
+            "W": "2",
+            "I": "-",
+            "A": "-",
+            "LD": "-",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "War Machine"
+          },
+          "cost": 80.0,
+          "rules": [
+            "Skirmishers",
+            "Elven Reflexes",
+            "Hatred (X)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Repeater Bolt Thrower"
+          ]
+        }
+      ],
+      "upgrades": []
+    },
+    {
+      "name": "Witch Elves",
+      "category": "Core",
+      "base_points": 0.0,
+      "rules": [
+        "Close Order",
+        "Elven Reflexes",
+        "Hatred (X)",
+        "Murderous",
+        "Loner",
+        "Horde",
+        "Frenzy",
+        "Poisoned Attacks"
+      ],
+      "models": [
+        {
+          "name": "Witch Elves",
+          "stats": {
+            "M": "5",
+            "WS": "4",
+            "BS": "4",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "5",
+            "A": "1",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 11.0,
+          "rules": [
+            "Close Order",
+            "Elven Reflexes",
+            "Loner",
+            "Poisoned Attacks",
+            "Frenzy",
+            "Murderous",
+            "Hatred (X)",
+            "Horde"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Witch Elf",
+          "stats": {
+            "M": "5",
+            "WS": "4",
+            "BS": "4",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "5",
+            "A": "1",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 11.0,
+          "rules": [
+            "Close Order",
+            "Elven Reflexes",
+            "Loner",
+            "Poisoned Attacks",
+            "Frenzy",
+            "Murderous",
+            "Hatred (X)",
+            "Horde"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Champion",
+          "stats": {
+            "M": "5",
+            "WS": "4",
+            "BS": "4",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "5",
+            "A": "2",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 18.0,
+          "rules": [
+            "Close Order",
+            "Elven Reflexes",
+            "Loner",
+            "Poisoned Attacks",
+            "Frenzy",
+            "Murderous",
+            "Hatred (X)",
+            "Horde"
+          ],
+          "role": "champion",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Musician",
+          "cost": 7.0,
+          "is_default": false
+        },
+        {
+          "name": "Standard Bearer",
+          "cost": 7.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "War Hydra",
+      "category": "Special",
+      "base_points": 200.0,
+      "rules": [
+        "Close Order",
+        "Extra Attacks (+X)",
+        "Immune to Psychology",
+        "Large Target",
+        "Monster Handlers",
+        "Regeneration (X+)",
+        "Stomp Attacks (X)",
+        "Terror"
+      ],
+      "models": [
+        {
+          "name": "War Hydra",
+          "stats": {
+            "M": "6",
+            "WS": "4",
+            "BS": "0",
+            "S": "5",
+            "T": "5",
+            "W": "5",
+            "I": "3",
+            "A": "2",
+            "LD": "6",
+            "ArmourSave": "5+",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Behemoth"
+          },
+          "cost": 200.0,
+          "rules": [
+            "Close Order",
+            "Large Target",
+            "Terror",
+            "Stomp Attacks (X)",
+            "Regeneration (X+)",
+            "Immune to Psychology",
+            "Extra Attacks (+X)",
+            "Monster Handlers"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Fiery Breath",
+            "Wicked Claws",
+            "Serrated Maw"
+          ]
+        },
+        {
+          "name": "Beastmaster Handler",
+          "stats": {
+            "M": "6",
+            "WS": "4",
+            "BS": "-",
+            "S": "3",
+            "T": "-",
+            "W": "-",
+            "I": "4",
+            "A": "1",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": ""
+          },
+          "cost": 200.0,
+          "rules": [
+            "Close Order",
+            "Large Target",
+            "Terror",
+            "Stomp Attacks (X)",
+            "Regeneration (X+)",
+            "Immune to Psychology",
+            "Extra Attacks (+X)",
+            "Monster Handlers"
+          ],
+          "role": "champion",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": []
+    },
+    {
+      "name": "Kharibdyss",
+      "category": "Special",
+      "base_points": 195.0,
+      "rules": [
+        "Close Order",
+        "Immune to Psychology",
+        "Large Target",
+        "Monster Handlers",
+        "Stomp Attacks (X)",
+        "Terror"
+      ],
+      "models": [
+        {
+          "name": "Kharibdyss",
+          "stats": {
+            "M": "6",
+            "WS": "5",
+            "BS": "0",
+            "S": "7",
+            "T": "5",
+            "W": "5",
+            "I": "3",
+            "A": "5",
+            "LD": "6",
+            "ArmourSave": "5+",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Behemoth"
+          },
+          "cost": 195.0,
+          "rules": [
+            "Close Order",
+            "Large Target",
+            "Terror",
+            "Stomp Attacks (X)",
+            "Immune to Psychology",
+            "Monster Handlers"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Cavernous Maw",
+            "Writhing Tentacles"
+          ]
+        },
+        {
+          "name": "Beastmaster Handler",
+          "stats": {
+            "M": "6",
+            "WS": "4",
+            "BS": "-",
+            "S": "3",
+            "T": "-",
+            "W": "-",
+            "I": "4",
+            "A": "1",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": ""
+          },
+          "cost": 195.0,
+          "rules": [
+            "Close Order",
+            "Large Target",
+            "Terror",
+            "Stomp Attacks (X)",
+            "Immune to Psychology",
+            "Monster Handlers"
+          ],
+          "role": "champion",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": []
+    }
+  ]
+}

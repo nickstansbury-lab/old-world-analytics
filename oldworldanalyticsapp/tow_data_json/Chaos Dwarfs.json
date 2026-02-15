@@ -1,0 +1,1299 @@
+{
+  "faction_name": "Chaos Dwarfs",
+  "units": [
+    {
+      "name": "Black Orc Mob",
+      "category": "Core",
+      "base_points": 0.0,
+      "rules": [
+        "Furious Charge",
+        "Close Order",
+        "Motley Crew"
+      ],
+      "models": [
+        {
+          "name": "Black Orc Mob",
+          "stats": {
+            "M": "4",
+            "WS": "4",
+            "BS": "3",
+            "S": "4",
+            "T": "4",
+            "W": "1",
+            "I": "3",
+            "A": "1",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Infantry"
+          },
+          "cost": 12.0,
+          "rules": [
+            "Close Order",
+            "Stubborn",
+            "Motley Crew",
+            "Furious Charge",
+            "Veteran"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Champion",
+          "stats": {
+            "M": "4",
+            "WS": "4",
+            "BS": "3",
+            "S": "4",
+            "T": "4",
+            "W": "1",
+            "I": "3",
+            "A": "2",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Infantry"
+          },
+          "cost": 18.0,
+          "rules": [
+            "Close Order",
+            "Furious Charge",
+            "Motley Crew"
+          ],
+          "role": "champion",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Shields",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Great Weapon",
+          "cost": 2.0,
+          "is_default": false
+        },
+        {
+          "name": "Additional Hand Weapon",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Stubborn",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Veteran",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Musician",
+          "cost": 6.0,
+          "is_default": false
+        },
+        {
+          "name": "Standard Bearer",
+          "cost": 6.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Infernal Ironsworn",
+      "category": "Special",
+      "base_points": 0.0,
+      "rules": [
+        "Blackshard Armour",
+        "Close Order",
+        "Drilled",
+        "Ensorcelled Weapons",
+        "Regimental Unit",
+        "Resolute",
+        "Shieldwall",
+        "Stubborn",
+        "Veteran"
+      ],
+      "models": [
+        {
+          "name": "Infernal Ironsworn",
+          "stats": {
+            "M": "3",
+            "WS": "5",
+            "BS": "3",
+            "S": "4",
+            "T": "4",
+            "W": "1",
+            "I": "2",
+            "A": "2",
+            "LD": "9",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Infantry"
+          },
+          "cost": 19.0,
+          "rules": [
+            "Close Order",
+            "Stubborn",
+            "Regimental Unit",
+            "Veteran",
+            "Ensorcelled Weapons",
+            "Resolute",
+            "Shieldwall",
+            "Blackshard Armour",
+            "Drilled"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Naptha Bombs"
+          ]
+        },
+        {
+          "name": "Champion",
+          "stats": {
+            "M": "3",
+            "WS": "5",
+            "BS": "3",
+            "S": "4",
+            "T": "4",
+            "W": "1",
+            "I": "2",
+            "A": "3",
+            "LD": "9",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Infantry"
+          },
+          "cost": 26.0,
+          "rules": [
+            "Close Order",
+            "Stubborn",
+            "Regimental Unit",
+            "Veteran",
+            "Ensorcelled Weapons",
+            "Resolute",
+            "Shieldwall",
+            "Blackshard Armour",
+            "Drilled"
+          ],
+          "role": "champion",
+          "default_weapons": [
+            "Naptha Bombs"
+          ]
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Shield",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Great Weapon",
+          "cost": 2.0,
+          "is_default": false
+        },
+        {
+          "name": "Halberd",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Equipment",
+          "cost": 0.0,
+          "is_default": false
+        },
+        {
+          "name": "Pistol",
+          "cost": 3.0,
+          "is_default": false
+        },
+        {
+          "name": "Naptha Bombs",
+          "cost": 6.0,
+          "is_default": false
+        },
+        {
+          "name": "Musician",
+          "cost": 7.0,
+          "is_default": false
+        },
+        {
+          "name": "Standard Bearer",
+          "cost": 7.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Infernal Guard",
+      "category": "Core",
+      "base_points": 0.0,
+      "rules": [
+        "Close Order",
+        "Detatchment",
+        "Regimental Unit",
+        "Resolute",
+        "Shieldwall",
+        "Stubborn"
+      ],
+      "models": [
+        {
+          "name": "Infernal Guard",
+          "stats": {
+            "M": "3",
+            "WS": "4",
+            "BS": "3",
+            "S": "4",
+            "T": "4",
+            "W": "1",
+            "I": "2",
+            "A": "1",
+            "LD": "9",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Infantry"
+          },
+          "cost": 11.0,
+          "rules": [
+            "Close Order",
+            "Detatchment",
+            "Stubborn",
+            "Regimental Unit",
+            "Resolute",
+            "Shieldwall"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Fireglaive - Ranged",
+            "Fireglaive - Combat",
+            "Naptha Bombs",
+            "Hailshot Blunderbuss"
+          ]
+        },
+        {
+          "name": "Champion",
+          "stats": {
+            "M": "3",
+            "WS": "4",
+            "BS": "3",
+            "S": "4",
+            "T": "4",
+            "W": "1",
+            "I": "2",
+            "A": "2",
+            "LD": "9",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Infantry"
+          },
+          "cost": 17.0,
+          "rules": [
+            "Close Order",
+            "Detatchment",
+            "Stubborn",
+            "Regimental Unit",
+            "Resolute",
+            "Shieldwall"
+          ],
+          "role": "champion",
+          "default_weapons": [
+            "Naptha Bombs"
+          ]
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Shield",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Equipment",
+          "cost": 0.0,
+          "is_default": false
+        },
+        {
+          "name": "Great Weapon",
+          "cost": 2.0,
+          "is_default": false
+        },
+        {
+          "name": "Fireglaive",
+          "cost": 4.0,
+          "is_default": false
+        },
+        {
+          "name": "Hailshot Blunderbuss",
+          "cost": 5.0,
+          "is_default": false
+        },
+        {
+          "name": "Pistol",
+          "cost": 3.0,
+          "is_default": false
+        },
+        {
+          "name": "Naptha Bombs",
+          "cost": 6.0,
+          "is_default": false
+        },
+        {
+          "name": "Musician",
+          "cost": 6.0,
+          "is_default": false
+        },
+        {
+          "name": "Standard Bearer",
+          "cost": 6.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "K'daai Fireborn",
+      "category": "Special",
+      "base_points": 0.0,
+      "rules": [
+        "Close Order",
+        "Blazing Body",
+        "Ensorcelled Weapons",
+        "Fear",
+        "Flaming Attacks",
+        "Immune to Psychology",
+        "Regeneration (X+)",
+        "Unbreakable",
+        "Unstable",
+        "Warp-spawned"
+      ],
+      "models": [
+        {
+          "name": "K'daai Fireborn",
+          "stats": {
+            "M": "6",
+            "WS": "4",
+            "BS": "2",
+            "S": "5",
+            "T": "4",
+            "W": "2",
+            "I": "4",
+            "A": "3",
+            "LD": "7",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Monsterous Infantry"
+          },
+          "cost": 41.0,
+          "rules": [
+            "Blazing Body",
+            "Close Order",
+            "Flaming Attacks",
+            "Warp-spawned",
+            "Regeneration (X+)",
+            "Ensorcelled Weapons",
+            "Immune to Psychology",
+            "Unbreakable",
+            "Unstable",
+            "Fear"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Champion",
+          "stats": {
+            "M": "6",
+            "WS": "4",
+            "BS": "2",
+            "S": "5",
+            "T": "4",
+            "W": "2",
+            "I": "4",
+            "A": "4",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Monsterous Infantry"
+          },
+          "cost": 48.0,
+          "rules": [
+            "Blazing Body",
+            "Close Order",
+            "Flaming Attacks",
+            "Warp-spawned",
+            "Regeneration (X+)",
+            "Ensorcelled Weapons",
+            "Immune to Psychology",
+            "Unbreakable",
+            "Unstable",
+            "Fear"
+          ],
+          "role": "champion",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": []
+    },
+    {
+      "name": "Hobgoblin Cutthroats",
+      "category": "Core",
+      "base_points": 0.0,
+      "rules": [
+        "Close Order",
+        "Horde",
+        "Levies",
+        "Backstab",
+        "Warband"
+      ],
+      "models": [
+        {
+          "name": "Hobgoblin Cutthroats",
+          "stats": {
+            "M": "4",
+            "WS": "3",
+            "BS": "3",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "3",
+            "A": "1",
+            "LD": "4",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 3.0,
+          "rules": [
+            "Close Order",
+            "Levies",
+            "Backstab",
+            "Horde",
+            "Warband"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Cutthroat",
+          "stats": {
+            "M": "4",
+            "WS": "3",
+            "BS": "3",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "3",
+            "A": "1",
+            "LD": "4",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 3.0,
+          "rules": [
+            "Close Order",
+            "Levies",
+            "Backstab",
+            "Horde",
+            "Warband"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Champion",
+          "stats": {
+            "M": "4",
+            "WS": "3",
+            "BS": "3",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "3",
+            "A": "2",
+            "LD": "5",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 7.0,
+          "rules": [
+            "Close Order",
+            "Levies",
+            "Backstab",
+            "Horde",
+            "Warband"
+          ],
+          "role": "champion",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Light Armour",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Shield",
+          "cost": 0.0,
+          "is_default": false
+        },
+        {
+          "name": "Musician",
+          "cost": 5.0,
+          "is_default": false
+        },
+        {
+          "name": "Standard Bearer",
+          "cost": 5.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Sneaky Gits",
+      "category": "Special",
+      "base_points": 0.0,
+      "rules": [
+        "Ambushers",
+        "Evasive",
+        "Levies",
+        "Backstab",
+        "Move Through Cover",
+        "Skirmishers"
+      ],
+      "models": [
+        {
+          "name": "Sneaky Gits",
+          "stats": {
+            "M": "4",
+            "WS": "4",
+            "BS": "4",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "4",
+            "A": "1",
+            "LD": "5",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 6.0,
+          "rules": [
+            "Levies",
+            "Evasive",
+            "Ambushers",
+            "Backstab",
+            "Skirmishers",
+            "Move Through Cover"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Champion",
+          "stats": {
+            "M": "4",
+            "WS": "4",
+            "BS": "4",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "4",
+            "A": "2",
+            "LD": "5",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 6.0,
+          "rules": [
+            "Levies",
+            "Evasive",
+            "Ambushers",
+            "Backstab",
+            "Skirmishers",
+            "Move Through Cover"
+          ],
+          "role": "champion",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Light Armour",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Musician",
+          "cost": 6.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Hobgoblin Wolf Riders",
+      "category": "Rare",
+      "base_points": 0.0,
+      "rules": [
+        "Evasive",
+        "Fast Cavalry",
+        "Levies",
+        "Backstab",
+        "Fire & Flee",
+        "Open Order",
+        "Skirmishers",
+        "Swiftstride"
+      ],
+      "models": [
+        {
+          "name": "Hobgoblin Wolf Riders",
+          "stats": {
+            "M": "-",
+            "WS": "3",
+            "BS": "3",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "3",
+            "A": "1",
+            "LD": "6",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Light Cavalry"
+          },
+          "cost": 12.0,
+          "rules": [
+            "Feigned Flight",
+            "Levies",
+            "Fast Cavalry",
+            "Open Order",
+            "Evasive",
+            "Reserve Move",
+            "Backstab",
+            "Skirmishers",
+            "Swiftstride",
+            "Fire & Flee"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Champion",
+          "stats": {
+            "M": "-",
+            "WS": "3",
+            "BS": "4",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "3",
+            "A": "2",
+            "LD": "6",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Light Cavalry"
+          },
+          "cost": 20.0,
+          "rules": [
+            "Levies",
+            "Fast Cavalry",
+            "Open Order",
+            "Evasive",
+            "Backstab",
+            "Skirmishers",
+            "Swiftstride",
+            "Fire & Flee"
+          ],
+          "role": "champion",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Shortbow",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Feigned Flight",
+          "cost": 2.0,
+          "is_default": false
+        },
+        {
+          "name": "Reserve Move",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Musician",
+          "cost": 6.0,
+          "is_default": false
+        },
+        {
+          "name": "Standard Bearer",
+          "cost": 6.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Bull Centaur Renders",
+      "category": "Special",
+      "base_points": 0.0,
+      "rules": [
+        "Blackshard Armour",
+        "Close Order",
+        "Fear",
+        "Armored Hide (X)",
+        "Ensorcelled Weapons",
+        "First Charge",
+        "Impact Hits (X)",
+        "Swiftstride",
+        "Loner",
+        "Stampede",
+        "Stubborn"
+      ],
+      "models": [
+        {
+          "name": "Bull Centaur Renders",
+          "stats": {
+            "M": "7",
+            "WS": "4",
+            "BS": "2",
+            "S": "4",
+            "T": "5",
+            "W": "3",
+            "I": "3",
+            "A": "2",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Monsterous Cavalry"
+          },
+          "cost": 56.0,
+          "rules": [
+            "Armored Hide (X)",
+            "Close Order",
+            "Stubborn",
+            "Loner",
+            "Ensorcelled Weapons",
+            "Swiftstride",
+            "Stampede",
+            "Fear",
+            "Impact Hits (X)",
+            "First Charge",
+            "Blackshard Armour"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Champion",
+          "stats": {
+            "M": "7",
+            "WS": "4",
+            "BS": "2",
+            "S": "4",
+            "T": "5",
+            "W": "3",
+            "I": "3",
+            "A": "3",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Monsterous Cavalry"
+          },
+          "cost": 62.0,
+          "rules": [
+            "Armored Hide (X)",
+            "Close Order",
+            "Stubborn",
+            "Loner",
+            "Ensorcelled Weapons",
+            "Swiftstride",
+            "Stampede",
+            "Fear",
+            "Impact Hits (X)",
+            "First Charge",
+            "Blackshard Armour"
+          ],
+          "role": "champion",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Great Weapon",
+          "cost": 4.0,
+          "is_default": false
+        },
+        {
+          "name": "Shield",
+          "cost": 3.0,
+          "is_default": false
+        },
+        {
+          "name": "Musician",
+          "cost": 6.0,
+          "is_default": false
+        },
+        {
+          "name": "Standard Bearer",
+          "cost": 6.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Deathshrieker Rocket Launcher",
+      "category": "Special",
+      "base_points": 120.0,
+      "rules": [
+        "Skirmishers",
+        "Blackshard Armour"
+      ],
+      "models": [
+        {
+          "name": "Deathshrieker Rocket Launcher",
+          "stats": {
+            "M": "-",
+            "WS": "-",
+            "BS": "-",
+            "S": "-",
+            "T": "6",
+            "W": "3",
+            "I": "-",
+            "A": "-",
+            "LD": "-",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "War Machine"
+          },
+          "cost": 120.0,
+          "rules": [
+            "Hellbound",
+            "Blackshard Armour",
+            "Skirmishers"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Demolition Rockets",
+            "Infernal Incindiaries"
+          ]
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Hellbound",
+          "cost": 30.0,
+          "is_default": false
+        },
+        {
+          "name": "Steam Carriage",
+          "cost": 10.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Dreadquake Mortar",
+      "category": "Rare",
+      "base_points": 165.0,
+      "rules": [
+        "Skirmishers",
+        "Blackshard Armour"
+      ],
+      "models": [
+        {
+          "name": "Dreadquake Mortar",
+          "stats": {
+            "M": "-",
+            "WS": "-",
+            "BS": "-",
+            "S": "-",
+            "T": "7",
+            "W": "4",
+            "I": "-",
+            "A": "-",
+            "LD": "-",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "War Machine"
+          },
+          "cost": 165.0,
+          "rules": [
+            "Hellbound",
+            "Blackshard Armour",
+            "Skirmishers"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Dreadquake Mortar"
+          ]
+        },
+        {
+          "name": "Ogre Loader",
+          "stats": {
+            "M": "-",
+            "WS": "3",
+            "BS": "-",
+            "S": "4",
+            "T": "-",
+            "W": "(+2)",
+            "I": "2",
+            "A": "(+2)",
+            "LD": "-",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": ""
+          },
+          "cost": 20.0,
+          "rules": [
+            "Blackshard Armour",
+            "Skirmishers"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Hellbound",
+          "cost": 30.0,
+          "is_default": false
+        },
+        {
+          "name": "Steam Carriage",
+          "cost": 10.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Magma Cannon",
+      "category": "Special",
+      "base_points": 125.0,
+      "rules": [
+        "Skirmishers",
+        "Blackshard Armour"
+      ],
+      "models": [
+        {
+          "name": "Magma Cannon",
+          "stats": {
+            "M": "-",
+            "WS": "-",
+            "BS": "-",
+            "S": "-",
+            "T": "6",
+            "W": "3",
+            "I": "-",
+            "A": "-",
+            "LD": "-",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "War Machine"
+          },
+          "cost": 125.0,
+          "rules": [
+            "Hellbound",
+            "Blackshard Armour",
+            "Skirmishers"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Hellbound",
+          "cost": 30.0,
+          "is_default": false
+        },
+        {
+          "name": "Steam Carriage",
+          "cost": 10.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Hobgoblin Bolt Thrower",
+      "category": "Special",
+      "base_points": 45.0,
+      "rules": [
+        "Skirmishers",
+        "Levies"
+      ],
+      "models": [
+        {
+          "name": "Hobgoblin Bolt Thrower",
+          "stats": {
+            "M": "-",
+            "WS": "-",
+            "BS": "-",
+            "S": "-",
+            "T": "4",
+            "W": "3",
+            "I": "-",
+            "A": "-",
+            "LD": "-",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "War Machine"
+          },
+          "cost": 45.0,
+          "rules": [
+            "Levies",
+            "Skirmishers"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": []
+    },
+    {
+      "name": "Black Orc Warboss",
+      "category": "Characters",
+      "base_points": 135.0,
+      "rules": [
+        "Furious Charge",
+        "Rallying Cry"
+      ],
+      "models": [
+        {
+          "name": "Black Orc Warboss",
+          "stats": {
+            "M": "4",
+            "WS": "7",
+            "BS": "3",
+            "S": "5",
+            "T": "5",
+            "W": "3",
+            "I": "6",
+            "A": "4",
+            "LD": "9",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Infantry"
+          },
+          "cost": 135.0,
+          "rules": [
+            "Furious Charge",
+            "Rallying Cry"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Black Orc Warboss on Boar Chariot",
+          "stats": {
+            "M": "4",
+            "WS": "7",
+            "BS": "3",
+            "S": "5",
+            "T": "5",
+            "W": "4",
+            "I": "6",
+            "A": "4",
+            "LD": "9",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Infantry"
+          },
+          "cost": 220.0,
+          "rules": [
+            "Close Order",
+            "Furious Charge",
+            "Impetuous",
+            "Frenzy",
+            "Warband",
+            "First Charge",
+            "Impact Hits (X)",
+            "Rallying Cry"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Shield",
+          "cost": 2.0,
+          "is_default": false
+        },
+        {
+          "name": "Additional Hand Weapon",
+          "cost": 3.0,
+          "is_default": false
+        },
+        {
+          "name": "Great Weapon",
+          "cost": 4.0,
+          "is_default": false
+        },
+        {
+          "name": "Cavalry Spear",
+          "cost": 2.0,
+          "is_default": false
+        },
+        {
+          "name": "War Boar",
+          "cost": 16.0,
+          "is_default": false
+        },
+        {
+          "name": "Frenzy",
+          "cost": 2.0,
+          "is_default": false
+        },
+        {
+          "name": "Warpaint",
+          "cost": 10.0,
+          "is_default": false
+        },
+        {
+          "name": "Wyvern",
+          "cost": 130.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Black Orc Bigboss",
+      "category": "Characters",
+      "base_points": 75.0,
+      "rules": [
+        "Furious Charge",
+        "Rallying Cry"
+      ],
+      "models": [
+        {
+          "name": "Black Orc Bigboss",
+          "stats": {
+            "M": "4",
+            "WS": "6",
+            "BS": "3",
+            "S": "4",
+            "T": "5",
+            "W": "2",
+            "I": "5",
+            "A": "3",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Infantry"
+          },
+          "cost": 75.0,
+          "rules": [
+            "Furious Charge",
+            "Rallying Cry"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Black Orc Bigboss on Boar Chariot",
+          "stats": {
+            "M": "4",
+            "WS": "6",
+            "BS": "3",
+            "S": "4",
+            "T": "5",
+            "W": "4",
+            "I": "5",
+            "A": "3",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Infantry"
+          },
+          "cost": 160.0,
+          "rules": [
+            "Close Order",
+            "Furious Charge",
+            "Impetuous",
+            "Frenzy",
+            "Warband",
+            "First Charge",
+            "Impact Hits (X)",
+            "Rallying Cry"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Shield",
+          "cost": 2.0,
+          "is_default": false
+        },
+        {
+          "name": "Additional Hand Weapon",
+          "cost": 3.0,
+          "is_default": false
+        },
+        {
+          "name": "Great Weapon",
+          "cost": 4.0,
+          "is_default": false
+        },
+        {
+          "name": "Cavalry Spear",
+          "cost": 2.0,
+          "is_default": false
+        },
+        {
+          "name": "War Boar",
+          "cost": 16.0,
+          "is_default": false
+        },
+        {
+          "name": "Frenzy",
+          "cost": 2.0,
+          "is_default": false
+        },
+        {
+          "name": "Warpaint",
+          "cost": 10.0,
+          "is_default": false
+        }
+      ]
+    }
+  ]
+}

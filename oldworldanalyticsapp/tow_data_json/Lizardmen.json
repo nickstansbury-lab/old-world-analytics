@@ -1,0 +1,1764 @@
+{
+  "faction_name": "Lizardmen",
+  "units": [
+    {
+      "name": "Temple Guard",
+      "category": "Core",
+      "base_points": 0.0,
+      "rules": [
+        "Close Order",
+        "Cold Blooded",
+        "Obsidian Blades",
+        "Shieldwall",
+        "Stubborn"
+      ],
+      "models": [
+        {
+          "name": "Temple Guard",
+          "stats": {
+            "M": "4",
+            "WS": "4",
+            "BS": "0",
+            "S": "4",
+            "T": "4",
+            "W": "1",
+            "I": "1",
+            "A": "2",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Infantry"
+          },
+          "cost": 16.0,
+          "rules": [
+            "Close Order",
+            "Stubborn",
+            "Obsidian Blades",
+            "Cold Blooded",
+            "Shieldwall"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Champion",
+          "stats": {
+            "M": "4",
+            "WS": "4",
+            "BS": "0",
+            "S": "4",
+            "T": "4",
+            "W": "1",
+            "I": "1",
+            "A": "3",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Infantry"
+          },
+          "cost": 23.0,
+          "rules": [
+            "Close Order",
+            "Stubborn",
+            "Obsidian Blades",
+            "Cold Blooded",
+            "Shieldwall"
+          ],
+          "role": "champion",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Musician",
+          "cost": 7.0,
+          "is_default": false
+        },
+        {
+          "name": "Standard Bearer",
+          "cost": 7.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Saurus Warriors",
+      "category": "Core",
+      "base_points": 0.0,
+      "rules": [
+        "Close Order",
+        "Cold Blooded",
+        "Obsidian Blades"
+      ],
+      "models": [
+        {
+          "name": "Saurus Warriors",
+          "stats": {
+            "M": "4",
+            "WS": "3",
+            "BS": "0",
+            "S": "4",
+            "T": "4",
+            "W": "1",
+            "I": "1",
+            "A": "2",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Infantry"
+          },
+          "cost": 14.0,
+          "rules": [
+            "Close Order",
+            "Cold Blooded",
+            "Obsidian Blades",
+            "Shieldwall"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Champion",
+          "stats": {
+            "M": "4",
+            "WS": "3",
+            "BS": "0",
+            "S": "4",
+            "T": "4",
+            "W": "1",
+            "I": "1",
+            "A": "3",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Infantry"
+          },
+          "cost": 21.0,
+          "rules": [
+            "Close Order",
+            "Cold Blooded",
+            "Obsidian Blades"
+          ],
+          "role": "champion",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Thrusting Spear",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Shieldwall",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Musician",
+          "cost": 7.0,
+          "is_default": false
+        },
+        {
+          "name": "Standard Bearer",
+          "cost": 7.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Skink Skirmishers",
+      "category": "Core",
+      "base_points": 0.0,
+      "rules": [
+        "Skirmishers",
+        "Cold Blooded",
+        "Move Through Cover",
+        "Poisoned Attacks"
+      ],
+      "models": [
+        {
+          "name": "Skink Skirmishers",
+          "stats": {
+            "M": "6",
+            "WS": "2",
+            "BS": "3",
+            "S": "3",
+            "T": "2",
+            "W": "1",
+            "I": "4",
+            "A": "1",
+            "LD": "5",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 5.0,
+          "rules": [
+            "Vanguard",
+            "Cold Blooded",
+            "Poisoned Attacks",
+            "Skirmishers",
+            "Scouts",
+            "Move Through Cover"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Blowpipe"
+          ]
+        },
+        {
+          "name": "Skink",
+          "stats": {
+            "M": "6",
+            "WS": "2",
+            "BS": "3",
+            "S": "3",
+            "T": "2",
+            "W": "1",
+            "I": "4",
+            "A": "1",
+            "LD": "5",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 5.0,
+          "rules": [
+            "Cold Blooded",
+            "Poisoned Attacks",
+            "Move Through Cover",
+            "Skirmishers"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Blowpipe"
+          ]
+        },
+        {
+          "name": "Champion",
+          "stats": {
+            "M": "6",
+            "WS": "2",
+            "BS": "4",
+            "S": "3",
+            "T": "2",
+            "W": "1",
+            "I": "4",
+            "A": "1",
+            "LD": "5",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 5.0,
+          "rules": [
+            "Cold Blooded",
+            "Poisoned Attacks",
+            "Move Through Cover",
+            "Skirmishers"
+          ],
+          "role": "champion",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Equipment",
+          "cost": 0.0,
+          "is_default": true
+        },
+        {
+          "name": "Javelins and Shield",
+          "cost": 0.0,
+          "is_default": false
+        },
+        {
+          "name": "Blowpipe",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Scouts",
+          "cost": 10.0,
+          "is_default": false
+        },
+        {
+          "name": "Vanguard",
+          "cost": 5.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Chameleon Skinks",
+      "category": "Special",
+      "base_points": 0.0,
+      "rules": [
+        "Skirmishers",
+        "Cold Blooded",
+        "Move Through Cover",
+        "Scouts",
+        "Evasive"
+      ],
+      "models": [
+        {
+          "name": "Chameleon Skinks",
+          "stats": {
+            "M": "6",
+            "WS": "2",
+            "BS": "4",
+            "S": "3",
+            "T": "2",
+            "W": "1",
+            "I": "4",
+            "A": "1",
+            "LD": "6",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 11.0,
+          "rules": [
+            "Evasive",
+            "Cold Blooded",
+            "Skirmishers",
+            "Scouts",
+            "Move Through Cover"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Blowpipe"
+          ]
+        },
+        {
+          "name": "Champion",
+          "stats": {
+            "M": "6",
+            "WS": "2",
+            "BS": "5",
+            "S": "4",
+            "T": "2",
+            "W": "1",
+            "I": "4",
+            "A": "1",
+            "LD": "6",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 17.0,
+          "rules": [
+            "Evasive",
+            "Cold Blooded",
+            "Skirmishers",
+            "Scouts",
+            "Move Through Cover"
+          ],
+          "role": "champion",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": []
+    },
+    {
+      "name": "Kroxigor",
+      "category": "Special",
+      "base_points": 0.0,
+      "rules": [
+        "Cold Blooded",
+        "Fear",
+        "Close Order",
+        "Aquatic"
+      ],
+      "models": [
+        {
+          "name": "Kroxigor",
+          "stats": {
+            "M": "6",
+            "WS": "3",
+            "BS": "0",
+            "S": "5",
+            "T": "4",
+            "W": "3",
+            "I": "3",
+            "A": "3",
+            "LD": "7",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Monsterous Infantry"
+          },
+          "cost": 49.0,
+          "rules": [
+            "Aquatic",
+            "Close Order",
+            "Cold Blooded",
+            "Fear"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Champion",
+          "stats": {
+            "M": "6",
+            "WS": "3",
+            "BS": "0",
+            "S": "5",
+            "T": "4",
+            "W": "3",
+            "I": "3",
+            "A": "4",
+            "LD": "7",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Monsterous Infantry"
+          },
+          "cost": 56.0,
+          "rules": [
+            "Aquatic",
+            "Close Order",
+            "Cold Blooded",
+            "Fear"
+          ],
+          "role": "champion",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": []
+    },
+    {
+      "name": "Jungle Swarms",
+      "category": "Core",
+      "base_points": 0.0,
+      "rules": [
+        "Cold Blooded",
+        "Move Through Cover",
+        "Loner",
+        "Immune to Psychology",
+        "Poisoned Attacks",
+        "Skirmishers",
+        "Unbreakable",
+        "Vanguard"
+      ],
+      "models": [
+        {
+          "name": "Jungle Swarms",
+          "stats": {
+            "M": "5",
+            "WS": "3",
+            "BS": "0",
+            "S": "2",
+            "T": "2",
+            "W": "5",
+            "I": "1",
+            "A": "5",
+            "LD": "5",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Swarms"
+          },
+          "cost": 40.0,
+          "rules": [
+            "Vanguard",
+            "Loner",
+            "Cold Blooded",
+            "Poisoned Attacks",
+            "Skirmishers",
+            "Immune to Psychology",
+            "Unbreakable",
+            "Move Through Cover"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": []
+    },
+    {
+      "name": "Salamander Pack",
+      "category": "Rare",
+      "base_points": 0.0,
+      "rules": [
+        "Aquatic",
+        "Beast Handlers",
+        "Cold Blooded",
+        "Fear",
+        "Skirmishers"
+      ],
+      "models": [
+        {
+          "name": "Salamander Pack",
+          "stats": {
+            "M": "6",
+            "WS": "3",
+            "BS": "3",
+            "S": "5",
+            "T": "4",
+            "W": "3",
+            "I": "4",
+            "A": "2",
+            "LD": "4",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "War Beast"
+          },
+          "cost": 75.0,
+          "rules": [
+            "Aquatic",
+            "Beast Handlers",
+            "Cold Blooded",
+            "Skirmishers",
+            "Fear"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Wicked Claws",
+            "Firey Breath"
+          ]
+        },
+        {
+          "name": "Salamander",
+          "stats": {
+            "M": "6",
+            "WS": "3",
+            "BS": "3",
+            "S": "5",
+            "T": "4",
+            "W": "3",
+            "I": "4",
+            "A": "2",
+            "LD": "4",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "War Beast"
+          },
+          "cost": 75.0,
+          "rules": [
+            "Aquatic",
+            "Beast Handlers",
+            "Cold Blooded",
+            "Skirmishers",
+            "Fear"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Wicked Claws",
+            "Firey Breath"
+          ]
+        },
+        {
+          "name": "Skink Handler",
+          "stats": {
+            "M": "6",
+            "WS": "2",
+            "BS": "3",
+            "S": "3",
+            "T": "2",
+            "W": "1",
+            "I": "4",
+            "A": "1",
+            "LD": "5",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 5.0,
+          "rules": [
+            "Aquatic",
+            "Beast Handlers",
+            "Cold Blooded",
+            "Skirmishers",
+            "Fear"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": []
+    },
+    {
+      "name": "Razordon Pack",
+      "category": "Rare",
+      "base_points": 0.0,
+      "rules": [
+        "Aquatic",
+        "Beast Handlers",
+        "Cold Blooded",
+        "Fear",
+        "Skirmishers"
+      ],
+      "models": [
+        {
+          "name": "Razordon Pack",
+          "stats": {
+            "M": "6",
+            "WS": "3",
+            "BS": "4",
+            "S": "5",
+            "T": "4",
+            "W": "3",
+            "I": "4",
+            "A": "2",
+            "LD": "4",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "War Beast"
+          },
+          "cost": 60.0,
+          "rules": [
+            "Aquatic",
+            "Beast Handlers",
+            "Cold Blooded",
+            "Skirmishers",
+            "Fear"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Wicked Claws",
+            "Razor Barbs"
+          ]
+        },
+        {
+          "name": "Razordon",
+          "stats": {
+            "M": "6",
+            "WS": "3",
+            "BS": "4",
+            "S": "5",
+            "T": "4",
+            "W": "3",
+            "I": "4",
+            "A": "2",
+            "LD": "4",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "War Beast"
+          },
+          "cost": 60.0,
+          "rules": [
+            "Aquatic",
+            "Beast Handlers",
+            "Cold Blooded",
+            "Skirmishers",
+            "Fear"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Wicked Claws",
+            "Razor Barbs"
+          ]
+        },
+        {
+          "name": "Skink Handler",
+          "stats": {
+            "M": "6",
+            "WS": "2",
+            "BS": "3",
+            "S": "3",
+            "T": "2",
+            "W": "1",
+            "I": "4",
+            "A": "1",
+            "LD": "5",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 5.0,
+          "rules": [
+            "Aquatic",
+            "Beast Handlers",
+            "Cold Blooded",
+            "Skirmishers",
+            "Fear"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": []
+    },
+    {
+      "name": "Cold One Riders",
+      "category": "Special",
+      "base_points": 0.0,
+      "rules": [
+        "Close Order",
+        "Cold Blooded",
+        "Obsidian Blades",
+        "Armored Hide (X)",
+        "Armor Bane (X)",
+        "Fear",
+        "Stupidity",
+        "Swiftstride"
+      ],
+      "models": [
+        {
+          "name": "Cold One Riders",
+          "stats": {
+            "M": "",
+            "WS": "4",
+            "BS": "0",
+            "S": "4",
+            "T": "4",
+            "W": "1",
+            "I": "2",
+            "A": "2",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Cavalry"
+          },
+          "cost": 34.0,
+          "rules": [
+            "Armored Hide (X)",
+            "Close Order",
+            "Obsidian Blades",
+            "Cold Blooded",
+            "Armor Bane (X)",
+            "Swiftstride",
+            "Fear",
+            "Stupidity",
+            "Drilled"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Champion",
+          "stats": {
+            "M": "-",
+            "WS": "4",
+            "BS": "0",
+            "S": "4",
+            "T": "4",
+            "W": "1",
+            "I": "2",
+            "A": "3",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Cavalry"
+          },
+          "cost": 41.0,
+          "rules": [
+            "Armored Hide (X)",
+            "Close Order",
+            "Obsidian Blades",
+            "Cold Blooded",
+            "Armor Bane (X)",
+            "Swiftstride",
+            "Fear",
+            "Stupidity"
+          ],
+          "role": "champion",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Cavalry Spear",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Drilled",
+          "cost": 2.0,
+          "is_default": false
+        },
+        {
+          "name": "Musician",
+          "cost": 7.0,
+          "is_default": false
+        },
+        {
+          "name": "Standard Bearer",
+          "cost": 7.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Terradon Riders",
+      "category": "Special",
+      "base_points": 0.0,
+      "rules": [
+        "Skirmishers",
+        "Cold Blooded",
+        "Fly (X)",
+        "Armored Hide (X)",
+        "Drop Rocks",
+        "Fear",
+        "Poisoned Attacks",
+        "Swiftstride"
+      ],
+      "models": [
+        {
+          "name": "Terradon Riders",
+          "stats": {
+            "M": "-",
+            "WS": "2",
+            "BS": "3",
+            "S": "3",
+            "T": "3",
+            "W": "2",
+            "I": "4",
+            "A": "1",
+            "LD": "5",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Monsterous Cavalry"
+          },
+          "cost": 32.0,
+          "rules": [
+            "Fly (X)",
+            "Armored Hide (X)",
+            "Cold Blooded",
+            "Poisoned Attacks",
+            "Skirmishers",
+            "Drop Rocks",
+            "Swiftstride",
+            "Fear"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Fireleech Bolas"
+          ]
+        },
+        {
+          "name": "Champion",
+          "stats": {
+            "M": "-",
+            "WS": "2",
+            "BS": "4",
+            "S": "3",
+            "T": "3",
+            "W": "2",
+            "I": "4",
+            "A": "1",
+            "LD": "5",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Monsterous Cavalry"
+          },
+          "cost": 38.0,
+          "rules": [
+            "Fly (X)",
+            "Armored Hide (X)",
+            "Cold Blooded",
+            "Poisoned Attacks",
+            "Skirmishers",
+            "Drop Rocks",
+            "Swiftstride",
+            "Fear"
+          ],
+          "role": "champion",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Equipment",
+          "cost": 0.0,
+          "is_default": true
+        },
+        {
+          "name": "Fireleech Bolas",
+          "cost": 1.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Ripperdactyl Riders",
+      "category": "Special",
+      "base_points": 0.0,
+      "rules": [
+        "Skirmishers",
+        "Cold Blooded",
+        "Fly (X)",
+        "Armored Hide (X)",
+        "Cleaving Blow",
+        "Fear",
+        "Furious Charge",
+        "Swiftstride",
+        "Impetuous"
+      ],
+      "models": [
+        {
+          "name": "Ripperdactyl Riders",
+          "stats": {
+            "M": "-",
+            "WS": "2",
+            "BS": "3",
+            "S": "3",
+            "T": "3",
+            "W": "2",
+            "I": "4",
+            "A": "1",
+            "LD": "5",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Monsterous Cavalry"
+          },
+          "cost": 40.0,
+          "rules": [
+            "Fly (X)",
+            "Armored Hide (X)",
+            "Cold Blooded",
+            "Furious Charge",
+            "Cleaving Blow",
+            "Impetuous",
+            "Skirmishers",
+            "Swiftstride",
+            "Fear"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Champion",
+          "stats": {
+            "M": "-",
+            "WS": "2",
+            "BS": "3",
+            "S": "3",
+            "T": "3",
+            "W": "2",
+            "I": "4",
+            "A": "2",
+            "LD": "5",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Monsterous Cavalry"
+          },
+          "cost": 46.0,
+          "rules": [
+            "Fly (X)",
+            "Armored Hide (X)",
+            "Cold Blooded",
+            "Furious Charge",
+            "Cleaving Blow",
+            "Impetuous",
+            "Skirmishers",
+            "Swiftstride",
+            "Fear"
+          ],
+          "role": "champion",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": []
+    },
+    {
+      "name": "Bastiladon",
+      "category": "Special",
+      "base_points": 145.0,
+      "rules": [
+        "Close Order",
+        "Cold Blooded",
+        "Immune to Psychology",
+        "Impact Hits (X)",
+        "Large Target",
+        "Poisoned Attacks",
+        "Stomp Attacks (X)",
+        "Stubborn",
+        "Terror"
+      ],
+      "models": [
+        {
+          "name": "Bastiladon",
+          "stats": {
+            "M": "4",
+            "WS": "3",
+            "BS": "-",
+            "S": "4",
+            "T": "5",
+            "W": "4",
+            "I": "1",
+            "A": "3",
+            "LD": "-",
+            "ArmourSave": "3+",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Monsterous Creature"
+          },
+          "cost": 150.0,
+          "rules": [
+            "Close Order",
+            "Large Target",
+            "Stubborn",
+            "Terror",
+            "Cold Blooded",
+            "Poisoned Attacks",
+            "Stomp Attacks (X)",
+            "Immune to Psychology",
+            "Impact Hits (X)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Thunderous Bludgeon"
+          ]
+        },
+        {
+          "name": "Skink Crew",
+          "stats": {
+            "M": "-",
+            "WS": "2",
+            "BS": "3",
+            "S": "3",
+            "T": "-",
+            "W": "-",
+            "I": "4",
+            "A": "1",
+            "LD": "6",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": ""
+          },
+          "cost": 5.0,
+          "rules": [
+            "Close Order",
+            "Large Target",
+            "Stubborn",
+            "Terror",
+            "Cold Blooded",
+            "Poisoned Attacks",
+            "Stomp Attacks (X)",
+            "Immune to Psychology",
+            "Impact Hits (X)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Solar Engine",
+          "cost": 15.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Troglodon",
+      "category": "Rare",
+      "base_points": 200.0,
+      "rules": [
+        "Aquatic",
+        "Close Order",
+        "Cold Blooded",
+        "Immune to Psychology",
+        "Large Target",
+        "Lore Of Lustria",
+        "Stomp Attacks (X)",
+        "Stubborn",
+        "Terror",
+        "Arcane Vassal"
+      ],
+      "models": [
+        {
+          "name": "Troglodon",
+          "stats": {
+            "M": "7",
+            "WS": "3",
+            "BS": "-",
+            "S": "5",
+            "T": "5",
+            "W": "5",
+            "I": "2",
+            "A": "3",
+            "LD": "-",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Monsterous Creature"
+          },
+          "cost": 200.0,
+          "rules": [
+            "Aquatic",
+            "Close Order",
+            "Large Target",
+            "Stubborn",
+            "Terror",
+            "Cold Blooded",
+            "Stomp Attacks (X)",
+            "Immune to Psychology",
+            "Lore Of Lustria",
+            "Arcane Vassal"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Venom Spray",
+            "Venomous Talons"
+          ]
+        }
+      ],
+      "upgrades": []
+    },
+    {
+      "name": "Skink Chief",
+      "category": "Characters",
+      "base_points": 45.0,
+      "rules": [
+        "Aquatic",
+        "Cold Blooded",
+        "Poisoned Attacks"
+      ],
+      "models": [
+        {
+          "name": "Skink Chief",
+          "stats": {
+            "M": "6",
+            "WS": "4",
+            "BS": "5",
+            "S": "4",
+            "T": "3",
+            "W": "2",
+            "I": "6",
+            "A": "3",
+            "LD": "6",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 45.0,
+          "rules": [
+            "Aquatic",
+            "Cold Blooded",
+            "Poisoned Attacks"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Skink Chief on Stegadon",
+          "stats": {
+            "M": "6",
+            "WS": "4",
+            "BS": "5",
+            "S": "4",
+            "T": "6",
+            "W": "5",
+            "I": "6",
+            "A": "3",
+            "LD": "6",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 260.0,
+          "rules": [
+            "Aquatic",
+            "Close Order",
+            "Large Target",
+            "Stubborn",
+            "Terror",
+            "Cold Blooded",
+            "Poisoned Attacks",
+            "Stomp Attacks (X)",
+            "Immune to Psychology",
+            "Howdah",
+            "Impact Hits (X)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Giant Blowpipes",
+            "Great Horns",
+            "Giant Bow"
+          ]
+        },
+        {
+          "name": "Skink Chief on Terradon",
+          "stats": {
+            "M": "2",
+            "WS": "4",
+            "BS": "5",
+            "S": "4",
+            "T": "4",
+            "W": "3",
+            "I": "6",
+            "A": "3",
+            "LD": "6",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 75.0,
+          "rules": [
+            "Aquatic",
+            "Armored Hide (X)",
+            "Cold Blooded",
+            "Poisoned Attacks",
+            "Drop Rocks",
+            "Swiftstride",
+            "Fear",
+            "Fly (X)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Skink Chief on Ripperdactyl",
+          "stats": {
+            "M": "2",
+            "WS": "4",
+            "BS": "5",
+            "S": "4",
+            "T": "4",
+            "W": "3",
+            "I": "6",
+            "A": "3",
+            "LD": "6",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 80.0,
+          "rules": [
+            "Aquatic",
+            "Armored Hide (X)",
+            "Cold Blooded",
+            "Poisoned Attacks",
+            "Furious Charge",
+            "Cleaving Blow",
+            "Impetuous",
+            "Swiftstride",
+            "Fear",
+            "Fly (X)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Shield",
+          "cost": 2.0,
+          "is_default": false
+        },
+        {
+          "name": "Battle Standard Bearer",
+          "cost": 25.0,
+          "is_default": false
+        },
+        {
+          "name": "Equipment",
+          "cost": 0.0,
+          "is_default": true
+        },
+        {
+          "name": "Giant Bow",
+          "cost": 0.0,
+          "is_default": false
+        },
+        {
+          "name": "Giant Blowpipes",
+          "cost": 0.0,
+          "is_default": false
+        },
+        {
+          "name": "Additional Hand Weapon",
+          "cost": 3.0,
+          "is_default": false
+        },
+        {
+          "name": "Cavalry Spear",
+          "cost": 4.0,
+          "is_default": false
+        },
+        {
+          "name": "Blowpipe",
+          "cost": 4.0,
+          "is_default": false
+        },
+        {
+          "name": "Javelins",
+          "cost": 3.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Skink Priest",
+      "category": "Characters",
+      "base_points": 60.0,
+      "rules": [
+        "Aquatic",
+        "Cold Blooded",
+        "Poisoned Attacks",
+        "Lore Of Lustria"
+      ],
+      "models": [
+        {
+          "name": "Skink Priest",
+          "stats": {
+            "M": "6",
+            "WS": "2",
+            "BS": "3",
+            "S": "3",
+            "T": "2",
+            "W": "2",
+            "I": "4",
+            "A": "1",
+            "LD": "6",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 60.0,
+          "rules": [
+            "Aquatic",
+            "Cold Blooded",
+            "Poisoned Attacks",
+            "Lore Of Lustria"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Skink Priest on Ancient Stegadon",
+          "stats": {
+            "M": "6",
+            "WS": "2",
+            "BS": "3",
+            "S": "3",
+            "T": "6",
+            "W": "5",
+            "I": "4",
+            "A": "1",
+            "LD": "6",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 290.0,
+          "rules": [
+            "Aquatic",
+            "Close Order",
+            "Large Target",
+            "Stubborn",
+            "Terror",
+            "Cold Blooded",
+            "Poisoned Attacks",
+            "Stomp Attacks (X)",
+            "Immune to Psychology",
+            "Lore Of Lustria",
+            "Howdah",
+            "Impact Hits (X)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Giant Blowpipes",
+            "Great Horns",
+            "Giant Bow"
+          ]
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Equipment",
+          "cost": 0.0,
+          "is_default": true
+        },
+        {
+          "name": "Giant Bow",
+          "cost": 0.0,
+          "is_default": false
+        },
+        {
+          "name": "Giant Blowpipes",
+          "cost": 0.0,
+          "is_default": false
+        },
+        {
+          "name": "Engine of the Gods",
+          "cost": 25.0,
+          "is_default": false
+        },
+        {
+          "name": "Level 2 Wizard",
+          "cost": 30.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Slann Mage-Priest",
+      "category": "Characters",
+      "base_points": 285.0,
+      "rules": [
+        "Fly (X)",
+        "Cold Blooded",
+        "Large Target",
+        "Lore Of Lustria"
+      ],
+      "models": [
+        {
+          "name": "Slann Mage-Priest",
+          "stats": {
+            "M": "2",
+            "WS": "2",
+            "BS": "3",
+            "S": "3",
+            "T": "4",
+            "W": "5",
+            "I": "2",
+            "A": "1",
+            "LD": "9",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Monsterous Infantry"
+          },
+          "cost": 285.0,
+          "rules": [
+            "Fly (X)",
+            "Cold Blooded",
+            "Large Target",
+            "Lore Of Lustria"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Slann Mage-Priest on Slann Mage-Priest",
+          "stats": {
+            "M": "2",
+            "WS": "2",
+            "BS": "3",
+            "S": "3",
+            "T": "4",
+            "W": "5",
+            "I": "2",
+            "A": "1",
+            "LD": "9",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Monsterous Infantry"
+          },
+          "cost": 570.0,
+          "rules": [
+            "Cold Blooded",
+            "Large Target",
+            "Lore Of Lustria",
+            "Fly (X)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Battle Standard Bearer",
+          "cost": 25.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Saurus Scar-Veteran",
+      "category": "Characters",
+      "base_points": 90.0,
+      "rules": [
+        "Furious Charge",
+        "Cold Blooded",
+        "Obsidian Blades",
+        "Rallying Cry"
+      ],
+      "models": [
+        {
+          "name": "Saurus Scar-Veteran",
+          "stats": {
+            "M": "4",
+            "WS": "5",
+            "BS": "0",
+            "S": "5",
+            "T": "5",
+            "W": "2",
+            "I": "3",
+            "A": "4",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Infantry"
+          },
+          "cost": 90.0,
+          "rules": [
+            "Furious Charge",
+            "Cold Blooded",
+            "Obsidian Blades",
+            "Rallying Cry"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Saurus Scar-Veteran on Carnosaur",
+          "stats": {
+            "M": "7",
+            "WS": "5",
+            "BS": "0",
+            "S": "5",
+            "T": "6",
+            "W": "6",
+            "I": "3",
+            "A": "4",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Infantry"
+          },
+          "cost": 260.0,
+          "rules": [
+            "Close Order",
+            "Large Target",
+            "Terror",
+            "Obsidian Blades",
+            "Cold Blooded",
+            "Furious Charge",
+            "Stomp Attacks (X)",
+            "Swiftstride",
+            "Rallying Cry"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Slashing Talons"
+          ]
+        },
+        {
+          "name": "Saurus Scar-Veteran on Cold One",
+          "stats": {
+            "M": "7",
+            "WS": "5",
+            "BS": "0",
+            "S": "5",
+            "T": "5",
+            "W": "2",
+            "I": "3",
+            "A": "4",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Infantry"
+          },
+          "cost": 108.0,
+          "rules": [
+            "Armored Hide (X)",
+            "Obsidian Blades",
+            "Cold Blooded",
+            "Furious Charge",
+            "Armor Bane (X)",
+            "Swiftstride",
+            "Fear",
+            "Stupidity",
+            "Rallying Cry"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Shield",
+          "cost": 2.0,
+          "is_default": false
+        },
+        {
+          "name": "Battle Standard Bearer",
+          "cost": 25.0,
+          "is_default": false
+        },
+        {
+          "name": "Additional Hand Weapon",
+          "cost": 3.0,
+          "is_default": false
+        },
+        {
+          "name": "Cavalry Spear",
+          "cost": 4.0,
+          "is_default": false
+        },
+        {
+          "name": "Halberd",
+          "cost": 3.0,
+          "is_default": false
+        },
+        {
+          "name": "Great Weapon",
+          "cost": 4.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Saurus Oldblood",
+      "category": "Characters",
+      "base_points": 140.0,
+      "rules": [
+        "Furious Charge",
+        "Cold Blooded",
+        "Obsidian Blades",
+        "Rallying Cry"
+      ],
+      "models": [
+        {
+          "name": "Saurus Oldblood",
+          "stats": {
+            "M": "4",
+            "WS": "6",
+            "BS": "0",
+            "S": "5",
+            "T": "5",
+            "W": "3",
+            "I": "3",
+            "A": "5",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Infantry"
+          },
+          "cost": 140.0,
+          "rules": [
+            "Furious Charge",
+            "Cold Blooded",
+            "Obsidian Blades",
+            "Rallying Cry"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Saurus Oldblood on Carnosaur",
+          "stats": {
+            "M": "7",
+            "WS": "6",
+            "BS": "0",
+            "S": "5",
+            "T": "6",
+            "W": "7",
+            "I": "3",
+            "A": "5",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Infantry"
+          },
+          "cost": 310.0,
+          "rules": [
+            "Close Order",
+            "Large Target",
+            "Terror",
+            "Obsidian Blades",
+            "Cold Blooded",
+            "Furious Charge",
+            "Stomp Attacks (X)",
+            "Swiftstride",
+            "Rallying Cry"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Slashing Talons"
+          ]
+        },
+        {
+          "name": "Saurus Oldblood on Cold One",
+          "stats": {
+            "M": "7",
+            "WS": "6",
+            "BS": "0",
+            "S": "5",
+            "T": "5",
+            "W": "3",
+            "I": "3",
+            "A": "5",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Infantry"
+          },
+          "cost": 158.0,
+          "rules": [
+            "Armored Hide (X)",
+            "Obsidian Blades",
+            "Cold Blooded",
+            "Furious Charge",
+            "Armor Bane (X)",
+            "Swiftstride",
+            "Fear",
+            "Stupidity",
+            "Rallying Cry"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Shield",
+          "cost": 2.0,
+          "is_default": false
+        },
+        {
+          "name": "Additional Hand Weapon",
+          "cost": 3.0,
+          "is_default": false
+        },
+        {
+          "name": "Cavalry Spear",
+          "cost": 4.0,
+          "is_default": false
+        },
+        {
+          "name": "Halberd",
+          "cost": 3.0,
+          "is_default": false
+        },
+        {
+          "name": "Great Weapon",
+          "cost": 4.0,
+          "is_default": false
+        }
+      ]
+    }
+  ]
+}

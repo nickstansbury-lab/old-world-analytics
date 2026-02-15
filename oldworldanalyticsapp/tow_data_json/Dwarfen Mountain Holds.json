@@ -1,0 +1,3785 @@
+{
+  "faction_name": "Dwarfen Mountain Holds",
+  "units": [
+    {
+      "name": "Dwarf Warriors",
+      "category": "Core",
+      "base_points": 0.0,
+      "rules": [
+        "Resolute",
+        "Close Order",
+        "Magic Resistance (-1)",
+        "Hatred (Orcs & Goblins)",
+        "Shieldwall"
+      ],
+      "models": [
+        {
+          "name": "Dwarf Warriors",
+          "stats": {
+            "M": "3",
+            "WS": "4",
+            "BS": "3",
+            "S": "3",
+            "T": "4",
+            "W": "1",
+            "I": "2",
+            "A": "1",
+            "LD": "9",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Infantry"
+          },
+          "cost": 8.0,
+          "rules": [
+            "Close Order",
+            "Veteran",
+            "Resolute",
+            "Magic Resistance (-1)",
+            "Shieldwall",
+            "Hatred (Orcs & Goblins)",
+            "Drilled"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Warrior",
+          "stats": {
+            "M": "3",
+            "WS": "4",
+            "BS": "3",
+            "S": "3",
+            "T": "4",
+            "W": "1",
+            "I": "2",
+            "A": "1",
+            "LD": "9",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Infantry"
+          },
+          "cost": 8.0,
+          "rules": [
+            "Close Order",
+            "Veteran",
+            "Resolute",
+            "Magic Resistance (-1)",
+            "Shieldwall",
+            "Hatred (Orcs & Goblins)",
+            "Drilled"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Champion",
+          "stats": {
+            "M": "3",
+            "WS": "4",
+            "BS": "3",
+            "S": "3",
+            "T": "4",
+            "W": "1",
+            "I": "2",
+            "A": "2",
+            "LD": "9",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Infantry"
+          },
+          "cost": 13.0,
+          "rules": [
+            "Close Order",
+            "Resolute",
+            "Magic Resistance (-1)",
+            "Shieldwall",
+            "Hatred (Orcs & Goblins)"
+          ],
+          "role": "champion",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Shields",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Great Weapons",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Veteran",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Drilled",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Standard Bearer",
+          "cost": 5.0,
+          "is_default": false
+        },
+        {
+          "name": "Musician",
+          "cost": 5.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Longbeards",
+      "category": "Special",
+      "base_points": 0.0,
+      "rules": [
+        "Resolute",
+        "Close Order",
+        "Magic Resistance (-1)",
+        "Hatred (Orcs & Goblins)",
+        "Shieldwall",
+        "Gromril Weapons",
+        "Veteran"
+      ],
+      "models": [
+        {
+          "name": "Longbeards",
+          "stats": {
+            "M": "3",
+            "WS": "5",
+            "BS": "3",
+            "S": "4",
+            "T": "4",
+            "W": "1",
+            "I": "2",
+            "A": "1",
+            "LD": "9",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Infantry"
+          },
+          "cost": 12.0,
+          "rules": [
+            "Close Order",
+            "Gromril Weapons",
+            "Veteran",
+            "Resolute",
+            "Magic Resistance (-1)",
+            "Shieldwall",
+            "Hatred (Orcs & Goblins)",
+            "Drilled"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Champion",
+          "stats": {
+            "M": "3",
+            "WS": "5",
+            "BS": "3",
+            "S": "4",
+            "T": "4",
+            "W": "1",
+            "I": "2",
+            "A": "2",
+            "LD": "9",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Infantry"
+          },
+          "cost": 18.0,
+          "rules": [
+            "Close Order",
+            "Gromril Weapons",
+            "Veteran",
+            "Resolute",
+            "Magic Resistance (-1)",
+            "Shieldwall",
+            "Hatred (Orcs & Goblins)"
+          ],
+          "role": "champion",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Shields",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Great Weapons",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Drilled",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Standard Bearer",
+          "cost": 6.0,
+          "is_default": false
+        },
+        {
+          "name": "Musician",
+          "cost": 6.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Quarrellers",
+      "category": "Core",
+      "base_points": 0.0,
+      "rules": [
+        "Resolute",
+        "Close Order",
+        "Magic Resistance (-1)",
+        "Hatred (Orcs & Goblins)",
+        "Dwarf Crafted"
+      ],
+      "models": [
+        {
+          "name": "Quarrellers",
+          "stats": {
+            "M": "3",
+            "WS": "3",
+            "BS": "3",
+            "S": "3",
+            "T": "4",
+            "W": "1",
+            "I": "2",
+            "A": "1",
+            "LD": "9",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Infantry"
+          },
+          "cost": 9.0,
+          "rules": [
+            "Close Order",
+            "Dwarf Crafted",
+            "Resolute",
+            "Magic Resistance (-1)",
+            "Hatred (Orcs & Goblins)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Champion",
+          "stats": {
+            "M": "3",
+            "WS": "3",
+            "BS": "4",
+            "S": "3",
+            "T": "4",
+            "W": "1",
+            "I": "2",
+            "A": "1",
+            "LD": "9",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Infantry"
+          },
+          "cost": 14.0,
+          "rules": [
+            "Close Order",
+            "Dwarf Crafted",
+            "Resolute",
+            "Magic Resistance (-1)",
+            "Hatred (Orcs & Goblins)"
+          ],
+          "role": "champion",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Shields",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Great Weapons",
+          "cost": 2.0,
+          "is_default": false
+        },
+        {
+          "name": "Brace of Pistols",
+          "cost": 5.0,
+          "is_default": false
+        },
+        {
+          "name": "Standard Bearer",
+          "cost": 5.0,
+          "is_default": false
+        },
+        {
+          "name": "Musician",
+          "cost": 5.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Thunderers",
+      "category": "Core",
+      "base_points": 0.0,
+      "rules": [
+        "Resolute",
+        "Close Order",
+        "Magic Resistance (-1)",
+        "Hatred (Orcs & Goblins)",
+        "Dwarf Crafted"
+      ],
+      "models": [
+        {
+          "name": "Thunderers",
+          "stats": {
+            "M": "3",
+            "WS": "3",
+            "BS": "3",
+            "S": "3",
+            "T": "4",
+            "W": "1",
+            "I": "2",
+            "A": "1",
+            "LD": "9",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Infantry"
+          },
+          "cost": 10.0,
+          "rules": [
+            "Close Order",
+            "Dwarf Crafted",
+            "Resolute",
+            "Magic Resistance (-1)",
+            "Hatred (Orcs & Goblins)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Champion",
+          "stats": {
+            "M": "3",
+            "WS": "3",
+            "BS": "4",
+            "S": "3",
+            "T": "4",
+            "W": "1",
+            "I": "2",
+            "A": "1",
+            "LD": "9",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Infantry"
+          },
+          "cost": 15.0,
+          "rules": [
+            "Close Order",
+            "Dwarf Crafted",
+            "Resolute",
+            "Magic Resistance (-1)",
+            "Hatred (Orcs & Goblins)"
+          ],
+          "role": "champion",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Expeditionary Marksmen",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Shields",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Great Weapons",
+          "cost": 2.0,
+          "is_default": false
+        },
+        {
+          "name": "Brace of Pistols",
+          "cost": 5.0,
+          "is_default": false
+        },
+        {
+          "name": "Standard Bearer",
+          "cost": 5.0,
+          "is_default": false
+        },
+        {
+          "name": "Musician",
+          "cost": 5.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Rangers",
+      "category": "Rare",
+      "base_points": 0.0,
+      "rules": [
+        "Resolute",
+        "Magic Resistance (-1)",
+        "Hatred (Orcs & Goblins)",
+        "Dwarf Crafted",
+        "Open Order",
+        "Scouts",
+        "Skirmishers",
+        "Move Through Cover"
+      ],
+      "models": [
+        {
+          "name": "Rangers",
+          "stats": {
+            "M": "3",
+            "WS": "4",
+            "BS": "3",
+            "S": "3",
+            "T": "4",
+            "W": "1",
+            "I": "2",
+            "A": "1",
+            "LD": "9",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Infantry"
+          },
+          "cost": 11.0,
+          "rules": [
+            "Open Order",
+            "Dwarf Crafted",
+            "Skirmishers",
+            "Scouts",
+            "Resolute",
+            "Magic Resistance (-1)",
+            "Move Through Cover",
+            "Hatred (Orcs & Goblins)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Champion",
+          "stats": {
+            "M": "3",
+            "WS": "4",
+            "BS": "4",
+            "S": "3",
+            "T": "4",
+            "W": "1",
+            "I": "2",
+            "A": "2",
+            "LD": "9",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Infantry"
+          },
+          "cost": 17.0,
+          "rules": [
+            "Open Order",
+            "Dwarf Crafted",
+            "Skirmishers",
+            "Scouts",
+            "Resolute",
+            "Magic Resistance (-1)",
+            "Move Through Cover",
+            "Hatred (Orcs & Goblins)"
+          ],
+          "role": "champion",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Shields",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Great Weapons",
+          "cost": 2.0,
+          "is_default": false
+        },
+        {
+          "name": "Throwing Axes",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Brace of Pistols",
+          "cost": 5.0,
+          "is_default": false
+        },
+        {
+          "name": "Standard Bearer",
+          "cost": 6.0,
+          "is_default": false
+        },
+        {
+          "name": "Musician",
+          "cost": 6.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Rangers",
+      "category": "Core",
+      "base_points": 0.0,
+      "rules": [
+        "Resolute",
+        "Magic Resistance (-1)",
+        "Hatred (Orcs & Goblins)",
+        "Dwarf Crafted",
+        "Open Order",
+        "Scouts",
+        "Skirmishers",
+        "Move Through Cover"
+      ],
+      "models": [
+        {
+          "name": "Rangers",
+          "stats": {
+            "M": "3",
+            "WS": "4",
+            "BS": "3",
+            "S": "3",
+            "T": "4",
+            "W": "1",
+            "I": "2",
+            "A": "1",
+            "LD": "9",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Infantry"
+          },
+          "cost": 11.0,
+          "rules": [
+            "Open Order",
+            "Dwarf Crafted",
+            "Skirmishers",
+            "Scouts",
+            "Resolute",
+            "Magic Resistance (-1)",
+            "Move Through Cover",
+            "Hatred (Orcs & Goblins)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Champion",
+          "stats": {
+            "M": "3",
+            "WS": "4",
+            "BS": "4",
+            "S": "3",
+            "T": "4",
+            "W": "1",
+            "I": "2",
+            "A": "2",
+            "LD": "9",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Infantry"
+          },
+          "cost": 17.0,
+          "rules": [
+            "Open Order",
+            "Dwarf Crafted",
+            "Skirmishers",
+            "Scouts",
+            "Resolute",
+            "Magic Resistance (-1)",
+            "Move Through Cover",
+            "Hatred (Orcs & Goblins)"
+          ],
+          "role": "champion",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Shields",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Great Weapons",
+          "cost": 2.0,
+          "is_default": false
+        },
+        {
+          "name": "Throwing Axes",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Brace of Pistols",
+          "cost": 5.0,
+          "is_default": false
+        },
+        {
+          "name": "Standard Bearer",
+          "cost": 6.0,
+          "is_default": false
+        },
+        {
+          "name": "Musician",
+          "cost": 6.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Hammerers",
+      "category": "Special",
+      "base_points": 0.0,
+      "rules": [
+        "Resolute",
+        "Close Order",
+        "Magic Resistance (-1)",
+        "Hatred (Orcs & Goblins)",
+        "Shieldwall",
+        "Gromril Weapons",
+        "Stubborn",
+        "Gromril Armor"
+      ],
+      "models": [
+        {
+          "name": "Hammerers",
+          "stats": {
+            "M": "3",
+            "WS": "5",
+            "BS": "3",
+            "S": "4",
+            "T": "4",
+            "W": "1",
+            "I": "3",
+            "A": "1",
+            "LD": "9",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Infantry"
+          },
+          "cost": 16.0,
+          "rules": [
+            "Gromril Armor",
+            "Close Order",
+            "Gromril Weapons",
+            "Stubborn",
+            "Veteran",
+            "Resolute",
+            "Magic Resistance (-1)",
+            "Shieldwall",
+            "Hatred (Orcs & Goblins)",
+            "Drilled"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Great Hammer"
+          ]
+        },
+        {
+          "name": "Champion",
+          "stats": {
+            "M": "3",
+            "WS": "5",
+            "BS": "3",
+            "S": "4",
+            "T": "4",
+            "W": "1",
+            "I": "3",
+            "A": "2",
+            "LD": "9",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Infantry"
+          },
+          "cost": 23.0,
+          "rules": [
+            "Gromril Armor",
+            "Close Order",
+            "Gromril Weapons",
+            "Stubborn",
+            "Resolute",
+            "Magic Resistance (-1)",
+            "Shieldwall",
+            "Hatred (Orcs & Goblins)"
+          ],
+          "role": "champion",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Shields",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Veteran",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Drilled",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Standard Bearer",
+          "cost": 7.0,
+          "is_default": false
+        },
+        {
+          "name": "Musician",
+          "cost": 7.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "King",
+      "category": "Characters",
+      "base_points": 125.0,
+      "rules": [
+        "Dwarf Crafted",
+        "Gromril Armor",
+        "Gromril Weapons",
+        "Hatred (Orcs & Goblins)",
+        "Magic Resistance (-1)",
+        "Rallying Cry",
+        "Resolute",
+        "Stubborn"
+      ],
+      "models": [
+        {
+          "name": "King",
+          "stats": {
+            "M": "3",
+            "WS": "7",
+            "BS": "4",
+            "S": "4",
+            "T": "5",
+            "W": "3",
+            "I": "4",
+            "A": "4",
+            "LD": "10",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Infantry (Character)"
+          },
+          "cost": 125.0,
+          "rules": [
+            "Dwarf Crafted",
+            "Gromril Armor",
+            "Gromril Weapons",
+            "Hatred (Orcs & Goblins)",
+            "Magic Resistance (-1)",
+            "Rallying Cry",
+            "Resolute",
+            "Stubborn"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Pistol",
+          "cost": 5.0,
+          "is_default": false
+        },
+        {
+          "name": "Shield",
+          "cost": 2.0,
+          "is_default": false
+        },
+        {
+          "name": "Great Weapon",
+          "cost": 4.0,
+          "is_default": false
+        },
+        {
+          "name": "Crossbow",
+          "cost": 6.0,
+          "is_default": false
+        },
+        {
+          "name": "Handgun",
+          "cost": 6.0,
+          "is_default": false
+        },
+        {
+          "name": "Oathstone",
+          "cost": 15.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Thane",
+      "category": "Characters",
+      "base_points": 60.0,
+      "rules": [
+        "Dwarf Crafted",
+        "Gromril Armor",
+        "Gromril Weapons",
+        "Hatred (Orcs & Goblins)",
+        "Magic Resistance (-1)",
+        "Rallying Cry",
+        "Resolute",
+        "Stubborn"
+      ],
+      "models": [
+        {
+          "name": "Thane",
+          "stats": {
+            "M": "3",
+            "WS": "6",
+            "BS": "4",
+            "S": "4",
+            "T": "5",
+            "W": "2",
+            "I": "3",
+            "A": "3",
+            "LD": "9",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Infantry (Character)"
+          },
+          "cost": 60.0,
+          "rules": [
+            "Dwarf Crafted",
+            "Gromril Armor",
+            "Gromril Weapons",
+            "Hatred (Orcs & Goblins)",
+            "Magic Resistance (-1)",
+            "Rallying Cry",
+            "Resolute",
+            "Stubborn"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Pistol",
+          "cost": 5.0,
+          "is_default": false
+        },
+        {
+          "name": "Shield",
+          "cost": 2.0,
+          "is_default": false
+        },
+        {
+          "name": "Battle Standard Bearer",
+          "cost": 25.0,
+          "is_default": false
+        },
+        {
+          "name": "Great Weapon",
+          "cost": 4.0,
+          "is_default": false
+        },
+        {
+          "name": "Crossbow",
+          "cost": 6.0,
+          "is_default": false
+        },
+        {
+          "name": "Handgun",
+          "cost": 6.0,
+          "is_default": false
+        },
+        {
+          "name": "Oathstone",
+          "cost": 15.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Longbeards",
+      "category": "Core",
+      "base_points": 0.0,
+      "rules": [
+        "Resolute",
+        "Close Order",
+        "Magic Resistance (-1)",
+        "Hatred (Orcs & Goblins)",
+        "Shieldwall",
+        "Gromril Weapons",
+        "Veteran"
+      ],
+      "models": [
+        {
+          "name": "Longbeards",
+          "stats": {
+            "M": "3",
+            "WS": "5",
+            "BS": "3",
+            "S": "4",
+            "T": "4",
+            "W": "1",
+            "I": "2",
+            "A": "1",
+            "LD": "9",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Infantry"
+          },
+          "cost": 12.0,
+          "rules": [
+            "Close Order",
+            "Gromril Weapons",
+            "Veteran",
+            "Resolute",
+            "Magic Resistance (-1)",
+            "Shieldwall",
+            "Hatred (Orcs & Goblins)",
+            "Drilled"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Champion",
+          "stats": {
+            "M": "3",
+            "WS": "5",
+            "BS": "3",
+            "S": "4",
+            "T": "4",
+            "W": "1",
+            "I": "2",
+            "A": "2",
+            "LD": "9",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Infantry"
+          },
+          "cost": 18.0,
+          "rules": [
+            "Close Order",
+            "Gromril Weapons",
+            "Veteran",
+            "Resolute",
+            "Magic Resistance (-1)",
+            "Shieldwall",
+            "Hatred (Orcs & Goblins)"
+          ],
+          "role": "champion",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Shields",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Great Weapons",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Drilled",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Standard Bearer",
+          "cost": 6.0,
+          "is_default": false
+        },
+        {
+          "name": "Musician",
+          "cost": 6.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Anvil of Doom",
+      "category": "Characters",
+      "base_points": 235.0,
+      "rules": [
+        "Gromril Armor",
+        "Gromril Weapons",
+        "Hatred (Orcs & Goblins)",
+        "Magic Resistance (-3)",
+        "Resolute",
+        "Stubborn",
+        "Immune to Psychology",
+        "Skirmishers",
+        "Rune Lore",
+        "Unbreakable"
+      ],
+      "models": [
+        {
+          "name": "Anvil of Doom",
+          "stats": {
+            "M": "3",
+            "WS": "6",
+            "BS": "4",
+            "S": "4",
+            "T": "5",
+            "W": "4",
+            "I": "3",
+            "A": "5",
+            "LD": "9",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "War Machine (Character)"
+          },
+          "cost": 235.0,
+          "rules": [
+            "Gromril Armor",
+            "Gromril Weapons",
+            "Hatred (Orcs & Goblins)",
+            "Magic Resistance (-3)",
+            "Resolute",
+            "Stubborn",
+            "Immune to Psychology",
+            "Skirmishers",
+            "Rune Lore",
+            "Unbreakable"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": []
+    },
+    {
+      "name": "Runelord",
+      "category": "Characters",
+      "base_points": 120.0,
+      "rules": [
+        "Gromril Armor",
+        "Gromril Weapons",
+        "Hatred (Orcs & Goblins)",
+        "Magic Resistance (-2)",
+        "Resolute",
+        "Stubborn",
+        "Armor Bane (X)",
+        "Rune Lore"
+      ],
+      "models": [
+        {
+          "name": "Runelord",
+          "stats": {
+            "M": "3",
+            "WS": "6",
+            "BS": "4",
+            "S": "4",
+            "T": "5",
+            "W": "3",
+            "I": "3",
+            "A": "3",
+            "LD": "9",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Infantry (Character)"
+          },
+          "cost": 120.0,
+          "rules": [
+            "Gromril Armor",
+            "Gromril Weapons",
+            "Hatred (Orcs & Goblins)",
+            "Magic Resistance (-2)",
+            "Resolute",
+            "Stubborn",
+            "Armor Bane (X)",
+            "Rune Lore"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Great Weapon",
+          "cost": 4.0,
+          "is_default": false
+        },
+        {
+          "name": "Shield",
+          "cost": 2.0,
+          "is_default": false
+        },
+        {
+          "name": "Replace Heavy Armor with Full Plate Armor",
+          "cost": 3.0,
+          "is_default": false
+        },
+        {
+          "name": "Oathstone",
+          "cost": 15.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Runesmith",
+      "category": "Characters",
+      "base_points": 65.0,
+      "rules": [
+        "Gromril Armor",
+        "Gromril Weapons",
+        "Hatred (Orcs & Goblins)",
+        "Magic Resistance (-2)",
+        "Resolute",
+        "Stubborn",
+        "Armor Bane (X)",
+        "Rune Lore"
+      ],
+      "models": [
+        {
+          "name": "Runesmith",
+          "stats": {
+            "M": "3",
+            "WS": "5",
+            "BS": "4",
+            "S": "4",
+            "T": "4",
+            "W": "2",
+            "I": "2",
+            "A": "2",
+            "LD": "9",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Infantry (Character)"
+          },
+          "cost": 65.0,
+          "rules": [
+            "Gromril Armor",
+            "Gromril Weapons",
+            "Hatred (Orcs & Goblins)",
+            "Magic Resistance (-2)",
+            "Resolute",
+            "Stubborn",
+            "Armor Bane (X)",
+            "Rune Lore"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Great Weapon",
+          "cost": 4.0,
+          "is_default": false
+        },
+        {
+          "name": "Shield",
+          "cost": 2.0,
+          "is_default": false
+        },
+        {
+          "name": "Replace Heavy Armor with Full Plate Armor",
+          "cost": 3.0,
+          "is_default": false
+        },
+        {
+          "name": "Oathstone",
+          "cost": 15.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Daemon Slayer",
+      "category": "Characters",
+      "base_points": 130.0,
+      "rules": [
+        "Gromril Weapons",
+        "Hatred (Orcs & Goblins)",
+        "Magic Resistance (-2)",
+        "Deathblow",
+        "Immune to Psychology",
+        "Killing Blow",
+        "Loner",
+        "Unbreakable",
+        "Resolute",
+        "Vanguard"
+      ],
+      "models": [
+        {
+          "name": "Daemon Slayer",
+          "stats": {
+            "M": "3",
+            "WS": "7",
+            "BS": "3",
+            "S": "4",
+            "T": "5",
+            "W": "3",
+            "I": "5",
+            "A": "4",
+            "LD": "10",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Infantry (Character)"
+          },
+          "cost": 130.0,
+          "rules": [
+            "Gromril Weapons",
+            "Hatred (Orcs & Goblins)",
+            "Magic Resistance (-2)",
+            "Deathblow",
+            "Immune to Psychology",
+            "Killing Blow",
+            "Loner",
+            "Unbreakable",
+            "Resolute",
+            "Vanguard"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Great Weapon",
+          "cost": 4.0,
+          "is_default": false
+        },
+        {
+          "name": "Additional Hand Weapon",
+          "cost": 3.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Dragon Slayer",
+      "category": "Characters",
+      "base_points": 70.0,
+      "rules": [
+        "Gromril Weapons",
+        "Hatred (Orcs & Goblins)",
+        "Magic Resistance (-2)",
+        "Deathblow",
+        "Immune to Psychology",
+        "Killing Blow",
+        "Loner",
+        "Unbreakable",
+        "Resolute",
+        "Vanguard"
+      ],
+      "models": [
+        {
+          "name": "Dragon Slayer",
+          "stats": {
+            "M": "3",
+            "WS": "6",
+            "BS": "3",
+            "S": "4",
+            "T": "5",
+            "W": "2",
+            "I": "4",
+            "A": "3",
+            "LD": "10",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Infantry (Character)"
+          },
+          "cost": 70.0,
+          "rules": [
+            "Gromril Weapons",
+            "Hatred (Orcs & Goblins)",
+            "Magic Resistance (-2)",
+            "Deathblow",
+            "Immune to Psychology",
+            "Killing Blow",
+            "Loner",
+            "Unbreakable",
+            "Resolute",
+            "Vanguard"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Great Weapon",
+          "cost": 4.0,
+          "is_default": false
+        },
+        {
+          "name": "Additional Hand Weapon",
+          "cost": 3.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Engineer",
+      "category": "Characters",
+      "base_points": 50.0,
+      "rules": [
+        "Hatred (Orcs & Goblins)",
+        "Magic Resistance (-1)",
+        "Resolute",
+        "Stubborn",
+        "Dwarf Crafted",
+        "Gromril Armor"
+      ],
+      "models": [
+        {
+          "name": "Engineer",
+          "stats": {
+            "M": "3",
+            "WS": "4",
+            "BS": "5",
+            "S": "4",
+            "T": "4",
+            "W": "2",
+            "I": "2",
+            "A": "2",
+            "LD": "9",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Infantry (Character)"
+          },
+          "cost": 50.0,
+          "rules": [
+            "Hatred (Orcs & Goblins)",
+            "Magic Resistance (-1)",
+            "Resolute",
+            "Stubborn",
+            "Dwarf Crafted",
+            "Gromril Armor"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Great Weapon",
+          "cost": 4.0,
+          "is_default": false
+        },
+        {
+          "name": "Handgun",
+          "cost": 8.0,
+          "is_default": false
+        },
+        {
+          "name": "Expeditionary Marksmen",
+          "cost": 10.0,
+          "is_default": false
+        },
+        {
+          "name": "Brace of Pistols",
+          "cost": 10.0,
+          "is_default": false
+        },
+        {
+          "name": "Pistol",
+          "cost": 6.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Ironbreakers",
+      "category": "Special",
+      "base_points": 0.0,
+      "rules": [
+        "Resolute",
+        "Close Order",
+        "Magic Resistance (-1)",
+        "Hatred (Orcs & Goblins)",
+        "Shieldwall",
+        "Gromril Weapons",
+        "Stubborn",
+        "Gromril Armor",
+        "Regimental Unit"
+      ],
+      "models": [
+        {
+          "name": "Ironbreakers",
+          "stats": {
+            "M": "3",
+            "WS": "5",
+            "BS": "3",
+            "S": "4",
+            "T": "4",
+            "W": "1",
+            "I": "2",
+            "A": "1",
+            "LD": "9",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Infantry"
+          },
+          "cost": 15.0,
+          "rules": [
+            "Gromril Armor",
+            "Close Order",
+            "Gromril Weapons",
+            "Stubborn",
+            "Regimental Unit",
+            "Resolute",
+            "Magic Resistance (-1)",
+            "Shieldwall",
+            "Hatred (Orcs & Goblins)",
+            "Drilled"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Brace of Drakefire Pistols (Combat)",
+            "Drakegun",
+            "Brace of Drakefire Pistols (Ranged)",
+            "Cinderblast Bombs"
+          ]
+        },
+        {
+          "name": "Champion",
+          "stats": {
+            "M": "3",
+            "WS": "5",
+            "BS": "3",
+            "S": "4",
+            "T": "4",
+            "W": "1",
+            "I": "2",
+            "A": "2",
+            "LD": "9",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Infantry"
+          },
+          "cost": 22.0,
+          "rules": [
+            "Gromril Armor",
+            "Close Order",
+            "Gromril Weapons",
+            "Stubborn",
+            "Regimental Unit",
+            "Resolute",
+            "Magic Resistance (-1)",
+            "Shieldwall",
+            "Hatred (Orcs & Goblins)"
+          ],
+          "role": "champion",
+          "default_weapons": [
+            "Brace of Drakefire Pistols (Combat)",
+            "Drakegun",
+            "Brace of Drakefire Pistols (Ranged)",
+            "Cinderblast Bombs"
+          ]
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Drilled",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Cinderblast Bombs",
+          "cost": 15.0,
+          "is_default": false
+        },
+        {
+          "name": "Equipment",
+          "cost": 0.0,
+          "is_default": false
+        },
+        {
+          "name": "Replace shield with Brace of Drakefire Pistols",
+          "cost": 10.0,
+          "is_default": false
+        },
+        {
+          "name": "Repalce shield with Drakegun",
+          "cost": 10.0,
+          "is_default": false
+        },
+        {
+          "name": "Standard Bearer",
+          "cost": 7.0,
+          "is_default": false
+        },
+        {
+          "name": "Musician",
+          "cost": 7.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Irondrakes",
+      "category": "Rare",
+      "base_points": 0.0,
+      "rules": [
+        "Resolute",
+        "Close Order",
+        "Magic Resistance (-1)",
+        "Hatred (Orcs & Goblins)",
+        "Stubborn",
+        "Gromril Armor",
+        "Detatchment"
+      ],
+      "models": [
+        {
+          "name": "Irondrakes",
+          "stats": {
+            "M": "3",
+            "WS": "4",
+            "BS": "4",
+            "S": "4",
+            "T": "4",
+            "W": "1",
+            "I": "2",
+            "A": "1",
+            "LD": "9",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Infantry"
+          },
+          "cost": 15.0,
+          "rules": [
+            "Gromril Armor",
+            "Close Order",
+            "Stubborn",
+            "Detatchment",
+            "Resolute",
+            "Magic Resistance (-1)",
+            "Hatred (Orcs & Goblins)",
+            "Drilled"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Drakegun",
+            "Brace of Drakefire Pistols (Ranged)",
+            "Cinderblast Bombs",
+            "Brace of Drakefire Pistols (Combat)",
+            "Trollhammer Torpedo"
+          ]
+        },
+        {
+          "name": "Champion",
+          "stats": {
+            "M": "3",
+            "WS": "4",
+            "BS": "5",
+            "S": "4",
+            "T": "4",
+            "W": "1",
+            "I": "2",
+            "A": "1",
+            "LD": "9",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Infantry"
+          },
+          "cost": 21.0,
+          "rules": [
+            "Gromril Armor",
+            "Close Order",
+            "Stubborn",
+            "Detatchment",
+            "Resolute",
+            "Magic Resistance (-1)",
+            "Hatred (Orcs & Goblins)"
+          ],
+          "role": "champion",
+          "default_weapons": [
+            "Brace of Drakefire Pistols (Combat)",
+            "Trollhammer Torpedo",
+            "Brace of Drakefire Pistols (Ranged)",
+            "Cinderblast Bombs"
+          ]
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Drilled",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Cinderblast Bombs",
+          "cost": 15.0,
+          "is_default": false
+        },
+        {
+          "name": "Equipment",
+          "cost": 0.0,
+          "is_default": false
+        },
+        {
+          "name": "Replace Drakegun with Brace of Drakefire Pistols",
+          "cost": 5.0,
+          "is_default": false
+        },
+        {
+          "name": "Replace Drakegun with Trollhammer Torpedo",
+          "cost": 15.0,
+          "is_default": false
+        },
+        {
+          "name": "Standard Bearer",
+          "cost": 6.0,
+          "is_default": false
+        },
+        {
+          "name": "Musician",
+          "cost": 6.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Miners",
+      "category": "Special",
+      "base_points": 0.0,
+      "rules": [
+        "Resolute",
+        "Close Order",
+        "Magic Resistance (-1)",
+        "Hatred (Orcs & Goblins)",
+        "Shieldwall"
+      ],
+      "models": [
+        {
+          "name": "Miners",
+          "stats": {
+            "M": "3",
+            "WS": "4",
+            "BS": "3",
+            "S": "3",
+            "T": "4",
+            "W": "1",
+            "I": "2",
+            "A": "1",
+            "LD": "9",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Infantry"
+          },
+          "cost": 12.0,
+          "rules": [
+            "Close Order",
+            "Open Order",
+            "Veteran",
+            "Resolute",
+            "Magic Resistance (-1)",
+            "Shieldwall",
+            "Hatred (Orcs & Goblins)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Steam Drill",
+            "Blasting Charges"
+          ]
+        },
+        {
+          "name": "Champion",
+          "stats": {
+            "M": "3",
+            "WS": "4",
+            "BS": "3",
+            "S": "3",
+            "T": "4",
+            "W": "1",
+            "I": "2",
+            "A": "2",
+            "LD": "9",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Infantry"
+          },
+          "cost": 18.0,
+          "rules": [
+            "Close Order",
+            "Resolute",
+            "Magic Resistance (-1)",
+            "Shieldwall",
+            "Hatred (Orcs & Goblins)"
+          ],
+          "role": "champion",
+          "default_weapons": [
+            "Steam Drill"
+          ]
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Equipment",
+          "cost": 0.0,
+          "is_default": false
+        },
+        {
+          "name": "Blasting Charges",
+          "cost": 2.0,
+          "is_default": false
+        },
+        {
+          "name": "Veteran",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Steam Drill",
+          "cost": 20.0,
+          "is_default": false
+        },
+        {
+          "name": "Standard Bearer",
+          "cost": 6.0,
+          "is_default": false
+        },
+        {
+          "name": "Musician",
+          "cost": 6.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Slayers",
+      "category": "Special",
+      "base_points": 0.0,
+      "rules": [
+        "Resolute",
+        "Magic Resistance (-2)",
+        "Hatred (Orcs & Goblins)",
+        "Shieldwall",
+        "Deathblow",
+        "Immune to Psychology",
+        "Loner",
+        "Open Order",
+        "Motley Crew"
+      ],
+      "models": [
+        {
+          "name": "Slayers",
+          "stats": {
+            "M": "3",
+            "WS": "4",
+            "BS": "3",
+            "S": "3",
+            "T": "4",
+            "W": "1",
+            "I": "2",
+            "A": "1",
+            "LD": "10",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Infantry"
+          },
+          "cost": 12.0,
+          "rules": [
+            "Magic Resistance (-2)",
+            "Deathblow",
+            "Open Order",
+            "Motley Crew",
+            "Loner",
+            "Immune to Psychology",
+            "Resolute",
+            "Shieldwall",
+            "Hatred (Orcs & Goblins)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Troll Slayer",
+          "stats": {
+            "M": "3",
+            "WS": "4",
+            "BS": "3",
+            "S": "3",
+            "T": "4",
+            "W": "1",
+            "I": "2",
+            "A": "1",
+            "LD": "10",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Infantry"
+          },
+          "cost": 12.0,
+          "rules": [
+            "Magic Resistance (-2)",
+            "Deathblow",
+            "Open Order",
+            "Motley Crew",
+            "Loner",
+            "Immune to Psychology",
+            "Resolute",
+            "Shieldwall",
+            "Hatred (Orcs & Goblins)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Upgrade to Giant Slayer",
+          "stats": {
+            "M": "3",
+            "WS": "5",
+            "BS": "3",
+            "S": "4",
+            "T": "4",
+            "W": "1",
+            "I": "3",
+            "A": "2",
+            "LD": "10",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": ""
+          },
+          "cost": 7.0,
+          "rules": [
+            "Magic Resistance (-2)",
+            "Deathblow",
+            "Open Order",
+            "Motley Crew",
+            "Loner",
+            "Immune to Psychology",
+            "Resolute",
+            "Shieldwall",
+            "Hatred (Orcs & Goblins)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Additional Hand Weapon",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Great Weapons",
+          "cost": 2.0,
+          "is_default": false
+        },
+        {
+          "name": "Standard Bearer",
+          "cost": 6.0,
+          "is_default": false
+        },
+        {
+          "name": "Musician",
+          "cost": 6.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Gyrocopters",
+      "category": "Special",
+      "base_points": 0.0,
+      "rules": [
+        "Fly (X)",
+        "Fire & Flee",
+        "Impact Hits (X)",
+        "Skirmishers",
+        "Swiftstride",
+        "Vanguard"
+      ],
+      "models": [
+        {
+          "name": "Gyrocopters",
+          "stats": {
+            "M": "1",
+            "WS": "4",
+            "BS": "3",
+            "S": "4",
+            "T": "5",
+            "W": "3",
+            "I": "2",
+            "A": "2",
+            "LD": "9",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Monsterous Cavalry"
+          },
+          "cost": 60.0,
+          "rules": [
+            "Fly (X)",
+            "Vanguard",
+            "Skirmishers",
+            "Swiftstride",
+            "Fire & Flee",
+            "Impact Hits (X)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Brimstone Gun",
+            "Steam Gun",
+            "Clattergun"
+          ]
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Equipment",
+          "cost": 0.0,
+          "is_default": true
+        },
+        {
+          "name": "Clattergun",
+          "cost": 10.0,
+          "is_default": false
+        },
+        {
+          "name": "Steam Gun",
+          "cost": 0.0,
+          "is_default": false
+        },
+        {
+          "name": "Brimstone Gun",
+          "cost": 5.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Gyrobomber",
+      "category": "Rare",
+      "base_points": 95.0,
+      "rules": [
+        "Close Order",
+        "Fly (X)",
+        "Impact Hits (X)",
+        "Swiftstride"
+      ],
+      "models": [
+        {
+          "name": "Gyrobomber",
+          "stats": {
+            "M": "1",
+            "WS": "4",
+            "BS": "3",
+            "S": "4",
+            "T": "5",
+            "W": "4",
+            "I": "2",
+            "A": "2",
+            "LD": "9",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Monsterous Creature"
+          },
+          "cost": 95.0,
+          "rules": [
+            "Fly (X)",
+            "Close Order",
+            "Swiftstride",
+            "Impact Hits (X)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Brimstone Gun",
+            "Steam Gun",
+            "Clattergun"
+          ]
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Equipment",
+          "cost": 0.0,
+          "is_default": true
+        },
+        {
+          "name": "Clattergun",
+          "cost": 10.0,
+          "is_default": false
+        },
+        {
+          "name": "Steam Gun",
+          "cost": 0.0,
+          "is_default": false
+        },
+        {
+          "name": "Brimstone Gun",
+          "cost": 5.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Bolt Thrower",
+      "category": "Special",
+      "base_points": 55.0,
+      "rules": [
+        "Hatred (Orcs & Goblins)",
+        "Magic Resistance (-1)",
+        "Skirmishers",
+        "Stubborn"
+      ],
+      "models": [
+        {
+          "name": "Bolt Thrower",
+          "stats": {
+            "M": "-",
+            "WS": "-",
+            "BS": "-",
+            "S": "-",
+            "T": "6",
+            "W": "3",
+            "I": "-",
+            "A": "-",
+            "LD": "-",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "War Machine"
+          },
+          "cost": 55.0,
+          "rules": [
+            "Hatred (Orcs & Goblins)",
+            "Magic Resistance (-1)",
+            "Stubborn",
+            "Skirmishers"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": []
+    },
+    {
+      "name": "Grudge Thrower",
+      "category": "Special",
+      "base_points": 95.0,
+      "rules": [
+        "Hatred (Orcs & Goblins)",
+        "Magic Resistance (-1)",
+        "Skirmishers",
+        "Stubborn"
+      ],
+      "models": [
+        {
+          "name": "Grudge Thrower",
+          "stats": {
+            "M": "-",
+            "WS": "-",
+            "BS": "-",
+            "S": "-",
+            "T": "7",
+            "W": "3",
+            "I": "-",
+            "A": "-",
+            "LD": "-",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "War Machine"
+          },
+          "cost": 95.0,
+          "rules": [
+            "Hatred (Orcs & Goblins)",
+            "Magic Resistance (-1)",
+            "Stubborn",
+            "Skirmishers"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": []
+    },
+    {
+      "name": "Cannon",
+      "category": "Special",
+      "base_points": 100.0,
+      "rules": [
+        "Hatred (Orcs & Goblins)",
+        "Magic Resistance (-1)",
+        "Skirmishers",
+        "Stubborn"
+      ],
+      "models": [
+        {
+          "name": "Cannon",
+          "stats": {
+            "M": "-",
+            "WS": "-",
+            "BS": "-",
+            "S": "-",
+            "T": "7",
+            "W": "3",
+            "I": "-",
+            "A": "-",
+            "LD": "-",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "War Machine"
+          },
+          "cost": 100.0,
+          "rules": [
+            "Hatred (Orcs & Goblins)",
+            "Magic Resistance (-1)",
+            "Stubborn",
+            "Skirmishers"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": []
+    },
+    {
+      "name": "Organ Gun",
+      "category": "Rare",
+      "base_points": 120.0,
+      "rules": [
+        "Hatred (Orcs & Goblins)",
+        "Magic Resistance (-1)",
+        "Skirmishers",
+        "Stubborn"
+      ],
+      "models": [
+        {
+          "name": "Organ Gun",
+          "stats": {
+            "M": "-",
+            "WS": "-",
+            "BS": "-",
+            "S": "-",
+            "T": "7",
+            "W": "3",
+            "I": "-",
+            "A": "-",
+            "LD": "-",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "War Machine"
+          },
+          "cost": 120.0,
+          "rules": [
+            "Hatred (Orcs & Goblins)",
+            "Magic Resistance (-1)",
+            "Stubborn",
+            "Skirmishers"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": []
+    },
+    {
+      "name": "Flame Cannon",
+      "category": "Rare",
+      "base_points": 125.0,
+      "rules": [
+        "Hatred (Orcs & Goblins)",
+        "Magic Resistance (-1)",
+        "Skirmishers",
+        "Stubborn"
+      ],
+      "models": [
+        {
+          "name": "Flame Cannon",
+          "stats": {
+            "M": "-",
+            "WS": "-",
+            "BS": "-",
+            "S": "-",
+            "T": "6",
+            "W": "3",
+            "I": "-",
+            "A": "-",
+            "LD": "-",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "War Machine"
+          },
+          "cost": 125.0,
+          "rules": [
+            "Hatred (Orcs & Goblins)",
+            "Magic Resistance (-1)",
+            "Stubborn",
+            "Skirmishers"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": []
+    },
+    {
+      "name": "Thorgrim Ulleksson, Kharl Of The Dammaz Kron",
+      "category": "Characters",
+      "base_points": 250.0,
+      "rules": [
+        "Gromril Armor",
+        "Hatred (Orcs & Goblins)",
+        "Magic Resistance (-1)",
+        "Rallying Cry",
+        "Resolute",
+        "Stubborn"
+      ],
+      "models": [
+        {
+          "name": "Thorgrim Ulleksson, Kharl Of The Dammaz Kron",
+          "stats": {
+            "M": "3",
+            "WS": "6",
+            "BS": "4",
+            "S": "4",
+            "T": "5",
+            "W": "3",
+            "I": "3",
+            "A": "3",
+            "LD": "10",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Infantry (Named Character)"
+          },
+          "cost": 250.0,
+          "rules": [
+            "Gromril Armor",
+            "Hatred (Orcs & Goblins)",
+            "Magic Resistance (-1)",
+            "Rallying Cry",
+            "Resolute",
+            "Stubborn"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": []
+    },
+    {
+      "name": "Ungrim Ironfist, Slayer King Of Karak Kadrin",
+      "category": "Characters",
+      "base_points": 315.0,
+      "rules": [
+        "Gromril Armor",
+        "Hatred (Orcs & Goblins)",
+        "Magic Resistance (-2)",
+        "Deathblow",
+        "Immune to Psychology",
+        "Unbreakable",
+        "Resolute",
+        "Rallying Cry"
+      ],
+      "models": [
+        {
+          "name": "Ungrim Ironfist, Slayer King Of Karak Kadrin",
+          "stats": {
+            "M": "3",
+            "WS": "9",
+            "BS": "4",
+            "S": "4",
+            "T": "6",
+            "W": "3",
+            "I": "5",
+            "A": "4",
+            "LD": "10",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Infantry (Named Character)"
+          },
+          "cost": 315.0,
+          "rules": [
+            "Gromril Armor",
+            "Hatred (Orcs & Goblins)",
+            "Magic Resistance (-2)",
+            "Deathblow",
+            "Immune to Psychology",
+            "Unbreakable",
+            "Resolute",
+            "Rallying Cry"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": []
+    },
+    {
+      "name": "Burlok Damminson",
+      "category": "Characters",
+      "base_points": 85.0,
+      "rules": [
+        "Hatred (Orcs & Goblins)",
+        "Magic Resistance (-1)",
+        "Resolute",
+        "Stubborn",
+        "Dwarf Crafted",
+        "Gromril Armor"
+      ],
+      "models": [
+        {
+          "name": "Burlok Damminson",
+          "stats": {
+            "M": "3",
+            "WS": "5",
+            "BS": "5",
+            "S": "4",
+            "T": "4",
+            "W": "2",
+            "I": "2",
+            "A": "3",
+            "LD": "10",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Infantry (Named Character)"
+          },
+          "cost": 85.0,
+          "rules": [
+            "Hatred (Orcs & Goblins)",
+            "Magic Resistance (-1)",
+            "Resolute",
+            "Stubborn",
+            "Dwarf Crafted",
+            "Gromril Armor"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": []
+    },
+    {
+      "name": "Dwarf Engineer Sapper",
+      "category": "Characters",
+      "base_points": 70.0,
+      "rules": [
+        "Dwarf Crafted",
+        "Gromril Armor",
+        "Hatred (Orcs & Goblins)",
+        "Magic Resistance (-1)",
+        "Resolute",
+        "Stubborn"
+      ],
+      "models": [
+        {
+          "name": "Dwarf Engineer Sapper",
+          "stats": {
+            "M": "3",
+            "WS": "4",
+            "BS": "5",
+            "S": "4",
+            "T": "4",
+            "W": "2",
+            "I": "2",
+            "A": "2",
+            "LD": "9",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Infantry (Character)"
+          },
+          "cost": 70.0,
+          "rules": [
+            "Dwarf Crafted",
+            "Gromril Armor",
+            "Hatred (Orcs & Goblins)",
+            "Magic Resistance (-1)",
+            "Resolute",
+            "Stubborn"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Great Weapon",
+          "cost": 4.0,
+          "is_default": false
+        },
+        {
+          "name": "Handgun",
+          "cost": 8.0,
+          "is_default": false
+        },
+        {
+          "name": "Expeditionary Marksmen",
+          "cost": 10.0,
+          "is_default": false
+        },
+        {
+          "name": "Brace of Pistols",
+          "cost": 10.0,
+          "is_default": false
+        },
+        {
+          "name": "Pistol",
+          "cost": 6.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Goblin-Hewer",
+      "category": "Rare",
+      "base_points": 120.0,
+      "rules": [
+        "Hatred (Orcs & Goblins)",
+        "Magic Resistance (-1)",
+        "Skirmishers",
+        "Unbreakable",
+        "Immune to Psychology"
+      ],
+      "models": [
+        {
+          "name": "Goblin-Hewer",
+          "stats": {
+            "M": "-",
+            "WS": "-",
+            "BS": "-",
+            "S": "-",
+            "T": "6",
+            "W": "3",
+            "I": "-",
+            "A": "-",
+            "LD": "-",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "War Machine"
+          },
+          "cost": 120.0,
+          "rules": [
+            "Skirmishers",
+            "Immune to Psychology",
+            "Unbreakable",
+            "Magic Resistance (-1)",
+            "Hatred (Orcs & Goblins)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": []
+    },
+    {
+      "name": "Royal Clan Warriors",
+      "category": "Core",
+      "base_points": 0.0,
+      "rules": [
+        "Close Order",
+        "Gromril Armor",
+        "Gromril Weapons",
+        "Hatred (Orcs & Goblins)",
+        "Magic Resistance (-1)",
+        "Resolute",
+        "Shieldwall"
+      ],
+      "models": [
+        {
+          "name": "Royal Clan Warriors",
+          "stats": {
+            "M": "3",
+            "WS": "4",
+            "BS": "3",
+            "S": "3",
+            "T": "4",
+            "W": "1",
+            "I": "2",
+            "A": "1",
+            "LD": "9",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Infantry"
+          },
+          "cost": 10.0,
+          "rules": [
+            "Gromril Armor",
+            "Close Order",
+            "Gromril Weapons",
+            "Stubborn",
+            "Veteran",
+            "Resolute",
+            "Magic Resistance (-1)",
+            "Shieldwall",
+            "Hatred (Orcs & Goblins)",
+            "Drilled"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Gromril Great Axe"
+          ]
+        },
+        {
+          "name": "Champion",
+          "stats": {
+            "M": "3",
+            "WS": "4",
+            "BS": "3",
+            "S": "3",
+            "T": "4",
+            "W": "1",
+            "I": "2",
+            "A": "2",
+            "LD": "9",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Infantry"
+          },
+          "cost": 16.0,
+          "rules": [
+            "Gromril Armor",
+            "Close Order",
+            "Gromril Weapons",
+            "Resolute",
+            "Magic Resistance (-1)",
+            "Shieldwall",
+            "Hatred (Orcs & Goblins)"
+          ],
+          "role": "champion",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Equipment",
+          "cost": 0.0,
+          "is_default": true
+        },
+        {
+          "name": "Shield",
+          "cost": 0.0,
+          "is_default": false
+        },
+        {
+          "name": "Gromril Great Axe",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Drilled",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Stubborn",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Veteran",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Standard Bearer",
+          "cost": 6.0,
+          "is_default": false
+        },
+        {
+          "name": "Musician",
+          "cost": 6.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Scout Gyrocopters",
+      "category": "Special",
+      "base_points": 0.0,
+      "rules": [
+        "Fly (X)",
+        "Fire & Flee",
+        "Impact Hits (X)",
+        "Skirmishers",
+        "Swiftstride",
+        "Vanguard",
+        "Hatred (Orcs & Goblins)",
+        "Magic Resistance (-1)"
+      ],
+      "models": [
+        {
+          "name": "Scout Gyrocopters",
+          "stats": {
+            "M": "1",
+            "WS": "4",
+            "BS": "4",
+            "S": "4",
+            "T": "4",
+            "W": "3",
+            "I": "2",
+            "A": "2",
+            "LD": "9",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Monsterous Cavalry"
+          },
+          "cost": 60.0,
+          "rules": [
+            "Fly (X)",
+            "Vanguard",
+            "Skirmishers",
+            "Swiftstride",
+            "Magic Resistance (-1)",
+            "Fire & Flee",
+            "Hatred (Orcs & Goblins)",
+            "Impact Hits (X)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Clattergun"
+          ]
+        }
+      ],
+      "upgrades": []
+    },
+    {
+      "name": "King",
+      "category": "Characters",
+      "base_points": 125.0,
+      "rules": [
+        "Dwarf Crafted",
+        "Gromril Armor",
+        "Gromril Weapons",
+        "Hatred (Orcs & Goblins)",
+        "Magic Resistance (-1)",
+        "Rallying Cry",
+        "Resolute",
+        "Stubborn"
+      ],
+      "models": [
+        {
+          "name": "King",
+          "stats": {
+            "M": "3",
+            "WS": "7",
+            "BS": "4",
+            "S": "4",
+            "T": "5",
+            "W": "3",
+            "I": "4",
+            "A": "4",
+            "LD": "10",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Infantry (Character)"
+          },
+          "cost": 125.0,
+          "rules": [
+            "Dwarf Crafted",
+            "Gromril Armor",
+            "Gromril Weapons",
+            "Hatred (Orcs & Goblins)",
+            "Magic Resistance (-1)",
+            "Rallying Cry",
+            "Resolute",
+            "Stubborn"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Pistol",
+          "cost": 5.0,
+          "is_default": false
+        },
+        {
+          "name": "Shield",
+          "cost": 2.0,
+          "is_default": false
+        },
+        {
+          "name": "Great Weapon",
+          "cost": 4.0,
+          "is_default": false
+        },
+        {
+          "name": "Crossbow",
+          "cost": 6.0,
+          "is_default": false
+        },
+        {
+          "name": "Handgun",
+          "cost": 6.0,
+          "is_default": false
+        },
+        {
+          "name": "Oathstone",
+          "cost": 15.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Longbeards",
+      "category": "Core",
+      "base_points": 0.0,
+      "rules": [
+        "Resolute",
+        "Close Order",
+        "Magic Resistance (-1)",
+        "Hatred (Orcs & Goblins)",
+        "Shieldwall",
+        "Gromril Weapons",
+        "Veteran"
+      ],
+      "models": [
+        {
+          "name": "Longbeards",
+          "stats": {
+            "M": "3",
+            "WS": "5",
+            "BS": "3",
+            "S": "4",
+            "T": "4",
+            "W": "1",
+            "I": "2",
+            "A": "1",
+            "LD": "9",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Infantry"
+          },
+          "cost": 12.0,
+          "rules": [
+            "Close Order",
+            "Gromril Weapons",
+            "Veteran",
+            "Resolute",
+            "Magic Resistance (-1)",
+            "Shieldwall",
+            "Hatred (Orcs & Goblins)",
+            "Drilled"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Champion",
+          "stats": {
+            "M": "3",
+            "WS": "5",
+            "BS": "3",
+            "S": "4",
+            "T": "4",
+            "W": "1",
+            "I": "2",
+            "A": "2",
+            "LD": "9",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Infantry"
+          },
+          "cost": 18.0,
+          "rules": [
+            "Close Order",
+            "Gromril Weapons",
+            "Veteran",
+            "Resolute",
+            "Magic Resistance (-1)",
+            "Shieldwall",
+            "Hatred (Orcs & Goblins)"
+          ],
+          "role": "champion",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Shields",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Great Weapons",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Drilled",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Standard Bearer",
+          "cost": 6.0,
+          "is_default": false
+        },
+        {
+          "name": "Musician",
+          "cost": 6.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Ironbreakers",
+      "category": "Rare",
+      "base_points": 0.0,
+      "rules": [
+        "Resolute",
+        "Close Order",
+        "Magic Resistance (-1)",
+        "Hatred (Orcs & Goblins)",
+        "Shieldwall",
+        "Gromril Weapons",
+        "Stubborn",
+        "Gromril Armor",
+        "Regimental Unit"
+      ],
+      "models": [
+        {
+          "name": "Ironbreakers",
+          "stats": {
+            "M": "3",
+            "WS": "5",
+            "BS": "3",
+            "S": "4",
+            "T": "4",
+            "W": "1",
+            "I": "2",
+            "A": "1",
+            "LD": "9",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Infantry"
+          },
+          "cost": 15.0,
+          "rules": [
+            "Gromril Armor",
+            "Close Order",
+            "Gromril Weapons",
+            "Stubborn",
+            "Regimental Unit",
+            "Resolute",
+            "Magic Resistance (-1)",
+            "Shieldwall",
+            "Hatred (Orcs & Goblins)",
+            "Drilled"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Brace of Drakefire Pistols (Combat)",
+            "Drakegun",
+            "Brace of Drakefire Pistols (Ranged)",
+            "Cinderblast Bombs"
+          ]
+        },
+        {
+          "name": "Champion",
+          "stats": {
+            "M": "3",
+            "WS": "5",
+            "BS": "3",
+            "S": "4",
+            "T": "4",
+            "W": "1",
+            "I": "2",
+            "A": "2",
+            "LD": "9",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Infantry"
+          },
+          "cost": 22.0,
+          "rules": [
+            "Gromril Armor",
+            "Close Order",
+            "Gromril Weapons",
+            "Stubborn",
+            "Regimental Unit",
+            "Resolute",
+            "Magic Resistance (-1)",
+            "Shieldwall",
+            "Hatred (Orcs & Goblins)"
+          ],
+          "role": "champion",
+          "default_weapons": [
+            "Brace of Drakefire Pistols (Combat)",
+            "Drakegun",
+            "Brace of Drakefire Pistols (Ranged)",
+            "Cinderblast Bombs"
+          ]
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Drilled",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Cinderblast Bombs",
+          "cost": 15.0,
+          "is_default": false
+        },
+        {
+          "name": "Equipment",
+          "cost": 0.0,
+          "is_default": false
+        },
+        {
+          "name": "Replace shield with Brace of Drakefire Pistols",
+          "cost": 10.0,
+          "is_default": false
+        },
+        {
+          "name": "Repalce shield with Drakegun",
+          "cost": 10.0,
+          "is_default": false
+        },
+        {
+          "name": "Standard Bearer",
+          "cost": 7.0,
+          "is_default": false
+        },
+        {
+          "name": "Musician",
+          "cost": 7.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Goblin-Hewer",
+      "category": "Unknown",
+      "base_points": 120.0,
+      "rules": [
+        "Hatred (Orcs & Goblins)",
+        "Magic Resistance (-1)",
+        "Skirmishers",
+        "Unbreakable",
+        "Immune to Psychology"
+      ],
+      "models": [
+        {
+          "name": "Goblin-Hewer",
+          "stats": {
+            "M": "-",
+            "WS": "-",
+            "BS": "-",
+            "S": "-",
+            "T": "6",
+            "W": "3",
+            "I": "-",
+            "A": "-",
+            "LD": "-",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "War Machine"
+          },
+          "cost": 120.0,
+          "rules": [
+            "Skirmishers",
+            "Immune to Psychology",
+            "Unbreakable",
+            "Magic Resistance (-1)",
+            "Hatred (Orcs & Goblins)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": []
+    },
+    {
+      "name": "Hammerers",
+      "category": "Special",
+      "base_points": 0.0,
+      "rules": [
+        "Resolute",
+        "Close Order",
+        "Magic Resistance (-1)",
+        "Hatred (Orcs & Goblins)",
+        "Shieldwall",
+        "Gromril Weapons",
+        "Stubborn",
+        "Gromril Armor"
+      ],
+      "models": [
+        {
+          "name": "Hammerers",
+          "stats": {
+            "M": "3",
+            "WS": "5",
+            "BS": "3",
+            "S": "4",
+            "T": "4",
+            "W": "1",
+            "I": "3",
+            "A": "1",
+            "LD": "9",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Infantry"
+          },
+          "cost": 16.0,
+          "rules": [
+            "Gromril Armor",
+            "Close Order",
+            "Gromril Weapons",
+            "Stubborn",
+            "Veteran",
+            "Resolute",
+            "Magic Resistance (-1)",
+            "Shieldwall",
+            "Hatred (Orcs & Goblins)",
+            "Drilled"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Great Hammer"
+          ]
+        },
+        {
+          "name": "Champion",
+          "stats": {
+            "M": "3",
+            "WS": "5",
+            "BS": "3",
+            "S": "4",
+            "T": "4",
+            "W": "1",
+            "I": "3",
+            "A": "2",
+            "LD": "9",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Infantry"
+          },
+          "cost": 23.0,
+          "rules": [
+            "Gromril Armor",
+            "Close Order",
+            "Gromril Weapons",
+            "Stubborn",
+            "Resolute",
+            "Magic Resistance (-1)",
+            "Shieldwall",
+            "Hatred (Orcs & Goblins)"
+          ],
+          "role": "champion",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Shields",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Veteran",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Drilled",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Standard Bearer",
+          "cost": 7.0,
+          "is_default": false
+        },
+        {
+          "name": "Musician",
+          "cost": 7.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Slayers",
+      "category": "Core",
+      "base_points": 0.0,
+      "rules": [
+        "Resolute",
+        "Magic Resistance (-2)",
+        "Hatred (Orcs & Goblins)",
+        "Shieldwall",
+        "Deathblow",
+        "Immune to Psychology",
+        "Loner",
+        "Open Order",
+        "Motley Crew"
+      ],
+      "models": [
+        {
+          "name": "Slayers",
+          "stats": {
+            "M": "3",
+            "WS": "4",
+            "BS": "3",
+            "S": "3",
+            "T": "4",
+            "W": "1",
+            "I": "2",
+            "A": "1",
+            "LD": "10",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Infantry"
+          },
+          "cost": 12.0,
+          "rules": [
+            "Magic Resistance (-2)",
+            "Deathblow",
+            "Open Order",
+            "Motley Crew",
+            "Loner",
+            "Immune to Psychology",
+            "Resolute",
+            "Shieldwall",
+            "Hatred (Orcs & Goblins)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Troll Slayer",
+          "stats": {
+            "M": "3",
+            "WS": "4",
+            "BS": "3",
+            "S": "3",
+            "T": "4",
+            "W": "1",
+            "I": "2",
+            "A": "1",
+            "LD": "10",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Infantry"
+          },
+          "cost": 12.0,
+          "rules": [
+            "Magic Resistance (-2)",
+            "Deathblow",
+            "Open Order",
+            "Motley Crew",
+            "Loner",
+            "Immune to Psychology",
+            "Resolute",
+            "Shieldwall",
+            "Hatred (Orcs & Goblins)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Upgrade to Giant Slayer",
+          "stats": {
+            "M": "3",
+            "WS": "5",
+            "BS": "3",
+            "S": "4",
+            "T": "4",
+            "W": "1",
+            "I": "3",
+            "A": "2",
+            "LD": "10",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": ""
+          },
+          "cost": 7.0,
+          "rules": [
+            "Magic Resistance (-2)",
+            "Deathblow",
+            "Open Order",
+            "Motley Crew",
+            "Loner",
+            "Immune to Psychology",
+            "Resolute",
+            "Shieldwall",
+            "Hatred (Orcs & Goblins)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Additional Hand Weapon",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Great Weapons",
+          "cost": 2.0,
+          "is_default": false
+        },
+        {
+          "name": "Standard Bearer",
+          "cost": 6.0,
+          "is_default": false
+        },
+        {
+          "name": "Musician",
+          "cost": 6.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Slayers",
+      "category": "Rare",
+      "base_points": 0.0,
+      "rules": [
+        "Resolute",
+        "Magic Resistance (-2)",
+        "Hatred (Orcs & Goblins)",
+        "Shieldwall",
+        "Deathblow",
+        "Immune to Psychology",
+        "Loner",
+        "Open Order",
+        "Motley Crew"
+      ],
+      "models": [
+        {
+          "name": "Slayers",
+          "stats": {
+            "M": "3",
+            "WS": "4",
+            "BS": "3",
+            "S": "3",
+            "T": "4",
+            "W": "1",
+            "I": "2",
+            "A": "1",
+            "LD": "10",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Infantry"
+          },
+          "cost": 12.0,
+          "rules": [
+            "Magic Resistance (-2)",
+            "Deathblow",
+            "Open Order",
+            "Motley Crew",
+            "Loner",
+            "Immune to Psychology",
+            "Resolute",
+            "Shieldwall",
+            "Hatred (Orcs & Goblins)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Troll Slayer",
+          "stats": {
+            "M": "3",
+            "WS": "4",
+            "BS": "3",
+            "S": "3",
+            "T": "4",
+            "W": "1",
+            "I": "2",
+            "A": "1",
+            "LD": "10",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Infantry"
+          },
+          "cost": 12.0,
+          "rules": [
+            "Magic Resistance (-2)",
+            "Deathblow",
+            "Open Order",
+            "Motley Crew",
+            "Loner",
+            "Immune to Psychology",
+            "Resolute",
+            "Shieldwall",
+            "Hatred (Orcs & Goblins)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Upgrade to Giant Slayer",
+          "stats": {
+            "M": "3",
+            "WS": "5",
+            "BS": "3",
+            "S": "4",
+            "T": "4",
+            "W": "1",
+            "I": "3",
+            "A": "2",
+            "LD": "10",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": ""
+          },
+          "cost": 7.0,
+          "rules": [
+            "Magic Resistance (-2)",
+            "Deathblow",
+            "Open Order",
+            "Motley Crew",
+            "Loner",
+            "Immune to Psychology",
+            "Resolute",
+            "Shieldwall",
+            "Hatred (Orcs & Goblins)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Additional Hand Weapon",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Great Weapons",
+          "cost": 2.0,
+          "is_default": false
+        },
+        {
+          "name": "Standard Bearer",
+          "cost": 6.0,
+          "is_default": false
+        },
+        {
+          "name": "Musician",
+          "cost": 6.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Scout Gyrocopters",
+      "category": "Core",
+      "base_points": 0.0,
+      "rules": [
+        "Fly (X)",
+        "Fire & Flee",
+        "Impact Hits (X)",
+        "Skirmishers",
+        "Swiftstride",
+        "Vanguard",
+        "Hatred (Orcs & Goblins)",
+        "Magic Resistance (-1)"
+      ],
+      "models": [
+        {
+          "name": "Scout Gyrocopters",
+          "stats": {
+            "M": "1",
+            "WS": "4",
+            "BS": "4",
+            "S": "4",
+            "T": "4",
+            "W": "3",
+            "I": "2",
+            "A": "2",
+            "LD": "9",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Monsterous Cavalry"
+          },
+          "cost": 60.0,
+          "rules": [
+            "Fly (X)",
+            "Vanguard",
+            "Skirmishers",
+            "Swiftstride",
+            "Magic Resistance (-1)",
+            "Fire & Flee",
+            "Hatred (Orcs & Goblins)",
+            "Impact Hits (X)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Clattergun"
+          ]
+        }
+      ],
+      "upgrades": []
+    },
+    {
+      "name": "Prince Ulther's Dragon Company",
+      "category": "Unknown",
+      "base_points": 115.0,
+      "rules": [
+        "Close Order",
+        "Drilled",
+        "Gromril Weapons",
+        "Hatred (Orcs & Goblins)",
+        "Magic Resistance (-1)",
+        "Resolute",
+        "Stubborn"
+      ],
+      "models": [
+        {
+          "name": "Prince Ulther's Dragon Company",
+          "stats": {
+            "M": "3",
+            "WS": "4",
+            "BS": "3",
+            "S": "3",
+            "T": "4",
+            "W": "1",
+            "I": "2",
+            "A": "1",
+            "LD": "9",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Infantry"
+          },
+          "cost": 115.0,
+          "rules": [
+            "Close Order",
+            "Gromril Weapons",
+            "Stubborn",
+            "Resolute",
+            "Magic Resistance (-1)",
+            "Hatred (Orcs & Goblins)",
+            "Drilled"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Dragonblade"
+          ]
+        },
+        {
+          "name": "Dragon Company Trooper",
+          "stats": {
+            "M": "3",
+            "WS": "4",
+            "BS": "3",
+            "S": "3",
+            "T": "4",
+            "W": "1",
+            "I": "2",
+            "A": "1",
+            "LD": "9",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Infantry"
+          },
+          "cost": 14.0,
+          "rules": [
+            "Close Order",
+            "Gromril Weapons",
+            "Stubborn",
+            "Resolute",
+            "Magic Resistance (-1)",
+            "Hatred (Orcs & Goblins)",
+            "Drilled"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Prince Ulther Stonehammer",
+          "stats": {
+            "M": "3",
+            "WS": "5",
+            "BS": "5",
+            "S": "4",
+            "T": "5",
+            "W": "2",
+            "I": "2",
+            "A": "3",
+            "LD": "10",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Infantry (named character)"
+          },
+          "cost": 115.0,
+          "rules": [
+            "Close Order",
+            "Gromril Weapons",
+            "Stubborn",
+            "Resolute",
+            "Magic Resistance (-1)",
+            "Hatred (Orcs & Goblins)",
+            "Drilled"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Dragonblade"
+          ]
+        },
+        {
+          "name": "Borri Forkbeard",
+          "stats": {
+            "M": "3",
+            "WS": "4",
+            "BS": "4",
+            "S": "3",
+            "T": "4",
+            "W": "1",
+            "I": "2",
+            "A": "2",
+            "LD": "9",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Infantry"
+          },
+          "cost": 115.0,
+          "rules": [
+            "Close Order",
+            "Gromril Weapons",
+            "Stubborn",
+            "Resolute",
+            "Magic Resistance (-1)",
+            "Hatred (Orcs & Goblins)",
+            "Drilled"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Dragon Company Musician",
+          "stats": {
+            "M": "3",
+            "WS": "4",
+            "BS": "3",
+            "S": "3",
+            "T": "4",
+            "W": "1",
+            "I": "2",
+            "A": "1",
+            "LD": "9",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Infantry"
+          },
+          "cost": 115.0,
+          "rules": [
+            "Close Order",
+            "Gromril Weapons",
+            "Stubborn",
+            "Resolute",
+            "Magic Resistance (-1)",
+            "Hatred (Orcs & Goblins)",
+            "Drilled"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Dragon Company Standard Bearer",
+          "stats": {
+            "M": "3",
+            "WS": "4",
+            "BS": "3",
+            "S": "3",
+            "T": "4",
+            "W": "1",
+            "I": "2",
+            "A": "1",
+            "LD": "9",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Infantry"
+          },
+          "cost": 115.0,
+          "rules": [
+            "Close Order",
+            "Gromril Weapons",
+            "Stubborn",
+            "Resolute",
+            "Magic Resistance (-1)",
+            "Hatred (Orcs & Goblins)",
+            "Drilled"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Dragon Company Standard Bearer"
+          ]
+        }
+      ],
+      "upgrades": []
+    },
+    {
+      "name": "Imperial Ogres",
+      "category": "Unknown",
+      "base_points": 0.0,
+      "rules": [
+        "Armor Bane (X)",
+        "Close Order",
+        "Fear",
+        "Impact Hits (X)",
+        "Mercenaries",
+        "Motley Crew"
+      ],
+      "models": [
+        {
+          "name": "Imperial Ogres",
+          "stats": {
+            "M": "6",
+            "WS": "3",
+            "BS": "3",
+            "S": "4",
+            "T": "4",
+            "W": "3",
+            "I": "2",
+            "A": "3",
+            "LD": "7",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Monsterous Infantry"
+          },
+          "cost": 31.0,
+          "rules": [
+            "Close Order",
+            "Motley Crew",
+            "Armor Bane (X)",
+            "Fear",
+            "Mercenaries",
+            "Impact Hits (X)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Light Cannon",
+            "Ogre Pistol"
+          ]
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Equipment",
+          "cost": 0.0,
+          "is_default": false
+        },
+        {
+          "name": "Great Weapon",
+          "cost": 4.0,
+          "is_default": false
+        },
+        {
+          "name": "Morning Star",
+          "cost": 2.0,
+          "is_default": false
+        },
+        {
+          "name": "Light Cannon",
+          "cost": 8.0,
+          "is_default": false
+        },
+        {
+          "name": "Ogre Pistol",
+          "cost": 5.0,
+          "is_default": false
+        },
+        {
+          "name": "Armour",
+          "cost": 0.0,
+          "is_default": true
+        },
+        {
+          "name": "Light Armour",
+          "cost": 0.0,
+          "is_default": false
+        },
+        {
+          "name": "Heavy Armour",
+          "cost": 3.0,
+          "is_default": false
+        }
+      ]
+    }
+  ]
+}

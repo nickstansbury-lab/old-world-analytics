@@ -1,0 +1,2404 @@
+{
+  "faction_name": "Ogre Kingdoms",
+  "units": [
+    {
+      "name": "Ogre Bulls",
+      "category": "Core",
+      "base_points": 0.0,
+      "rules": [
+        "Close Order",
+        "Armor Bane (X)",
+        "Fear",
+        "Impact Hits (X)",
+        "Ogre Charge"
+      ],
+      "models": [
+        {
+          "name": "Ogre Bulls",
+          "stats": {
+            "M": "6",
+            "WS": "3",
+            "BS": "2",
+            "S": "4",
+            "T": "4",
+            "W": "3",
+            "I": "2",
+            "A": "3",
+            "LD": "7",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Monsterous Infantry"
+          },
+          "cost": 31.0,
+          "rules": [
+            "Close Order",
+            "Look-Out Gnoblar",
+            "Armor Bane (X)",
+            "Fear",
+            "Ogre Charge",
+            "Impact Hits (X)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Ironfist"
+          ]
+        },
+        {
+          "name": "Ogre",
+          "stats": {
+            "M": "6",
+            "WS": "3",
+            "BS": "2",
+            "S": "4",
+            "T": "4",
+            "W": "3",
+            "I": "2",
+            "A": "3",
+            "LD": "7",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Monsterous Infantry"
+          },
+          "cost": 31.0,
+          "rules": [
+            "Close Order",
+            "Armor Bane (X)",
+            "Fear",
+            "Ogre Charge",
+            "Impact Hits (X)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Ironfist"
+          ]
+        },
+        {
+          "name": "Champion",
+          "stats": {
+            "M": "6",
+            "WS": "3",
+            "BS": "2",
+            "S": "4",
+            "T": "4",
+            "W": "3",
+            "I": "2",
+            "A": "4",
+            "LD": "7",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Monsterous Infantry"
+          },
+          "cost": 37.0,
+          "rules": [
+            "Close Order",
+            "Armor Bane (X)",
+            "Fear",
+            "Ogre Charge",
+            "Impact Hits (X)"
+          ],
+          "role": "champion",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Equipment",
+          "cost": 0.0,
+          "is_default": false
+        },
+        {
+          "name": "Additional Hand Weapon",
+          "cost": 3.0,
+          "is_default": false
+        },
+        {
+          "name": "Ironfists",
+          "cost": 4.0,
+          "is_default": false
+        },
+        {
+          "name": "Musician",
+          "cost": 6.0,
+          "is_default": false
+        },
+        {
+          "name": "Standard Bearer",
+          "cost": 6.0,
+          "is_default": false
+        },
+        {
+          "name": "Look-out Gnoblar",
+          "cost": 5.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Ironguts",
+      "category": "Core",
+      "base_points": 0.0,
+      "rules": [
+        "Close Order",
+        "Fear",
+        "Impact Hits (X)",
+        "Ogre Charge"
+      ],
+      "models": [
+        {
+          "name": "Ironguts",
+          "stats": {
+            "M": "6",
+            "WS": "3",
+            "BS": "2",
+            "S": "4",
+            "T": "4",
+            "W": "3",
+            "I": "2",
+            "A": "3",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Monsterous Infantry"
+          },
+          "cost": 39.0,
+          "rules": [
+            "Close Order",
+            "Look-Out Gnoblar",
+            "Veteran",
+            "Fear",
+            "Ogre Charge",
+            "Impact Hits (X)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Champion",
+          "stats": {
+            "M": "6",
+            "WS": "3",
+            "BS": "2",
+            "S": "4",
+            "T": "4",
+            "W": "3",
+            "I": "2",
+            "A": "4",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Monsterous Infantry"
+          },
+          "cost": 46.0,
+          "rules": [
+            "Close Order",
+            "Ogre Charge",
+            "Fear",
+            "Impact Hits (X)"
+          ],
+          "role": "champion",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Veteran",
+          "cost": 2.0,
+          "is_default": false
+        },
+        {
+          "name": "Musician",
+          "cost": 7.0,
+          "is_default": false
+        },
+        {
+          "name": "Standard Bearer",
+          "cost": 7.0,
+          "is_default": false
+        },
+        {
+          "name": "Look-out Gnoblar",
+          "cost": 5.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Leadbelchers",
+      "category": "Special",
+      "base_points": 0.0,
+      "rules": [
+        "Close Order",
+        "Fear",
+        "Impact Hits (X)",
+        "Ogre Charge"
+      ],
+      "models": [
+        {
+          "name": "Leadbelchers",
+          "stats": {
+            "M": "6",
+            "WS": "3",
+            "BS": "3",
+            "S": "4",
+            "T": "4",
+            "W": "3",
+            "I": "2",
+            "A": "3",
+            "LD": "7",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Monsterous Infantry"
+          },
+          "cost": 41.0,
+          "rules": [
+            "Close Order",
+            "Ogre Charge",
+            "Fear",
+            "Impact Hits (X)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Scatter Shot",
+            "Solid Shot"
+          ]
+        },
+        {
+          "name": "Champion",
+          "stats": {
+            "M": "6",
+            "WS": "3",
+            "BS": "4",
+            "S": "4",
+            "T": "4",
+            "W": "3",
+            "I": "2",
+            "A": "4",
+            "LD": "7",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Monsterous Infantry"
+          },
+          "cost": 49.0,
+          "rules": [
+            "Close Order",
+            "Ogre Charge",
+            "Fear",
+            "Impact Hits (X)"
+          ],
+          "role": "champion",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Musician",
+          "cost": 6.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Gnoblar Trappers",
+      "category": "Core",
+      "base_points": 0.0,
+      "rules": [
+        "Move Through Cover",
+        "Largely Insignificant",
+        "Scouts",
+        "Skirmishers"
+      ],
+      "models": [
+        {
+          "name": "Gnoblar Trappers",
+          "stats": {
+            "M": "4",
+            "WS": "2",
+            "BS": "3",
+            "S": "2",
+            "T": "3",
+            "W": "1",
+            "I": "3",
+            "A": "1",
+            "LD": "5",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 5.0,
+          "rules": [
+            "Scouts",
+            "Largely Insignificant",
+            "Skirmishers",
+            "Move Through Cover"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Champion",
+          "stats": {
+            "M": "4",
+            "WS": "2",
+            "BS": "4",
+            "S": "2",
+            "T": "3",
+            "W": "1",
+            "I": "3",
+            "A": "1",
+            "LD": "5",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 5.0,
+          "rules": [
+            "Scouts",
+            "Largely Insignificant",
+            "Skirmishers",
+            "Move Through Cover"
+          ],
+          "role": "champion",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": []
+    },
+    {
+      "name": "Gnoblar Fighters",
+      "category": "Core",
+      "base_points": 0.0,
+      "rules": [
+        "Largely Insignificant",
+        "Horde",
+        "Close Order"
+      ],
+      "models": [
+        {
+          "name": "Gnoblar Fighters",
+          "stats": {
+            "M": "4",
+            "WS": "2",
+            "BS": "3",
+            "S": "2",
+            "T": "3",
+            "W": "1",
+            "I": "3",
+            "A": "1",
+            "LD": "5",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 2.0,
+          "rules": [
+            "Close Order",
+            "Largely Insignificant",
+            "Horde"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Champion",
+          "stats": {
+            "M": "4",
+            "WS": "2",
+            "BS": "3",
+            "S": "2",
+            "T": "3",
+            "W": "1",
+            "I": "3",
+            "A": "2",
+            "LD": "5",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 5.0,
+          "rules": [
+            "Close Order",
+            "Largely Insignificant",
+            "Horde"
+          ],
+          "role": "champion",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": []
+    },
+    {
+      "name": "Maneaters",
+      "category": "Special",
+      "base_points": 0.0,
+      "rules": [
+        "Close Order",
+        "Fear",
+        "Impact Hits (X)",
+        "Ogre Charge",
+        "Motley Crew"
+      ],
+      "models": [
+        {
+          "name": "Maneaters",
+          "stats": {
+            "M": "6",
+            "WS": "4",
+            "BS": "4",
+            "S": "5",
+            "T": "4",
+            "W": "3",
+            "I": "3",
+            "A": "4",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Monsterous Infantry"
+          },
+          "cost": 54.0,
+          "rules": [
+            "Close Order",
+            "Vanguard",
+            "Motley Crew",
+            "Stubborn",
+            "Look-Out Gnoblar",
+            "Poisoned Attacks",
+            "Immune to Psychology",
+            "Fear",
+            "Ogre Charge",
+            "Impact Hits (X)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Ironfist",
+            "Brace Of Ogre Pistols - Ranged",
+            "Brace Of Ogre Pistols - Combat",
+            "Ogre Pistol"
+          ]
+        },
+        {
+          "name": "Champion",
+          "stats": {
+            "M": "6",
+            "WS": "4",
+            "BS": "4",
+            "S": "5",
+            "T": "4",
+            "W": "3",
+            "I": "3",
+            "A": "5",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Monsterous Infantry"
+          },
+          "cost": 61.0,
+          "rules": [
+            "Close Order",
+            "Motley Crew",
+            "Fear",
+            "Ogre Charge",
+            "Impact Hits (X)"
+          ],
+          "role": "champion",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Armour",
+          "cost": 0.0,
+          "is_default": true
+        },
+        {
+          "name": "Light Armour",
+          "cost": 0.0,
+          "is_default": false
+        },
+        {
+          "name": "Heavy Armour",
+          "cost": 3.0,
+          "is_default": false
+        },
+        {
+          "name": "Equipment",
+          "cost": 0.0,
+          "is_default": false
+        },
+        {
+          "name": "Additional Hand Weapon",
+          "cost": 3.0,
+          "is_default": false
+        },
+        {
+          "name": "Ironfists",
+          "cost": 4.0,
+          "is_default": false
+        },
+        {
+          "name": "Great Weapon",
+          "cost": 4.0,
+          "is_default": false
+        },
+        {
+          "name": "Armament",
+          "cost": 0.0,
+          "is_default": false
+        },
+        {
+          "name": "Ogre Pistol",
+          "cost": 6.0,
+          "is_default": false
+        },
+        {
+          "name": "Brace of Ogre Pistols",
+          "cost": 12.0,
+          "is_default": false
+        },
+        {
+          "name": "Musician",
+          "cost": 7.0,
+          "is_default": false
+        },
+        {
+          "name": "Standard Bearer",
+          "cost": 7.0,
+          "is_default": false
+        },
+        {
+          "name": "Look-out Gnoblar",
+          "cost": 5.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Yhetees",
+      "category": "Special",
+      "base_points": 0.0,
+      "rules": [
+        "Open Order",
+        "Fear",
+        "Armored Hide (X)",
+        "Flammable",
+        "Move Through Cover",
+        "Loner",
+        "Numbing Chill",
+        "Swiftstride"
+      ],
+      "models": [
+        {
+          "name": "Yhetees",
+          "stats": {
+            "M": "7",
+            "WS": "3",
+            "BS": "0",
+            "S": "5",
+            "T": "4",
+            "W": "3",
+            "I": "4",
+            "A": "3",
+            "LD": "7",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Monsterous Infantry"
+          },
+          "cost": 46.0,
+          "rules": [
+            "Armored Hide (X)",
+            "Vanguard",
+            "Open Order",
+            "Loner",
+            "Flammable",
+            "Swiftstride",
+            "Scouts",
+            "Fear",
+            "Move Through Cover",
+            "Numbing Chill"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Grimfrost Weapon"
+          ]
+        },
+        {
+          "name": "Champion",
+          "stats": {
+            "M": "7",
+            "WS": "3",
+            "BS": "0",
+            "S": "5",
+            "T": "4",
+            "W": "3",
+            "I": "4",
+            "A": "4",
+            "LD": "7",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Monsterous Infantry"
+          },
+          "cost": 53.0,
+          "rules": [
+            "Armored Hide (X)",
+            "Open Order",
+            "Loner",
+            "Flammable",
+            "Swiftstride",
+            "Fear",
+            "Move Through Cover",
+            "Numbing Chill"
+          ],
+          "role": "champion",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Scouts",
+          "cost": 3.0,
+          "is_default": false
+        },
+        {
+          "name": "Vanguard",
+          "cost": 2.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Sabretusk Pack",
+      "category": "Core",
+      "base_points": 0.0,
+      "rules": [
+        "Open Order",
+        "Fear",
+        "Armor Bane (X)",
+        "Impetuous",
+        "Move Through Cover",
+        "Loner",
+        "Skirmishers",
+        "Swiftstride"
+      ],
+      "models": [
+        {
+          "name": "Sabretusk Pack",
+          "stats": {
+            "M": "8",
+            "WS": "4",
+            "BS": "0",
+            "S": "4",
+            "T": "4",
+            "W": "2",
+            "I": "4",
+            "A": "2",
+            "LD": "6",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "War Beasts"
+          },
+          "cost": 17.0,
+          "rules": [
+            "Vanguard",
+            "Open Order",
+            "Loner",
+            "Ambushers",
+            "Impetuous",
+            "Armor Bane (X)",
+            "Skirmishers",
+            "Scouts",
+            "Swiftstride",
+            "Fear",
+            "Move Through Cover"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Grimfrost Weapon"
+          ]
+        },
+        {
+          "name": "Sabretusk",
+          "stats": {
+            "M": "8",
+            "WS": "4",
+            "BS": "0",
+            "S": "4",
+            "T": "4",
+            "W": "2",
+            "I": "4",
+            "A": "2",
+            "LD": "6",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "War Beasts"
+          },
+          "cost": 17.0,
+          "rules": [
+            "Vanguard",
+            "Open Order",
+            "Loner",
+            "Ambushers",
+            "Impetuous",
+            "Armor Bane (X)",
+            "Skirmishers",
+            "Scouts",
+            "Swiftstride",
+            "Fear",
+            "Move Through Cover"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Grimfrost Weapon"
+          ]
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Ambushers",
+          "cost": 3.0,
+          "is_default": false
+        },
+        {
+          "name": "Vanguard",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Scouts",
+          "cost": 2.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Mournfang Cavalry",
+      "category": "Special",
+      "base_points": 0.0,
+      "rules": [
+        "Close Order",
+        "Armored Hide (X)",
+        "Fear",
+        "Impact Hits (X)",
+        "Mournfang Charge",
+        "Swiftstride"
+      ],
+      "models": [
+        {
+          "name": "Mournfang Cavalry",
+          "stats": {
+            "M": "-",
+            "WS": "3",
+            "BS": "2",
+            "S": "4",
+            "T": "4",
+            "W": "4",
+            "I": "2",
+            "A": "3",
+            "LD": "7",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Monsterous Infantry"
+          },
+          "cost": 64.0,
+          "rules": [
+            "Armored Hide (X)",
+            "Close Order",
+            "Swiftstride",
+            "Fear",
+            "Mournfang Charge",
+            "Impact Hits (X)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Monsterous Tusks",
+            "Ironfist",
+            "Brace Of Ogre Pistols - Ranged",
+            "Brace Of Ogre Pistols - Combat"
+          ]
+        },
+        {
+          "name": "Ogre",
+          "stats": {
+            "M": "-",
+            "WS": "3",
+            "BS": "2",
+            "S": "4",
+            "T": "4",
+            "W": "4",
+            "I": "2",
+            "A": "3",
+            "LD": "7",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Monsterous Infantry"
+          },
+          "cost": 64.0,
+          "rules": [
+            "Armored Hide (X)",
+            "Close Order",
+            "Swiftstride",
+            "Fear",
+            "Mournfang Charge",
+            "Impact Hits (X)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Ironfist"
+          ]
+        },
+        {
+          "name": "Champion",
+          "stats": {
+            "M": "-",
+            "WS": "3",
+            "BS": "2",
+            "S": "4",
+            "T": "4",
+            "W": "4",
+            "I": "2",
+            "A": "4",
+            "LD": "7",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Monsterous Infantry"
+          },
+          "cost": 71.0,
+          "rules": [
+            "Armored Hide (X)",
+            "Close Order",
+            "Swiftstride",
+            "Fear",
+            "Mournfang Charge",
+            "Impact Hits (X)"
+          ],
+          "role": "champion",
+          "default_weapons": [
+            "Brace Of Ogre Pistols - Ranged",
+            "Brace Of Ogre Pistols - Combat"
+          ]
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Equipment",
+          "cost": 0.0,
+          "is_default": false
+        },
+        {
+          "name": "Great Weapon",
+          "cost": 4.0,
+          "is_default": false
+        },
+        {
+          "name": "Ironfists",
+          "cost": 4.0,
+          "is_default": false
+        },
+        {
+          "name": "Armour",
+          "cost": 0.0,
+          "is_default": true
+        },
+        {
+          "name": "Light Armour",
+          "cost": 0.0,
+          "is_default": false
+        },
+        {
+          "name": "Heavy Armour",
+          "cost": 3.0,
+          "is_default": false
+        },
+        {
+          "name": "Brace of Ogre Pistols",
+          "cost": 12.0,
+          "is_default": false
+        },
+        {
+          "name": "Musician",
+          "cost": 7.0,
+          "is_default": false
+        },
+        {
+          "name": "Standard Bearer",
+          "cost": 7.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Ironblaster",
+      "category": "Special",
+      "base_points": 185.0,
+      "rules": [
+        "Fear",
+        "First Charge",
+        "Close Order",
+        "Impact Hits (X)",
+        "Large Target"
+      ],
+      "models": [
+        {
+          "name": "Ironblaster",
+          "stats": {
+            "M": "-",
+            "WS": "-",
+            "BS": "-",
+            "S": "5",
+            "T": "6",
+            "W": "5",
+            "I": "-",
+            "A": "-",
+            "LD": "-",
+            "ArmourSave": "4+",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Chariot"
+          },
+          "cost": 185.0,
+          "rules": [
+            "Close Order",
+            "Large Target",
+            "Armor Bane (X)",
+            "Fear",
+            "First Charge",
+            "Impact Hits (X)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Scatter Shot",
+            "Solid Shot"
+          ]
+        },
+        {
+          "name": "Leadbelcher",
+          "stats": {
+            "M": "-",
+            "WS": "3",
+            "BS": "3",
+            "S": "4",
+            "T": "-",
+            "W": "-",
+            "I": "2",
+            "A": "3",
+            "LD": "7",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": ""
+          },
+          "cost": 185.0,
+          "rules": [
+            "Close Order",
+            "Large Target",
+            "Fear",
+            "First Charge",
+            "Impact Hits (X)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Gnoblar Scrapper",
+          "stats": {
+            "M": "-",
+            "WS": "2",
+            "BS": "3",
+            "S": "2",
+            "T": "-",
+            "W": "-",
+            "I": "3",
+            "A": "1",
+            "LD": "5",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": ""
+          },
+          "cost": 185.0,
+          "rules": [
+            "Close Order",
+            "Large Target",
+            "Fear",
+            "First Charge",
+            "Impact Hits (X)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Rhinox",
+          "stats": {
+            "M": "6",
+            "WS": "3",
+            "BS": "-",
+            "S": "5",
+            "T": "-",
+            "W": "-",
+            "I": "2",
+            "A": "3",
+            "LD": "-",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": ""
+          },
+          "cost": 185.0,
+          "rules": [
+            "Close Order",
+            "Large Target",
+            "Armor Bane (X)",
+            "Fear",
+            "First Charge",
+            "Impact Hits (X)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": []
+    },
+    {
+      "name": "Gnoblar Scraplauncher",
+      "category": "Special",
+      "base_points": 140.0,
+      "rules": [
+        "Fear",
+        "First Charge",
+        "Close Order",
+        "Impact Hits (X)",
+        "Large Target"
+      ],
+      "models": [
+        {
+          "name": "Gnoblar Scraplauncher",
+          "stats": {
+            "M": "-",
+            "WS": "-",
+            "BS": "-",
+            "S": "5",
+            "T": "5",
+            "W": "5",
+            "I": "-",
+            "A": "-",
+            "LD": "-",
+            "ArmourSave": "4+",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Chariot"
+          },
+          "cost": 140.0,
+          "rules": [
+            "Close Order",
+            "Large Target",
+            "Armor Bane (X)",
+            "Fear",
+            "First Charge",
+            "Impact Hits (X)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Scraplauncher Catapult"
+          ]
+        },
+        {
+          "name": "Rhinox",
+          "stats": {
+            "M": "6",
+            "WS": "3",
+            "BS": "-",
+            "S": "5",
+            "T": "-",
+            "W": "-",
+            "I": "2",
+            "A": "3",
+            "LD": "-",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": ""
+          },
+          "cost": 140.0,
+          "rules": [
+            "Close Order",
+            "Large Target",
+            "Armor Bane (X)",
+            "Fear",
+            "First Charge",
+            "Impact Hits (X)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": []
+    },
+    {
+      "name": "Stonehorn",
+      "category": "Rare",
+      "base_points": 245.0,
+      "rules": [
+        "Armor Bane (X)",
+        "Close Order",
+        "First Charge",
+        "Howdah",
+        "Impact Hits (X)",
+        "Large Target",
+        "Stone Skeleton",
+        "Swiftstride",
+        "Terror",
+        "Thunderous Charge"
+      ],
+      "models": [
+        {
+          "name": "Stonehorn",
+          "stats": {
+            "M": "7",
+            "WS": "3",
+            "BS": "-",
+            "S": "6",
+            "T": "6",
+            "W": "6",
+            "I": "2",
+            "A": "4",
+            "LD": "-",
+            "ArmourSave": "4+",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Behemoth"
+          },
+          "cost": 245.0,
+          "rules": [
+            "Close Order",
+            "Large Target",
+            "Terror",
+            "Stone Skeleton",
+            "Armor Bane (X)",
+            "Swiftstride",
+            "Howdah",
+            "First Charge",
+            "Thunderous Charge",
+            "Impact Hits (X)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Harpoon Launcher",
+            "Chaintrap",
+            "Blood Vulture",
+            "Horns of Stone"
+          ]
+        },
+        {
+          "name": "Ogre Crew",
+          "stats": {
+            "M": "-",
+            "WS": "3",
+            "BS": "3",
+            "S": "4",
+            "T": "-",
+            "W": "-",
+            "I": "2",
+            "A": "3",
+            "LD": "7",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": ""
+          },
+          "cost": 245.0,
+          "rules": [
+            "Close Order",
+            "Large Target",
+            "Terror",
+            "Stone Skeleton",
+            "Armor Bane (X)",
+            "Swiftstride",
+            "Howdah",
+            "First Charge",
+            "Thunderous Charge",
+            "Impact Hits (X)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Harpoon Launcher"
+          ]
+        },
+        {
+          "name": "Ogre Beast Rider",
+          "stats": {
+            "M": "-",
+            "WS": "3",
+            "BS": "3",
+            "S": "4",
+            "T": "-",
+            "W": "-",
+            "I": "2",
+            "A": "3",
+            "LD": "7",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": ""
+          },
+          "cost": 245.0,
+          "rules": [
+            "Close Order",
+            "Large Target",
+            "Terror",
+            "Stone Skeleton",
+            "Armor Bane (X)",
+            "Swiftstride",
+            "Howdah",
+            "First Charge",
+            "Thunderous Charge",
+            "Impact Hits (X)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Harpoon Launcher",
+            "Blood Vulture",
+            "Chaintrap"
+          ]
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Harpoon Launcher",
+          "cost": 8.0,
+          "is_default": false
+        },
+        {
+          "name": "Equipment",
+          "cost": 0.0,
+          "is_default": true
+        },
+        {
+          "name": "Chaintrap",
+          "cost": 0.0,
+          "is_default": false
+        },
+        {
+          "name": "Blood Vulture",
+          "cost": 5.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Thundertusk",
+      "category": "Rare",
+      "base_points": 215.0,
+      "rules": [
+        "Close Order",
+        "First Charge",
+        "Howdah",
+        "Impact Hits (X)",
+        "Large Target",
+        "Numbing Chill",
+        "Stomp Attacks (X)",
+        "Terror",
+        "Swiftstride"
+      ],
+      "models": [
+        {
+          "name": "Thundertusk",
+          "stats": {
+            "M": "6",
+            "WS": "3",
+            "BS": "-",
+            "S": "6",
+            "T": "6",
+            "W": "6",
+            "I": "2",
+            "A": "4",
+            "LD": "-",
+            "ArmourSave": "5+",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Behemoth"
+          },
+          "cost": 215.0,
+          "rules": [
+            "Close Order",
+            "Large Target",
+            "Terror",
+            "Stomp Attacks (X)",
+            "Swiftstride",
+            "Howdah",
+            "First Charge",
+            "Numbing Chill",
+            "Impact Hits (X)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Great Tusks",
+            "Blood Vulture",
+            "Chill Breath",
+            "Harpoon Launcher",
+            "Chaintrap"
+          ]
+        },
+        {
+          "name": "Ogre Crew",
+          "stats": {
+            "M": "-",
+            "WS": "3",
+            "BS": "3",
+            "S": "4",
+            "T": "-",
+            "W": "-",
+            "I": "2",
+            "A": "3",
+            "LD": "7",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": ""
+          },
+          "cost": 215.0,
+          "rules": [
+            "Close Order",
+            "Large Target",
+            "Terror",
+            "Stomp Attacks (X)",
+            "Swiftstride",
+            "Howdah",
+            "First Charge",
+            "Numbing Chill",
+            "Impact Hits (X)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Harpoon Launcher"
+          ]
+        },
+        {
+          "name": "Ogre Beast Rider",
+          "stats": {
+            "M": "-",
+            "WS": "3",
+            "BS": "3",
+            "S": "4",
+            "T": "-",
+            "W": "-",
+            "I": "2",
+            "A": "3",
+            "LD": "7",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": ""
+          },
+          "cost": 215.0,
+          "rules": [
+            "Close Order",
+            "Large Target",
+            "Terror",
+            "Stomp Attacks (X)",
+            "Swiftstride",
+            "Howdah",
+            "First Charge",
+            "Numbing Chill",
+            "Impact Hits (X)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Harpoon Launcher",
+            "Blood Vulture",
+            "Chaintrap"
+          ]
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Harpoon Launcher",
+          "cost": 8.0,
+          "is_default": false
+        },
+        {
+          "name": "Equipment",
+          "cost": 0.0,
+          "is_default": true
+        },
+        {
+          "name": "Chaintrap",
+          "cost": 0.0,
+          "is_default": false
+        },
+        {
+          "name": "Blood Vulture",
+          "cost": 5.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Giant",
+      "category": "Rare",
+      "base_points": 200.0,
+      "rules": [
+        "Close Order",
+        "Immune to Psychology",
+        "Large Target",
+        "Stomp Attacks (X)",
+        "Terror",
+        "Timmm-berrr!",
+        "Unbreakable"
+      ],
+      "models": [
+        {
+          "name": "Giant",
+          "stats": {
+            "M": "6",
+            "WS": "3",
+            "BS": "1",
+            "S": "6",
+            "T": "6",
+            "W": "6",
+            "I": "2",
+            "A": "*",
+            "LD": "10",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Behemoth"
+          },
+          "cost": 200.0,
+          "rules": [
+            "Timmm-berrr!",
+            "Close Order",
+            "Large Target",
+            "Terror",
+            "Stomp Attacks (X)",
+            "Immune to Psychology",
+            "Unbreakable"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": []
+    },
+    {
+      "name": "Gorger",
+      "category": "Rare",
+      "base_points": 90.0,
+      "rules": [
+        "Close Order",
+        "Ambushers",
+        "Fear",
+        "Frenzy",
+        "Regeneration (X+)",
+        "Swiftstride",
+        "Unbreakable"
+      ],
+      "models": [
+        {
+          "name": "Gorger",
+          "stats": {
+            "M": "6",
+            "WS": "3",
+            "BS": "0",
+            "S": "5",
+            "T": "5",
+            "W": "4",
+            "I": "2",
+            "A": "4",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Monsterous Creature"
+          },
+          "cost": 90.0,
+          "rules": [
+            "Close Order",
+            "Vanguard",
+            "Ambushers",
+            "Regeneration (X+)",
+            "Frenzy",
+            "Scouts",
+            "Swiftstride",
+            "Unbreakable",
+            "Fear"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Wicked Claws",
+            "Distensible Jaw"
+          ]
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Scouts",
+          "cost": 3.0,
+          "is_default": false
+        },
+        {
+          "name": "Vanguard",
+          "cost": 3.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Firebelly",
+      "category": "Characters",
+      "base_points": 110.0,
+      "rules": [
+        "Fear",
+        "Armor Bane (X)",
+        "Flaming Attacks",
+        "Impact Hits (X)",
+        "Ogre Charge"
+      ],
+      "models": [
+        {
+          "name": "Firebelly",
+          "stats": {
+            "M": "6",
+            "WS": "3",
+            "BS": "2",
+            "S": "4",
+            "T": "5",
+            "W": "4",
+            "I": "2",
+            "A": "3",
+            "LD": "7",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Monsterous Infantry (Character)"
+          },
+          "cost": 110.0,
+          "rules": [
+            "Fear",
+            "Armor Bane (X)",
+            "Flaming Attacks",
+            "Impact Hits (X)",
+            "Ogre Charge"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Firebelly on Firebelly",
+          "stats": {
+            "M": "6",
+            "WS": "3",
+            "BS": "2",
+            "S": "4",
+            "T": "5",
+            "W": "4",
+            "I": "2",
+            "A": "3",
+            "LD": "7",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Monsterous Infantry (Character)"
+          },
+          "cost": 220.0,
+          "rules": [
+            "Flaming Attacks",
+            "Armor Bane (X)",
+            "Fear",
+            "Ogre Charge",
+            "Impact Hits (X)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Flaming Breath"
+          ]
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Great Weapon",
+          "cost": 6.0,
+          "is_default": false
+        },
+        {
+          "name": "Level 2 Wizard",
+          "cost": 35.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Butcher",
+      "category": "Characters",
+      "base_points": 105.0,
+      "rules": [
+        "Fear",
+        "Armor Bane (X)",
+        "Lore of the Great Maw",
+        "Impact Hits (X)",
+        "Ogre Charge"
+      ],
+      "models": [
+        {
+          "name": "Butcher",
+          "stats": {
+            "M": "6",
+            "WS": "3",
+            "BS": "2",
+            "S": "4",
+            "T": "5",
+            "W": "4",
+            "I": "2",
+            "A": "3",
+            "LD": "7",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Monsterous Infantry (Character)"
+          },
+          "cost": 105.0,
+          "rules": [
+            "Fear",
+            "Armor Bane (X)",
+            "Lore of the Great Maw",
+            "Impact Hits (X)",
+            "Ogre Charge"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Butcher on Butcher",
+          "stats": {
+            "M": "6",
+            "WS": "3",
+            "BS": "2",
+            "S": "4",
+            "T": "5",
+            "W": "4",
+            "I": "2",
+            "A": "3",
+            "LD": "7",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Monsterous Infantry (Character)"
+          },
+          "cost": 210.0,
+          "rules": [
+            "Armor Bane (X)",
+            "Lore of the Great Maw",
+            "Fear",
+            "Ogre Charge",
+            "Impact Hits (X)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Additional Hand Weapon",
+          "cost": 4.0,
+          "is_default": false
+        },
+        {
+          "name": "Butcher's Cauldron",
+          "cost": 30.0,
+          "is_default": false
+        },
+        {
+          "name": "Level 2 Wizard",
+          "cost": 35.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Slaughtermaster",
+      "category": "Characters",
+      "base_points": 230.0,
+      "rules": [
+        "Fear",
+        "Armor Bane (X)",
+        "Lore of the Great Maw",
+        "Impact Hits (X)",
+        "Ogre Charge"
+      ],
+      "models": [
+        {
+          "name": "Slaughtermaster",
+          "stats": {
+            "M": "6",
+            "WS": "4",
+            "BS": "3",
+            "S": "4",
+            "T": "5",
+            "W": "5",
+            "I": "3",
+            "A": "4",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Monsterous Infantry (Character)"
+          },
+          "cost": 230.0,
+          "rules": [
+            "Fear",
+            "Armor Bane (X)",
+            "Lore of the Great Maw",
+            "Impact Hits (X)",
+            "Ogre Charge"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Slaughtermaster on Slaughtermaster",
+          "stats": {
+            "M": "6",
+            "WS": "4",
+            "BS": "3",
+            "S": "4",
+            "T": "5",
+            "W": "5",
+            "I": "3",
+            "A": "4",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Monsterous Infantry (Character)"
+          },
+          "cost": 460.0,
+          "rules": [
+            "Armor Bane (X)",
+            "Lore of the Great Maw",
+            "Fear",
+            "Ogre Charge",
+            "Impact Hits (X)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Additional Hand Weapon",
+          "cost": 4.0,
+          "is_default": false
+        },
+        {
+          "name": "Butcher's Cauldron",
+          "cost": 30.0,
+          "is_default": false
+        },
+        {
+          "name": "Level 4 Wizard",
+          "cost": 35.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Bruiser",
+      "category": "Characters",
+      "base_points": 110.0,
+      "rules": [
+        "Fear",
+        "Armor Bane (X)",
+        "Impact Hits (X)",
+        "Ogre Charge"
+      ],
+      "models": [
+        {
+          "name": "Bruiser",
+          "stats": {
+            "M": "6",
+            "WS": "5",
+            "BS": "3",
+            "S": "5",
+            "T": "5",
+            "W": "4",
+            "I": "4",
+            "A": "4",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Monsterous Infantry (Character)"
+          },
+          "cost": 110.0,
+          "rules": [
+            "Fear",
+            "Armor Bane (X)",
+            "Impact Hits (X)",
+            "Ogre Charge"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Bruiser on Bruiser",
+          "stats": {
+            "M": "6",
+            "WS": "5",
+            "BS": "3",
+            "S": "5",
+            "T": "5",
+            "W": "4",
+            "I": "4",
+            "A": "4",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Monsterous Infantry (Character)"
+          },
+          "cost": 220.0,
+          "rules": [
+            "Ogre Charge",
+            "Fear",
+            "Impact Hits (X)",
+            "Armor Bane (X)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Ironfist",
+            "Brace Of Ogre Pistols - Ranged",
+            "Brace Of Ogre Pistols - Combat",
+            "Ogre Pistol"
+          ]
+        },
+        {
+          "name": "Bruiser on Thundertusk",
+          "stats": {
+            "M": "6",
+            "WS": "5",
+            "BS": "3",
+            "S": "5",
+            "T": "6",
+            "W": "8",
+            "I": "4",
+            "A": "4",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Monsterous Infantry (Character)"
+          },
+          "cost": 275.0,
+          "rules": [
+            "Close Order",
+            "Large Target",
+            "Terror",
+            "Stomp Attacks (X)",
+            "Armor Bane (X)",
+            "Swiftstride",
+            "Numbing Chill",
+            "Fear",
+            "First Charge",
+            "Ogre Charge",
+            "Impact Hits (X)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Great Tusks",
+            "Chill Breath"
+          ]
+        },
+        {
+          "name": "Bruiser on Stonehorn",
+          "stats": {
+            "M": "7",
+            "WS": "5",
+            "BS": "3",
+            "S": "5",
+            "T": "6",
+            "W": "8",
+            "I": "4",
+            "A": "4",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Monsterous Infantry (Character)"
+          },
+          "cost": 305.0,
+          "rules": [
+            "Close Order",
+            "Large Target",
+            "Terror",
+            "Armor Bane (X)",
+            "Swiftstride",
+            "Fear",
+            "Stone Skeleton",
+            "First Charge",
+            "Ogre Charge",
+            "Thunderous Charge",
+            "Impact Hits (X)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Horns of Stone"
+          ]
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Battle Standard Bearer",
+          "cost": 25.0,
+          "is_default": false
+        },
+        {
+          "name": "Equipment",
+          "cost": 0.0,
+          "is_default": false
+        },
+        {
+          "name": "Additional Hand Weapon",
+          "cost": 4.0,
+          "is_default": false
+        },
+        {
+          "name": "Ironfists",
+          "cost": 6.0,
+          "is_default": false
+        },
+        {
+          "name": "Great Weapon",
+          "cost": 5.0,
+          "is_default": false
+        },
+        {
+          "name": "Armour",
+          "cost": 0.0,
+          "is_default": true
+        },
+        {
+          "name": "Light Armour",
+          "cost": 0.0,
+          "is_default": false
+        },
+        {
+          "name": "Heavy Armour",
+          "cost": 3.0,
+          "is_default": false
+        },
+        {
+          "name": "Armament",
+          "cost": 0.0,
+          "is_default": false
+        },
+        {
+          "name": "Ogre Pistol",
+          "cost": 6.0,
+          "is_default": false
+        },
+        {
+          "name": "Brace of Ogre Pistols",
+          "cost": 12.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Tyrant",
+      "category": "Characters",
+      "base_points": 185.0,
+      "rules": [
+        "Fear",
+        "Armor Bane (X)",
+        "Impact Hits (X)",
+        "Ogre Charge"
+      ],
+      "models": [
+        {
+          "name": "Tyrant",
+          "stats": {
+            "M": "6",
+            "WS": "6",
+            "BS": "4",
+            "S": "5",
+            "T": "5",
+            "W": "5",
+            "I": "5",
+            "A": "5",
+            "LD": "9",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Monsterous Infantry (Character)"
+          },
+          "cost": 185.0,
+          "rules": [
+            "Fear",
+            "Armor Bane (X)",
+            "Impact Hits (X)",
+            "Ogre Charge"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Tyrant on Tyrant",
+          "stats": {
+            "M": "6",
+            "WS": "6",
+            "BS": "4",
+            "S": "5",
+            "T": "5",
+            "W": "5",
+            "I": "5",
+            "A": "5",
+            "LD": "9",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Monsterous Infantry (Character)"
+          },
+          "cost": 370.0,
+          "rules": [
+            "Ogre Charge",
+            "Fear",
+            "Impact Hits (X)",
+            "Armor Bane (X)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Ironfist",
+            "Brace Of Ogre Pistols - Ranged",
+            "Brace Of Ogre Pistols - Combat",
+            "Ogre Pistol"
+          ]
+        },
+        {
+          "name": "Tyrant on Thundertusk",
+          "stats": {
+            "M": "6",
+            "WS": "6",
+            "BS": "4",
+            "S": "5",
+            "T": "6",
+            "W": "9",
+            "I": "5",
+            "A": "5",
+            "LD": "9",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Monsterous Infantry (Character)"
+          },
+          "cost": 350.0,
+          "rules": [
+            "Close Order",
+            "Large Target",
+            "Terror",
+            "Stomp Attacks (X)",
+            "Armor Bane (X)",
+            "Swiftstride",
+            "Numbing Chill",
+            "Fear",
+            "First Charge",
+            "Ogre Charge",
+            "Impact Hits (X)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Great Tusks",
+            "Chill Breath"
+          ]
+        },
+        {
+          "name": "Tyrant on Stonehorn",
+          "stats": {
+            "M": "7",
+            "WS": "6",
+            "BS": "4",
+            "S": "5",
+            "T": "6",
+            "W": "9",
+            "I": "5",
+            "A": "5",
+            "LD": "9",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Monsterous Infantry (Character)"
+          },
+          "cost": 380.0,
+          "rules": [
+            "Close Order",
+            "Large Target",
+            "Terror",
+            "Armor Bane (X)",
+            "Swiftstride",
+            "Fear",
+            "Stone Skeleton",
+            "First Charge",
+            "Ogre Charge",
+            "Thunderous Charge",
+            "Impact Hits (X)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Horns of Stone"
+          ]
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Equipment",
+          "cost": 0.0,
+          "is_default": false
+        },
+        {
+          "name": "Additional Hand Weapon",
+          "cost": 4.0,
+          "is_default": false
+        },
+        {
+          "name": "Ironfists",
+          "cost": 6.0,
+          "is_default": false
+        },
+        {
+          "name": "Great Weapon",
+          "cost": 5.0,
+          "is_default": false
+        },
+        {
+          "name": "Armour",
+          "cost": 0.0,
+          "is_default": true
+        },
+        {
+          "name": "Light Armour",
+          "cost": 0.0,
+          "is_default": false
+        },
+        {
+          "name": "Heavy Armour",
+          "cost": 3.0,
+          "is_default": false
+        },
+        {
+          "name": "Armament",
+          "cost": 0.0,
+          "is_default": false
+        },
+        {
+          "name": "Ogre Pistol",
+          "cost": 6.0,
+          "is_default": false
+        },
+        {
+          "name": "Brace of Ogre Pistols",
+          "cost": 12.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Hunter",
+      "category": "Characters",
+      "base_points": 115.0,
+      "rules": [
+        "Fear",
+        "Armor Bane (X)",
+        "Impact Hits (X)",
+        "Ogre Charge",
+        "Loner",
+        "Move Through Cover"
+      ],
+      "models": [
+        {
+          "name": "Hunter",
+          "stats": {
+            "M": "6",
+            "WS": "5",
+            "BS": "4",
+            "S": "5",
+            "T": "5",
+            "W": "4",
+            "I": "3",
+            "A": "4",
+            "LD": "9",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Monsterous Infantry (Character)"
+          },
+          "cost": 115.0,
+          "rules": [
+            "Fear",
+            "Armor Bane (X)",
+            "Impact Hits (X)",
+            "Ogre Charge",
+            "Loner",
+            "Move Through Cover"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Hunter on Hunter",
+          "stats": {
+            "M": "6",
+            "WS": "5",
+            "BS": "4",
+            "S": "5",
+            "T": "5",
+            "W": "4",
+            "I": "3",
+            "A": "4",
+            "LD": "9",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Monsterous Infantry (Character)"
+          },
+          "cost": 230.0,
+          "rules": [
+            "Vanguard",
+            "Loner",
+            "Ambushers",
+            "Armor Bane (X)",
+            "Scouts",
+            "Fear",
+            "Move Through Cover",
+            "Ogre Charge",
+            "Impact Hits (X)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Harpoon Launcher",
+            "Great Throwing Spears"
+          ]
+        },
+        {
+          "name": "Hunter on Thundertusk",
+          "stats": {
+            "M": "6",
+            "WS": "5",
+            "BS": "4",
+            "S": "5",
+            "T": "6",
+            "W": "8",
+            "I": "3",
+            "A": "4",
+            "LD": "9",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Monsterous Infantry (Character)"
+          },
+          "cost": 280.0,
+          "rules": [
+            "Close Order",
+            "Large Target",
+            "Terror",
+            "Loner",
+            "Stomp Attacks (X)",
+            "Armor Bane (X)",
+            "Swiftstride",
+            "Numbing Chill",
+            "Fear",
+            "Move Through Cover",
+            "First Charge",
+            "Ogre Charge",
+            "Impact Hits (X)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Great Tusks",
+            "Chill Breath"
+          ]
+        },
+        {
+          "name": "Hunter on Stonehorn",
+          "stats": {
+            "M": "7",
+            "WS": "5",
+            "BS": "4",
+            "S": "5",
+            "T": "6",
+            "W": "8",
+            "I": "3",
+            "A": "4",
+            "LD": "9",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Monsterous Infantry (Character)"
+          },
+          "cost": 310.0,
+          "rules": [
+            "Close Order",
+            "Large Target",
+            "Terror",
+            "Loner",
+            "Stone Skeleton",
+            "Armor Bane (X)",
+            "Swiftstride",
+            "Fear",
+            "Move Through Cover",
+            "First Charge",
+            "Ogre Charge",
+            "Thunderous Charge",
+            "Impact Hits (X)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Horns of Stone"
+          ]
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Additional Hand Weapon",
+          "cost": 4.0,
+          "is_default": false
+        },
+        {
+          "name": "Harpoon Launcher",
+          "cost": 10.0,
+          "is_default": false
+        },
+        {
+          "name": "Ambushers",
+          "cost": 10.0,
+          "is_default": false
+        },
+        {
+          "name": "Scouts",
+          "cost": 5.0,
+          "is_default": false
+        },
+        {
+          "name": "Vanguard",
+          "cost": 3.0,
+          "is_default": false
+        }
+      ]
+    }
+  ]
+}

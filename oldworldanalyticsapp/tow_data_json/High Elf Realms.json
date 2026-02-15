@@ -1,0 +1,3396 @@
+{
+  "faction_name": "High Elf Realms",
+  "units": [
+    {
+      "name": "Sisters Of Avelorn",
+      "category": "Rare",
+      "base_points": 0.0,
+      "rules": [
+        "Arrows Of Isha",
+        "Evasive",
+        "Ignores Cover",
+        "Immune to Psychology",
+        "Ithilmar Armour/Ithilmar Barding",
+        "Ithilmar Weapons",
+        "Open Order",
+        "Skirmishers",
+        "Strike First"
+      ],
+      "models": [
+        {
+          "name": "Sisters Of Avelorn",
+          "stats": {
+            "M": "5",
+            "WS": "5",
+            "BS": "5",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "5",
+            "A": "1",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 15.0,
+          "rules": [
+            "Ignores Cover",
+            "Arrows Of Isha",
+            "Open Order",
+            "Evasive",
+            "Stubborn",
+            "Ithilmar Armour/Ithilmar Barding",
+            "Ambushers",
+            "Skirmishers",
+            "Immune to Psychology",
+            "Ithilmar Weapons",
+            "Strike First"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Bow Of Avelorn"
+          ]
+        },
+        {
+          "name": "Champion",
+          "stats": {
+            "M": "5",
+            "WS": "5",
+            "BS": "6",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "5",
+            "A": "1",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 22.0,
+          "rules": [
+            "Ignores Cover",
+            "Arrows Of Isha",
+            "Open Order",
+            "Evasive",
+            "Ithilmar Armour/Ithilmar Barding",
+            "Skirmishers",
+            "Immune to Psychology",
+            "Ithilmar Weapons",
+            "Strike First"
+          ],
+          "role": "champion",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Ambushers",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Stubborn",
+          "cost": 1.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Handmaiden Of The Everqueen",
+      "category": "Characters",
+      "base_points": 65.0,
+      "rules": [
+        "Arrows Of Isha",
+        "Evasive",
+        "Ignores Cover",
+        "Immune to Psychology",
+        "Ithilmar Armour",
+        "Ithilmar Weapons",
+        "Strike First"
+      ],
+      "models": [
+        {
+          "name": "Handmaiden Of The Everqueen",
+          "stats": {
+            "M": "5",
+            "WS": "6",
+            "BS": "7",
+            "S": "4",
+            "T": "3",
+            "W": "2",
+            "I": "6",
+            "A": "2",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry (Character)"
+          },
+          "cost": 65.0,
+          "rules": [
+            "Arrows Of Isha",
+            "Evasive",
+            "Ignores Cover",
+            "Immune to Psychology",
+            "Ithilmar Armour",
+            "Ithilmar Weapons",
+            "Strike First"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Bow Of Avelorn"
+          ]
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Horn of Isha",
+          "cost": 25.0,
+          "is_default": false
+        },
+        {
+          "name": "Armour",
+          "cost": 0.0,
+          "is_default": true
+        },
+        {
+          "name": "Light Armour",
+          "cost": 0.0,
+          "is_default": false
+        },
+        {
+          "name": "Heavy Armour",
+          "cost": 3.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Sisters Of Avelorn",
+      "category": "Core",
+      "base_points": 0.0,
+      "rules": [
+        "Arrows Of Isha",
+        "Evasive",
+        "Ignores Cover",
+        "Immune to Psychology",
+        "Ithilmar Armour/Ithilmar Barding",
+        "Ithilmar Weapons",
+        "Open Order",
+        "Skirmishers",
+        "Strike First"
+      ],
+      "models": [
+        {
+          "name": "Sisters Of Avelorn",
+          "stats": {
+            "M": "5",
+            "WS": "5",
+            "BS": "5",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "5",
+            "A": "1",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 15.0,
+          "rules": [
+            "Ignores Cover",
+            "Arrows Of Isha",
+            "Open Order",
+            "Evasive",
+            "Stubborn",
+            "Ithilmar Armour/Ithilmar Barding",
+            "Ambushers",
+            "Skirmishers",
+            "Immune to Psychology",
+            "Ithilmar Weapons",
+            "Strike First"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Bow Of Avelorn"
+          ]
+        },
+        {
+          "name": "Champion",
+          "stats": {
+            "M": "5",
+            "WS": "5",
+            "BS": "6",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "5",
+            "A": "1",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 22.0,
+          "rules": [
+            "Ignores Cover",
+            "Arrows Of Isha",
+            "Open Order",
+            "Evasive",
+            "Ithilmar Armour/Ithilmar Barding",
+            "Skirmishers",
+            "Immune to Psychology",
+            "Ithilmar Weapons",
+            "Strike First"
+          ],
+          "role": "champion",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Ambushers",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Stubborn",
+          "cost": 1.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Elven Spearmen",
+      "category": "Core",
+      "base_points": 0.0,
+      "rules": [
+        "Close Order",
+        "Elven Reflexes",
+        "Regimental Unit",
+        "Martial Prowess"
+      ],
+      "models": [
+        {
+          "name": "Elven Spearmen",
+          "stats": {
+            "M": "5",
+            "WS": "4",
+            "BS": "4",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "4",
+            "A": "1",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 9.0,
+          "rules": [
+            "Close Order",
+            "Valour Of Ages",
+            "Elven Reflexes",
+            "Regimental Unit",
+            "Veteran",
+            "Martial Prowess",
+            "Shieldwall"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Champion",
+          "stats": {
+            "M": "5",
+            "WS": "4",
+            "BS": "4",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "4",
+            "A": "2",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 14.0,
+          "rules": [
+            "Regimental Unit",
+            "Close Order",
+            "Martial Prowess",
+            "Elven Reflexes"
+          ],
+          "role": "champion",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Veteran",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Shieldwall",
+          "cost": 10.0,
+          "is_default": false
+        },
+        {
+          "name": "Musician",
+          "cost": 5.0,
+          "is_default": false
+        },
+        {
+          "name": "Standard Bearer",
+          "cost": 5.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Elven Archers",
+      "category": "Core",
+      "base_points": 0.0,
+      "rules": [
+        "Close Order",
+        "Elven Reflexes",
+        "Detatchment"
+      ],
+      "models": [
+        {
+          "name": "Elven Archers",
+          "stats": {
+            "M": "5",
+            "WS": "4",
+            "BS": "4",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "4",
+            "A": "1",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 10.0,
+          "rules": [
+            "Close Order",
+            "Valour Of Ages",
+            "Elven Reflexes",
+            "Detatchment",
+            "Veteran"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Champion",
+          "stats": {
+            "M": "5",
+            "WS": "4",
+            "BS": "5",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "4",
+            "A": "1",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 15.0,
+          "rules": [
+            "Close Order",
+            "Elven Reflexes",
+            "Detatchment"
+          ],
+          "role": "champion",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Light Armour",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Veteran",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Musician",
+          "cost": 5.0,
+          "is_default": false
+        },
+        {
+          "name": "Standard Bearer",
+          "cost": 5.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Lothern Sea Guard",
+      "category": "Core",
+      "base_points": 0.0,
+      "rules": [
+        "Close Order",
+        "Elven Reflexes",
+        "Martial Prowess"
+      ],
+      "models": [
+        {
+          "name": "Lothern Sea Guard",
+          "stats": {
+            "M": "5",
+            "WS": "4",
+            "BS": "4",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "4",
+            "A": "1",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 11.0,
+          "rules": [
+            "Close Order",
+            "Valour Of Ages",
+            "Elven Reflexes",
+            "Veteran",
+            "Martial Prowess"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Sea Guard",
+          "stats": {
+            "M": "5",
+            "WS": "4",
+            "BS": "4",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "4",
+            "A": "1",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 11.0,
+          "rules": [
+            "Close Order",
+            "Valour Of Ages",
+            "Elven Reflexes",
+            "Veteran",
+            "Martial Prowess"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Champion",
+          "stats": {
+            "M": "5",
+            "WS": "4",
+            "BS": "5",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "4",
+            "A": "2",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 18.0,
+          "rules": [
+            "Close Order",
+            "Martial Prowess",
+            "Elven Reflexes"
+          ],
+          "role": "champion",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Shield",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Veteran",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Musician",
+          "cost": 5.0,
+          "is_default": false
+        },
+        {
+          "name": "Standard Bearer",
+          "cost": 5.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "White Lions Of Chrace",
+      "category": "Special",
+      "base_points": 0.0,
+      "rules": [
+        "Open Order",
+        "Elven Reflexes",
+        "Stubborn",
+        "Move Through Cover",
+        "Lion Cloak",
+        "Furious Charge"
+      ],
+      "models": [
+        {
+          "name": "White Lions Of Chrace",
+          "stats": {
+            "M": "5",
+            "WS": "5",
+            "BS": "4",
+            "S": "4",
+            "T": "3",
+            "W": "1",
+            "I": "5",
+            "A": "1",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 14.0,
+          "rules": [
+            "Valour Of Ages",
+            "Elven Reflexes",
+            "Open Order",
+            "Stubborn",
+            "Furious Charge",
+            "Veteran",
+            "Move Through Cover",
+            "Lion Cloak"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Chracian Great Blade"
+          ]
+        },
+        {
+          "name": "White Lion",
+          "stats": {
+            "M": "5",
+            "WS": "5",
+            "BS": "4",
+            "S": "4",
+            "T": "3",
+            "W": "1",
+            "I": "5",
+            "A": "1",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 14.0,
+          "rules": [
+            "Valour Of Ages",
+            "Elven Reflexes",
+            "Open Order",
+            "Stubborn",
+            "Furious Charge",
+            "Veteran",
+            "Move Through Cover",
+            "Lion Cloak"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Chracian Great Blade"
+          ]
+        },
+        {
+          "name": "Champion",
+          "stats": {
+            "M": "5",
+            "WS": "5",
+            "BS": "4",
+            "S": "4",
+            "T": "3",
+            "W": "1",
+            "I": "5",
+            "A": "2",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 20.0,
+          "rules": [
+            "Elven Reflexes",
+            "Open Order",
+            "Stubborn",
+            "Furious Charge",
+            "Move Through Cover",
+            "Lion Cloak"
+          ],
+          "role": "champion",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Veteran",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Musician",
+          "cost": 6.0,
+          "is_default": false
+        },
+        {
+          "name": "Standard Bearer",
+          "cost": 6.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Swordmasters Of Hoeth",
+      "category": "Special",
+      "base_points": 0.0,
+      "rules": [
+        "Valour Of Ages",
+        "Elven Reflexes",
+        "Close Order",
+        "Magic Resistance (-X)",
+        "Ithilmar Armour"
+      ],
+      "models": [
+        {
+          "name": "Swordmasters Of Hoeth",
+          "stats": {
+            "M": "5",
+            "WS": "6",
+            "BS": "4",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "6",
+            "A": "1",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 14.0,
+          "rules": [
+            "Valour Of Ages",
+            "Magic Resistance (-X)",
+            "Close Order",
+            "Elven Reflexes",
+            "Ithilmar Armour",
+            "Drilled"
+          ],
+          "role": "champion",
+          "default_weapons": [
+            "Sword Of Hoeth"
+          ]
+        },
+        {
+          "name": "Swordmaster",
+          "stats": {
+            "M": "5",
+            "WS": "6",
+            "BS": "4",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "6",
+            "A": "1",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 14.0,
+          "rules": [
+            "Valour Of Ages",
+            "Magic Resistance (-X)",
+            "Close Order",
+            "Elven Reflexes",
+            "Ithilmar Armour",
+            "Drilled"
+          ],
+          "role": "champion",
+          "default_weapons": [
+            "Sword Of Hoeth"
+          ]
+        },
+        {
+          "name": "Champion",
+          "stats": {
+            "M": "5",
+            "WS": "6",
+            "BS": "4",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "6",
+            "A": "2",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 6.0,
+          "rules": [
+            "Valour Of Ages",
+            "Magic Resistance (-X)",
+            "Close Order",
+            "Elven Reflexes",
+            "Ithilmar Armour"
+          ],
+          "role": "champion",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Drilled",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Musician",
+          "cost": 6.0,
+          "is_default": false
+        },
+        {
+          "name": "Standard Bearer",
+          "cost": 6.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Phoenix Guard",
+      "category": "Special",
+      "base_points": 0.0,
+      "rules": [
+        "Veteran",
+        "Elven Reflexes",
+        "Close Order",
+        "Martial Prowess",
+        "Fear",
+        "Blessings Of Asuryan"
+      ],
+      "models": [
+        {
+          "name": "Phoenix Guard",
+          "stats": {
+            "M": "5",
+            "WS": "5",
+            "BS": "4",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "5",
+            "A": "1",
+            "LD": "9",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Infantry"
+          },
+          "cost": 16.0,
+          "rules": [
+            "Close Order",
+            "Elven Reflexes",
+            "Veteran",
+            "Blessings Of Asuryan",
+            "Martial Prowess",
+            "Fear",
+            "Drilled"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Ceremonial Halberd"
+          ]
+        },
+        {
+          "name": "Champion",
+          "stats": {
+            "M": "5",
+            "WS": "5",
+            "BS": "4",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "5",
+            "A": "2",
+            "LD": "9",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Infantry"
+          },
+          "cost": 23.0,
+          "rules": [
+            "Close Order",
+            "Elven Reflexes",
+            "Veteran",
+            "Blessings Of Asuryan",
+            "Martial Prowess",
+            "Fear"
+          ],
+          "role": "champion",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Drilled",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Musician",
+          "cost": 7.0,
+          "is_default": false
+        },
+        {
+          "name": "Standard Bearer",
+          "cost": 7.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Shadow Warriors",
+      "category": "Special",
+      "base_points": 0.0,
+      "rules": [
+        "Veteran",
+        "Elven Reflexes",
+        "Fire & Flee",
+        "Evasive",
+        "Ithilmar Weapons",
+        "Move Through Cover",
+        "Scouts",
+        "Skirmishers"
+      ],
+      "models": [
+        {
+          "name": "Shadow Warriors",
+          "stats": {
+            "M": "5",
+            "WS": "5",
+            "BS": "5",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "5",
+            "A": "1",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 14.0,
+          "rules": [
+            "Feigned Flight",
+            "Elven Reflexes",
+            "Evasive",
+            "Ambushers",
+            "Veteran",
+            "Skirmishers",
+            "Scouts",
+            "Ithilmar Weapons",
+            "Move Through Cover",
+            "Fire & Flee",
+            "Chariot Runners"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Champion",
+          "stats": {
+            "M": "5",
+            "WS": "5",
+            "BS": "6",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "5",
+            "A": "1",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry"
+          },
+          "cost": 20.0,
+          "rules": [
+            "Elven Reflexes",
+            "Evasive",
+            "Veteran",
+            "Skirmishers",
+            "Scouts",
+            "Ithilmar Weapons",
+            "Move Through Cover",
+            "Fire & Flee"
+          ],
+          "role": "champion",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Ambushers",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Chariot Runners",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Feigned Flight",
+          "cost": 1.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Ellyrian Reavers",
+      "category": "Core",
+      "base_points": 0.0,
+      "rules": [
+        "Open Order",
+        "Elven Reflexes",
+        "Swiftstride",
+        "Fast Cavalry",
+        "Valour Of Ages"
+      ],
+      "models": [
+        {
+          "name": "Ellyrian Reavers",
+          "stats": {
+            "M": "-",
+            "WS": "4",
+            "BS": "4",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "4",
+            "A": "1",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Light Cavalry"
+          },
+          "cost": 16.0,
+          "rules": [
+            "Valour Of Ages",
+            "Elven Reflexes",
+            "Fast Cavalry",
+            "Open Order",
+            "Skirmishers",
+            "Scouts",
+            "Swiftstride"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Champion",
+          "stats": {
+            "M": "-",
+            "WS": "4",
+            "BS": "5",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "4",
+            "A": "2",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Light Cavalry"
+          },
+          "cost": 24.0,
+          "rules": [
+            "Valour Of Ages",
+            "Elven Reflexes",
+            "Fast Cavalry",
+            "Open Order",
+            "Swiftstride"
+          ],
+          "role": "champion",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Scouts",
+          "cost": 2.0,
+          "is_default": false
+        },
+        {
+          "name": "Skirmishers",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Shortbow",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Cavalry Spear and Shortbow",
+          "cost": 2.0,
+          "is_default": false
+        },
+        {
+          "name": "Musician",
+          "cost": 6.0,
+          "is_default": false
+        },
+        {
+          "name": "Standard Bearer",
+          "cost": 6.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Silver Helms",
+      "category": "Core",
+      "base_points": 0.0,
+      "rules": [
+        "Close Order",
+        "Elven Reflexes",
+        "Swiftstride",
+        "First Charge",
+        "Valour Of Ages",
+        "Ithilmar Barding"
+      ],
+      "models": [
+        {
+          "name": "Silver Helms",
+          "stats": {
+            "M": "-",
+            "WS": "4",
+            "BS": "4",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "5",
+            "A": "1",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Cavalry"
+          },
+          "cost": 23.0,
+          "rules": [
+            "Close Order",
+            "Valour Of Ages",
+            "Elven Reflexes",
+            "Swiftstride",
+            "First Charge",
+            "Ithilmar Barding"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Champion",
+          "stats": {
+            "M": "-",
+            "WS": "4",
+            "BS": "5",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "5",
+            "A": "2",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Cavalry"
+          },
+          "cost": 29.0,
+          "rules": [
+            "Close Order",
+            "Valour Of Ages",
+            "Elven Reflexes",
+            "Swiftstride",
+            "First Charge",
+            "Ithilmar Barding"
+          ],
+          "role": "champion",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Shield",
+          "cost": 1.0,
+          "is_default": false
+        },
+        {
+          "name": "Musician",
+          "cost": 6.0,
+          "is_default": false
+        },
+        {
+          "name": "Standard Bearer",
+          "cost": 6.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Dragon Princes",
+      "category": "Special",
+      "base_points": 0.0,
+      "rules": [
+        "Close Order",
+        "Elven Reflexes",
+        "Swiftstride",
+        "First Charge",
+        "Valour Of Ages",
+        "Ithilmar Barding",
+        "Counter Charge",
+        "Dragon Armour",
+        "Drilled",
+        "Impetuous",
+        "Ithilmar Weapons"
+      ],
+      "models": [
+        {
+          "name": "Dragon Princes",
+          "stats": {
+            "M": "-",
+            "WS": "5",
+            "BS": "4",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "5",
+            "A": "2",
+            "LD": "9",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Cavalry"
+          },
+          "cost": 37.0,
+          "rules": [
+            "Close Order",
+            "Valour Of Ages",
+            "Elven Reflexes",
+            "Dragon Armour",
+            "Counter Charge",
+            "Impetuous",
+            "Swiftstride",
+            "Ithilmar Weapons",
+            "First Charge",
+            "Ithilmar Barding",
+            "Drilled"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Champion",
+          "stats": {
+            "M": "-",
+            "WS": "5",
+            "BS": "4",
+            "S": "3",
+            "T": "3",
+            "W": "1",
+            "I": "5",
+            "A": "3",
+            "LD": "9",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Heavy Cavalry"
+          },
+          "cost": 44.0,
+          "rules": [
+            "Close Order",
+            "Valour Of Ages",
+            "Elven Reflexes",
+            "Dragon Armour",
+            "Counter Charge",
+            "Impetuous",
+            "Swiftstride",
+            "Ithilmar Weapons",
+            "First Charge",
+            "Ithilmar Barding",
+            "Drilled"
+          ],
+          "role": "champion",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Musician",
+          "cost": 7.0,
+          "is_default": false
+        },
+        {
+          "name": "Standard Bearer",
+          "cost": 7.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Eagle-claw Bolt Thrower",
+      "category": "Rare",
+      "base_points": 80.0,
+      "rules": [
+        "Elven Reflexes",
+        "Skirmishers",
+        "Valour Of Ages"
+      ],
+      "models": [
+        {
+          "name": "Eagle-claw Bolt Thrower",
+          "stats": {
+            "M": "-",
+            "WS": "-",
+            "BS": "-",
+            "S": "-",
+            "T": "6",
+            "W": "2",
+            "I": "-",
+            "A": "-",
+            "LD": "-",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "War Machine"
+          },
+          "cost": 80.0,
+          "rules": [
+            "Valour Of Ages",
+            "Elven Reflexes",
+            "Skirmishers"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Repeater Bolt Thrower"
+          ]
+        }
+      ],
+      "upgrades": []
+    },
+    {
+      "name": "Prince",
+      "category": "Characters",
+      "base_points": 130.0,
+      "rules": [
+        "Ithilmar Weapons",
+        "Valour Of Ages",
+        "Strike First"
+      ],
+      "models": [
+        {
+          "name": "Prince",
+          "stats": {
+            "M": "5",
+            "WS": "7",
+            "BS": "7",
+            "S": "4",
+            "T": "3",
+            "W": "3",
+            "I": "6",
+            "A": "4",
+            "LD": "10",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry (Character)"
+          },
+          "cost": 130.0,
+          "rules": [
+            "Ithilmar Weapons",
+            "Valour Of Ages",
+            "Strike First"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Prince on Elven Steed",
+          "stats": {
+            "M": "9",
+            "WS": "7",
+            "BS": "7",
+            "S": "4",
+            "T": "3",
+            "W": "3",
+            "I": "6",
+            "A": "4",
+            "LD": "10",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry (Character)"
+          },
+          "cost": 144.0,
+          "rules": [
+            "Valour Of Ages",
+            "Fast Cavalry",
+            "Swiftstride",
+            "Ithilmar Weapons",
+            "Strike First"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Prince on Barded Elven Steed",
+          "stats": {
+            "M": "8",
+            "WS": "7",
+            "BS": "7",
+            "S": "4",
+            "T": "3",
+            "W": "3",
+            "I": "6",
+            "A": "4",
+            "LD": "10",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry (Character)"
+          },
+          "cost": 148.0,
+          "rules": [
+            "Valour Of Ages",
+            "Counter Charge",
+            "First Charge",
+            "Ithilmar Weapons",
+            "Swiftstride",
+            "Strike First",
+            "Ithilmar Barding"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Prince on Tiranoc Chariot",
+          "stats": {
+            "M": "5",
+            "WS": "7",
+            "BS": "7",
+            "S": "4",
+            "T": "4",
+            "W": "4",
+            "I": "6",
+            "A": "4",
+            "LD": "10",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry (Character)"
+          },
+          "cost": 205.0,
+          "rules": [
+            "Valour Of Ages",
+            "Elven Reflexes",
+            "Open Order",
+            "Quick Shot",
+            "Swiftstride",
+            "Ithilmar Weapons",
+            "Strike First",
+            "Impact Hits (X)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Prince on Griffon",
+          "stats": {
+            "M": "6",
+            "WS": "7",
+            "BS": "7",
+            "S": "4",
+            "T": "5",
+            "W": "6",
+            "I": "6",
+            "A": "4",
+            "LD": "10",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry (Character)"
+          },
+          "cost": 260.0,
+          "rules": [
+            "Valour Of Ages",
+            "Close Order",
+            "Large Target",
+            "Terror",
+            "Stomp Attacks (X)",
+            "Swiftstride",
+            "Ithilmar Weapons",
+            "Strike First",
+            "Fly (X)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Wicked Claws",
+            "Serrated Maw"
+          ]
+        },
+        {
+          "name": "Prince on Moon Dragon",
+          "stats": {
+            "M": "6",
+            "WS": "7",
+            "BS": "7",
+            "S": "4",
+            "T": "5",
+            "W": "8",
+            "I": "6",
+            "A": "4",
+            "LD": "10",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry (Character)"
+          },
+          "cost": 365.0,
+          "rules": [
+            "Valour Of Ages",
+            "Close Order",
+            "Large Target",
+            "Terror",
+            "Stomp Attacks (X)",
+            "Swiftstride",
+            "Ithilmar Weapons",
+            "Strike First",
+            "Fly (10)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Wicked Claws",
+            "Dragon Fire"
+          ]
+        },
+        {
+          "name": "Prince on Star Dragon",
+          "stats": {
+            "M": "6",
+            "WS": "7",
+            "BS": "7",
+            "S": "4",
+            "T": "6",
+            "W": "9",
+            "I": "6",
+            "A": "4",
+            "LD": "10",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry (Character)"
+          },
+          "cost": 420.0,
+          "rules": [
+            "Valour Of Ages",
+            "Close Order",
+            "Large Target",
+            "Terror",
+            "Stomp Attacks (X)",
+            "Swiftstride",
+            "Ithilmar Weapons",
+            "Strike First",
+            "Fly (10)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Wicked Claws",
+            "Dragon Fire"
+          ]
+        },
+        {
+          "name": "Prince on Great Eagle",
+          "stats": {
+            "M": "2",
+            "WS": "7",
+            "BS": "7",
+            "S": "4",
+            "T": "4",
+            "W": "4",
+            "I": "6",
+            "A": "4",
+            "LD": "10",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry (Character)"
+          },
+          "cost": 190.0,
+          "rules": [
+            "Valour Of Ages",
+            "Close Order",
+            "Stomp Attacks (X)",
+            "Swiftstride",
+            "Ithilmar Weapons",
+            "Fear",
+            "Strike First",
+            "Fly (X)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Wicked Claws",
+            "Serrated Maw"
+          ]
+        },
+        {
+          "name": "Prince on Frostheart Phoenix",
+          "stats": {
+            "M": "2",
+            "WS": "7",
+            "BS": "7",
+            "S": "4",
+            "T": "6",
+            "W": "6",
+            "I": "6",
+            "A": "4",
+            "LD": "10",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry (Character)"
+          },
+          "cost": 335.0,
+          "rules": [
+            "Valour Of Ages",
+            "Close Order",
+            "Large Target",
+            "Stomp Attacks (X)",
+            "Swiftstride",
+            "Ithilmar Weapons",
+            "Fear",
+            "Strike First",
+            "Fly (X)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Wicked Claws"
+          ]
+        },
+        {
+          "name": "Prince on Flamespyre Phoenix",
+          "stats": {
+            "M": "2",
+            "WS": "7",
+            "BS": "7",
+            "S": "4",
+            "T": "5",
+            "W": "6",
+            "I": "6",
+            "A": "4",
+            "LD": "10",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry (Character)"
+          },
+          "cost": 300.0,
+          "rules": [
+            "Flaming Attacks",
+            "Valour Of Ages",
+            "Close Order",
+            "Large Target",
+            "Stomp Attacks (X)",
+            "Blessings Of Asuryan",
+            "Ithilmar Weapons",
+            "Swiftstride",
+            "Fear",
+            "Strike First",
+            "Fly (X)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Wicked Claws"
+          ]
+        },
+        {
+          "name": "Prince on Sun Dragon",
+          "stats": {
+            "M": "6",
+            "WS": "7",
+            "BS": "7",
+            "S": "4",
+            "T": "5",
+            "W": "7",
+            "I": "6",
+            "A": "4",
+            "LD": "10",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry (Character)"
+          },
+          "cost": 310.0,
+          "rules": [
+            "Valour Of Ages",
+            "Close Order",
+            "Large Target",
+            "Terror",
+            "Stomp Attacks (X)",
+            "Impetuous",
+            "Swiftstride",
+            "Ithilmar Weapons",
+            "Strike First",
+            "Fly (10)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Wicked Claws",
+            "Dragon Fire"
+          ]
+        },
+        {
+          "name": "Prince on Lion Chariot Of Chrace",
+          "stats": {
+            "M": "5",
+            "WS": "7",
+            "BS": "7",
+            "S": "4",
+            "T": "4",
+            "W": "4",
+            "I": "6",
+            "A": "4",
+            "LD": "10",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry (Character)"
+          },
+          "cost": 255.0,
+          "rules": [
+            "Valour Of Ages",
+            "Close Order",
+            "Elven Reflexes",
+            "Quick Shot",
+            "Swiftstride",
+            "Ithilmar Weapons",
+            "First Charge",
+            "Fear",
+            "Lion Cloak",
+            "Strike First",
+            "Impact Hits (X)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Chracian Great Blade"
+          ]
+        },
+        {
+          "name": "Prince on Lothern Skycutter",
+          "stats": {
+            "M": "5",
+            "WS": "7",
+            "BS": "7",
+            "S": "4",
+            "T": "4",
+            "W": "4",
+            "I": "6",
+            "A": "4",
+            "LD": "10",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry (Character)"
+          },
+          "cost": 220.0,
+          "rules": [
+            "Valour Of Ages",
+            "Close Order",
+            "Elven Reflexes",
+            "Swiftstride",
+            "Ithilmar Weapons",
+            "Fear",
+            "Strike First",
+            "Impact Hits (X)",
+            "Fly (X)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Wicked Claws",
+            "Eagle-eye Bolt Thrower"
+          ]
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Shield",
+          "cost": 2.0,
+          "is_default": false
+        },
+        {
+          "name": "Armour",
+          "cost": 0.0,
+          "is_default": true
+        },
+        {
+          "name": "Light Armour",
+          "cost": 0.0,
+          "is_default": false
+        },
+        {
+          "name": "Heavy Armour",
+          "cost": 3.0,
+          "is_default": false
+        },
+        {
+          "name": "Full Plate Armour",
+          "cost": 6.0,
+          "is_default": false
+        },
+        {
+          "name": "Loremaster",
+          "cost": 35.0,
+          "is_default": false
+        },
+        {
+          "name": "Shadow Stalker",
+          "cost": 20.0,
+          "is_default": false
+        },
+        {
+          "name": "Anointed Of Asuryan",
+          "cost": 15.0,
+          "is_default": false
+        },
+        {
+          "name": "Blood Of Caledor",
+          "cost": 15.0,
+          "is_default": false
+        },
+        {
+          "name": "Chracian Hunter",
+          "cost": 10.0,
+          "is_default": false
+        },
+        {
+          "name": "Warden Of Saphery",
+          "cost": 10.0,
+          "is_default": false
+        },
+        {
+          "name": "Equipment",
+          "cost": 0.0,
+          "is_default": false
+        },
+        {
+          "name": "Additional Hand Weapon",
+          "cost": 3.0,
+          "is_default": false
+        },
+        {
+          "name": "Cavalry Spear",
+          "cost": 2.0,
+          "is_default": false
+        },
+        {
+          "name": "Great Weapon",
+          "cost": 4.0,
+          "is_default": false
+        },
+        {
+          "name": "Lance",
+          "cost": 4.0,
+          "is_default": false
+        },
+        {
+          "name": "Halberd",
+          "cost": 3.0,
+          "is_default": false
+        },
+        {
+          "name": "Sword of Hoeth",
+          "cost": 0.0,
+          "is_default": false
+        },
+        {
+          "name": "Ceremonial Halberd",
+          "cost": 0.0,
+          "is_default": false
+        },
+        {
+          "name": "Chracian Great Blade",
+          "cost": 0.0,
+          "is_default": false
+        },
+        {
+          "name": "Bow",
+          "cost": 0.0,
+          "is_default": false
+        },
+        {
+          "name": "Longbow",
+          "cost": 4.0,
+          "is_default": false
+        },
+        {
+          "name": "Bow of Avelorn",
+          "cost": 12.0,
+          "is_default": false
+        },
+        {
+          "name": "Eagle-eye Bolt Thrower",
+          "cost": 25.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Noble",
+      "category": "Characters",
+      "base_points": 70.0,
+      "rules": [
+        "Ithilmar Weapons",
+        "Valour Of Ages",
+        "Strike First"
+      ],
+      "models": [
+        {
+          "name": "Noble",
+          "stats": {
+            "M": "5",
+            "WS": "6",
+            "BS": "6",
+            "S": "4",
+            "T": "3",
+            "W": "2",
+            "I": "5",
+            "A": "3",
+            "LD": "9",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry (Character)"
+          },
+          "cost": 70.0,
+          "rules": [
+            "Ithilmar Weapons",
+            "Valour Of Ages",
+            "Strike First"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Noble on Elven Steed",
+          "stats": {
+            "M": "9",
+            "WS": "6",
+            "BS": "6",
+            "S": "4",
+            "T": "3",
+            "W": "2",
+            "I": "5",
+            "A": "3",
+            "LD": "9",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry (Character)"
+          },
+          "cost": 84.0,
+          "rules": [
+            "Valour Of Ages",
+            "Fast Cavalry",
+            "Swiftstride",
+            "Ithilmar Weapons",
+            "Strike First"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Noble on Barded Elven Steed",
+          "stats": {
+            "M": "8",
+            "WS": "6",
+            "BS": "6",
+            "S": "4",
+            "T": "3",
+            "W": "2",
+            "I": "5",
+            "A": "3",
+            "LD": "9",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry (Character)"
+          },
+          "cost": 88.0,
+          "rules": [
+            "Valour Of Ages",
+            "Counter Charge",
+            "First Charge",
+            "Ithilmar Weapons",
+            "Swiftstride",
+            "Strike First",
+            "Ithilmar Barding"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Noble on Tiranoc Chariot",
+          "stats": {
+            "M": "5",
+            "WS": "6",
+            "BS": "6",
+            "S": "4",
+            "T": "4",
+            "W": "4",
+            "I": "5",
+            "A": "3",
+            "LD": "9",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry (Character)"
+          },
+          "cost": 145.0,
+          "rules": [
+            "Valour Of Ages",
+            "Elven Reflexes",
+            "Open Order",
+            "Quick Shot",
+            "Swiftstride",
+            "Ithilmar Weapons",
+            "Strike First",
+            "Impact Hits (X)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Noble on Griffon",
+          "stats": {
+            "M": "6",
+            "WS": "6",
+            "BS": "6",
+            "S": "4",
+            "T": "5",
+            "W": "5",
+            "I": "5",
+            "A": "3",
+            "LD": "9",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry (Character)"
+          },
+          "cost": 200.0,
+          "rules": [
+            "Valour Of Ages",
+            "Close Order",
+            "Large Target",
+            "Terror",
+            "Stomp Attacks (X)",
+            "Swiftstride",
+            "Ithilmar Weapons",
+            "Strike First",
+            "Fly (X)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Wicked Claws",
+            "Serrated Maw"
+          ]
+        },
+        {
+          "name": "Noble on Great Eagle",
+          "stats": {
+            "M": "2",
+            "WS": "6",
+            "BS": "6",
+            "S": "4",
+            "T": "4",
+            "W": "3",
+            "I": "5",
+            "A": "3",
+            "LD": "9",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry (Character)"
+          },
+          "cost": 130.0,
+          "rules": [
+            "Valour Of Ages",
+            "Close Order",
+            "Stomp Attacks (X)",
+            "Swiftstride",
+            "Ithilmar Weapons",
+            "Fear",
+            "Strike First",
+            "Fly (X)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Wicked Claws",
+            "Serrated Maw"
+          ]
+        },
+        {
+          "name": "Noble on Frostheart Phoenix",
+          "stats": {
+            "M": "2",
+            "WS": "6",
+            "BS": "6",
+            "S": "4",
+            "T": "6",
+            "W": "5",
+            "I": "5",
+            "A": "3",
+            "LD": "9",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry (Character)"
+          },
+          "cost": 275.0,
+          "rules": [
+            "Valour Of Ages",
+            "Close Order",
+            "Large Target",
+            "Stomp Attacks (X)",
+            "Swiftstride",
+            "Ithilmar Weapons",
+            "Fear",
+            "Strike First",
+            "Fly (X)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Wicked Claws"
+          ]
+        },
+        {
+          "name": "Noble on Flamespyre Phoenix",
+          "stats": {
+            "M": "2",
+            "WS": "6",
+            "BS": "6",
+            "S": "4",
+            "T": "5",
+            "W": "5",
+            "I": "5",
+            "A": "3",
+            "LD": "9",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry (Character)"
+          },
+          "cost": 240.0,
+          "rules": [
+            "Flaming Attacks",
+            "Valour Of Ages",
+            "Close Order",
+            "Large Target",
+            "Stomp Attacks (X)",
+            "Blessings Of Asuryan",
+            "Ithilmar Weapons",
+            "Swiftstride",
+            "Fear",
+            "Strike First",
+            "Fly (X)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Wicked Claws"
+          ]
+        },
+        {
+          "name": "Noble on Sun Dragon",
+          "stats": {
+            "M": "6",
+            "WS": "6",
+            "BS": "6",
+            "S": "4",
+            "T": "5",
+            "W": "6",
+            "I": "5",
+            "A": "3",
+            "LD": "9",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry (Character)"
+          },
+          "cost": 250.0,
+          "rules": [
+            "Valour Of Ages",
+            "Close Order",
+            "Large Target",
+            "Terror",
+            "Stomp Attacks (X)",
+            "Impetuous",
+            "Swiftstride",
+            "Ithilmar Weapons",
+            "Strike First",
+            "Fly (10)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Wicked Claws",
+            "Dragon Fire"
+          ]
+        },
+        {
+          "name": "Noble on Lion Chariot Of Chrace",
+          "stats": {
+            "M": "5",
+            "WS": "6",
+            "BS": "6",
+            "S": "4",
+            "T": "4",
+            "W": "4",
+            "I": "5",
+            "A": "3",
+            "LD": "9",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry (Character)"
+          },
+          "cost": 195.0,
+          "rules": [
+            "Valour Of Ages",
+            "Close Order",
+            "Elven Reflexes",
+            "Quick Shot",
+            "Swiftstride",
+            "Ithilmar Weapons",
+            "First Charge",
+            "Fear",
+            "Lion Cloak",
+            "Strike First",
+            "Impact Hits (X)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Chracian Great Blade"
+          ]
+        },
+        {
+          "name": "Noble on Lothern Skycutter",
+          "stats": {
+            "M": "5",
+            "WS": "6",
+            "BS": "6",
+            "S": "4",
+            "T": "4",
+            "W": "4",
+            "I": "5",
+            "A": "3",
+            "LD": "9",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry (Character)"
+          },
+          "cost": 160.0,
+          "rules": [
+            "Valour Of Ages",
+            "Close Order",
+            "Elven Reflexes",
+            "Swiftstride",
+            "Ithilmar Weapons",
+            "Fear",
+            "Strike First",
+            "Impact Hits (X)",
+            "Fly (X)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Wicked Claws",
+            "Eagle-eye Bolt Thrower"
+          ]
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Shield",
+          "cost": 2.0,
+          "is_default": false
+        },
+        {
+          "name": "Battle Standard Bearer",
+          "cost": 25.0,
+          "is_default": false
+        },
+        {
+          "name": "Armour",
+          "cost": 0.0,
+          "is_default": true
+        },
+        {
+          "name": "Light Armour",
+          "cost": 0.0,
+          "is_default": false
+        },
+        {
+          "name": "Heavy Armour",
+          "cost": 3.0,
+          "is_default": false
+        },
+        {
+          "name": "Full Plate Armour",
+          "cost": 6.0,
+          "is_default": false
+        },
+        {
+          "name": "Loremaster",
+          "cost": 35.0,
+          "is_default": false
+        },
+        {
+          "name": "Shadow Stalker",
+          "cost": 20.0,
+          "is_default": false
+        },
+        {
+          "name": "Anointed Of Asuryan",
+          "cost": 15.0,
+          "is_default": false
+        },
+        {
+          "name": "Blood Of Caledor",
+          "cost": 15.0,
+          "is_default": false
+        },
+        {
+          "name": "Chracian Hunter",
+          "cost": 10.0,
+          "is_default": false
+        },
+        {
+          "name": "Warden Of Saphery",
+          "cost": 10.0,
+          "is_default": false
+        },
+        {
+          "name": "Equipment",
+          "cost": 0.0,
+          "is_default": false
+        },
+        {
+          "name": "Additional Hand Weapon",
+          "cost": 3.0,
+          "is_default": false
+        },
+        {
+          "name": "Cavalry Spear",
+          "cost": 2.0,
+          "is_default": false
+        },
+        {
+          "name": "Great Weapon",
+          "cost": 4.0,
+          "is_default": false
+        },
+        {
+          "name": "Lance",
+          "cost": 4.0,
+          "is_default": false
+        },
+        {
+          "name": "Halberd",
+          "cost": 3.0,
+          "is_default": false
+        },
+        {
+          "name": "Sword of Hoeth",
+          "cost": 0.0,
+          "is_default": false
+        },
+        {
+          "name": "Ceremonial Halberd",
+          "cost": 0.0,
+          "is_default": false
+        },
+        {
+          "name": "Chracian Great Blade",
+          "cost": 0.0,
+          "is_default": false
+        },
+        {
+          "name": "Bow",
+          "cost": 0.0,
+          "is_default": false
+        },
+        {
+          "name": "Longbow",
+          "cost": 4.0,
+          "is_default": false
+        },
+        {
+          "name": "Bow of Avelorn",
+          "cost": 12.0,
+          "is_default": false
+        },
+        {
+          "name": "Eagle-eye Bolt Thrower",
+          "cost": 25.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Dragon Mage",
+      "category": "Characters",
+      "base_points": 275.0,
+      "rules": [
+        "Blessings Of Asuryan",
+        "Close Order",
+        "Dragon Armour",
+        "Fly (X)",
+        "Large Target",
+        "Ithilmar Weapons",
+        "Impetuous",
+        "Elven Reflexes",
+        "Lileath's Blessing",
+        "Lore Of Saphery",
+        "Stomp Attacks (X)",
+        "Swiftstride",
+        "Terror",
+        "Valour Of Ages"
+      ],
+      "models": [
+        {
+          "name": "Dragon Mage",
+          "stats": {
+            "M": "-",
+            "WS": "4",
+            "BS": "4",
+            "S": "3",
+            "T": "5",
+            "W": "6",
+            "I": "5",
+            "A": "2",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry (Character)"
+          },
+          "cost": 275.0,
+          "rules": [
+            "Blessings Of Asuryan",
+            "Close Order",
+            "Dragon Armour",
+            "Fly (X)",
+            "Large Target",
+            "Ithilmar Weapons",
+            "Impetuous",
+            "Elven Reflexes",
+            "Lileath's Blessing",
+            "Lore Of Saphery",
+            "Stomp Attacks (X)",
+            "Swiftstride",
+            "Terror",
+            "Valour Of Ages"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Level 2 Wizard",
+          "cost": 30.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Archmage",
+      "category": "Characters",
+      "base_points": 155.0,
+      "rules": [
+        "Ithilmar Weapons",
+        "Elven Reflexes",
+        "Lileath's Blessing",
+        "Lore Of Saphery",
+        "Valour Of Ages"
+      ],
+      "models": [
+        {
+          "name": "Archmage",
+          "stats": {
+            "M": "5",
+            "WS": "4",
+            "BS": "4",
+            "S": "3",
+            "T": "3",
+            "W": "3",
+            "I": "5",
+            "A": "2",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry (Character)"
+          },
+          "cost": 155.0,
+          "rules": [
+            "Ithilmar Weapons",
+            "Elven Reflexes",
+            "Lileath's Blessing",
+            "Lore Of Saphery",
+            "Valour Of Ages"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Archmage on Elven Steed",
+          "stats": {
+            "M": "9",
+            "WS": "4",
+            "BS": "4",
+            "S": "3",
+            "T": "3",
+            "W": "3",
+            "I": "5",
+            "A": "2",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry (Character)"
+          },
+          "cost": 169.0,
+          "rules": [
+            "Lore Of Saphery",
+            "Valour Of Ages",
+            "Elven Reflexes",
+            "Fast Cavalry",
+            "Lileath's Blessing",
+            "Swiftstride",
+            "Ithilmar Weapons"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Archmage on Barded Elven Steed",
+          "stats": {
+            "M": "8",
+            "WS": "4",
+            "BS": "4",
+            "S": "3",
+            "T": "3",
+            "W": "3",
+            "I": "5",
+            "A": "2",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry (Character)"
+          },
+          "cost": 173.0,
+          "rules": [
+            "Lore Of Saphery",
+            "Valour Of Ages",
+            "Elven Reflexes",
+            "Counter Charge",
+            "Lileath's Blessing",
+            "Swiftstride",
+            "Ithilmar Weapons",
+            "First Charge",
+            "Ithilmar Barding"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Archmage on Moon Dragon",
+          "stats": {
+            "M": "6",
+            "WS": "4",
+            "BS": "4",
+            "S": "3",
+            "T": "5",
+            "W": "8",
+            "I": "5",
+            "A": "2",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry (Character)"
+          },
+          "cost": 390.0,
+          "rules": [
+            "Lore Of Saphery",
+            "Valour Of Ages",
+            "Close Order",
+            "Elven Reflexes",
+            "Large Target",
+            "Terror",
+            "Stomp Attacks (X)",
+            "Lileath's Blessing",
+            "Swiftstride",
+            "Ithilmar Weapons",
+            "Fly (10)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Wicked Claws",
+            "Dragon Fire"
+          ]
+        },
+        {
+          "name": "Archmage on Star Dragon",
+          "stats": {
+            "M": "6",
+            "WS": "4",
+            "BS": "4",
+            "S": "3",
+            "T": "6",
+            "W": "9",
+            "I": "5",
+            "A": "2",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry (Character)"
+          },
+          "cost": 445.0,
+          "rules": [
+            "Lore Of Saphery",
+            "Valour Of Ages",
+            "Close Order",
+            "Elven Reflexes",
+            "Large Target",
+            "Terror",
+            "Stomp Attacks (X)",
+            "Lileath's Blessing",
+            "Swiftstride",
+            "Ithilmar Weapons",
+            "Fly (10)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Wicked Claws",
+            "Dragon Fire"
+          ]
+        },
+        {
+          "name": "Archmage on Great Eagle",
+          "stats": {
+            "M": "2",
+            "WS": "4",
+            "BS": "4",
+            "S": "3",
+            "T": "4",
+            "W": "4",
+            "I": "5",
+            "A": "2",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry (Character)"
+          },
+          "cost": 215.0,
+          "rules": [
+            "Lore Of Saphery",
+            "Valour Of Ages",
+            "Close Order",
+            "Elven Reflexes",
+            "Stomp Attacks (X)",
+            "Lileath's Blessing",
+            "Swiftstride",
+            "Ithilmar Weapons",
+            "Fear",
+            "Fly (X)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Wicked Claws",
+            "Serrated Maw"
+          ]
+        },
+        {
+          "name": "Archmage on Flamespyre Phoenix",
+          "stats": {
+            "M": "2",
+            "WS": "4",
+            "BS": "4",
+            "S": "3",
+            "T": "5",
+            "W": "6",
+            "I": "5",
+            "A": "2",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry (Character)"
+          },
+          "cost": 325.0,
+          "rules": [
+            "Flaming Attacks",
+            "Lore Of Saphery",
+            "Valour Of Ages",
+            "Close Order",
+            "Elven Reflexes",
+            "Large Target",
+            "Stomp Attacks (X)",
+            "Lileath's Blessing",
+            "Blessings Of Asuryan",
+            "Ithilmar Weapons",
+            "Swiftstride",
+            "Fear",
+            "Fly (X)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Wicked Claws"
+          ]
+        },
+        {
+          "name": "Archmage on Frostheart Phoenix",
+          "stats": {
+            "M": "2",
+            "WS": "4",
+            "BS": "4",
+            "S": "3",
+            "T": "6",
+            "W": "6",
+            "I": "5",
+            "A": "2",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry (Character)"
+          },
+          "cost": 360.0,
+          "rules": [
+            "Lore Of Saphery",
+            "Valour Of Ages",
+            "Close Order",
+            "Elven Reflexes",
+            "Large Target",
+            "Stomp Attacks (X)",
+            "Lileath's Blessing",
+            "Swiftstride",
+            "Ithilmar Weapons",
+            "Fear",
+            "Fly (X)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Wicked Claws"
+          ]
+        },
+        {
+          "name": "Archmage on Sun Dragon",
+          "stats": {
+            "M": "6",
+            "WS": "4",
+            "BS": "4",
+            "S": "3",
+            "T": "5",
+            "W": "7",
+            "I": "5",
+            "A": "2",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry (Character)"
+          },
+          "cost": 335.0,
+          "rules": [
+            "Lore Of Saphery",
+            "Valour Of Ages",
+            "Close Order",
+            "Elven Reflexes",
+            "Large Target",
+            "Terror",
+            "Stomp Attacks (X)",
+            "Impetuous",
+            "Lileath's Blessing",
+            "Swiftstride",
+            "Ithilmar Weapons",
+            "Fly (10)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Wicked Claws",
+            "Dragon Fire"
+          ]
+        },
+        {
+          "name": "Archmage on Lion Chariot Of Chrace",
+          "stats": {
+            "M": "5",
+            "WS": "4",
+            "BS": "4",
+            "S": "3",
+            "T": "4",
+            "W": "4",
+            "I": "5",
+            "A": "2",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry (Character)"
+          },
+          "cost": 280.0,
+          "rules": [
+            "Lore Of Saphery",
+            "Valour Of Ages",
+            "Close Order",
+            "Elven Reflexes",
+            "Quick Shot",
+            "Lileath's Blessing",
+            "Swiftstride",
+            "Ithilmar Weapons",
+            "Fear",
+            "Lion Cloak",
+            "First Charge",
+            "Impact Hits (X)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Chracian Great Blade"
+          ]
+        },
+        {
+          "name": "Archmage on Lothern Skycutter",
+          "stats": {
+            "M": "5",
+            "WS": "4",
+            "BS": "4",
+            "S": "3",
+            "T": "4",
+            "W": "4",
+            "I": "5",
+            "A": "2",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry (Character)"
+          },
+          "cost": 245.0,
+          "rules": [
+            "Lore Of Saphery",
+            "Valour Of Ages",
+            "Close Order",
+            "Elven Reflexes",
+            "Lileath's Blessing",
+            "Swiftstride",
+            "Ithilmar Weapons",
+            "Fear",
+            "Impact Hits (X)",
+            "Fly (X)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Wicked Claws",
+            "Eagle-eye Bolt Thrower"
+          ]
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Bow of Avelorn",
+          "cost": 0.0,
+          "is_default": false
+        },
+        {
+          "name": "Ceremonial Halberd",
+          "cost": 0.0,
+          "is_default": false
+        },
+        {
+          "name": "Full Plate Armour",
+          "cost": 0.0,
+          "is_default": false
+        },
+        {
+          "name": "Chracian Great Blade",
+          "cost": 0.0,
+          "is_default": false
+        },
+        {
+          "name": "Sword Of Hoeth",
+          "cost": 0.0,
+          "is_default": false
+        },
+        {
+          "name": "Level 4 Wizard",
+          "cost": 30.0,
+          "is_default": false
+        },
+        {
+          "name": "Shadow Stalker",
+          "cost": 20.0,
+          "is_default": false
+        },
+        {
+          "name": "Anointed Of Asuryan",
+          "cost": 15.0,
+          "is_default": false
+        },
+        {
+          "name": "Blood Of Caledor",
+          "cost": 15.0,
+          "is_default": false
+        },
+        {
+          "name": "Chracian Hunter",
+          "cost": 10.0,
+          "is_default": false
+        },
+        {
+          "name": "Warden Of Saphery",
+          "cost": 10.0,
+          "is_default": false
+        },
+        {
+          "name": "Eagle-eye Bolt Thrower",
+          "cost": 25.0,
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "name": "Mage",
+      "category": "Characters",
+      "base_points": 80.0,
+      "rules": [
+        "Ithilmar Weapons",
+        "Elven Reflexes",
+        "Lileath's Blessing",
+        "Lore Of Saphery",
+        "Valour Of Ages"
+      ],
+      "models": [
+        {
+          "name": "Mage",
+          "stats": {
+            "M": "5",
+            "WS": "4",
+            "BS": "4",
+            "S": "3",
+            "T": "3",
+            "W": "2",
+            "I": "4",
+            "A": "1",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry (Character)"
+          },
+          "cost": 80.0,
+          "rules": [
+            "Ithilmar Weapons",
+            "Elven Reflexes",
+            "Lileath's Blessing",
+            "Lore Of Saphery",
+            "Valour Of Ages"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Mage on Elven Steed",
+          "stats": {
+            "M": "9",
+            "WS": "4",
+            "BS": "4",
+            "S": "3",
+            "T": "3",
+            "W": "2",
+            "I": "4",
+            "A": "1",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry (Character)"
+          },
+          "cost": 94.0,
+          "rules": [
+            "Lore Of Saphery",
+            "Valour Of Ages",
+            "Elven Reflexes",
+            "Fast Cavalry",
+            "Lileath's Blessing",
+            "Swiftstride",
+            "Ithilmar Weapons"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Mage on Barded Elven Steed",
+          "stats": {
+            "M": "8",
+            "WS": "4",
+            "BS": "4",
+            "S": "3",
+            "T": "3",
+            "W": "2",
+            "I": "4",
+            "A": "1",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry (Character)"
+          },
+          "cost": 98.0,
+          "rules": [
+            "Lore Of Saphery",
+            "Valour Of Ages",
+            "Elven Reflexes",
+            "Counter Charge",
+            "Lileath's Blessing",
+            "Swiftstride",
+            "Ithilmar Weapons",
+            "First Charge",
+            "Ithilmar Barding"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": []
+        },
+        {
+          "name": "Mage on Great Eagle",
+          "stats": {
+            "M": "2",
+            "WS": "4",
+            "BS": "4",
+            "S": "3",
+            "T": "4",
+            "W": "3",
+            "I": "4",
+            "A": "1",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry (Character)"
+          },
+          "cost": 140.0,
+          "rules": [
+            "Lore Of Saphery",
+            "Valour Of Ages",
+            "Close Order",
+            "Elven Reflexes",
+            "Stomp Attacks (X)",
+            "Lileath's Blessing",
+            "Swiftstride",
+            "Ithilmar Weapons",
+            "Fear",
+            "Fly (X)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Wicked Claws",
+            "Serrated Maw"
+          ]
+        },
+        {
+          "name": "Mage on Flamespyre Phoenix",
+          "stats": {
+            "M": "2",
+            "WS": "4",
+            "BS": "4",
+            "S": "3",
+            "T": "5",
+            "W": "5",
+            "I": "4",
+            "A": "1",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry (Character)"
+          },
+          "cost": 250.0,
+          "rules": [
+            "Flaming Attacks",
+            "Lore Of Saphery",
+            "Valour Of Ages",
+            "Close Order",
+            "Elven Reflexes",
+            "Large Target",
+            "Stomp Attacks (X)",
+            "Lileath's Blessing",
+            "Blessings Of Asuryan",
+            "Ithilmar Weapons",
+            "Swiftstride",
+            "Fear",
+            "Fly (X)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Wicked Claws"
+          ]
+        },
+        {
+          "name": "Mage on Frostheart Phoenix",
+          "stats": {
+            "M": "2",
+            "WS": "4",
+            "BS": "4",
+            "S": "3",
+            "T": "6",
+            "W": "5",
+            "I": "4",
+            "A": "1",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry (Character)"
+          },
+          "cost": 285.0,
+          "rules": [
+            "Lore Of Saphery",
+            "Valour Of Ages",
+            "Close Order",
+            "Elven Reflexes",
+            "Large Target",
+            "Stomp Attacks (X)",
+            "Lileath's Blessing",
+            "Swiftstride",
+            "Ithilmar Weapons",
+            "Fear",
+            "Fly (X)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Wicked Claws"
+          ]
+        },
+        {
+          "name": "Mage on Moon Dragon",
+          "stats": {
+            "M": "6",
+            "WS": "4",
+            "BS": "4",
+            "S": "3",
+            "T": "5",
+            "W": "7",
+            "I": "4",
+            "A": "1",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry (Character)"
+          },
+          "cost": 315.0,
+          "rules": [
+            "Lore Of Saphery",
+            "Valour Of Ages",
+            "Close Order",
+            "Elven Reflexes",
+            "Large Target",
+            "Terror",
+            "Stomp Attacks (X)",
+            "Lileath's Blessing",
+            "Swiftstride",
+            "Ithilmar Weapons",
+            "Fly (10)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Wicked Claws",
+            "Dragon Fire"
+          ]
+        },
+        {
+          "name": "Mage on Star Dragon",
+          "stats": {
+            "M": "6",
+            "WS": "4",
+            "BS": "4",
+            "S": "3",
+            "T": "6",
+            "W": "8",
+            "I": "4",
+            "A": "1",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry (Character)"
+          },
+          "cost": 370.0,
+          "rules": [
+            "Lore Of Saphery",
+            "Valour Of Ages",
+            "Close Order",
+            "Elven Reflexes",
+            "Large Target",
+            "Terror",
+            "Stomp Attacks (X)",
+            "Lileath's Blessing",
+            "Swiftstride",
+            "Ithilmar Weapons",
+            "Fly (10)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Wicked Claws",
+            "Dragon Fire"
+          ]
+        },
+        {
+          "name": "Mage on Sun Dragon",
+          "stats": {
+            "M": "6",
+            "WS": "4",
+            "BS": "4",
+            "S": "3",
+            "T": "5",
+            "W": "6",
+            "I": "4",
+            "A": "1",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry (Character)"
+          },
+          "cost": 260.0,
+          "rules": [
+            "Lore Of Saphery",
+            "Valour Of Ages",
+            "Close Order",
+            "Elven Reflexes",
+            "Large Target",
+            "Terror",
+            "Stomp Attacks (X)",
+            "Impetuous",
+            "Lileath's Blessing",
+            "Swiftstride",
+            "Ithilmar Weapons",
+            "Fly (10)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Wicked Claws",
+            "Dragon Fire"
+          ]
+        },
+        {
+          "name": "Mage on Lion Chariot Of Chrace",
+          "stats": {
+            "M": "5",
+            "WS": "4",
+            "BS": "4",
+            "S": "3",
+            "T": "4",
+            "W": "4",
+            "I": "4",
+            "A": "1",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry (Character)"
+          },
+          "cost": 205.0,
+          "rules": [
+            "Lore Of Saphery",
+            "Valour Of Ages",
+            "Close Order",
+            "Elven Reflexes",
+            "Quick Shot",
+            "Lileath's Blessing",
+            "Swiftstride",
+            "Ithilmar Weapons",
+            "Fear",
+            "Lion Cloak",
+            "First Charge",
+            "Impact Hits (X)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Chracian Great Blade"
+          ]
+        },
+        {
+          "name": "Mage on Lothern Skycutter",
+          "stats": {
+            "M": "5",
+            "WS": "4",
+            "BS": "4",
+            "S": "3",
+            "T": "4",
+            "W": "4",
+            "I": "4",
+            "A": "1",
+            "LD": "8",
+            "ArmourSave": "",
+            "WardSave": "",
+            "MR": "",
+            "Type": "Regular Infantry (Character)"
+          },
+          "cost": 170.0,
+          "rules": [
+            "Lore Of Saphery",
+            "Valour Of Ages",
+            "Close Order",
+            "Elven Reflexes",
+            "Lileath's Blessing",
+            "Swiftstride",
+            "Ithilmar Weapons",
+            "Fear",
+            "Impact Hits (X)",
+            "Fly (X)"
+          ],
+          "role": "rank_and_file",
+          "default_weapons": [
+            "Wicked Claws",
+            "Eagle-eye Bolt Thrower"
+          ]
+        }
+      ],
+      "upgrades": [
+        {
+          "name": "Bow of Avelorn",
+          "cost": 0.0,
+          "is_default": false
+        },
+        {
+          "name": "Ceremonial Halberd",
+          "cost": 0.0,
+          "is_default": false
+        },
+        {
+          "name": "Full Plate Armour",
+          "cost": 0.0,
+          "is_default": false
+        },
+        {
+          "name": "Chracian Great Blade",
+          "cost": 0.0,
+          "is_default": false
+        },
+        {
+          "name": "Sword Of Hoeth",
+          "cost": 0.0,
+          "is_default": false
+        },
+        {
+          "name": "Level 2 Wizard",
+          "cost": 30.0,
+          "is_default": false
+        },
+        {
+          "name": "Shadow Stalker",
+          "cost": 20.0,
+          "is_default": false
+        },
+        {
+          "name": "Anointed Of Asuryan",
+          "cost": 15.0,
+          "is_default": false
+        },
+        {
+          "name": "Blood Of Caledor",
+          "cost": 15.0,
+          "is_default": false
+        },
+        {
+          "name": "Chracian Hunter",
+          "cost": 10.0,
+          "is_default": false
+        },
+        {
+          "name": "Warden Of Saphery",
+          "cost": 10.0,
+          "is_default": false
+        },
+        {
+          "name": "Eagle-eye Bolt Thrower",
+          "cost": 25.0,
+          "is_default": false
+        }
+      ]
+    }
+  ]
+}
